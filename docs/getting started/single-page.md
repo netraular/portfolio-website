@@ -1,6 +1,6 @@
 ---
 title: Our first page
-sidebar_position: 1
+sidebar_position: 1000
 
 description: A short description of this page
 image: ../static/img/docusaurus-social-card.jpg
