@@ -1,8 +1,0 @@
-{
-  "label": "WireGuard",
-  "position": 12,
-  "link": {
-    "type": "generated-index",
-    "description": "Configuración de VPN para acceso remoto seguro al servidor."
-  }
-}

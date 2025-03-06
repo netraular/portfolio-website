@@ -1,0 +1,8 @@
+{
+  "label": "Nginx: Reverse Proxy",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Gestión centralizada de tráfico web y certificados SSL."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Immich: Backup de Fotos",
+  "position": 11,
+  "link": {
+    "type": "generated-index",
+    "description": "Galeria fotográfica autoalojada con IA."
+  }
+}

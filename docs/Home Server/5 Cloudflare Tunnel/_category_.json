@@ -1,0 +1,8 @@
+{
+  "label": "Cloudflare: Acceso Seguro",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Exposición de servicios con políticas Zero Trust."
+  }
+}

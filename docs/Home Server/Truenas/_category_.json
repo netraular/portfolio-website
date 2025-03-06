@@ -1,8 +1,0 @@
-{
-  "label": "TrueNAS Scale",
-  "position": 10,
-  "link": {
-    "type": "generated-index",
-    "description": "Almacenamiento NAS escalable con ZFS y servicios integrados."
-  }
-}

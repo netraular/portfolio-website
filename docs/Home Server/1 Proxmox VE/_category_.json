@@ -1,0 +1,8 @@
+{
+  "label": "Proxmox VE: Virtualización",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Infraestructura base de virtualización con cluster de servidores."
+  }
+}

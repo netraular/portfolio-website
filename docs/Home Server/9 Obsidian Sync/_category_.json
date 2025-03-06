@@ -1,0 +1,8 @@
+{
+  "label": "Obsidian: Notas Privadas",
+  "position": 9,
+  "link": {
+    "type": "generated-index",
+    "description": "Bóveda de conocimiento con sincronización E2EE."
+  }
+}

@@ -1,9 +1,8 @@
 {
-    "label": "Home Server",
-    "position": 2,
-    "link": {
-      "type": "generated-index",
-      "description": "This is a custom description."
-    }
+  "label": "3. LVGL GUI Framework",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Create modern embedded GUIs: From basic integration to custom widgets and animations."
   }
-  
+}

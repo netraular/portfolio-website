@@ -1,9 +1,8 @@
 {
-    "label": "Home Server",
-    "position": 2,
-    "link": {
-      "type": "generated-index",
-      "description": "This is a custom description."
-    }
+  "label": "2. Input Handling System",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Professional-grade button input management with debouncing, interrupts, and event patterns."
   }
-  
+}

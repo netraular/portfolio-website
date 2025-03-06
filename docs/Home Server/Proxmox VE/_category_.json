@@ -1,8 +1,0 @@
-{
-  "label": "Proxmox VE",
-  "position": 8,
-  "link": {
-    "type": "generated-index",
-    "description": "Virtualización y gestión de máquinas virtuales con Proxmox VE."
-  }
-}

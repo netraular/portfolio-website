@@ -1,0 +1,8 @@
+{
+  "label": "Mealie: Gestor de Recetas",
+  "position": 12,
+  "link": {
+    "type": "generated-index",
+    "description": "Base de datos culinaria con planificador semanal."
+  }
+}

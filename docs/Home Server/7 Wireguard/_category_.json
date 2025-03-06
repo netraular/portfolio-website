@@ -1,0 +1,8 @@
+{
+  "label": "WireGuard: VPN Remota",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Túneles cifrados para acceso administrativo seguro."
+  }
+}

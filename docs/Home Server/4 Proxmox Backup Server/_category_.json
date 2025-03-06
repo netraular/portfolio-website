@@ -1,0 +1,8 @@
+{
+  "label": "Proxmox Backup: Resiliencia",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Estrategia de backups cifrados para VMs y contenedores."
+  }
+}

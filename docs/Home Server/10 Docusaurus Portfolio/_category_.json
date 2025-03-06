@@ -1,0 +1,8 @@
+{
+  "label": "Portfolio: Documentación Técnica",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "Implementación de este sitio web con Docusaurus."
+  }
+}

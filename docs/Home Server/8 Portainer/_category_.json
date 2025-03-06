@@ -1,0 +1,8 @@
+{
+  "label": "Portainer: Gestión Docker",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "Interfaz web para orquestación de contenedores."
+  }
+}
