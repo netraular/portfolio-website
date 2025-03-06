@@ -22,7 +22,8 @@ function HeroSection() {
             <div className={styles.buttons}>
               <Link
                 className="button button--primary button--lg"
-                to="/showcase">
+                // to="/showcase">
+                to="/">
                 View Projects →
               </Link>
             </div>

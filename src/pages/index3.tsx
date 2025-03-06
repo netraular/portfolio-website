@@ -25,12 +25,14 @@ const HeroSection = () => {
             <div className={styles.buttons}>
               <Link
                 className="button button--secondary button--lg"
-                to="/showcase">
+                // to="/showcase">
+                to="/index3">
                 Ver Proyectos
               </Link>
               <Link
                 className="button button--outline button--lg"
-                to="/docs/about">
+                // to="/docs/about">
+                to="/index3">
                 Más Sobre Mí
               </Link>
             </div>
@@ -191,7 +193,8 @@ const ProjectsSection = () => {
         <div className={styles.projectsActions}>
           <Link
             className="button button--primary button--lg"
-            to="/showcase">
+            // to="/showcase">
+            to="/index3">
             Ver Todos los Proyectos
           </Link>
         </div>
@@ -213,7 +216,8 @@ const ContactSection = () => {
         <div className={styles.contactActions}>
           <Link
             className="button button--secondary button--lg"
-            to="/contact">
+            // to="/contact">
+            to="/index3">
             Contactar
           </Link>
         </div>

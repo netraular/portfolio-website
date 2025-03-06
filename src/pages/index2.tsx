@@ -24,7 +24,8 @@ function HeroSection() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/showcase">
+            // to="/showcase">
+            to="/index2">
             Ver mis proyectos →
           </Link>
         </div>
@@ -126,7 +127,8 @@ export default function Home(): JSX.Element {
           <div className="container">
             <Link
               className="button button--primary button--lg"
-              to="/showcase">
+              // to="/showcase">
+                to="/index2">
               Explorar proyectos →
             </Link>
           </div>

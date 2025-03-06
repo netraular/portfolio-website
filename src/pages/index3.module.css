@@ -245,3 +245,20 @@
   }
   
   .timelineMeta {
+    flex: 0 0 auto;
+    text-align: left;
+  }
+  
+  .educationItem {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .educationImage {
+    margin-bottom: 1rem;
+  }
+  
+  .skillsContainer {
+    flex-direction: column;
+  }
+}
