@@ -39,7 +39,7 @@ const HeroSection = () => {
           </div>
           <div className={styles.heroImage}>
             {/* Aquí puedes añadir una imagen de perfil profesional */}
-            <img src="/img/profile.svg" alt="Perfil profesional" />
+            <img src="/img/profile.jpg" alt="Perfil profesional" />
           </div>
         </div>
       </div>
@@ -54,7 +54,7 @@ const AboutSection = () => {
         <div className={styles.aboutContent}>
           <div className={styles.aboutImage}>
             {/* Imagen relacionada con tecnología o desarrollo */}
-            <img src="/img/programming.svg" alt="Desarrollo de software" />
+            <img src="/img/programming.png" alt="Desarrollo de software" />
           </div>
           <div className={styles.aboutText}>
             <Heading as="h2">Sobre mí</Heading>
