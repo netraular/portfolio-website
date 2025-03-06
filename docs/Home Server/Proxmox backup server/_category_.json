@@ -1,9 +1,8 @@
 {
-    "label": "Home Server",
-    "position": 1,
-    "link": {
-      "type": "generated-index",
-      "description": "This is a custom description."
-    }
+  "label": "Proxmox Backup Server",
+  "position": 9,
+  "link": {
+    "type": "generated-index",
+    "description": "Sistema de backups para entornos virtualizados con Proxmox Backup Server."
   }
-  
+}

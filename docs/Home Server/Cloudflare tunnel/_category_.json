@@ -1,0 +1,8 @@
+{
+  "label": "Cloudflare Tunnel",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Configuración y uso de Cloudflare Tunnel para exponer servicios locales de forma segura."
+  }
+}

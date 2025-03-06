@@ -1,9 +1,8 @@
 {
-    "label": "Home Server",
-    "position": 1,
-    "link": {
-      "type": "generated-index",
-      "description": "This is a custom description."
-    }
+  "label": "Mealie",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Gestión de recetas y planificación de comidas con Mealie."
   }
-  
+}

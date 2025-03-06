@@ -1,9 +1,8 @@
 {
-    "label": "Home Server",
-    "position": 1,
-    "link": {
-      "type": "generated-index",
-      "description": "This is a custom description."
-    }
+  "label": "Nginx Proxy Manager",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Reverse proxy con gestión centralizada de certificados SSL y reglas de enrutamiento."
   }
-  
+}

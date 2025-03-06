@@ -1,0 +1,8 @@
+{
+  "label": "Obsidian",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Sistema de notas con sincronización privada y automatización."
+  }
+}

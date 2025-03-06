@@ -1,42 +1,19 @@
 ---
-title: Home lab setup
+title: Home Server
 sidebar_position: 1
+description: Infraestructura híbrida de virtualización, servicios autoalojados y almacenamiento NAS
+image: ../static/img/home-server-rack.jpg
+keywords: [proxmox, docker, self-hosted, homelab, seguridad]
 ---
 
-:::note
+# Home Server Lab
 
-Here's some **information** with _Markdown_ styling.
+Mi entorno de producción local combina virtualización empresarial (Proxmox VE), almacenamiento ZFS (TrueNAS Scale) y orquestación de contenedores (Docker + Portainer). 
 
-:::
+**Stack principal**:
+- Hipervisor: Proxmox VE en 2 nodos físicos (cluster)
+- Almacenamiento: TrueNAS Scale con 24TB RAID-Z2
+- Red: VLANs segregadas + WireGuard VPN
+- Monitorización: Netdata + Grafana Loki
 
-:::tip
-
-Here's a **helpful tip** with _formatted text_.
-
-:::
-
-:::info
-
-Here's some **useful info** presented in a clear way.
-
-:::
-
-:::caution
-
-Please take **extra caution** with this important note.
-
-:::
-
-:::danger
-
-This is a **dangerous situation** you need to be aware of.
-
-:::
-
-:::note This is a _custom title_
-
-And you can add images as well.
-
-![alt text](https://picsum.photos/600/400)
-
-:::
+Todos los servicios se exponen mediante Cloudflare Tunnel con políticas Zero Trust y autenticación de dos factores.
