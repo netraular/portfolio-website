@@ -13,7 +13,7 @@ function HeroSection() {
         <div className={styles.heroContent}>
           <div className={styles.heroText}>
             <Heading as="h1" className="hero__title">
-              Raúl A.R.
+              Raul A.R.
             </Heading>
             <p className={clsx('hero__subtitle', styles.heroSubtitle)}>
               Full Stack Developer & Computer Engineer
@@ -31,7 +31,7 @@ function HeroSection() {
           <div className={styles.heroImage}>
             <img 
               src="/img/profile.jpg" 
-              alt="Raúl A.R." 
+              alt="Raul A.R." 
               className={styles.profileImage}
             />
           </div>
@@ -141,8 +141,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title="Raúl A.R. | Computer Engineer & Developer"
-      description="Portfolio of Raúl A.R. - Computer Engineer and Full Stack Developer from Barcelona specializing in web development and telecom solutions">
+      title="Raul A.R. | Computer Engineer & Developer"
+      description="Portfolio of Raul A.R. - Computer Engineer and Full Stack Developer from Barcelona specializing in web development and telecom solutions">
       <HeroSection />
       <main>
         <AboutSection />

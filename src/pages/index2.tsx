@@ -16,9 +16,9 @@ function HeroSection() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <img src={ProfileImage} alt="Raúl A.R." className={styles.profileImage} />
+        <img src={ProfileImage} alt="Raul A.R." className={styles.profileImage} />
         <Heading as="h1" className="hero__title">
-          Raúl A.R.
+          Raul A.R.
         </Heading>
         <p className="hero__subtitle">Ingeniero Informático | Desarrollador Full Stack</p>
         <div className={styles.buttons}>
@@ -116,7 +116,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Portfolio de ${siteConfig.title}`}
-      description="Portfolio profesional de Raúl A.R. - Ingeniero Informático especializado en desarrollo full stack y proyectos tecnológicos innovadores">
+      description="Portfolio profesional de Raul A.R. - Ingeniero Informático especializado en desarrollo full stack y proyectos tecnológicos innovadores">
       
       <HeroSection />
       <main>

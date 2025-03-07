@@ -15,7 +15,7 @@ const HeroSection = () => {
         <div className={styles.heroContent}>
           <div className={styles.heroText}>
             <Heading as="h1" className="hero__title">
-              Raúl A.R.
+              Raul A.R.
             </Heading>
             <p className="hero__subtitle">Desarrollador Full Stack</p>
             <p className={styles.heroDescription}>
@@ -231,7 +231,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title} - Desarrollador Full Stack`}
-      description="Portfolio profesional de Raúl A.R. - Ingeniero informático y desarrollador Full Stack especializado en soluciones de telefonía y desarrollo web.">
+      description="Portfolio profesional de Raul A.R. - Ingeniero informático y desarrollador Full Stack especializado en soluciones de telefonía y desarrollo web.">
       <HeroSection />
       <main>
         <AboutSection />
