@@ -1,8 +1,8 @@
 {
-  "label": "WireGuard: VPN Remota",
+  "label": "WireGuard",
   "position": 7,
   "link": {
     "type": "generated-index",
-    "description": "Túneles cifrados para acceso administrativo seguro."
+    "description": "Modern, high-performance VPN solution for secure remote access to home lab services."
   }
 }

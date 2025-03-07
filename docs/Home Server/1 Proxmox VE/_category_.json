@@ -1,8 +1,8 @@
 {
-  "label": "Proxmox VE: Virtualización",
+  "label": "Proxmox VE",
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "Infraestructura base de virtualización con cluster de servidores."
+    "description": "Enterprise-grade hypervisor for virtual machines, containers, and network management."
   }
 }

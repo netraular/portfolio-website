@@ -1,8 +1,8 @@
 {
-  "label": "Obsidian: Notas Privadas",
+  "label": "Obsidian Sync",
   "position": 9,
   "link": {
     "type": "generated-index",
-    "description": "Bóveda de conocimiento con sincronización E2EE."
+    "description": "Self-hosted synchronization solution for Obsidian knowledge base across multiple devices."
   }
 }

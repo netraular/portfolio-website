@@ -1,8 +1,8 @@
 {
-  "label": "Portainer: Gestión Docker",
+  "label": "Portainer",
   "position": 8,
   "link": {
     "type": "generated-index",
-    "description": "Interfaz web para orquestación de contenedores."
+    "description": "Container management platform providing a web interface for Docker environments."
   }
 }

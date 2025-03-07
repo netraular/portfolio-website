@@ -1,8 +1,8 @@
 {
-  "label": "Cloudflare: Acceso Seguro",
+  "label": "Cloudflare Tunnel",
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "Exposición de servicios con políticas Zero Trust."
+    "description": "Secure connectivity solution for exposing self-hosted services without opening firewall ports."
   }
 }

@@ -1,8 +1,8 @@
 {
-  "label": "TrueNAS: Almacenamiento NAS",
+  "label": "TrueNAS",
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "Sistema de almacenamiento ZFS con alta disponibilidad."
+    "description": "Enterprise-grade storage operating system for data management, sharing, and protection."
   }
 }

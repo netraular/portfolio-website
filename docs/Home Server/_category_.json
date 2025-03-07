@@ -3,6 +3,6 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "Infraestructura central de servicios autoalojados, virtualización y gestión de recursos."
+    "description": "Core infrastructure for self-hosted services, virtualization, and resource management."
   }
 }

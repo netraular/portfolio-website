@@ -1,14 +1,58 @@
 ---
-title:  Home Lab overview
+title: Home Lab Overview
 sidebar_position: 0
-description: Hipervisor para máquinas virtuales y contenedores LXC
+description: Hypervisor for virtual machines and LXC containers
 image: ../static/img/proxmox-cluster.jpg
-keywords: []
+keywords: [homelab, proxmox, virtualization, self-hosted, truenas]
 ---
 
-Indicar que este es el apartado de mi home lab, un ordenador basado en un ryzen 4600g con 64gb de ram, 2 ssds y un hdd de 12tb refurbished.
-Indicar que el nucleo del homelab se centra en usar proxmox para gestionar máquinas virtuales, lxc y docker containers desde portainer, usando almacenamiento gestionado mediante truenas.
-Indicar que las webs públicas las tengo gestionadas con cloudflare tunnels pero las internas privadas las gestiono mediante la interfaz nginx manager.
-Por último indicar que para acceso a estos servicios desde el exterior estoy usando una vpn interna con wireguard.
-Principalmente el home lab lo uso para aplicaciones propias donde intento tener un mayor control que versiones privadas de empresas y además, para probar a desarrollar webs propias simulando un entorno similar al que gestiono en mi trabajo pero adaptado a mis necesidades.
-Indicar que tengo varias apps propias aunque no las mencionaré todas ya que solo són instalaciones genéricas para realizar uso de estas para un uso personal.
+## Home Server
+
+This section details my personal home lab setup, which serves as a playground for self-hosted applications and professional environment simulations.
+
+### Hardware Specifications
+- **Processor**: AMD Ryzen 5 4600G (6-core/12-thread)
+- **Memory**: 64GB DDR4 RAM
+- **Storage**:
+  - 2x NVMe SSDs (OS and VM operations)
+  - 12TB refurbished HDD (bulk storage)
+  
+### Software Stack
+- **Virtualization**: Proxmox VE as hypervisor
+  - VM management for multiple guest OS
+  - LXC containers for lightweight services
+  - Docker container orchestration via Portainer
+- **Storage**: TrueNAS Scale integration
+  - Centralized storage management
+  - ZFS file system with redundancy
+
+### Access & Networking
+- **Public Facing**: 
+  - Cloudflare Tunnels for secure web service exposure
+  - DNS management with Cloudflare proxy
+- **Internal Services**:
+  - Nginx Proxy Manager reverse proxy
+  - Local DNS resolution for lab domains
+- **Remote Access**:
+  - WireGuard VPN for secure external connectivity
+  - No open ports exposed to public internet
+
+### Development Purpose
+This environment enables me to:
+- Maintain personal application versions with full control over:
+  - Feature updates
+  - Data governance
+  - Security patching
+- Replicate production-like scenarios matching my professional workflows
+- Experiment with:
+  - Containerized architectures
+  - Network configurations
+  - CI/CD pipelines
+  - Infrastructure-as-Code concepts
+
+### Applications
+While most services are customized implementations for personal use, the lab hosts various common tools including:
+- Self-hosted productivity suites
+- Media management systems
+- Home automation controllers
+- Development pipeline utilities

@@ -1,8 +1,8 @@
 {
-  "label": "Nginx: Reverse Proxy",
+  "label": "Nginx Proxy Manager",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "Gestión centralizada de tráfico web y certificados SSL."
+    "description": "Web interface for managing Nginx proxy hosts with automatic SSL certificate generation."
   }
 }
