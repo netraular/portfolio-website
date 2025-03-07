@@ -1,6 +1,6 @@
 {
   "label": "IoT and ESP32 Development",
-  "position": 4,
+  "position": 5,
   "link": {
     "type": "generated-index",
     "description": "Progression from ESP32 fundamentals to advanced IoT applications. Start with core concepts and advance to complete systems."

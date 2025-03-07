@@ -6,21 +6,7 @@ image: ../static/img/wireguard-ansible.jpg
 keywords: [vpn, networking, ansible]
 ---
 
-# Túnel Administrativo
-
-## Interacciones
-- **Proxmox LXC**: Contenedor dedicado con kernel WireGuard.
-- **Firewall**: Reglas nftables para limitar acceso a subredes.
-- **Ansible**: Rotación automática de claves cada 30 días.
-- **Zabbix**: Monitorización de latencia y uptime.
-
-## Configuración
-```ini
-[Interface]
-Address = 10.8.0.1/24
-ListenPort = 51820
-PrivateKey = ABC123...
-
-[Peer] # Móvil
-PublicKey = XYZ789...
-AllowedIPs = 10.8.0.2/32
+Breve explicación de wireguard con enlace a la documentación principal.
+Explicación propia del uso en mi home lab.
+Indicar que se usa principalmente para acceder a los servicios internos del home lab desde el exterior, por ejemplo desde un móvil o portátil. 
+También es útil al realizar eventos o hackatons para poder dar acceso a otros participantes de mi grupo al servidor donde se realiza la implementación del proyecto.

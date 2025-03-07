@@ -3,24 +3,12 @@ title: TrueNAS Scale
 sidebar_position: 3
 description: Almacenamiento empresarial con ZFS
 image: ../static/img/truenas-zfs.jpg
-keywords: [zfs, raid-z2, smb, nfs]
+keywords: []
 ---
 
-# Sistema de Archivos Central
-
-## Integraciones
-- **Proxmox**: Datasets para backups y VMs via iSCSI.
-- **Immich**: Volumen SMB para 15TB de fotos (`/mnt/tank/photos`).
-- **Proxmox Backup Server**: Almacenamiento secundario via rsync.
-- **Backblaze B2**: Sync diario de datos críticos.
-
-## Detalles Técnicos
-- **Pool Config**: 6x8TB HDD en RAID-Z2 (32TB usable).
-- **Cache**: 512GB NVMe como L2ARC.
-- **Snapshots**: Automáticos cada 4h, retención 30 días.
-- **S.M.A.R.T**: Alertas via email y Telegram.
-
-## Documentación Adicional
-- [TrueNAS Docs](https://www.truenas.com/docs/)
-- [GitHub: Sincronización B2](https://github.com/tusuario/truenas-scripts)
-- [Política de Snapshots](docs/homelab/storage/snapshot-policy)
+Breve explicación de TrueNas con enlace a la documentación principal.
+Explicación propia del uso en mi home lab.
+Indicar que uso truenas para gestionar un disco hdd principal de 12TB con particiones zfs.
+Indicar que originalmente usaba openmediavault pero que cambié a truenas para poder dar mejor uso de zfs ya que lo prefería a el plugin de openmediavault para gestionar zfs.
+Indicar que desde truenas tengo dividido el disco en diversas particiones para las diversas aplicaciones del home lab, con las particiones compartidas mediante NFS y/o SMB según convenga ya que hay casos en los que también accedo desde windows a estas.
+Indicar que se ha configurado backup de las particiones aunque no se esté usando raid en el disco por el sobrecoste de tener varios discos.

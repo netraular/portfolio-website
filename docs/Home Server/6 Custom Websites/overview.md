@@ -6,23 +6,8 @@ image: ../static/img/web-dev.jpg
 keywords: [api, react, ci/cd]
 ---
 
-# Laboratorio de Desarrollo
-
-## Integraciones
-- **GitLab CE**: CI/CD con runners en Proxmox.
-- **Portainer**: Despliegue de stacks Docker.
-- **Nginx Proxy Manager**: Enrutamiento y SSL.
-- **Prometheus/Grafana**: Monitorización de APIs.
-
-## Stack Técnico
-- **Frontend**: React + Vite (TypeScript)
-- **Backend**: Go/Fiber + PostgreSQL
-- **Infraestructura**:
-  - Docker Swarm para alta disponibilidad
-  - Redis para caching
-- **Testing**: Cypress E2E + Jest unit tests.
-
-## Repositorios
-- [GitLab: Sistema de Tickets](https://gitlab.com/tusuario/ticket-system)
-- [Guía de Contribución](docs/web-projects/contribution-guide)
-- [API Docs](https://api.midominio.com/swagger)
+Breve explicación de la creación de webs propias con laravel que realizo con enlace a la documentación principal.
+Explicación propia del uso en mi home lab.
+Indicar que la mayoría de mis webs són realizadas siguiendo las tecnologías aprendidas en mi empresa aunque intentando probar cosas nuevas a la hora de realizarlas.
+Indicar que se pueden ver las webs realizadas en el apartado Websites de esta web.
+Indicar que la mayoría de webs gestionan tanto crons, como jobs, como nginx, gestión de ssh, elementos de seguridad de la vm, instalación propia de librerías o funcionalidades del proyecto y que la mayoría suelen tener una base de datos mysql si la necesitan y suelen estar realizadas en el framework laravel.

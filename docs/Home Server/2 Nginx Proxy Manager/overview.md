@@ -6,20 +6,9 @@ image: ../static/img/nginx-letsencrypt.jpg
 keywords: [ssl, reverse proxy, rate limiting]
 ---
 
-# Gestor de Tráfico Web
 
-## Interacciones Clave
-- **Cloudflare**: Validación DNS-01 para certificados wildcard.
-- **Portainer**: Proxy de aplicaciones Docker (ej: `portainer.midominio.com`).
-- **TrueNAS**: Servicio de archivos via WebDAV en `https://files.midominio.com`.
-- **Prometheus**: Métricas de tráfico en tiempo real.
-
-## Funcionamiento Técnico
-- **Let's Encrypt**: Renovación automática con cron.
-- **Access Lists**: Bloqueo de IPs maliciosas via fail2ban.
-- **Custom Headers**: HSTS preload y CSP para seguridad.
-
-## Enlaces Útiles
-- [Guía Nginx Proxy Manager](https://nginxproxymanager.com/guide/)
-- [GitHub Oficial](https://github.com/NginxProxyManager/nginx-proxy-manager)
-- [Plantilla Docker Compose](docs/homelab/nginx/docker-compose)
+Breve explicación de Nginx proxy manager con enlace a la documentación principal.
+Explicación propia del uso en mi home lab.
+Indicar que principalmente se usa para gestionar el acceso a aplicaciones desde una red local o que no quiero expuestas al exterior.
+Lo uso para poder acceder a las aplicaciones desde urls con certificado https o usando wireguard vpn si es necesario.
+Indicar que esta vm gestiona las urls mediante interfaz pero en las webs suelo gestionarlo con una configuración manual propia para cada proyecto.

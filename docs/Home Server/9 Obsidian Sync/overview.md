@@ -6,22 +6,7 @@ image: ../static/img/obsidian-git.jpg
 keywords: [markdown, git, encryption]
 ---
 
-# Sistema de Notas E2EE
-
-## Integraciones
-- **Syncthing**: Sincronización entre 5 dispositivos.
-- **Git**: Historial de cambios con hooks pre-commit.
-- **AWS S3 Glacier**: Backup mensual cifrado.
-- **Cron**: Limpieza automática de temporales.
-
-## Estructura de Vault
-```bash
-vault/
-├─ Homelab/
-│  ├─ Networking.md
-│  └─ Proxmox-Tips.md
-├─ Projects/
-│  ├─ Web-App.md
-│  └─ API-Docs.md
-└─ Templates/
-   └─ Meeting-Note.md
+Breve explicación de Obsidian y Obsidian sync con enlace a la documentación principal.
+Explicación propia del uso en mi home lab.
+Indicar que uso obsidian para redactar notas y esta documentación que están leyendo y uso el servicio de obsidian sync con una base de datos local para tenerlo sincronizado en todo momento con cualquier dispositivo.
+Además, guardo las notas de obsidian desde el homelab para tener un punto centralizado siempre encendido desde el que realizar backups.
