@@ -22,4 +22,4 @@ In my home lab setup:
   - Automated encrypted backups to multiple locations
   - Version control integration with git
 
-This implementation combines Obsidian's flexibility with enterprise-grade reliability through custom infrastructure. [Learn how I automated this setup](link-to-your-detailed-documentation).
+This implementation combines Obsidian's flexibility with enterprise-grade reliability through custom infrastructure. [Learn how I automated this setup](/docs/intro).

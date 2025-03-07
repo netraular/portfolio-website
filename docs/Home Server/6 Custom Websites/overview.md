@@ -8,7 +8,7 @@ keywords: [web development, static sites, self-hosting, portfolio, projects]
 
 ## Home Server / Custom Websites
 
-I develop custom web applications primarily using **Laravel**, tailored to specific needs and hosted on my self-managed home server. [Explore the technical documentation](/docs/home-server) to learn about my implementation philosophy and architecture patterns.
+I develop custom web applications primarily using **Laravel**, tailored to specific needs and hosted on my self-managed home server. [Explore the technical documentation](/docs/intro) to learn about my implementation philosophy and architecture patterns.
 
 ### Home Lab Environment
 All projects run on my **personal home lab** featuring:
@@ -24,7 +24,7 @@ While most implementations follow proven methodologies from my professional expe
 - Test bleeding-edge PHP 8.x features
 - Explore unconventional database optimizations
 
-**Featured projects** are available in the [Websites Section](/websites) of this portfolio.
+**Featured projects** are available in the [Websites Section](/docs/intro) of this portfolio.
 
 ### Technical Characteristics
 My typical web applications integrate:
