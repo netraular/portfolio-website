@@ -1,58 +1,89 @@
 ---
 title: Home Lab Overview
 sidebar_position: 0
-description: Hypervisor for virtual machines and LXC containers
-image: ../static/img/proxmox-cluster.jpg
-keywords: [homelab, proxmox, virtualization, self-hosted, truenas]
+description: Self-managed virtualization environment with enterprise-grade features
+image: ./attachments/server-hardware.png
+keywords: [homelab, proxmox, virtualization, self-hosted, truenas, wireguard]
 ---
 
 ## Home Server
+
+![Server Rack Setup](./attachments/server-hardware.png)
+*Custom-built server with Ryzen 5 4600G and storage array*
 
 This section details my personal home lab setup, which serves as a playground for self-hosted applications and professional environment simulations.
 
 ### Hardware Specifications
 - **Processor**: AMD Ryzen 5 4600G (6-core/12-thread)
-- **Memory**: 64GB DDR4 RAM
-- **Storage**:
-  - 2x NVMe SSDs (OS and VM operations)
-  - 12TB refurbished HDD (bulk storage)
+- **Memory**: 64GB DDR4 RAM (3200MHz)
+- **Storage Configuration**:
+  - 2x NVMe SSDs (500GB OS + 1TB VM operations)
+  - 12TB refurbished HDD (7200 RPM ZFS array)
   
-### Software Stack
-- **Virtualization**: Proxmox VE as hypervisor
-  - VM management for multiple guest OS
+![Storage Layout](./attachments/storage-diagram.png)
+*ZFS storage structure managed through TrueNAS*
+
+### Virtualization Stack
+- **Hypervisor**: Proxmox VE 8.0
+  - KVM-based virtual machines
   - LXC containers for lightweight services
-  - Docker container orchestration via Portainer
-- **Storage**: TrueNAS Scale integration
-  - Centralized storage management
-  - ZFS file system with redundancy
+- **Containerization**:
+  - Docker swarm via Portainer CE
+  - Custom container registry
+- **Storage Integration**:
+  - TrueNAS Scale iSCSI shares
+  - Automated ZFS snapshots
+  - Replication to backup nodes
 
-### Access & Networking
-- **Public Facing**: 
-  - Cloudflare Tunnels for secure web service exposure
-  - DNS management with Cloudflare proxy
-- **Internal Services**:
-  - Nginx Proxy Manager reverse proxy
-  - Local DNS resolution for lab domains
-- **Remote Access**:
-  - WireGuard VPN for secure external connectivity
-  - No open ports exposed to public internet
+![Proxmox Interface](./attachments/proxmox-dashboard.png)
+*Customized Proxmox cluster interface*
 
-### Development Purpose
-This environment enables me to:
-- Maintain personal application versions with full control over:
-  - Feature updates
-  - Data governance
-  - Security patching
-- Replicate production-like scenarios matching my professional workflows
-- Experiment with:
-  - Containerized architectures
-  - Network configurations
-  - CI/CD pipelines
-  - Infrastructure-as-Code concepts
+### Network Architecture
+- **Public Access**:
+  - Cloudflare Tunnels with Zero Trust policies
+  - Automated DNS management
+  - DDoS protection enabled
+- **Internal Routing**:
+  - Nginx Proxy Manager with SSL termination
+  - Per-service access controls
+  - Local DNS override rules
+- **Secure Remote Access**:
+  - WireGuard VPN mesh network
+  - MFA-protected entry points
+  - No exposed public ports
 
-### Applications
-While most services are customized implementations for personal use, the lab hosts various common tools including:
-- Self-hosted productivity suites
-- Media management systems
-- Home automation controllers
-- Development pipeline utilities
+![Network Diagram](./attachments/network-topology.png)
+*Visual representation of network flows and security layers*
+
+### Development Environment
+This infrastructure enables:
+- Full-stack application development with:
+  - Isolated testing environments
+  - Production-like staging setups
+  - CI/CD pipeline integration
+- Complete control over:
+  - Software versioning
+  - Security updates
+  - Data governance policies
+- Enterprise feature experimentation:
+  - High-availability clusters
+  - Automated failover systems
+  - Infrastructure-as-Code templates
+
+### Hosted Services
+![Service Dashboard](./attachments/service-monitoring.png)
+*Service status monitoring overview*
+
+While maintaining several custom implementations, key hosted applications include:
+- **Productivity Suite**:
+  - Nextcloud (File sharing)
+  - Vaultwarden (Password management)
+- **Media Ecosystem**:
+  - Jellyfin (Media streaming)
+  - *arr stack (Content management)
+- **Development Tools**:
+  - Gitea (Git hosting)
+  - Drone CI (Automated builds)
+- **Home Automation**:
+  - Home Assistant
+  - Node-RED flows

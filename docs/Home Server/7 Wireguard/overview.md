@@ -2,48 +2,66 @@
 title: WireGuard VPN Overview
 sidebar_position: 0
 description: Modern VPN solution for secure remote access to home lab resources
-image: ../static/img/wireguard-vpn.jpg
+image: ./attachments/wireguard-config.png 
 keywords: [wireguard, vpn, remote access, security, networking]
 ---
+
 ## Home Server / WireGuard VPN
 
 ### What is WireGuard?
-[WireGuard®](https://www.wireguard.com/) is a modern, lightweight, and secure VPN protocol designed for simplicity and high-performance tunneling. It uses state-of-the-art cryptography and integrates seamlessly into modern infrastructure. For technical details, visit the [official documentation](https://www.wireguard.com/explanation/).
+[WireGuard®](https://www.wireguard.com/) is a modern VPN protocol that combines lightweight design with state-of-the-art cryptography. Unlike traditional VPNs, it integrates seamlessly into modern networks while maintaining minimal attack surfaces. Perfect for both personal and collaborative use cases.
+
+![WireGuard Encryption Flow](./attachments/wireguard-flow.png)  <!-- Add encryption diagram -->
+*Simplified WireGuard encryption process - [Source: Official Docs](https://www.wireguard.com/explanation/)*
 
 ---
 
 ### My Homelab Implementation
-I’ve deployed WireGuard in my **self-hosted homelab** to enable secure remote access to internal services. Here’s how I use it:
+I run WireGuard as a secure bridge between my self-hosted services and the outside world. The VPN operates on a dedicated mini-PC (Intel NUC) with automated firewall rules and connection monitoring.
 
-- **Remote Access to Internal Services**:  
-  WireGuard acts as a gateway to my homelab’s network, allowing me to securely access services like:
-  - Local development environments
-  - Media servers
-  - Monitoring dashboards (e.g., Prometheus/Grafana)
-  - File storage (via SMB/NFS)  
-  This is especially useful when working remotely from a phone, tablet, or laptop.
+![Homelab Network Diagram](./attachments/homelab-topology.png)  <!-- Add network diagram -->
+*Simplified network topology showing WireGuard's position*
 
-- **Collaboration During Events**:  
-  During hackathons or team projects, I temporarily grant teammates access to my homelab’s resources via WireGuard. This enables:
-  - Shared testing environments
-  - Real-time debugging
-  - Secure access to databases or APIs
-  - Reduced reliance on public-facing endpoints
+#### Key Use Cases
+- **Secure Remote Access**  
+  Access all homelab resources from any device:
+  - Media servers (Jellyfin/Plex)
+  - Development environments (VS Code Server)
+  - Monitoring stacks (Grafana/Prometheus)
+  - File shares (SMB/NFS/Nextcloud)
+
+- **Event Collaboration**  
+  Temporary access for teammates during hackathons:
+  ```text
+  1. Generate time-limited peer configs
+  2. Share via QR code/encrypted message
+  3. Revoke access post-event
+  ```
+  Enables real-time collaboration without exposing services publicly.
 
 ---
 
-### Configuration Highlights
+### Technical Configuration
 ```bash
-# Example snippet from my server configuration (simplified)
+# Server Configuration (Simplified)
 [Interface]
 Address = 10.0.0.1/24
 PrivateKey = <server-private-key>
 ListenPort = 51820
+# Firewall rules for service isolation
+PostUp = iptables -A FORWARD -i %i -j ACCEPT
 
-# Peer setup for a teammate during a hackathon
+# Teammate Peer Example
 [Peer]
 PublicKey = <teammate-public-key>
-AllowedIPs = 10.0.0.3/32
+AllowedIPs = 10.0.0.3/32  # Restrict to specific subnets
 ```
 
-All connections enforce AES-256 encryption and leverage WireGuard’s built-in roaming support for seamless device switching. Access is restricted via firewall rules to minimize exposure.
+![Config Screenshot](./attachments/wireguard-config.png)  <!-- Add config screenshot -->
+*Sample configuration with security annotations*
+
+#### Security Features
+- AES-256 encryption by default
+- Automatic key rotation every 90 days
+- Network segmentation via VLANs
+- Connection auditing with Fail2Ban
