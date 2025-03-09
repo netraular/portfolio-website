@@ -55,4 +55,4 @@ This implementation delivers:
 - 40% reduced cloud storage costs
 - Military-grade data protection
 
-[Explore technical implementation details →](/docs/systems/obsidian-sync)
+[Explore technical implementation details →](/)

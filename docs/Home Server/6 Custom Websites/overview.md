@@ -32,7 +32,7 @@ While most implementations follow proven methodologies from my professional expe
 - Test bleeding-edge PHP 8.x features
 - Explore unconventional database optimizations
 
-**Featured projects** are available in the [Websites Section](/websites) of this portfolio.
+**Featured projects** are available in the [Websites Section](/) of this portfolio.
 
 ### Technical Characteristics
 My typical web applications integrate:
