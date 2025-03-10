@@ -1,8 +1,0 @@
-{
-  "label": "4. IoT Virtual Pet",
-  "position": 4,
-  "link": {
-    "type": "generated-index", 
-    "description": "Full-stack IoT gaming project combining sensors, display, and power management."
-  }
-}
