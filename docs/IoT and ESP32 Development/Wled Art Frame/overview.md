@@ -1,27 +1,60 @@
 ---
-title: WLED Art Frame
-sidebar_position: 7
-description: Iluminación inteligente meets arte digital.
-image: ../static/img/wled-frame.jpg
-keywords: [esp32, wled, led, art]
+title: WLED-Controlled LED Picture Frames
+description: Build custom backlit poster displays using ESP32, LED strips, and IKEA frames, fully controllable via WLED for dynamic lighting effects.
+sidebar_position: 1
+keywords: [ESP32, WLED, LED strips, home automation, IoT, DIY lighting, IKEA hacking]
 ---
 
-# Marco LED Controlado por WLED
+[![ESP-32](https://img.shields.io/badge/ESP--32-Module-green?logo=espressif)](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)  [![WLED](https://img.shields.io/badge/WLED-Controller-purple)](https://kno.wled.ge/)
 
-**Instalación de iluminación interactiva**  
-Sistema completo para crear marcos decorativos con:
+[![Project Banner](https://placehold.co/600x200/2a2d32/FFF?text=Dynamic+Poster+Lighting)](https://github.com/yourusername/project-repo/blob/main/images/banner.jpg)
 
-- Tira LED direccionable (WS2812B/NeoPixel).
-- Control mediante:
-  - App móvil (presets personalizados).
-  - API REST (integración con Home Assistant).
-  - Sensores integrados (micrófono para reactive a música).
-- Patrones exclusivos:
-  - Efecto "Galaxia" con algoritmos de partículas.
-  - Visualizador de espectro de audio en tiempo real.
+---
 
-**Hardware destacado:**  
-Guía para construir el marco físico con:
-- Fuente de alimentación de 5V con protección contra sobretensiones.
-- Diseño PCB personalizado para distribución uniforme de LEDs.
-- Sistema de montaje magnético para fácil mantenimiento.
+## 📌 Overview
+
+A set of four customizable picture frames with addressable LED backlighting, powered by ESP32 microcontrollers and managed through the WLED ecosystem. Designed to enhance posters/displays with programmable lighting synchronized to music, time of day, or custom animations.
+
+![Frame Example](https://placehold.co/400x250/2a2d32/FFF?text=LED+Frame+in+Action)
+
+---
+
+## 🌟 Key Features
+
+| **Category**       | **Details**                              |
+|--------------------|------------------------------------------|
+| **Control**        | Wireless control via WLED web interface  |
+| **Design**         | Slim IKEA frames with diffused LED strips|
+| **Customization**  | 16 million colors + 100+ prebuilt effects|
+| **Scalability**    | Sync multiple frames as coordinated group|
+
+---
+
+## 🛠 Technical Highlights
+
+- **Framework**: WLED (ESP-IDF base)
+- **Core Functionality**:
+  - ESP32-based PWM control for LED strips
+  - JSON API for third-party integrations
+  - Power-saving sleep modes
+- **Power Management**: 5V/10A PSU with fuse protection
+- **Diffusion**: Custom 3D-printed light channels
+
+---
+
+## 🔌 Installation & Configuration
+
+1. Flash ESP32 with latest WLED firmware
+2. Position LED strips along frame perimeter
+3. Layer components: Poster → Diffusion panel → LED array
+4. Configure effects via WLED mobile app/UI
+
+[![WLED UI Demo](https://placehold.co/400x200/2a2d32/FFF?text=WLED+Interface+Preview)](https://github.com/yourusername/project-repo/blob/main/images/ui.jpg)
+
+---
+
+## 🚀 Future Enhancements
+
+- Motion-activated lighting
+- Ambient light sensor integration
+- Gallery mode (auto-rotating effects)

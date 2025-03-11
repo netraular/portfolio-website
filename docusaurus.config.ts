@@ -116,7 +116,11 @@ const config: Config = {
           items: [
             {
               label: 'Linkedin',
-              href: 'https://www.linkedin.com/in/Raul-aquilué-rubio-33241b215',
+              href: 'https://www.linkedin.com/in/raúl-aquilué-rubio-33241b215',
+            },
+            {
+              label: 'mymail@gmail.com',
+              href:'contact'
             },
           ],
         },

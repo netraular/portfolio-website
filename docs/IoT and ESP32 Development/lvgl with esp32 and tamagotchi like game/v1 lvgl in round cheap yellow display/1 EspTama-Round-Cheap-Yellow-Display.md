@@ -1,47 +1,46 @@
 ---
-title: EspTama-Round-Cheap-Yellow-Display
-description: Tamagotchi-inspired interactive pet simulator for circular ESP32 displays with persistent gameplay and LVGL-powered UI.
-sidebar_position: 1
-keywords: [ESP32, Tamagotchi, LVGL, Cheap Yellow Display, persistent storage, XBM, EEPROM]
+title: Tamagotchi-style Companion App
+description: Interactive virtual pet implementation for circular displays
+sidebar_position: 2
+keywords: [ESP32, LVGL, game development, persistent storage, embedded UI]
 ---
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/netraular/espTama-Round-Cheap-Yellow-Display) ![Last Update](https://img.shields.io/github/last-commit/netraular/espTama-Round-Cheap-Yellow-Display) [![PlatformIO](https://img.shields.io/badge/PlatformIO-Build%20System-orange)](https://platformio.org/) [![LVGL](https://img.shields.io/badge/LVGL-8.3.8-pink?logo=lvgl)](https://lvgl.io)
 
-![Tamagotchi Demo](./attachments/espTama-demo-collage.png) <!-- Collage of pet screens -->
+[![Banner](https://placehold.co/600x200/2a2d32/FFF?text=Virtual+Pet+Demo)](https://github.com/netraular/espTama-Round-Cheap-Yellow-Display)
 
-### Project Vision  
-Digital pet ecosystem for circular displays with persistent gameplay mechanics.
+## 📌 Overview
+Extended version of the base template implementing a virtual pet with:
+- Multiple interactive menus
+- Persistent character state
+- Resource management system
+- Custom UI components for circular displays
 
-**Repository**: [github.com/netraular/EspTama-Round-Cheap-Yellow-Display](https://github.com/netraular/EspTama-Round-Cheap-Yellow-Display)
+![Gameplay](https://placehold.co/400x250/2a2d32/FFF?text=Game+Screens)
 
-<div class="row">
-  <div class="col col--4">
+## 🌟 Key Features
 
-**Tech Stack** 🧩  
-- LVGL 8.3 UI Framework  
-- EEPROM Data Storage  
-- array imaage Rendering  
-- Screen managment
+| **Category**       | **Details**                          |
+|--------------------|--------------------------------------|
+| **Gameplay**       | Hunger/health systems, mini-games, shop |
+| **UI System**      | Dynamic screen transitions with animation |
+| **Data Management**| Automatic state saving to flash storage |
 
-</div>
-  <div class="col col--8">
+## 🛠 Technical Highlights
 
-![Feature Timeline](./attachments/development-timeline.png) <!-- Roadmap graphic -->
+- **Framework**: ESP-IDF + LVGL Extended Components
+- **Core Functionality**:
+  - Custom widget creation for circular layouts
+  - Flash-based save system with CRC checks
+  - Power-efficient animation scheduler
+- **Graphics**: On-device image conversion tools
+- **Input**: Gesture recognition system
 
-</div>
-</div>
+## 🎮 Game Mechanics
 
-### Key Components
-
-| Feature          | Description                          | 
-|------------------|--------------------------------------|
-| 🎮 Interactive Menus | Swipe-based navigation system        |
-| 🔋 Battery Saver   | Auto-sleep after 5m inactivity       |
-| 🧩 Expandable Stats | Pet attributes in JSON-like format   |
-
-**Code Snippet**:  
 ```c
-// Persistent data structure
-struct PetData {
-  uint8_t hunger; 
-  uint16_t coins;
-  bool is_sick;
-} saved_data;
+typedef struct {
+    uint8_t hunger;
+    uint8_t happiness;
+    uint32_t coins;
+    pet_state_t state;
+} pet_data_t;
