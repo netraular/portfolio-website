@@ -55,30 +55,8 @@ function AboutSection() {
           efficient solutions and constantly learning new technologies.
         </p>
 
-        <Tabs wrapperClassName={styles.tabsWrapper}>
-          <TabItem 
-            value="education" 
-            label={<><span aria-hidden="true">🎓</span> Education</>} 
-            default
-          >
-            <div className={styles.infoCard}>
-              <h3>Education Background</h3>
-              <div className={styles.timelineContent}>
-                <p><strong>Universitat Autònoma de Barcelona</strong></p>
-                <p>Bachelor's Degree in Computer Engineering (2017-2022)</p>
-                <ul className={styles.timelineList}>
-                  <li>Specialization in Software Engineering</li>
-                  <li>Graduated with Honors</li>
-                  <li>Final Project: AI-based Network Optimization System</li>
-                </ul>
-              </div>
-            </div>
-          </TabItem>
-
-          <TabItem 
-            value="experience" 
-            label={<><span aria-hidden="true">💼</span> Professional Experience</>}
-          >
+        <Tabs className={styles.tabsWrapper}>          
+        <TabItem value="experience" label={"💼 Professional Experience" as unknown as string} >
             <div className={styles.infoCard}>
               <h3>Work Experience</h3>
               <div className={styles.timelineContent}>
@@ -111,6 +89,22 @@ function AboutSection() {
               </div>
             </div>
           </TabItem>
+
+          <TabItem value="education" label={"🎓 Education" as unknown as string} >
+            <div className={styles.infoCard}>
+              <h3>Education Background</h3>
+              <div className={styles.timelineContent}>
+                <p><strong>Universitat Autònoma de Barcelona</strong></p>
+                <p>Bachelor's Degree in Computer Engineering (2017-2022)</p>
+                <ul className={styles.timelineList}>
+                  <li>Specialization in Software Engineering</li>
+                  <li>Graduated with Honors</li>
+                  <li>Final Project: AI-based Network Optimization System</li>
+                </ul>
+              </div>
+            </div>
+          </TabItem>
+
         </Tabs>
       </div>
     </section>
