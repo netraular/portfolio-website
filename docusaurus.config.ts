@@ -119,8 +119,8 @@ const config: Config = {
               href: 'https://www.linkedin.com/in/raúl-aquilué-rubio-33241b215',
             },
             {
-              label: 'mymail@gmail.com',
-              href:'contact'
+              label: 'netraular@gmail.com',
+              href:'mailto:netraular@gmail.com'
             },
           ],
         },

@@ -5,6 +5,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 function HeroSection() {
   return (
@@ -45,25 +47,27 @@ function AboutSection() {
   return (
     <section className={styles.aboutSection}>
       <div className="container">
-        <div className="row">
-          <div className="col col--6">
-            <Heading as="h2" className={styles.sectionTitle}>
-              About Me
-            </Heading>
-            <p className={styles.aboutText}>
-              Computer Engineer graduated from Universitat Autònoma de Barcelona 
-              with specialization in Computer Science. Passionate about creating 
-              efficient solutions and constantly learning new technologies.
-            </p>
+        <Heading as="h2" className={styles.sectionTitle}>
+          About Me
+        </Heading>
+        <p className={styles.aboutText}>
+          Computer Engineer graduated from Universitat Autònoma de Barcelona 
+          with specialization in Computer Science. Passionate about creating 
+          efficient solutions and constantly learning new technologies.
+        </p>
+        
+        <Tabs>
+          <TabItem value="education" label="🎓 Education" default>
             <div className={styles.educationCard}>
-              <h3>🎓 Education</h3>
+              <h3>Education</h3>
               <p><strong>UAB</strong> - Computer Engineering (2017-2022)</p>
               <p>Specialization in Computer Science</p>
             </div>
-          </div>
-          <div className="col col--6">
+          </TabItem>
+          
+          <TabItem value="experience" label="💼 Professional Experience">
             <div className={styles.experienceCard}>
-              <h3>💼 Professional Experience</h3>
+              <h3>Professional Experience</h3>
               <div className={styles.timeline}>
                 <div className={styles.timelineItem}>
                   <h4>Nubelfon (2021 - Present)</h4>
@@ -84,8 +88,8 @@ function AboutSection() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          </TabItem>
+        </Tabs>
       </div>
     </section>
   );
