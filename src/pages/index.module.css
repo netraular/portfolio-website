@@ -43,7 +43,7 @@
   color: var(--ifm-color-primary);
 }
 
-.educationCard, .experienceCard {
+.infoCard, .skillCard {
   background: var(--ifm-background-surface-color);
   padding: 2rem;
   border-radius: 10px;
@@ -51,22 +51,50 @@
   margin: 1rem 0;
 }
 
-.timelineItem {
+.infoCard h3 {
+  color: var(--ifm-color-primary);
+  border-bottom: 2px solid var(--ifm-color-primary-lightest);
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.experienceItem {
+  margin-bottom: 2rem;
+  padding: 1rem;
   border-left: 3px solid var(--ifm-color-primary);
+  transition: transform 0.3s ease;
+}
+
+.experienceItem:hover {
+  transform: translateX(5px);
+}
+
+.experienceHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.experienceDate {
+  color: var(--ifm-color-primary-light);
+  font-size: 0.9rem;
+}
+
+.experienceRole {
+  color: var(--ifm-color-primary-light);
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.timelineList {
   padding-left: 1.5rem;
-  margin: 1.5rem 0;
 }
 
-.timelineItem ul {
-  padding-left: 1rem;
+.timelineList li {
   margin: 0.5rem 0;
-}
-
-.timelineItem li {
-  margin: 0.3rem 0;
-  padding: 0;
-  background: none;
-  list-style-type: disc;
+  padding-left: 1rem;
+  position: relative;
 }
 
 .skillsSection {
@@ -77,13 +105,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
-}
-
-.skillCard {
-  background: var(--ifm-background-surface-color);
-  padding: 1.5rem;
-  border-radius: 8px;
-  text-align: center;
 }
 
 .skillCard h3 {
@@ -106,6 +127,26 @@
   font-size: 0.95rem;
 }
 
+.tabsWrapper {
+  margin-top: 2rem;
+}
+
+.tabs__item {
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  margin: 0 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.tabs__item--active {
+  background: var(--ifm-color-primary);
+  color: white !important;
+}
+
+.tabs__item:hover {
+  background: var(--ifm-color-primary-lightest);
+}
+
 @media (max-width: 996px) {
   .heroContent {
     flex-direction: column;
@@ -125,109 +166,3 @@
     font-size: 1.2rem;
   }
 }
-
-.educationCard h3, .experienceCard h3 {
-  margin-bottom: 1.5rem;
-  color: var(--ifm-color-primary);
-}
-
-/* index.module.css */
-.aboutGrid {
-  display: grid;
-  gap: 2rem;
-}
-
-.educationCard {
-  background: var(--ifm-background-surface-color);
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  margin: 1rem 0;
-}
-
-/* Personalización del timeline */
-.vertical-timeline::before {
-  background: var(--ifm-color-primary-lightest) !important;
-}
-
-.vertical-timeline-element-content {
-  border-radius: 8px !important;
-}
-
-.timelineList {
-  padding-left: 1rem;
-  margin: 0.5rem 0;
-}
-
-.timelineList li {
-  margin: 0.5rem 0;
-  font-size: 0.95rem;
-  line-height: 1.4;
-}
-
-.experienceContainer {
-  margin-top: 1rem;
-}
-
-
-/* Tarjeta común para ambas secciones */
-.infoCard {
-  background: var(--ifm-background-surface-color);
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  margin: 1rem 0;
-}
-
-.infoCard h3 {
-  color: var(--ifm-color-primary);
-  border-bottom: 2px solid var(--ifm-color-primary-lightest);
-  padding-bottom: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-/* Experiencia laboral */
-.experienceItem {
-  margin-bottom: 2rem;
-  padding: 1rem;
-  border-left: 3px solid var(--ifm-color-primary);
-}
-
-.experienceHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: 0.5rem;
-}
-
-.experienceDate {
-  color: var(--ifm-color-primary-light);
-  font-size: 0.9rem;
-}
-
-.experienceRole {
-  color: var(--ifm-color-primary-light);
-  margin-bottom: 1rem;
-  font-size: 0.95rem;
-}
-
-/* Timeline list */
-.timelineList {
-  padding-left: 1.5rem;
-}
-
-.timelineList li {
-  margin: 0.5rem 0;
-  padding-left: 1rem;
-  position: relative;
-}
-
-.timelineList li::before {
-  content: "▹";
-  color: var(--ifm-color-primary);
-  position: absolute;
-  left: -1rem;
-}
-
-/* Iconos de Font Awesome (añadir en tu head.html) */
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");

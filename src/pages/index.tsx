@@ -8,7 +8,6 @@ import styles from './index.module.css';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-
 function HeroSection() {
   return (
     <header className={clsx('hero hero--dark', styles.heroBanner)}>
@@ -25,7 +24,6 @@ function HeroSection() {
             <div className={styles.buttons}>
               <Link
                 className="button button--primary button--lg"
-                // to="/showcase">
                 to="/">
                 View Projects →
               </Link>
@@ -57,8 +55,12 @@ function AboutSection() {
           efficient solutions and constantly learning new technologies.
         </p>
 
-        <Tabs>
-          <TabItem value="education" label="🎓 Education" default>
+        <Tabs wrapperClassName={styles.tabsWrapper}>
+          <TabItem 
+            value="education" 
+            label={<><span aria-hidden="true">🎓</span> Education</>} 
+            default
+          >
             <div className={styles.infoCard}>
               <h3>Education Background</h3>
               <div className={styles.timelineContent}>
@@ -73,7 +75,10 @@ function AboutSection() {
             </div>
           </TabItem>
 
-          <TabItem value="experience" label="💼 Professional Experience">
+          <TabItem 
+            value="experience" 
+            label={<><span aria-hidden="true">💼</span> Professional Experience</>}
+          >
             <div className={styles.infoCard}>
               <h3>Work Experience</h3>
               <div className={styles.timelineContent}>
