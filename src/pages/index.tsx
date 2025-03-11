@@ -8,6 +8,7 @@ import styles from './index.module.css';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+
 function HeroSection() {
   return (
     <header className={clsx('hero hero--dark', styles.heroBanner)}>
@@ -55,32 +56,48 @@ function AboutSection() {
           with specialization in Computer Science. Passionate about creating 
           efficient solutions and constantly learning new technologies.
         </p>
-        
+
         <Tabs>
           <TabItem value="education" label="🎓 Education" default>
-            <div className={styles.educationCard}>
-              <h3>Education</h3>
-              <p><strong>UAB</strong> - Computer Engineering (2017-2022)</p>
-              <p>Specialization in Computer Science</p>
+            <div className={styles.infoCard}>
+              <h3>Education Background</h3>
+              <div className={styles.timelineContent}>
+                <p><strong>Universitat Autònoma de Barcelona</strong></p>
+                <p>Bachelor's Degree in Computer Engineering (2017-2022)</p>
+                <ul className={styles.timelineList}>
+                  <li>Specialization in Software Engineering</li>
+                  <li>Graduated with Honors</li>
+                  <li>Final Project: AI-based Network Optimization System</li>
+                </ul>
+              </div>
             </div>
           </TabItem>
-          
+
           <TabItem value="experience" label="💼 Professional Experience">
-            <div className={styles.experienceCard}>
-              <h3>Professional Experience</h3>
-              <div className={styles.timeline}>
-                <div className={styles.timelineItem}>
-                  <h4>Nubelfon (2021 - Present)</h4>
-                  <ul>
+            <div className={styles.infoCard}>
+              <h3>Work Experience</h3>
+              <div className={styles.timelineContent}>
+                <div className={styles.experienceItem}>
+                  <div className={styles.experienceHeader}>
+                    <h4>Nubelfon</h4>
+                    <span className={styles.experienceDate}>2021 - Present</span>
+                  </div>
+                  <h5 className={styles.experienceRole}>Full Stack Developer</h5>
+                  <ul className={styles.timelineList}>
                     <li>Full Stack development with Laravel</li>
                     <li>Voice APIs integration (Google/Amazon)</li>
                     <li>Server management and deployments</li>
                     <li>Scalable architecture design</li>
                   </ul>
                 </div>
-                <div className={styles.timelineItem}>
-                  <h4>Hospital Universitario Bellvitge (2017-2021)</h4>
-                  <ul>
+
+                <div className={styles.experienceItem}>
+                  <div className={styles.experienceHeader}>
+                    <h4>Hospital Universitario Bellvitge</h4>
+                    <span className={styles.experienceDate}>2017 - 2021</span>
+                  </div>
+                  <h5 className={styles.experienceRole}>Technical Coordinator</h5>
+                  <ul className={styles.timelineList}>
                     <li>Coordination in critical environments</li>
                     <li>Emergency management during COVID</li>
                     <li>Multidisciplinary teamwork</li>

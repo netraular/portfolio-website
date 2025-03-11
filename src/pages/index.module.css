@@ -130,3 +130,104 @@
   margin-bottom: 1.5rem;
   color: var(--ifm-color-primary);
 }
+
+/* index.module.css */
+.aboutGrid {
+  display: grid;
+  gap: 2rem;
+}
+
+.educationCard {
+  background: var(--ifm-background-surface-color);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin: 1rem 0;
+}
+
+/* Personalización del timeline */
+.vertical-timeline::before {
+  background: var(--ifm-color-primary-lightest) !important;
+}
+
+.vertical-timeline-element-content {
+  border-radius: 8px !important;
+}
+
+.timelineList {
+  padding-left: 1rem;
+  margin: 0.5rem 0;
+}
+
+.timelineList li {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.experienceContainer {
+  margin-top: 1rem;
+}
+
+
+/* Tarjeta común para ambas secciones */
+.infoCard {
+  background: var(--ifm-background-surface-color);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin: 1rem 0;
+}
+
+.infoCard h3 {
+  color: var(--ifm-color-primary);
+  border-bottom: 2px solid var(--ifm-color-primary-lightest);
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Experiencia laboral */
+.experienceItem {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-left: 3px solid var(--ifm-color-primary);
+}
+
+.experienceHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.experienceDate {
+  color: var(--ifm-color-primary-light);
+  font-size: 0.9rem;
+}
+
+.experienceRole {
+  color: var(--ifm-color-primary-light);
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+/* Timeline list */
+.timelineList {
+  padding-left: 1.5rem;
+}
+
+.timelineList li {
+  margin: 0.5rem 0;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.timelineList li::before {
+  content: "▹";
+  color: var(--ifm-color-primary);
+  position: absolute;
+  left: -1rem;
+}
+
+/* Iconos de Font Awesome (añadir en tu head.html) */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
