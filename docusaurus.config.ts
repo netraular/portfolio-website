@@ -68,7 +68,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Portfolio',
+      title: 'Raul A.R.',
       logo: {
         alt: 'Portfolio Logo',
         src: 'img/logo2.svg',

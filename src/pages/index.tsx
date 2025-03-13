@@ -37,7 +37,7 @@ function HeroSection() {
             <div className={styles.buttons}>
               <Link
                 className="button button--primary button--lg"
-                to="/projects"> {/* Cambia "/" por la ruta de tus proyectos */}
+                to="/"> {/* Cambia "/" por la ruta de tus proyectos */}
                 View Projects →
               </Link>
               <a
