@@ -1,0 +1,162 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Home Server": {
+    "message": "Home Server",
+    "description": "The label for category Home Server in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Home Server.link.generated-index.description": {
+    "message": "Core infrastructure for self-hosted services, virtualization, and resource management.",
+    "description": "The generated-index page description for category Home Server in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Proxmox VE": {
+    "message": "Proxmox VE",
+    "description": "The label for category Proxmox VE in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Proxmox VE.link.generated-index.description": {
+    "message": "Enterprise-grade hypervisor for virtual machines, containers, and network management.",
+    "description": "The generated-index page description for category Proxmox VE in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Nginx Proxy Manager": {
+    "message": "Nginx Proxy Manager",
+    "description": "The label for category Nginx Proxy Manager in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Nginx Proxy Manager.link.generated-index.description": {
+    "message": "Web interface for managing Nginx proxy hosts with automatic SSL certificate generation.",
+    "description": "The generated-index page description for category Nginx Proxy Manager in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.TrueNAS": {
+    "message": "TrueNAS",
+    "description": "The label for category TrueNAS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.TrueNAS.link.generated-index.description": {
+    "message": "Enterprise-grade storage operating system for data management, sharing, and protection.",
+    "description": "The generated-index page description for category TrueNAS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Proxmox Backup Server": {
+    "message": "Proxmox Backup Server",
+    "description": "The label for category Proxmox Backup Server in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Proxmox Backup Server.link.generated-index.description": {
+    "message": "Enterprise backup solution with incremental, deduplicated storage for virtual environments.",
+    "description": "The generated-index page description for category Proxmox Backup Server in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Cloudflare Tunnel": {
+    "message": "Cloudflare Tunnel",
+    "description": "The label for category Cloudflare Tunnel in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Cloudflare Tunnel.link.generated-index.description": {
+    "message": "Secure connectivity solution for exposing self-hosted services without opening firewall ports.",
+    "description": "The generated-index page description for category Cloudflare Tunnel in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Custom Websites": {
+    "message": "Custom Websites",
+    "description": "The label for category Custom Websites in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Custom Websites.link.generated-index.description": {
+    "message": "Self-hosted web projects and personal sites developed and maintained in the home lab environment.",
+    "description": "The generated-index page description for category Custom Websites in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.WireGuard": {
+    "message": "WireGuard",
+    "description": "The label for category WireGuard in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.WireGuard.link.generated-index.description": {
+    "message": "Modern, high-performance VPN solution for secure remote access to home lab services.",
+    "description": "The generated-index page description for category WireGuard in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Portainer": {
+    "message": "Portainer",
+    "description": "The label for category Portainer in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Portainer.link.generated-index.description": {
+    "message": "Container management platform providing a web interface for Docker environments.",
+    "description": "The generated-index page description for category Portainer in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Obsidian Sync": {
+    "message": "Obsidian Sync",
+    "description": "The label for category Obsidian Sync in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Obsidian Sync.link.generated-index.description": {
+    "message": "Self-hosted synchronization solution for Obsidian knowledge base across multiple devices.",
+    "description": "The generated-index page description for category Obsidian Sync in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Docusaurus Portfolio": {
+    "message": "Docusaurus Portfolio",
+    "description": "The label for category Docusaurus Portfolio in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Docusaurus Portfolio.link.generated-index.description": {
+    "message": "Documentation website built with Docusaurus to showcase projects, skills, and technical writing.",
+    "description": "The generated-index page description for category Docusaurus Portfolio in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Immich Photos": {
+    "message": "Immich Photos",
+    "description": "The label for category Immich Photos in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Immich Photos.link.generated-index.description": {
+    "message": "Self-hosted photo management system with mobile apps, face recognition, and automatic backups.",
+    "description": "The generated-index page description for category Immich Photos in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Mealie Recipes": {
+    "message": "Mealie Recipes",
+    "description": "The label for category Mealie Recipes in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Mealie Recipes.link.generated-index.description": {
+    "message": "Self-hosted recipe management and meal planning application with shopping list integration.",
+    "description": "The generated-index page description for category Mealie Recipes in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.IoT and ESP32 Development": {
+    "message": "IoT and ESP32 Development",
+    "description": "The label for category IoT and ESP32 Development in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.IoT and ESP32 Development.link.generated-index.description": {
+    "message": "Progression from ESP32 fundamentals to advanced IoT applications. Start with core concepts and advance to complete systems.",
+    "description": "The generated-index page description for category IoT and ESP32 Development in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.lvgl with esp32 and tamagotchi like game": {
+    "message": "lvgl with esp32 and tamagotchi like game",
+    "description": "The label for category lvgl with esp32 and tamagotchi like game in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.lvgl with esp32 and tamagotchi like game.link.generated-index.description": {
+    "message": "End-to-end IoT lighting solution: From PCB design to cloud-controlled effects.",
+    "description": "The generated-index page description for category lvgl with esp32 and tamagotchi like game in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.v1 lvgl in round cheap yellow display": {
+    "message": "v1 lvgl in round cheap yellow display",
+    "description": "The label for category v1 lvgl in round cheap yellow display in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.v2 esp32 lvgl for st7789 in platformio": {
+    "message": "v2 esp32 lvgl for st7789 in platformio",
+    "description": "The label for category v2 esp32 lvgl for st7789 in platformio in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.v3 esp32-s3 lvgl in esp-idf": {
+    "message": "v3 esp32-s3 lvgl in esp-idf",
+    "description": "The label for category v3 esp32-s3 lvgl in esp-idf in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Frame Smart Lighting Project": {
+    "message": "Frame Smart Lighting Project",
+    "description": "The label for category Frame Smart Lighting Project in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Frame Smart Lighting Project.link.generated-index.description": {
+    "message": "End-to-end IoT lighting solution: From PCB design to cloud-controlled effects.",
+    "description": "The generated-index page description for category Frame Smart Lighting Project in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Websites": {
+    "message": "Websites",
+    "description": "The label for category Websites in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Websites.link.generated-index.description": {
+    "message": "This is a custom description.",
+    "description": "The generated-index page description for category Websites in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Other": {
+    "message": "Other",
+    "description": "The label for category Other in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Other.link.generated-index.description": {
+    "message": "Projects related to other technologies.",
+    "description": "The generated-index page description for category Other in sidebar tutorialSidebar"
+  }
+}

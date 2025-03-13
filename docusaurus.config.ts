@@ -2,33 +2,34 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 const config: Config = {
   title: 'Raul A.R.',
   tagline: 'This is my portfolio',
   favicon: 'img/favicon2.ico',
 
-  // Set the production url of your site here
   url: 'https://raular.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'netraular', // Usually your GitHub org/user name.
-  projectName: 'portfolio-website', // Usually your repo name.
+  organizationName: 'netraular',
+  projectName: 'portfolio-website',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'es', 'ca'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+      es: {
+        htmlLang: 'es-ES',
+      },
+      ca: {
+        htmlLang: 'ca-ES',
+      },
+    },
   },
 
   presets: [
@@ -37,10 +38,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -48,11 +45,6 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -65,7 +57,6 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Raul A.R.',
@@ -80,18 +71,29 @@ const config: Config = {
           position: 'left',
           label: 'Projects',
         },
-        // {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/index2', label: 'Index2', position: 'left'},
         {to: '/index3', label: 'Index3', position: 'left'},
         {
-          href: 'https://linkedin.com/in/raúl-aquilué-rubio-33241b215',
-          label: 'LinkedIn',
+          type: 'localeDropdown',
           position: 'right',
+          dropdownItemsAfter: [
+            {
+              to: 'https://github.com/netraular/portfolio-website/issues',
+              label: 'Help us translate',
+            },
+          ],
+        },
+        {
+          href: 'https://linkedin.com/in/raúl-aquilué-rubio-33241b215',
+          position: 'right',
+          className: 'header-linkedin-link',
+          'aria-label': 'LinkedIn profile',
         },
         {
           href: 'https://github.com/netraular',
-          label: 'GitHub',
           position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
       ],
     },
@@ -128,31 +130,17 @@ const config: Config = {
             },
           ],
         },
-        // {
-        //   title: 'More',
-        //   items: [
-        //     {
-        //       label: 'Blog',
-        //       to: '/blog',
-        //     },
-        //     {
-        //       label: 'GitHub',
-        //       href: 'https://github.com/facebook/docusaurus',
-        //     },
-        //   ],
-        // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} ❤️ Raul A. R. portfolio `,
+      copyright: `Copyright © ${new Date().getFullYear()} ❤️ Raul A. R. portfolio`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
     colorMode: {
-      respectPrefersColorScheme: true, // Opcional: ignora la preferencia del sistema operativo
+      respectPrefersColorScheme: true,
     },
   } satisfies Preset.ThemeConfig,
-  
 };
 
 export default config;
