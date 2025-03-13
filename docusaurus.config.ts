@@ -81,9 +81,13 @@ const config: Config = {
           label: 'Projects',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/about', label: 'About', position: 'left'},
         {to: '/index2', label: 'Index2', position: 'left'},
         {to: '/index3', label: 'Index3', position: 'left'},
+        {
+          href: 'https://linkedin.com/in/raúl-aquilué-rubio-33241b215',
+          label: 'LinkedIn',
+          position: 'right',
+        },
         {
           href: 'https://github.com/netraular',
           label: 'GitHub',

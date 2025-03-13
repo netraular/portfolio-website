@@ -25,6 +25,17 @@
   margin-bottom: 2rem;
 }
 
+.heroLocation a.companyLink {
+  font-weight: bold; /* Texto en negrita */
+  text-decoration: underline; /* Subrayado siempre visible */
+  color: inherit; /* Hereda el color del contenedor (.heroLocation) */
+  transition: opacity 0.2s ease; /* Transición suave al pasar el ratón */
+}
+
+.heroLocation a.companyLink:hover {
+  opacity: 0.8; /* Efecto de desvanecimiento al pasar el ratón */
+}
+
 .profileImage {
   width: 300px;
   height: 300px;
@@ -165,4 +176,38 @@
   .hero__subtitle {
     font-size: 1.2rem;
   }
+}
+.buttons {
+  display: flex;
+  gap: 1rem; /* Espacio entre los botones */
+  flex-wrap: wrap; /* Para que los botones se ajusten en pantallas pequeñas */
+}
+
+.button--secondary {
+  background-color: var(--ifm-color-secondary);
+  color: var(--ifm-color-white);
+}
+
+.button--secondary:hover {
+  background-color: var(--ifm-color-secondary-dark);
+}
+
+.button--outline {
+  border: 2px solid var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.button--outline:hover {
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-color-white);
+}
+.emailText {
+  color: white !important; /* Fuerza el color del texto a blanco */
+  border-color: white !important; /* Fuerza el color del borde a blanco */
+}
+
+.emailText:hover {
+  color: white !important; /* Mantiene el color del texto en blanco al pasar el cursor */
+  background-color: transparent !important; /* Evita que el fondo cambie */
+  border-color: white !important; /* Mantiene el color del borde en blanco */
 }

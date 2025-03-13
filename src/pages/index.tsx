@@ -9,6 +9,9 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 function HeroSection() {
+  const githubUsername = "netraular"; // Tu nombre de usuario de GitHub
+  const githubProfilePic = `https://github.com/${githubUsername}.png`;
+
   return (
     <header className={clsx('hero hero--dark', styles.heroBanner)}>
       <div className="container">
@@ -18,20 +21,43 @@ function HeroSection() {
               Raul A.R.
             </Heading>
             <p className={clsx('hero__subtitle', styles.heroSubtitle)}>
-              Full Stack Developer & Computer Engineer
+              Computer Engineer and Full Stack Developer based in Barcelona, specializing in backend development and custom telephony solutions integrated with web applications.
             </p>
-            <p className={styles.heroLocation}>📍 Barcelona, Spain</p>
+            <p className={styles.heroLocation}>
+              💼 Currently building custom telephony solutions at{" "}
+              <a
+                href="https://nubelfon.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.companyLink}
+              >
+                Nubelfon ↗
+              </a>
+            </p>
             <div className={styles.buttons}>
               <Link
                 className="button button--primary button--lg"
-                to="/">
+                to="/projects"> {/* Cambia "/" por la ruta de tus proyectos */}
                 View Projects →
               </Link>
+              <a
+                className="button button--secondary button--lg"
+                href="/resume.pdf" // Ruta al archivo en la carpeta static
+                download="Raul_AR_CV.pdf" // Nombre del archivo al descargar
+              >
+                Download CV ↓
+              </a>
+              <span
+                className={`button button--outline button--lg ${styles.emailText}`} // Añade la clase personalizada
+                style={{ cursor: 'text', userSelect: 'text' }} // Permite seleccionar el texto
+              >
+                netraular@gmail.com 📧
+              </span>
             </div>
           </div>
           <div className={styles.heroImage}>
             <img 
-              src="/img/profile.jpg" 
+              src={githubProfilePic} 
               alt="Raul A.R." 
               className={styles.profileImage}
             />
@@ -161,8 +187,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title="Raul A.R. | Computer Engineer & Developer"
-      description="Portfolio of Raul A.R. - Computer Engineer and Full Stack Developer from Barcelona specializing in web development and telecom solutions">
+      title="Computer Engineer & Full Stack Developer"
+      description="Portfolio of Raul A.R. - Computer Engineer and Full Stack Developer from Barcelona specializing in backend development and telecom solutions">
       <HeroSection />
       <main>
         <AboutSection />
