@@ -181,6 +181,7 @@
   display: flex;
   gap: 1rem; /* Espacio entre los botones */
   flex-wrap: wrap; /* Para que los botones se ajusten en pantallas pequeñas */
+  justify-content: center; /* Centrar los botones */
 }
 
 .button--secondary {
