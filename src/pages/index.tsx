@@ -21,10 +21,10 @@ function HeroSection() {
               Raul A.R.
             </Heading>
             <p className={clsx('hero__subtitle', styles.heroSubtitle)}>
-              Computer Engineer and Full Stack Developer based in Barcelona, specializing in backend development and custom telephony solutions integrated with web applications.
+              Computer Engineer and Full Stack Developer based in Barcelona, specializing in backend development and custom VoIP solutions integrated with web applications.
             </p>
             <p className={styles.heroLocation}>
-              💼 Currently building custom telephony solutions at{" "}
+              💼 Currently building custom VoIp solutions at{" "}
               <a
                 href="https://nubelfon.com"
                 target="_blank"
@@ -72,13 +72,27 @@ function AboutSection() {
   return (
     <section className={styles.aboutSection}>
       <div className="container">
-        <Heading as="h2" className={styles.sectionTitle}>
+
+      <Heading as="h2" className={styles.sectionTitle}>
           About Me
         </Heading>
         <p className={styles.aboutText}>
-          Computer Engineer graduated from Universitat Autònoma de Barcelona 
-          with specialization in Computer Science. Passionate about creating 
-          efficient solutions and constantly learning new technologies.
+          I'm a Computer Engineer based in Barcelona, passionate about designing and building scalable, efficient, and high-performance software solutions. 
+          I graduated from the Universitat Autònoma de Barcelona with a specialization in Computer Science, and since then, I have been fully immersed in the world of software development.
+        </p>
+        <p className={styles.aboutText}>
+          My expertise lies in full-stack development, with a strong focus on backend systems, particularly using PHP with Laravel. 
+          I specialize in creating tailored solutions for telephony services, working on everything from API integrations and database management to infrastructure deployment and automation.
+        </p>
+        <p className={styles.aboutText}>
+          Over the years, I have worked on projects involving VoIP solutions, automation of phone calls for different use cases (such as reminders and elderly care), real-time call monitoring with Asterisk, and building platforms for enterprise clients to manage their telecommunication services.
+        </p>
+        <p className={styles.aboutText}>
+          Beyond backend development, I also have experience in frontend technologies, system administration, and scripting. <br></br>
+          I enjoy working in small, collaborative teams where I can take part in the entire development cycle, from architecture design to deployment and maintenance.
+        </p>
+        <p className={styles.aboutText}>
+          In addition to my professional work, I have a strong interest in embedded systems and new AI technologies, often working on side projects involving C++ for microcontrollers and Python for rapid prototyping.
         </p>
 
         <Tabs className={styles.tabsWrapper}>          
@@ -123,9 +137,8 @@ function AboutSection() {
                 <p><strong>Universitat Autònoma de Barcelona</strong></p>
                 <p>Bachelor's Degree in Computer Engineering (2017-2022)</p>
                 <ul className={styles.timelineList}>
-                  <li>Specialization in Software Engineering</li>
-                  <li>Graduated with Honors</li>
-                  <li>Final Project: AI-based Network Optimization System</li>
+                  <li>Software Engineering with Specialization in computing</li>
+                  <li>Final Project: Local Voice Assistant Natural Language to SQL /docs/Websites/Bachelor%20Thesis</li>
                 </ul>
               </div>
             </div>
