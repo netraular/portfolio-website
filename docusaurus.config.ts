@@ -5,9 +5,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Portfolio',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Raul A.R.',
+  tagline: 'This is my portfolio',
+  favicon: 'img/favicon2.ico',
 
   // Set the production url of your site here
   url: 'https://raular.com',
@@ -71,7 +71,7 @@ const config: Config = {
       title: 'Portfolio',
       logo: {
         alt: 'Portfolio Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo2.svg',
       },
       items: [
         {
