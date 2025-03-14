@@ -4,7 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
-import styles from './index.module.css';
+import styles from './index5.module.css';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -76,26 +76,28 @@ function AboutSection() {
       <Heading as="h2" className={styles.sectionTitle}>
           About Me
         </Heading>
-        <p className={styles.aboutText}>
+        <div className={styles.aboutText}>
+        <p >
           I'm a Computer Engineer based in Barcelona, passionate about designing and building scalable, efficient, and high-performance software solutions. 
           I graduated from the Universitat Autònoma de Barcelona with a specialization in Computer Science, and since then, I have been fully immersed in the world of software development.
         </p>
-        <p className={styles.aboutText}>
+        <p>
           My expertise lies in full-stack development, with a strong focus on backend systems, particularly using PHP with Laravel. 
           I specialize in creating tailored solutions for telephony services, working on everything from API integrations and database management to infrastructure deployment and automation.
         </p>
-        <p className={styles.aboutText}>
+        <p >
           Over the years, I have worked on projects involving VoIP solutions, automation of phone calls for different use cases (such as reminders and elderly care), real-time call monitoring with Asterisk, and building platforms for enterprise clients to manage their telecommunication services.
         </p>
-        <p className={styles.aboutText}>
+        <p >
           Beyond backend development, I also have experience in frontend technologies, system administration, and scripting. <br></br>
           I enjoy working in small, collaborative teams where I can take part in the entire development cycle, from architecture design to deployment and maintenance.
         </p>
-        <p className={styles.aboutText}>
+        <p >
           In addition to my professional work, I have a strong interest in embedded systems and new AI technologies, often working on side projects involving C++ for microcontrollers and Python for rapid prototyping.
         </p>
+        </div>
 
-        <Tabs className={styles.tabsWrapper}>          
+        <Tabs>          
         <TabItem value="experience" label={"💼 Professional Experience" as unknown as string} >
             <div className={styles.infoCard}>
               <h3>Work Experience</h3>
