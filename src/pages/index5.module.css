@@ -193,10 +193,10 @@
 /* Añade esto */
 .companyLogo {
   position: absolute;
-  left: -60px;
+  left: -57px;
   top: 15px;
-  width: 60px;
-  height: 60px;
+  width: 54px;
+  height: 54px;
   border-radius: 50%;
   border: 3px solid #2A9D8F;
   background: white;

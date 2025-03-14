@@ -138,16 +138,25 @@ function AboutSection() {
             </div>
           </TabItem>
 
-          <TabItem value="education" label={"🎓 Education" as unknown as string} >
+          <TabItem value="education" label={"🎓 Education" as unknown as string}>
             <div className={styles.infoCard}>
               <h3>Education Background</h3>
               <div className={styles.timelineContent}>
-                <p><strong>Universitat Autònoma de Barcelona</strong></p>
-                <p>Bachelor's Degree in Computer Engineering (2017-2022)</p>
-                <ul className={styles.timelineList}>
-                  <li>Software Engineering with Specialization in computing</li>
-                  <li>Final Project: Local Voice Assistant Natural Language to SQL /docs/Websites/Bachelor%20Thesis</li>
-                </ul>
+                <div className={styles.experienceItem}>
+                  <div className={styles.companyLogo}>
+                    <img src="/img/uab-logo.jpg" alt="UAB Logo" />
+                  </div>
+                  <div className={styles.experienceHeader}>
+                    <h4>Universitat Autònoma de Barcelona</h4>
+                    <span className={styles.experienceDate}>2017 - 2022</span>
+                  </div>
+                  <h5 className={styles.experienceRole}>Bachelor's Degree in Computer Engineering</h5>
+                  <ul className={styles.timelineList}>
+                    <li>Software Engineering with Specialization in computing</li>
+                    <li>Final Project: Local Voice Assistant Natural Language to SQL</li>
+                    <li>GPA: 3.4/4.0</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </TabItem>
