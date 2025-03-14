@@ -103,6 +103,9 @@ function AboutSection() {
               <h3>Work Experience</h3>
               <div className={styles.timelineContent}>
                 <div className={styles.experienceItem}>
+                  <div className={styles.companyLogo}>
+                    <img src="/img/nubelfon-logo.jpg" alt="Nubelfon Logo" />
+                  </div>
                   <div className={styles.experienceHeader}>
                     <h4>Nubelfon</h4>
                     <span className={styles.experienceDate}>2021 - Present</span>
@@ -117,6 +120,9 @@ function AboutSection() {
                 </div>
 
                 <div className={styles.experienceItem}>
+                  <div className={styles.companyLogo}>
+                    <img src="/img/bellvitge-logo.jpg" alt="Hospital Bellvitge Logo" />
+                  </div>
                   <div className={styles.experienceHeader}>
                     <h4>Hospital Universitario Bellvitge</h4>
                     <span className={styles.experienceDate}>2017 - 2021</span>

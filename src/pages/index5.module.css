@@ -1,26 +1,49 @@
+/* :root {
+  --primary-color: #2A9D8F;
+  --secondary-color: #264653;
+  --accent-color: #E9C46A;
+  --dark-color: #2A2A2A;
+  --light-color: #F4F4F4;
+  --text-color: #333333;
+  --white: #FFFFFF;
+} */
+
 .heroBanner {
   padding: 6rem 0;
-  background: linear-gradient(135deg, #264653 0%, #1A1A1A 100%);
-  position: relative;
+  background: linear-gradient(135deg, #264653 0%, #21333B 50%, #1A1A1A 100%);  position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
+}
+
+.heroBanner::after {
+  content: '';
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: var(--ifm-background-color); /* Usa la variable de color de fondo */
+  transform: skewY(-2deg);
+  z-index: 0;
 }
 
 .heroContent {
   display: flex;
   gap: 3rem;
   align-items: center;
+  animation: fadeInUp 1s ease;
 }
 
 .heroText {
   flex: 1;
-  animation: fadeInUp 1s ease;
 }
 
 .hero__title {
   font-size: 4rem;
-  color: #E9C46A; /* Amarillo fijo */
+  /* color: var(--secondary-color); */
+
+  color: #E9C46A;
   margin-bottom: 1.5rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   line-height: 1.2;
@@ -107,14 +130,15 @@
 }
 
 .aboutSection {
-  padding: 3rem 0;
+  /* padding: 5rem 0; */
   background: var(--ifm-background-color); /* Fondo dinámico */
 }
 
 .sectionTitle {
   text-align: center;
   font-size: 2.8rem;
-  color: #E9C46A; /* Amarillo fijo */
+  /* color: var(--secondary-color); */
+  color: #E9C46A;
   margin-bottom: 3rem;
   position: relative;
 }
@@ -166,16 +190,26 @@
   background: rgba(255, 255, 255, 0.05);
 }
 
-.experienceItem::before {
-  content: '';
+/* Añade esto */
+.companyLogo {
   position: absolute;
-  left: -38px;
-  top: 20px;
-  width: 15px;
-  height: 15px;
-  background: #2A9D8F; /* Color fijo */
+  left: -60px;
+  top: 15px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-  border: 3px solid var(--ifm-background-color); /* Borde dinámico */
+  border: 3px solid #2A9D8F;
+  background: white;
+  padding: 2px;
+  z-index: 1;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.companyLogo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
 }
 
 .experienceHeader {
@@ -319,11 +353,6 @@
 
 @media (max-width: 768px) {
   .heroBanner {
-    padding: 4rem 0;
+    padding: 3rem 0;
   }
-
-  .aboutSection, .skillsSection {
-    padding: 4rem 0;
-  }
-
 }
