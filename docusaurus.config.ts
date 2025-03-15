@@ -71,8 +71,6 @@ const config: Config = {
           position: 'left',
           label: 'Projects',
         },
-        {to: '/index2', label: 'Index2', position: 'left'},
-        {to: '/index3', label: 'Index3', position: 'left'},
         {
           type: 'localeDropdown',
           position: 'right',

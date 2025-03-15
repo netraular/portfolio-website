@@ -1,26 +1,52 @@
 import type {ReactNode} from 'react';
-import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
-import styles from './index5.module.css';
+import styles from './index.module.css';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUpRightFromSquare, faDownload, faCopy } from '@fortawesome/free-solid-svg-icons';
+import { useState, useEffect } from 'react'; // Añade esta importación
 
 function HeroSection() {
   const githubUsername = "netraular"; // Tu nombre de usuario de GitHub
   const githubProfilePic = `https://github.com/${githubUsername}.png`;
 
+  const [activeButton, setActiveButton] = useState<number | null>(null);
+  
+  useEffect(() => {
+    let timeouts: NodeJS.Timeout[] = [];
+    
+    const startSequence = () => {
+      setActiveButton(0);
+      timeouts.push(setTimeout(() => {
+        setActiveButton(1);
+        timeouts.push(setTimeout(() => {
+          setActiveButton(2);
+          timeouts.push(setTimeout(() => {
+            setActiveButton(null);
+            timeouts.push(setTimeout(startSequence, 10000)); // Espera 10s después del último
+          }, 1000));
+        }, 1000));
+      }, 1000));
+    };
+
+    startSequence();
+    
+    return () => timeouts.forEach(clearTimeout);
+  }, []);
+
   return (
-    <header className={clsx('hero hero--dark', styles.heroBanner)}>
+    <header className={ styles.heroBanner}>
       <div className="container">
         <div className={styles.heroContent}>
           <div className={styles.heroText}>
             <Heading as="h1" className="hero__title">
-              Raul A.R.
+              Hi, I'm Raul A.R.
             </Heading>
-            <p className={clsx('hero__subtitle', styles.heroSubtitle)}>
+            <p className="hero__subtitle">
               Computer Engineer and Full Stack Developer based in Barcelona, specializing in backend development and custom VoIP solutions integrated with web applications.
             </p>
             <p className={styles.heroLocation}>
@@ -31,28 +57,57 @@ function HeroSection() {
                 rel="noopener noreferrer"
                 className={styles.companyLink}
               >
-                Nubelfon ↗
+                Nubelfon
               </a>
             </p>
             <div className={styles.buttons}>
-              <Link
-                className="button button--primary button--lg"
-                to="/"> {/* Cambia "/" por la ruta de tus proyectos */}
-                View Projects →
+            <div className={styles.customBorderWrapper}>
+
+            <Link
+                className={`button button--primary button--lg ${
+                  activeButton === 0 ? styles.activeGlow : ''
+                }`}
+                to="/">
+                View Projects <FontAwesomeIcon icon={faArrowUpRightFromSquare} style={{marginLeft: '0.5rem'}}/>
               </Link>
+              </div>
               <a
-                className="button button--secondary button--lg"
-                href="/resume.pdf" // Ruta al archivo en la carpeta static
-                download="Raul_AR_CV.pdf" // Nombre del archivo al descargar
-              >
-                Download CV ↓
+                className={`button button--secondary button--lg ${
+                  activeButton === 1 ? styles.activeGlow : ''
+                }`}
+                href="/resume.pdf"
+                download="Raul_AR_CV.pdf">
+                Download CV <FontAwesomeIcon icon={faDownload} style={{marginLeft: '0.5rem'}}/>
               </a>
-              <span
-                className={`button button--outline button--lg ${styles.emailText}`} // Añade la clase personalizada
-                style={{ cursor: 'text', userSelect: 'text' }} // Permite seleccionar el texto
-              >
-                netraular@gmail.com 📧
-              </span>
+              <div className={`${styles.emailContainer} ${
+                activeButton === 2 ? styles.activeGlow : ''
+              }`}>
+                <span className={styles.emailText} id="emailText">netraular@gmail.com</span>
+                <button 
+                  className={styles.copyButton}
+                  data-tooltip="Copy" // Texto en inglés para el tooltip
+                  onClick={() => {
+                    navigator.clipboard.writeText('netraular@gmail.com');
+                    // Cambiar el texto temporalmente para indicar que se ha copiado
+                    const emailText = document.getElementById('emailText');
+                    if (emailText) {
+                      emailText.textContent = 'Copied!';
+                      setTimeout(() => {
+                        emailText.textContent = 'netraular@gmail.com';
+                      }, 1000); // Volver al correo después de 2 segundos
+                    }
+                  }}
+                  title="Copy email"
+                >
+
+                  <span className={styles.copyIcon}>
+                  <FontAwesomeIcon 
+          icon={faCopy} 
+          className={styles.copyIcon}
+          style={{fontSize: '1rem'}}
+        />                  </span>
+                </button>
+              </div>
             </div>
           </div>
           <div className={styles.heroImage}>
@@ -77,23 +132,30 @@ function AboutSection() {
           About Me
         </Heading>
         <div className={styles.aboutText}>
-        <p >
-          I'm a Computer Engineer based in Barcelona, passionate about designing and building scalable, efficient, and high-performance software solutions. 
-          I graduated from the Universitat Autònoma de Barcelona with a specialization in Computer Science, and since then, I have been fully immersed in the world of software development.
+        <p>
+          I'm a Computer Engineer based in Barcelona, I graduated from the {" "}
+          <a 
+            href="https://www.uab.cat/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className={styles.inlineLink}
+          >
+            Universitat Autònoma de Barcelona
+          </a>{" "}
+          with a specialization in Computer Science, and since then, I have been fully immersed in the world of software development.
         </p>
         <p>
-          My expertise lies in full-stack development, with a strong focus on backend systems, particularly using PHP with Laravel. 
-          I specialize in creating tailored solutions for telephony services, working on everything from API integrations and database management to infrastructure deployment and automation.
+          My expertise lies in full-stack development, with a strong focus on backend systems, particularly using PHP with Laravel, working on everything from API integrations and database management to infrastructure deployment and automation.
         </p>
         <p >
-          Over the years, I have worked on projects involving VoIP solutions, automation of phone calls for different use cases (such as reminders and elderly care), real-time call monitoring with Asterisk, and building platforms for enterprise clients to manage their telecommunication services.
+          Over the years, I have worked on projects involving VoIP solutions, automation of phone calls for different use cases, real-time call monitoring with Asterisk, and building platforms for enterprise clients to manage their telecommunication services.
         </p>
         <p >
           Beyond backend development, I also have experience in frontend technologies, system administration, and scripting. <br></br>
           I enjoy working in small, collaborative teams where I can take part in the entire development cycle, from architecture design to deployment and maintenance.
         </p>
-        <p >
-          In addition to my professional work, I have a strong interest in embedded systems and new AI technologies, often working on side projects involving C++ for microcontrollers and Python for rapid prototyping.
+        <p>
+          In addition to my professional work, I maintain a home lab environment where I apply and test concepts from my current professional work in a controlled setting. I also enjoy working on projects involving C++ for microcontrollers and Python for AI prototyping.
         </p>
         </div>
 
@@ -169,7 +231,7 @@ function AboutSection() {
 
 function SkillsSection() {
   return (
-    <section className={clsx(styles.skillsSection, 'background--alt')}>
+    <section className={styles.skillsSection}>
       <div className="container">
         <Heading as="h2" className={styles.sectionTitle}>
           Technical Skills

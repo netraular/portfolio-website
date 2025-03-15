@@ -1,162 +1,375 @@
+/* :root {
+  --primary-color: #2A9D8F;
+  --secondary-color: #264653;
+  --accent-color: #E9C46A;
+  --dark-color: #2A2A2A;
+  --light-color: #F4F4F4;
+  --text-color: #333333;
+  --white: #FFFFFF;
+} */
+
+/* Hero section */
+
 .heroBanner {
-  padding: 4rem 0;
-  position: relative;
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #264653 0%, #21333B 50%, #1A1A1A 100%);  position: relative;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.heroBanner::after {
+  content: '';
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: var(--ifm-background-color); /* Usa la variable de color de fondo */
+  transform: skewY(-2deg);
+  z-index: 0;
 }
 
 .heroContent {
   display: flex;
   gap: 3rem;
   align-items: center;
+  animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .heroText {
   flex: 1;
 }
 
-.heroSubtitle {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
 .heroLocation {
   font-size: 1.1rem;
-  color: var(--ifm-color-primary-light);
+  color: var(--ifm-font-color-base);
   margin-bottom: 2rem;
 }
 
 .heroLocation a.companyLink {
-  font-weight: bold; /* Texto en negrita */
-  text-decoration: underline; /* Subrayado siempre visible */
-  color: inherit; /* Hereda el color del contenedor (.heroLocation) */
-  transition: opacity 0.2s ease; /* Transición suave al pasar el ratón */
+  font-weight: bold;
+  text-decoration: underline;
+  color: #2A9D8F; /* Color fijo para el enlace */
+  transition: opacity 0.2s ease;
 }
 
 .heroLocation a.companyLink:hover {
-  opacity: 0.8; /* Efecto de desvanecimiento al pasar el ratón */
+  opacity: 0.8;
 }
 
 .profileImage {
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 320px;
   border-radius: 50%;
   object-fit: cover;
-  border: 5px solid var(--ifm-color-primary);
+  border: 4px solid #2A9D8F; /* Color fijo para el borde */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  animation: float 4s ease-in-out infinite;
 }
 
-.aboutSection {
-  padding: 4rem 0;
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
 }
+
+.profileImage:hover {
+  transform: scale(1.05);
+}
+
+.buttons {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+  justify-content: flex-start;
+}
+
+/* Neon Pulse button effect*/
+.activeGlow {
+  animation: buttonGlow 1s ease-in-out;
+  position: relative;
+  box-shadow: 0 0 15px #2A9D8F;
+}
+
+@keyframes buttonGlow {
+  0%, 100% { opacity: 0.9; }
+  50% { opacity: 1; box-shadow: 0 0 25px #2A9D8F; }
+}
+
+.emailContainer {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 2px solid rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  user-select: text;
+  min-width: 225px;
+  justify-content: space-between;
+}
+
+.emailText {
+  cursor: text;
+  transition: color 0.3s ease;
+  white-space: nowrap;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.copyIcon {
+  font-size: 0.875em;
+  margin-right: 0.125em;
+  position: relative;
+  top: -0.25em;
+  left: -0.125em;
+}
+
+.copyButton {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  padding: 0;
+  transition: opacity 0.2s;
+  position: relative;
+}
+
+.copyButton:hover {
+  opacity: 0.7;
+}
+
+.copyButton::after {
+  content: attr(data-tooltip); /* Usar el valor del atributo data-tooltip */
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.copyButton:hover::after {
+  opacity: 1;
+}
+
+
+
+
+/* About section */
 
 .sectionTitle {
   text-align: center;
+  font-size: 2.8rem;
+  /* color: var(--secondary-color); */
+  color: #E9C46A;
   margin-bottom: 3rem;
-  color: var(--ifm-color-primary);
+  position: relative;
 }
 
-.infoCard, .skillCard {
-  background: var(--ifm-background-surface-color);
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  margin: 1rem 0;
+.sectionTitle::after {
+  content: '';
+  display: block;
+  width: 250px;
+  height: 3px;
+  background: #2A9D8F; /* Color fijo */
+  margin: 1rem auto;
 }
 
-.infoCard h3 {
-  color: var(--ifm-color-primary);
-  border-bottom: 2px solid var(--ifm-color-primary-lightest);
-  padding-bottom: 1rem;
+.aboutText {
+  text-align: justify;
+  color: var(--ifm-font-color-base); /* Color dinámico para texto */
+  font-size: 1.1rem;
+  line-height: 1.8;
   margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  margin-top: 3rem;
+}
+
+.inlineLink {
+  color: #2A9D8F;
+  text-decoration: underline;
+  transition: opacity 0.2s;
+}
+
+.inlineLink:hover {
+  opacity: 0.8;
+}
+
+
+
+/* Timeline  */
+
+.timelineContent {
+  position: relative;
+  padding-left: 30px;
+  border-left: 3px solid #2A9D8F; /* Color fijo */
+  margin-left: 15px;
 }
 
 .experienceItem {
+  position: relative;
   margin-bottom: 2rem;
-  padding: 1rem;
-  border-left: 3px solid var(--ifm-color-primary);
-  transition: transform 0.3s ease;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
 
 .experienceItem:hover {
-  transform: translateX(5px);
+  transform: translateX(10px);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.companyLogo {
+  position: absolute;
+  left: -57px;
+  top: 15px;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  border: 3px solid #2A9D8F;
+  background: white;
+  padding: 2px;
+  z-index: 1;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.companyLogo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
 }
 
 .experienceHeader {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.experienceHeader h4 {
+  color: #E9C46A; /* Amarillo fijo */
+  font-size: 1.3rem;
+  margin: 0;
 }
 
 .experienceDate {
-  color: var(--ifm-color-primary-light);
-  font-size: 0.9rem;
+  color: #2A9D8F; /* Color fijo */
+  font-weight: 500;
 }
 
 .experienceRole {
-  color: var(--ifm-color-primary-light);
+  color: var(--ifm-font-color-base); /* Color dinámico para texto */
+  font-size: 1.1rem;
   margin-bottom: 1rem;
-  font-size: 0.95rem;
 }
 
 .timelineList {
-  padding-left: 1.5rem;
+  list-style: none;
+  padding-left: 1rem;
 }
 
 .timelineList li {
-  margin: 0.5rem 0;
-  padding-left: 1rem;
   position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.8rem;
+  color: var(--ifm-font-color-base); /* Color dinámico para texto */
 }
 
+.timelineList li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: #2A9D8F;
+}
+
+
+
+/* Technical skills */
 .skillsSection {
-  padding: 4rem 0;
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #264653 0%, #1A1A1A 100%); /* Degradado fijo */
 }
 
 .skillsGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
+  margin-top: 2rem;
+}
+
+.skillCard {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.skillCard:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .skillCard h3 {
-  color: var(--ifm-color-primary);
-  margin-bottom: 1.2rem;
-  font-size: 1.2rem;
+  color: #E9C46A; /* Amarillo fijo */
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .skillCard ul {
   list-style: none;
-  padding: 0;
-  text-align: left;
+  padding-left: 0;
 }
 
-.skillCard li {
-  margin: 0.3rem 0;
-  padding: 0.5rem;
-  background: var(--ifm-color-emphasis-100);
-  border-radius: 5px;
-  font-size: 0.95rem;
+.skillCard ul li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  transition: padding-left 0.3s ease;
 }
 
-.tabsWrapper {
-  margin-top: 2rem;
+.skillCard ul li:hover {
+  padding-left: 1rem;
+  color: #2ecc71;
 }
 
-.tabs__item {
-  padding: 0.8rem 1.5rem;
-  border-radius: 5px;
-  margin: 0 0.5rem;
-  transition: all 0.3s ease;
-}
 
-.tabs__item--active {
-  background: var(--ifm-color-primary);
-  color: white !important;
-}
 
-.tabs__item:hover {
-  background: var(--ifm-color-primary-lightest);
-}
+/* Other window sizes*/
 
 @media (max-width: 996px) {
   .heroContent {
@@ -165,50 +378,22 @@
   }
   
   .profileImage {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
   }
   
-  .skillsGrid {
-    grid-template-columns: 1fr;
+  .buttons {
+    justify-content: center;
   }
-  
-  .hero__subtitle {
-    font-size: 1.2rem;
+
+  .sectionTitle {
+    font-size: 2.2rem;
   }
 }
-.buttons {
-  display: flex;
-  gap: 1rem; /* Espacio entre los botones */
-  flex-wrap: wrap; /* Para que los botones se ajusten en pantallas pequeñas */
-  justify-content: center; /* Centrar los botones */
+
+@media (max-width: 768px) {
+  .heroBanner {
+    padding: 3rem 0;
+  }
 }
 
-.button--secondary {
-  background-color: var(--ifm-color-secondary);
-  color: var(--ifm-color-white);
-}
-
-.button--secondary:hover {
-  background-color: var(--ifm-color-secondary-dark);
-}
-
-.button--outline {
-  border: 2px solid var(--ifm-color-primary);
-  color: var(--ifm-color-primary);
-}
-
-.button--outline:hover {
-  background-color: var(--ifm-color-primary);
-  color: var(--ifm-color-white);
-}
-.emailText {
-  color: white !important; /* Fuerza el color del texto a blanco */
-  border-color: white !important; /* Fuerza el color del borde a blanco */
-}
-
-.emailText:hover {
-  color: white !important; /* Mantiene el color del texto en blanco al pasar el cursor */
-  background-color: transparent !important; /* Evita que el fondo cambie */
-  border-color: white !important; /* Mantiene el color del borde en blanco */
-}
