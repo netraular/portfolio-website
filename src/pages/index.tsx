@@ -27,7 +27,7 @@ function HeroSection() {
           setActiveButton(2);
           timeouts.push(setTimeout(() => {
             setActiveButton(null);
-            timeouts.push(setTimeout(startSequence, 3000)); // Espera 10s después del último
+            timeouts.push(setTimeout(startSequence, 8000)); // Espera 10s después del último
           }, 1000));
         }, 1000));
       }, 1000));
