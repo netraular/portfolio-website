@@ -100,44 +100,60 @@
 
 /* Neon Pulse button effect*/
 .activeGlow {
-  animation: buttonGlow 1s ease-in-out;
+  animation: highlight 1s ease-in-out;
   position: relative;
   box-shadow: 0 0 15px #2A9D8F;
 }
 
-@keyframes buttonGlow {
-  0%, 100% { opacity: 0.9; }
-  50% { opacity: 1; box-shadow: 0 0 25px #2A9D8F; }
+/* Animación de resaltado */
+@keyframes highlight {
+  0% {
+    filter: brightness(100%);
+    box-shadow: 0 0 0 0 rgba(42, 157, 143, 0.4);
+  }
+  50% {
+    filter: brightness(130%);
+    box-shadow: 0 0 20px 10px rgba(42, 157, 143, 0.4);
+  }
+  100% {
+    filter: brightness(100%);
+    box-shadow: 0 0 0 0 rgba(42, 157, 143, 0);
+  }
 }
 
 .emailContainer {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
   background: rgba(255, 255, 255, 0.1) !important;
   border: 2px solid rgba(255, 255, 255, 0.2) !important;
   backdrop-filter: blur(5px);
   border-radius: 8px;
-  padding: 0.8rem 1.5rem;
   user-select: text;
-  min-width: 225px;
+  min-width: 280px;
   justify-content: space-between;
 }
 
 .emailText {
   cursor: text;
+  user-select: text;
+  color: var(--ifm-font-color-base);
   transition: color 0.3s ease;
   white-space: nowrap;
   flex-grow: 1;
   text-align: center;
+  
+}
+.emailText:hover {
+  color: var(--ifm-font-color-base) !important; /* Fuerza el color original */
 }
 
 .copyIcon {
+  
   font-size: 0.875em;
   margin-right: 0.125em;
   position: relative;
-  top: -0.25em;
-  left: -0.125em;
+  top: -0.15em;
+  left: -0.75em;
 }
 
 .copyButton {

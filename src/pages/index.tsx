@@ -27,7 +27,7 @@ function HeroSection() {
           setActiveButton(2);
           timeouts.push(setTimeout(() => {
             setActiveButton(null);
-            timeouts.push(setTimeout(startSequence, 10000)); // Espera 10s después del último
+            timeouts.push(setTimeout(startSequence, 3000)); // Espera 10s después del último
           }, 1000));
         }, 1000));
       }, 1000));
@@ -71,8 +71,8 @@ function HeroSection() {
                 View Projects <FontAwesomeIcon icon={faArrowUpRightFromSquare} style={{marginLeft: '0.5rem'}}/>
               </Link>
               </div>
-              <a
-                className={`button button--secondary button--lg ${
+              
+              <a className={`button button--secondary button--lg ${
                   activeButton === 1 ? styles.activeGlow : ''
                 }`}
                 href="/resume.pdf"
@@ -82,10 +82,11 @@ function HeroSection() {
               <div className={`${styles.emailContainer} ${
                 activeButton === 2 ? styles.activeGlow : ''
               }`}>
-                <span className={styles.emailText} id="emailText">netraular@gmail.com</span>
+
+                <span className={`button button--lg ${styles.emailText}`} id="emailText">netraular@gmail.com</span>
                 <button 
                   className={styles.copyButton}
-                  data-tooltip="Copy" // Texto en inglés para el tooltip
+                  data-tooltip="Copy"
                   onClick={() => {
                     navigator.clipboard.writeText('netraular@gmail.com');
                     // Cambiar el texto temporalmente para indicar que se ha copiado
@@ -99,13 +100,7 @@ function HeroSection() {
                   }}
                   title="Copy email"
                 >
-
-                  <span className={styles.copyIcon}>
-                  <FontAwesomeIcon 
-          icon={faCopy} 
-          className={styles.copyIcon}
-          style={{fontSize: '1rem'}}
-        />                  </span>
+                  <span className={styles.copyIcon}> <FontAwesomeIcon icon={faCopy} className={styles.copyIcon} style={{fontSize: '1rem'}} /> </span>
                 </button>
               </div>
             </div>
