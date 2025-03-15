@@ -68,7 +68,7 @@ function HeroSection() {
                   activeButton === 0 ? styles.activeGlow : ''
                 }`}
                 to="/">
-                View Projects <FontAwesomeIcon icon={faArrowUpRightFromSquare} style={{marginLeft: '0.5rem'}}/>
+                View Projects <FontAwesomeIcon icon={faArrowUpRightFromSquare} className={styles.icon}/>
               </Link>
               </div>
               
@@ -77,7 +77,7 @@ function HeroSection() {
                 }`}
                 href="/resume.pdf"
                 download="Raul_AR_CV.pdf">
-                Download CV <FontAwesomeIcon icon={faDownload} style={{marginLeft: '0.5rem'}}/>
+                Download CV <FontAwesomeIcon icon={faDownload} className={styles.icon}/>
               </a>
               <div className={`${styles.emailContainer} ${
                 activeButton === 2 ? styles.activeGlow : ''
@@ -100,7 +100,7 @@ function HeroSection() {
                   }}
                   title="Copy email"
                 >
-                  <span className={styles.copyIcon}> <FontAwesomeIcon icon={faCopy} className={styles.copyIcon} style={{fontSize: '1rem'}} /> </span>
+                  <span className={styles.copyIcon}> <FontAwesomeIcon icon={faCopy} className={'${styles.copyIcon} ${styles.icon}'}/> </span>
                 </button>
               </div>
             </div>
