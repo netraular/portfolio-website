@@ -429,3 +429,78 @@
   }
 }
 
+/* Skill Item Styles */
+.skillItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  transition: all 0.2s ease;
+}
+
+.skillItem:hover {
+  color: #2A9D8F;
+}
+
+.expandIcon {
+  color: #E9C46A;
+  transition: transform 0.3s ease;
+  margin-left: 0.5rem;
+  font-size: 0.9em;
+}
+
+.expandIcon.expanded {
+  transform: rotate(180deg);
+}
+
+.skillDescription {
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  background: rgba(42, 157, 143, 0.1);
+  border-left: 3px solid #2A9D8F;
+  border-radius: 4px;
+  animation: fadeIn 0.3s ease;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; max-height: 0; }
+  to { opacity: 1; max-height: 200px; }
+}
+
+/* Maintain existing list styles */
+.skillCard ul li {
+  position: relative;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.skillCard ul li:last-child {
+  border-bottom: none;
+}
+
+/* Añadir estas reglas al final del archivo CSS */
+.heroImage {
+  perspective: 1000px;
+}
+
+.imageWrapper {
+  animation: float 4s ease-in-out infinite;
+}
+
+.profileImage {
+  transform-style: preserve-3d;
+  backface-visibility: visible;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+@keyframes spin {
+  0% { transform: rotateY(0); }
+  100% { transform: rotateY(360deg); }
+}
+
+.profileImage.spin {
+  animation: spin 1s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
