@@ -388,48 +388,13 @@
   padding-left: 0;
 }
 
-.skillCard ul li {
-  padding: 0.5rem 0;
-  border-bottom: 1px solid rgba(255,255,255,0.05);
-  transition: padding-left 0.3s ease;
-}
 
 .skillCard ul li:hover {
   padding-left: 1rem;
-  color: #2ecc71;
+  color: #2A9D8F;
 }
 
 
-
-/* Other window sizes*/
-
-@media (max-width: 996px) {
-  .heroContent {
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .profileImage {
-    width: 250px;
-    height: 250px;
-  }
-  
-  .buttons {
-    justify-content: center;
-  }
-
-  .sectionTitle {
-    font-size: 2.2rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .heroBanner {
-    padding: 3rem 0;
-  }
-}
-
-/* Skill Item Styles */
 /* Skill Item Styles */
 .skillItem {
   display: flex;
@@ -476,7 +441,6 @@
   to { opacity: 1; max-height: 200px; }
 }
 
-/* Maintain existing list styles */
 .skillCard ul li {
   position: relative;
   border-bottom: 1px solid rgba(255,255,255,0.05);
@@ -486,7 +450,7 @@
   border-bottom: none;
 }
 
-/* Funcionalidad de giro de la imagen */
+/* Funcionalidad de giro de la imagen de perfil*/
 .heroImage {
   perspective: 1000px;
 }
@@ -509,4 +473,32 @@
 
 .profileImage.spin {
   animation: spin 1s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+/* Other window sizes*/
+
+@media (max-width: 996px) {
+  .heroContent {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .profileImage {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .buttons {
+    justify-content: center;
+  }
+
+  .sectionTitle {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroBanner {
+    padding: 3rem 0;
+  }
 }
