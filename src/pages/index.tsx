@@ -67,7 +67,7 @@ function HeroSection() {
         <div className={styles.heroContent}>
           <div className={styles.heroText}>
             <Heading as="h1" className="hero__title">
-              Hi, I'm Raul A.R.
+              Hi, I'm <span className={styles.heroR}>Raul A.R. </span>
             </Heading>
             <p className="hero__subtitle">
               Computer Engineer and Full Stack Developer based in Barcelona, specializing in backend development and custom VoIP solutions integrated with web applications.

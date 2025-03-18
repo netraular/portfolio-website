@@ -48,6 +48,17 @@
   }
 }
 
+
+/* Estilo en el nombre de Raul A.R. */
+.heroR {
+  text-shadow: 3px 3px 0 #2A9D8F,
+               6px 6px 0 #264653;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  transform: translateZ(0);
+}
+
 .heroText {
   flex: 1;
 }
