@@ -360,8 +360,11 @@ function SkillsSection() {
             <ul>
               {['PHP/Laravel', 'MySQL Database', 'Voice APIs (Google/Amazon)', 
                 'Asterisk PBX', 'REST API Development', 'Web Server Management'].map((skill) => (
-                <li key={skill}>
-                  <div className={styles.skillItem} onClick={() => toggleSkill(skill)}>
+                  <li key={skill}>
+                  <div 
+                    className={`${styles.skillItem} ${expandedSkill === skill ? styles.activeSkill : ''}`} 
+                    onClick={() => toggleSkill(skill)}
+                  >
                     <span>{skill}</span>
                     <FontAwesomeIcon 
                       icon={faCaretDown} 

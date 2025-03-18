@@ -430,6 +430,7 @@
 }
 
 /* Skill Item Styles */
+/* Skill Item Styles */
 .skillItem {
   display: flex;
   justify-content: space-between;
@@ -439,8 +440,9 @@
   transition: all 0.2s ease;
 }
 
-.skillItem:hover {
-  color: #2A9D8F;
+
+.skillItem.activeSkill span {
+  color: #2A9D8F !important;
 }
 
 .expandIcon {
@@ -452,9 +454,11 @@
 
 .expandIcon.expanded {
   transform: rotate(180deg);
+  color: #2A9D8F;
 }
 
 .skillDescription {
+  color: #ffffff; /* Texto blanco */
   padding: 0.8rem;
   margin: 0.5rem 0;
   background: rgba(42, 157, 143, 0.1);
@@ -464,6 +468,8 @@
   font-size: 0.95rem;
   line-height: 1.6;
 }
+
+/* Mantén las animaciones y otros estilos existentes */
 
 @keyframes fadeIn {
   from { opacity: 0; max-height: 0; }
@@ -480,7 +486,7 @@
   border-bottom: none;
 }
 
-/* Añadir estas reglas al final del archivo CSS */
+/* Funcionalidad de giro de la imagen */
 .heroImage {
   perspective: 1000px;
 }
