@@ -159,38 +159,98 @@ function AboutSection() {
             <div className={styles.infoCard}>
               <h3>Work Experience</h3>
               <div className={styles.timelineContent}>
-                <div className={styles.experienceItem}>
-                  <div className={styles.companyLogo}>
-                    <img src="/img/nubelfon-logo.jpg" alt="Nubelfon Logo" />
-                  </div>
-                  <div className={styles.experienceHeader}>
-                    <h4>Nubelfon</h4>
-                    <span className={styles.experienceDate}>2021 - Present</span>
-                  </div>
-                  <h5 className={styles.experienceRole}>Full Stack Developer</h5>
+              <div className={styles.experienceItem}>
+              <div className={styles.companyLogo}>
+                <img src="/img/nubelfon-logo.jpg" alt="Nubelfon Logo" />
+              </div>
+              <div className={styles.experienceHeader}>
+                <h4>Nubelfon</h4>
+                <span className={styles.experienceDate}>2021 - Present</span>
+              </div>
+              <h5 className={styles.experienceRole}>Full Stack Developer & Solutions Developer</h5>
+              
+              <div className={styles.projectsContainer}>
+                <h6>Core Projects:</h6>
+                
+                <div className={styles.project}>
+                  <h4>Automated Calling System (2021-Present)</h4>
                   <ul className={styles.timelineList}>
-                    <li>Full Stack development with Laravel</li>
-                    <li>Voice APIs integration (Google/Amazon)</li>
-                    <li>Server management and deployments</li>
-                    <li>Scalable architecture design</li>
+                    <li>Joined as intern to complete legacy call automation project</li>
+                    <li>Took ownership of project after internship, becoming main maintainer</li>
+                    <li>Implemented modular architecture for client-specific adaptations</li>
+                    <li>Collaborated on Asterisk PBX integration for call handling</li>
+                    <li>Migrated legacy codebase to Laravel framework</li>
+                    <li>Created administration interface for call scheduling and monitoring</li>
+                    <li>Adapted base system for 4+ client-specific implementations including:
+                      <ul className={styles.nestedList}>
+                        <li>Medical appointment reminders</li>
+                        <li>Utility payment notifications</li>
+                      </ul>
+                    </li>
                   </ul>
                 </div>
 
-                <div className={styles.experienceItem}>
-                  <div className={styles.companyLogo}>
-                    <img src="/img/bellvitge-logo.jpg" alt="Hospital Bellvitge Logo" />
-                  </div>
-                  <div className={styles.experienceHeader}>
-                    <h4>Hospital Universitario Bellvitge</h4>
-                    <span className={styles.experienceDate}>2017 - 2021</span>
-                  </div>
-                  <h5 className={styles.experienceRole}>Technical Coordinator</h5>
+                <div className={styles.project}>
+                  <h4>Government Telecom Monitoring (2022)</h4>
                   <ul className={styles.timelineList}>
-                    <li>Coordination in critical environments</li>
-                    <li>Emergency management during COVID</li>
-                    <li>Multidisciplinary teamwork</li>
+                    <li>Developed web platform for call agent monitoring and reporting</li>
+                    <li>Created real-time dashboard showing call metrics and statistics</li>
+                    <li>Implemented bash scripts for Asterisk call event processing</li>
+                    <li>Designed role-based access system for different user types</li>
+                    <li>Built CSV/PDF report generators for daily operations review</li>
                   </ul>
                 </div>
+
+                <div className={styles.project}>
+                <h4>Client Services Portal (2023-Present)</h4>
+                  <ul className={styles.timelineList}>
+                    <li>Initiated platform modernization:
+                      <ul className={styles.nestedList}>
+                        <li>Upgraded core libraries while maintaining backwards compatibility</li>
+                        <li>Restructured database schema for scalability</li>
+                        <li>Implemented Laravel Scheduler for automated tasks</li>
+                        <li>Converted legacy scripts to queueable jobs</li>
+                      </ul>
+                    </li>
+                    <li>Key feature developments:
+                      <ul className={styles.nestedList}>
+                        <li>Centralized data hub integrating VTiger CRM and internal systems</li>
+                        <li>Custom reporting engine with PDF/CSV export</li>
+                        <li>Role-based service configuration interface</li>
+                        <li>Real-time service monitoring dashboard</li>
+                      </ul>
+                    </li>
+                    <li>Developed internal tooling for support team efficiency</li>
+                  </ul>
+                </div>
+
+                <h6>Development Practices and Technical Contributions:</h6>
+                <ul className={styles.timelineList}>
+                  <li>Designed system architectures with future scalability in mind, enabling easier feature expansion</li>
+                  <li>Developed reusable Laravel modules following modular design principles</li>
+                  <li>Created comprehensive client onboarding documentation and tutorials</li>
+                  <li>Built automation tools reducing repetitive tasks by 60% for support and accounting teams</li>
+                  <li>Managed hybrid infrastructure (bare metal + cloud)</li>
+                  <li>Introduced automated unit testing for core functionalities and client-specific implementations</li>
+                  <li>Maintained detailed technical documentation including system architecture diagrams</li>
+                </ul>
+              </div>
+            </div>
+
+                <div className={styles.experienceItem}>
+                <div className={styles.companyLogo}>
+                  <img src="/img/bellvitge-logo.jpg" alt="Hospital Bellvitge Logo" />
+                </div>
+                <div className={styles.experienceHeader}>
+                  <h4>Hospital Universitario Bellvitge</h4>
+                  <span className={styles.experienceDate}>2017 - 2021</span>
+                </div>
+                <h5 className={styles.experienceRole}>Patient Care Assistant (Celador)</h5>
+                <ul className={styles.timelineList}>
+                  <li>Worked part-time while completing my Computer Engineering degree</li>
+                  <li>Increased work hours during the COVID-19 pandemic (March 2020 - July 2021), providing essential support in critical care units and emergency services</li>
+                </ul>
+              </div>
               </div>
             </div>
           </TabItem>
@@ -210,8 +270,17 @@ function AboutSection() {
                   <h5 className={styles.experienceRole}>Bachelor's Degree in Computer Engineering</h5>
                   <ul className={styles.timelineList}>
                     <li>Software Engineering with Specialization in computing</li>
-                    <li>Final Project: Local Voice Assistant Natural Language to SQL</li>
-                    <li>GPA: 3.4/4.0</li>
+                    <li>
+                      Final Project: Local Voice Assistant Natural Language to SQL - {' '}
+                      <a 
+                        href="https://raular.com/docs/Websites/Bachelor%20Thesis" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className={styles.inlineLink}
+                      >
+                        View Thesis Documentation
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
