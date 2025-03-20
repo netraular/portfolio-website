@@ -70,7 +70,7 @@ function HeroSection() {
               Hi, I'm <span className={styles.heroR}>Raul A.R. </span>
             </Heading>
             <p className="hero__subtitle">
-              Computer Engineer and Full Stack Developer based in Barcelona, specializing in backend development and custom VoIP solutions integrated with web applications.
+              Computer Engineer and Full Stack Developer based in Barcelona, specializing in backend development and custom VoIP solutions.
             </p>
             <p className={styles.heroLocation}>
               💼 Currently building custom VoIp solutions at{" "}
@@ -156,7 +156,7 @@ function AboutSection() {
         </Heading>
         <div className={styles.aboutText}>
         <p>
-          I'm a Computer Engineer based in Barcelona, I graduated from the {" "}
+          I'm a Computer Engineer based in Barcelona, graduated from the {" "}
           <a 
             href="https://www.uab.cat/" 
             target="_blank" 
@@ -165,20 +165,21 @@ function AboutSection() {
           >
             Universitat Autònoma de Barcelona
           </a>{" "}
-          with a specialization in Computer Science, and since then, I have been fully immersed in the world of software development.
+          with a specialization in Computer Science.
+          {/* , and since then, I have been fully immersed in the world of software development. */}
         </p>
         <p>
-          My expertise lies in full-stack development, with a strong focus on backend systems, particularly using PHP with Laravel, working on everything from API integrations and database management to infrastructure deployment and automation.
+        My expertise lies in full-stack development, with a strong focus on backend systems, particularly using PHP with Laravel. I have experience in API integrations, database management, infrastructure deployment, and scripting automation.
         </p>
         <p >
-          Over the years, I have worked on projects involving VoIP solutions, automation of phone calls for different use cases, real-time call monitoring with Asterisk, and building platforms for enterprise clients to manage their telecommunication services.
+        Over the years, I have been involved in projects related to VoIP solutions, including automating phone calls for various use cases, real-time call monitoring with Asterisk, and developing platforms for enterprise clients to manage their telecommunication services.
         </p>
         <p >
-          Beyond backend development, I also have experience in frontend technologies, system administration, and scripting. <br></br>
-          I enjoy working in small, collaborative teams where I can take part in the entire development cycle, from architecture design to deployment and maintenance.
+        In addition to backend development, I have experience with frontend technologies, system administration, and scripting. <br></br>
+        I enjoy working in small, collaborative teams where I can contribute to the entire development cycle, from architecture design to deployment and maintenance.
         </p>
         <p>
-          In addition to my professional work, I maintain a home lab environment where I apply and test concepts from my current professional work in a controlled setting. I also enjoy working on projects involving C++ for microcontrollers and Python for AI prototyping.
+        Outside of my professional work, I maintain a home lab environment where I develop projects like <a href="/docs/Websites/hack4good">ECO2 </a>, a website that helped my team win a Hackathon. I also enjoy working on personal projects involving C++ for microcontrollers and Python for rapid prototyping.
         </p>
         </div>
 
@@ -192,76 +193,66 @@ function AboutSection() {
                 <img src="/img/nubelfon-logo.jpg" alt="Nubelfon Logo" />
               </div>
               <div className={styles.experienceHeader}>
-                <h4>Nubelfon</h4>
+                <h4>Nubelfon - Full Stack Developer & Solutions Developer</h4>
                 <span className={styles.experienceDate}>2021 - Present</span>
               </div>
               <h5 className={styles.experienceRole}>Full Stack Developer & Solutions Developer</h5>
               
               <div className={styles.projectsContainer}>
-                <h6>Core Projects:</h6>
-                
-                <div className={styles.project}>
-                  <h4>Automated Calling System (2021-Present)</h4>
-                  <ul className={styles.timelineList}>
-                    <li>Joined as intern to complete legacy call automation project</li>
-                    <li>Took ownership of project after internship, becoming main maintainer</li>
-                    <li>Implemented modular architecture for client-specific adaptations</li>
-                    <li>Collaborated on Asterisk PBX integration for call handling</li>
-                    <li>Migrated legacy codebase to Laravel framework</li>
-                    <li>Created administration interface for call scheduling and monitoring</li>
-                    <li>Adapted base system for 4+ client-specific implementations including:
-                      <ul className={styles.nestedList}>
-                        <li>Medical appointment reminders</li>
-                        <li>Utility payment notifications</li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className={styles.project}>
-                  <h4>Government Telecom Monitoring (2022)</h4>
-                  <ul className={styles.timelineList}>
-                    <li>Developed web platform for call agent monitoring and reporting</li>
-                    <li>Created real-time dashboard showing call metrics and statistics</li>
-                    <li>Implemented bash scripts for Asterisk call event processing</li>
-                    <li>Designed role-based access system for different user types</li>
-                    <li>Built CSV/PDF report generators for daily operations review</li>
-                  </ul>
-                </div>
-
-                <div className={styles.project}>
-                <h4>Client Services Portal (2023-Present)</h4>
-                  <ul className={styles.timelineList}>
-                    <li>Initiated platform modernization:
-                      <ul className={styles.nestedList}>
-                        <li>Upgraded core libraries while maintaining backwards compatibility</li>
-                        <li>Restructured database schema for scalability</li>
-                        <li>Implemented Laravel Scheduler for automated tasks</li>
-                        <li>Converted legacy scripts to queueable jobs</li>
-                      </ul>
-                    </li>
-                    <li>Key feature developments:
-                      <ul className={styles.nestedList}>
-                        <li>Centralized data hub integrating VTiger CRM and internal systems</li>
-                        <li>Custom reporting engine with PDF/CSV export</li>
-                        <li>Role-based service configuration interface</li>
-                        <li>Real-time service monitoring dashboard</li>
-                      </ul>
-                    </li>
-                    <li>Developed internal tooling for support team efficiency</li>
-                  </ul>
-                </div>
-
-                <h6>Development Practices and Technical Contributions:</h6>
+                <h6>Key Achievements:</h6>
                 <ul className={styles.timelineList}>
-                  <li>Designed system architectures with future scalability in mind, enabling easier feature expansion</li>
-                  <li>Developed reusable Laravel modules following modular design principles</li>
-                  <li>Created comprehensive client onboarding documentation and tutorials</li>
-                  <li>Built automation tools reducing repetitive tasks by 60% for support and accounting teams</li>
-                  <li>Managed hybrid infrastructure (bare metal + cloud)</li>
-                  <li>Introduced automated unit testing for core functionalities and client-specific implementations</li>
-                  <li>Maintained detailed technical documentation including system architecture diagrams</li>
+                  <li>Led and developed enterprise VoIP solutions for government and corporate clients</li>
+                  <li>Modernized legacy systems through:
+                    <ul className={styles.nestedList}>
+                      <li>Migration from legacy codebase to Laravel framework</li>
+                      <li>Implementation of REST APIs for third-party integrations</li>
+                      <li>Database schema optimization for improved performance</li>
+                    </ul>
+                  </li>
+                  <li>Architected 2 major platform upgrades enhancing scalability and maintainability</li>
+                  <li>Developed automation scripts reducing repetitive tasks through queue workers</li>
                 </ul>
+
+                <h6>Core Responsibilities:</h6>
+                <ul className={styles.timelineList}>
+                  <li>System integration with Asterisk PBX and VTiger CRM</li>
+                  <li>Database design and optimization for high-volume call data management</li>
+                  <li>Implementation of security features including Role-Based Access Control (RBAC)</li>
+                  <li>Development of real-time monitoring dashboards and automated reporting systems</li>
+                  <li>Creation of technical documentation and client onboarding materials</li>
+                  <li>Implementation of unit testing for core platform functionalities</li>
+                </ul>
+
+                <h6>Notable Projects: (hacer minimizable)</h6>
+                <div className={styles.project}>
+                  <h4>Automated Calling System <span className={styles.projectDate}>(2021-Present)</span></h4>
+                  <ul className={styles.timelineList}>
+                    <li>Completed and maintained legacy call automation project as primary developer</li>
+                    <li>Implemented modular architecture for client-specific customizations</li>
+                    <li>Integrated Asterisk PBX for call handling and monitoring</li>
+                    <li>Developed administration interface for call scheduling and tracking</li>
+                  </ul>
+                </div>
+
+                <div className={styles.project}>
+                  <h4>Government Telecom Monitoring Platform <span className={styles.projectDate}>(2022)</span></h4>
+                  <ul className={styles.timelineList}>
+                    <li>Developed web platform for real-time call agent monitoring</li>
+                    <li>Created bash scripts for processing Asterisk call events</li>
+                    <li>Implemented CSV/PDF report generation for daily operations</li>
+                    <li>Built dashboard displaying real-time call metrics and statistics</li>
+                  </ul>
+                </div>
+
+                <div className={styles.project}>
+                  <h4>Client Services Portal <span className={styles.projectDate}>(2023-Present)</span></h4>
+                  <ul className={styles.timelineList}>
+                    <li>Restructured database schema for improved scalability</li>
+                    <li>Modernized core platform with role-based access control</li>
+                    <li>Integrated VTiger CRM with internal systems through centralized data hub</li>
+                    <li>Created internal automation tools reducing manual work</li>
+                  </ul>
+                </div>
               </div>
             </div>
 
@@ -273,14 +264,14 @@ function AboutSection() {
                   <h4>Hospital Universitario Bellvitge</h4>
                   <span className={styles.experienceDate}>2017 - 2021</span>
                 </div>
-                <h5 className={styles.experienceRole}>Patient Care Assistant (Celador)</h5>
+                <h5 className={styles.experienceRole}>Patient Care Assistant</h5>
                 <ul className={styles.timelineList}>
-                  <li>Worked part-time while completing my Computer Engineering degree</li>
-                  <li>Increased work hours during the COVID-19 pandemic (March 2020 - July 2021), providing essential support in critical care units and emergency services</li>
-                </ul>
+                <li>Balanced full-time engineering studies with healthcare work</li>
+                <li>Provided critical support during COVID-19 pandemic surge</li>                </ul>
               </div>
               </div>
             </div>
+            
           </TabItem>
 
           <TabItem value="education" label={"🎓 Education" as unknown as string}>
