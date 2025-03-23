@@ -8,7 +8,7 @@
 /* eslint-disable global-require */
 
 import {translate} from '@docusaurus/Translate';
-import {sortBy} from '@site/src/pages/showcase/utils/jsUtils';
+import {sortBy} from '@site/src/utils/jsUtils';
 
 /*
  * ADD YOUR SITE TO THE DOCUSAURUS SHOWCASE
