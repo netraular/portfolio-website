@@ -77,6 +77,22 @@
   margin-top: -10px;
 }
 
+
+/* Ocultar checkbox de la vista showcase */
+.screen-reader-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: polygon(0 0, 0 0, 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+
 /* Oculta texto y icono externo en topbar desktop */
 @media (min-width: 997px) {
   .navbar--fixed-top .header-linkedin-link,
