@@ -81,8 +81,29 @@
     display: block;
     position: inherit;
   }
-  .header-github-link,
-  .header-linkedin-link {
+
+  /* .navbar--fixed-top .header-github-link,
+  .navbar--fixed-top .header-linkedin-link {
+    display: none !important;
+  } */
+
+  .navbar--fixed-top .header-github-link,
+  .navbar--fixed-top .header-linkedin-link {
+    display: none !important;
+  }
+
+  .navbar-sidebar .header-github-link,
+.navbar-sidebar .header-linkedin-link {
+  display: inline-block !important;
+}
+
+  /* Ocultar el dropdown de idiomas del sidebar */
+  .navbar-sidebar .dropdownNavbarItemMobile_S0Fm {
+    display: none !important;
+  }
+  
+  /* Oculta el toggle de dark mode */
+  .navbar-sidebar .toggle_vylO {
     display: none !important;
   }
 }
