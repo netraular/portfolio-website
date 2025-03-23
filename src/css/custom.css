@@ -75,3 +75,10 @@
   height: 150%;
   margin-top: -10px;
 }
+
+@media (max-width: 996px) {
+  div.navbar__items.navbar__items--right > * {
+    display: block;
+    position: inherit;
+  }
+}
