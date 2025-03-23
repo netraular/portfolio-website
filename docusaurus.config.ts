@@ -74,12 +74,6 @@ const config: Config = {
         {
           type: 'localeDropdown',
           position: 'right',
-          dropdownItemsAfter: [
-            {
-              to: 'https://github.com/netraular/portfolio-website/issues',
-              label: 'Help us translate',
-            },
-          ],
         },
         {
           href: 'https://linkedin.com/in/raúl-aquilué-rubio-33241b215',
