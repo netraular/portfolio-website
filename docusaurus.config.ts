@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -56,6 +56,15 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        // Optional plugin options (if needed)
+      },
+    ],
+  ],
+
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
@@ -70,6 +79,11 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Projects',
+        },
+        {
+          to: '/showcase',
+          position: 'left',
+          label: 'Showcase',
         },
         {
           type: 'localeDropdown',
@@ -120,7 +134,7 @@ const config: Config = {
             },
             {
               label: 'netraular@gmail.com',
-              href:'mailto:netraular@gmail.com'
+              href: 'mailto:netraular@gmail.com',
             },
           ],
         },
