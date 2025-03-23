@@ -71,31 +71,42 @@
   opacity: 1;
 }
 
+/* Mostrar icono workbench más grande */
 .navbar__logo img {
   height: 150%;
   margin-top: -10px;
 }
 
+/* Oculta texto y icono externo en topbar desktop */
+@media (min-width: 997px) {
+  .navbar--fixed-top .header-linkedin-link,
+  .navbar--fixed-top .header-github-link {
+    font-size: 0; /* Oculta el texto */
+  }
+  
+  .navbar--fixed-top .iconExternalLink_nPIU {
+    display: none !important; /* Oculta el icono externo */
+  }
+}
+
 @media (max-width: 996px) {
+  /* Mostrar elementos del topbar */
   div.navbar__items.navbar__items--right > * {
     display: block;
     position: inherit;
   }
 
-  /* .navbar--fixed-top .header-github-link,
-  .navbar--fixed-top .header-linkedin-link {
-    display: none !important;
-  } */
-
+  /* Ocultar botones github y linkedin del topbar */
   .navbar--fixed-top .header-github-link,
   .navbar--fixed-top .header-linkedin-link {
     display: none !important;
   }
 
+  /* Mantener botones github y linkedin en el sidebar */
   .navbar-sidebar .header-github-link,
-.navbar-sidebar .header-linkedin-link {
-  display: inline-block !important;
-}
+  .navbar-sidebar .header-linkedin-link {
+    display: inline-block !important;
+  }
 
   /* Ocultar el dropdown de idiomas del sidebar */
   .navbar-sidebar .dropdownNavbarItemMobile_S0Fm {
@@ -105,5 +116,13 @@
   /* Oculta el toggle de dark mode */
   .navbar-sidebar .toggle_vylO {
     display: none !important;
+  }
+
+  /* Mostrar iconos de github y linkedin a la izquierda de los links */
+  .navbar-sidebar .header-github-link,
+  .navbar-sidebar .header-linkedin-link {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 0.5rem;
   }
 }
