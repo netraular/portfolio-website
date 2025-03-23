@@ -451,13 +451,14 @@
   transition: background-color 0.2s;
 }
 
+
 .projectHeader:hover {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
 .projectChevron {
   transition: transform 0.3s ease;
-  color: #E9C46A;
+  color: #2A9D8F;
   margin-left: 1rem;
 }
 
@@ -467,7 +468,7 @@
 
 .project h4 {
   margin: 0;
-  color: #2A9D8F;
+  color: #E9C46A;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -475,8 +476,9 @@
 
 .projectDate {
   font-size: 0.9em;
-  color: #E9C46A;
+  color: #2A9D8F;
   margin-left: 0.5rem;
+  white-space: nowrap;
 }
 
 .timelineList {

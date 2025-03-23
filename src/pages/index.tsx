@@ -158,14 +158,15 @@ function AboutSection() {
           role="button"
           tabIndex={0}
         >
-          <h4>
-            {title} 
-            <span className={styles.projectDate}>({date})</span>
-          </h4>
+        <h4>{title}</h4>
+        <div className={styles.headerRight}>
+          <span className={styles.projectDate}>({date})</span>
           <FontAwesomeIcon 
             icon={faCaretDown} 
             className={`${styles.projectChevron} ${isExpanded ? styles.expanded : ''}`}
           />
+        </div>
+          
         </div>
         {isExpanded && (
           <ul className={styles.timelineList}>
@@ -328,6 +329,18 @@ function AboutSection() {
                     </li>
                   </ul>
                 </div>
+
+                <div className={styles.experienceItem}>
+        <div className={styles.companyLogo}>
+          <img src="/img/firstB2.png" alt="Cambridge English Logo" />
+        </div>
+        <div className={styles.experienceHeader}>
+          <h4>First Certificate in English - B2 Level - Cambridge English Assessment</h4>
+          <span className={styles.experienceDate}>2016</span>
+        </div>
+
+      </div>
+
               </div>
             </div>
           </TabItem>
