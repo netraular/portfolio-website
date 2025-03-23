@@ -432,7 +432,63 @@
   transform: rotate(180deg);
   color: #2A9D8F;
 }
+/* Project expand/collapse styles */
+.project {
+  margin-bottom: 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
 
+.projectHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.projectHeader:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.projectChevron {
+  transition: transform 0.3s ease;
+  color: #E9C46A;
+  margin-left: 1rem;
+}
+
+.projectChevron.expanded {
+  transform: rotate(180deg);
+}
+
+.project h4 {
+  margin: 0;
+  color: #2A9D8F;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.projectDate {
+  font-size: 0.9em;
+  color: #E9C46A;
+  margin-left: 0.5rem;
+}
+
+.timelineList {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 .skillDescription {
   color: #ffffff; /* Texto blanco */
   padding: 0.8rem;

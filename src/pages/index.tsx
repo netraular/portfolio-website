@@ -147,131 +147,157 @@ function HeroSection() {
 }
 
 function AboutSection() {
+  const Project = ({ title, date, children }: { title: string; date: string; children: ReactNode }) => {
+    const [isExpanded, setIsExpanded] = useState(false);
+
+    return (
+      <div className={styles.project}>
+        <div 
+          className={styles.projectHeader} 
+          onClick={() => setIsExpanded(!isExpanded)}
+          role="button"
+          tabIndex={0}
+        >
+          <h4>
+            {title} 
+            <span className={styles.projectDate}>({date})</span>
+          </h4>
+          <FontAwesomeIcon 
+            icon={faCaretDown} 
+            className={`${styles.projectChevron} ${isExpanded ? styles.expanded : ''}`}
+          />
+        </div>
+        {isExpanded && (
+          <ul className={styles.timelineList}>
+            {children}
+          </ul>
+        )}
+      </div>
+    );
+  };
+
   return (
     <section className={styles.aboutSection}>
       <div className="container">
-
-      <Heading as="h2" className={styles.sectionTitle}>
+        <Heading as="h2" className={styles.sectionTitle}>
           About Me
         </Heading>
         <div className={styles.aboutText}>
-        <p>
-          I'm a Computer Engineer based in Barcelona, graduated from the {" "}
-          <a 
-            href="https://www.uab.cat/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className={styles.inlineLink}
-          >
-            Universitat Autònoma de Barcelona
-          </a>{" "}
-          with a specialization in Computer Science.
-          {/* , and since then, I have been fully immersed in the world of software development. */}
-        </p>
-        <p>
-        My expertise lies in full-stack development, with a strong focus on backend systems, particularly using PHP with Laravel. I have experience in API integrations, database management, infrastructure deployment, and scripting automation.
-        </p>
-        <p >
-        Over the years, I have been involved in projects related to VoIP solutions, including automating phone calls for various use cases, real-time call monitoring with Asterisk, and developing platforms for enterprise clients to manage their telecommunication services.
-        </p>
-        <p >
-        In addition to backend development, I have experience with frontend technologies, system administration, and scripting. <br></br>
-        I enjoy working in small, collaborative teams where I can contribute to the entire development cycle, from architecture design to deployment and maintenance.
-        </p>
-        <p>
-        Outside of my professional work, I maintain a home lab environment where I develop projects like <a href="/docs/Websites/hack4good">ECO2 </a>, a website that helped my team win a Hackathon. I also enjoy working on personal projects involving C++ for microcontrollers and Python for rapid prototyping.
-        </p>
+          <p>
+            I'm a Computer Engineer based in Barcelona, graduated from the {" "}
+            <a 
+              href="https://www.uab.cat/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className={styles.inlineLink}
+            >
+              Universitat Autònoma de Barcelona
+            </a>{" "}
+            with a specialization in Computer Science.
+          </p>
+          <p>
+            My expertise lies in full-stack development, with a strong focus on backend systems, particularly using PHP with Laravel. I have experience in API integrations, database management, infrastructure deployment, and scripting automation.
+          </p>
+          <p>
+            Over the years, I have been involved in projects related to VoIP solutions, including automating phone calls for various use cases, real-time call monitoring with Asterisk, and developing platforms for enterprise clients to manage their telecommunication services.
+          </p>
+          <p>
+            In addition to backend development, I have experience with frontend technologies, system administration, and scripting. <br></br>
+            I enjoy working in small, collaborative teams where I can contribute to the entire development cycle, from architecture design to deployment and maintenance.
+          </p>
+          <p>
+            Outside of my professional work, I maintain a home lab environment where I develop projects like <a href="/docs/Websites/hack4good">ECO2 </a>, a website that helped my team win a Hackathon. I also enjoy working on personal projects involving C++ for microcontrollers and Python for rapid prototyping.
+          </p>
         </div>
 
         <Tabs>          
-        <TabItem value="experience" label={"💼 Professional Experience" as unknown as string} >
+          <TabItem value="experience" label={"💼 Professional Experience" as unknown as string} >
             <div className={styles.infoCard}>
               <h3>Work Experience</h3>
               <div className={styles.timelineContent}>
-              <div className={styles.experienceItem}>
-              <div className={styles.companyLogo}>
-                <img src="/img/nubelfon-logo.jpg" alt="Nubelfon Logo" />
-              </div>
-              <div className={styles.experienceHeader}>
-                <h4>Nubelfon - Full Stack Developer & Solutions Developer</h4>
-                <span className={styles.experienceDate}>2021 - Present</span>
-              </div>
-              <h5 className={styles.experienceRole}>Full Stack Developer & Solutions Developer</h5>
-              
-              <div className={styles.projectsContainer}>
-                <h6>Key Achievements:</h6>
-                <ul className={styles.timelineList}>
-                  <li>Led and developed enterprise VoIP solutions for government and corporate clients</li>
-                  <li>Modernized legacy systems through:
-                    <ul className={styles.nestedList}>
-                      <li>Migration from legacy codebase to Laravel framework</li>
-                      <li>Implementation of REST APIs for third-party integrations</li>
-                      <li>Database schema optimization for improved performance</li>
+                <div className={styles.experienceItem}>
+                  <div className={styles.companyLogo}>
+                    <img src="/img/nubelfon-logo.jpg" alt="Nubelfon Logo" />
+                  </div>
+                  <div className={styles.experienceHeader}>
+                    <h4>Nubelfon - Full Stack Developer & Solutions Developer</h4>
+                    <span className={styles.experienceDate}>2021 - Present</span>
+                  </div>
+                  
+                  <div className={styles.projectsContainer}>
+                    <h4 className={styles.experienceRole}>Key Achievements:</h4>
+                    <ul className={styles.timelineList}>
+                      <li>Led and developed enterprise VoIP solutions for government and corporate clients</li>
+                      <li>Modernized legacy systems through:
+                        <ul className={styles.nestedList}>
+                          <li>Migration from legacy codebase to Laravel framework</li>
+                          <li>Implementation of REST APIs for third-party integrations</li>
+                          <li>Database schema optimization for improved performance</li>
+                        </ul>
+                      </li>
+                      <li>Architected 2 major platform upgrades enhancing scalability and maintainability</li>
+                      <li>Developed automation scripts reducing repetitive tasks through queue workers</li>
                     </ul>
-                  </li>
-                  <li>Architected 2 major platform upgrades enhancing scalability and maintainability</li>
-                  <li>Developed automation scripts reducing repetitive tasks through queue workers</li>
-                </ul>
 
-                <h6>Core Responsibilities:</h6>
-                <ul className={styles.timelineList}>
-                  <li>System integration with Asterisk PBX and VTiger CRM</li>
-                  <li>Database design and optimization for high-volume call data management</li>
-                  <li>Implementation of security features including Role-Based Access Control (RBAC)</li>
-                  <li>Development of real-time monitoring dashboards and automated reporting systems</li>
-                  <li>Creation of technical documentation and client onboarding materials</li>
-                  <li>Implementation of unit testing for core platform functionalities</li>
-                </ul>
+                    <h4 className={styles.experienceRole}>Core Responsibilities:</h4>
+                    <ul className={styles.timelineList}>
+                      <li>System integration with Asterisk PBX and VTiger CRM</li>
+                      <li>Database design and optimization for high-volume call data management</li>
+                      <li>Implementation of security features including Role-Based Access Control (RBAC)</li>
+                      <li>Development of real-time monitoring dashboards and automated reporting systems</li>
+                      <li>Creation of technical documentation and client onboarding materials</li>
+                      <li>Implementation of unit testing for core platform functionalities</li>
+                    </ul>
 
-                <h6>Notable Projects: (hacer minimizable)</h6>
-                <div className={styles.project}>
-                  <h4>Automated Calling System <span className={styles.projectDate}>(2021-Present)</span></h4>
-                  <ul className={styles.timelineList}>
-                    <li>Completed and maintained legacy call automation project as primary developer</li>
-                    <li>Implemented modular architecture for client-specific customizations</li>
-                    <li>Integrated Asterisk PBX for call handling and monitoring</li>
-                    <li>Developed administration interface for call scheduling and tracking</li>
-                  </ul>
+                    <h4 className={styles.experienceRole}>Notable Projects:</h4>
+                    <Project 
+                      title="Automated Calling System" 
+                      date="2021-Present"
+                    >
+                      <li>Completed and maintained legacy call automation project as primary developer</li>
+                      <li>Implemented modular architecture for client-specific customizations</li>
+                      <li>Integrated Asterisk PBX for call handling and monitoring</li>
+                      <li>Developed administration interface for call scheduling and tracking</li>
+                    </Project>
+
+                    <Project 
+                      title="Government Telecom Monitoring Platform" 
+                      date="2022"
+                    >
+                      <li>Developed web platform for real-time call agent monitoring</li>
+                      <li>Created bash scripts for processing Asterisk call events</li>
+                      <li>Implemented CSV/PDF report generation for daily operations</li>
+                      <li>Built dashboard displaying real-time call metrics and statistics</li>
+                    </Project>
+
+                    <Project 
+                      title="Client Services Portal" 
+                      date="2023-Present"
+                    >
+                      <li>Restructured database schema for improved scalability</li>
+                      <li>Modernized core platform with role-based access control</li>
+                      <li>Integrated VTiger CRM with internal systems through centralized data hub</li>
+                      <li>Created internal automation tools reducing manual work</li>
+                    </Project>
+                  </div>
                 </div>
-
-                <div className={styles.project}>
-                  <h4>Government Telecom Monitoring Platform <span className={styles.projectDate}>(2022)</span></h4>
-                  <ul className={styles.timelineList}>
-                    <li>Developed web platform for real-time call agent monitoring</li>
-                    <li>Created bash scripts for processing Asterisk call events</li>
-                    <li>Implemented CSV/PDF report generation for daily operations</li>
-                    <li>Built dashboard displaying real-time call metrics and statistics</li>
-                  </ul>
-                </div>
-
-                <div className={styles.project}>
-                  <h4>Client Services Portal <span className={styles.projectDate}>(2023-Present)</span></h4>
-                  <ul className={styles.timelineList}>
-                    <li>Restructured database schema for improved scalability</li>
-                    <li>Modernized core platform with role-based access control</li>
-                    <li>Integrated VTiger CRM with internal systems through centralized data hub</li>
-                    <li>Created internal automation tools reducing manual work</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
 
                 <div className={styles.experienceItem}>
-                <div className={styles.companyLogo}>
-                  <img src="/img/bellvitge-logo.jpg" alt="Hospital Bellvitge Logo" />
+                  <div className={styles.companyLogo}>
+                    <img src="/img/bellvitge-logo.jpg" alt="Hospital Bellvitge Logo" />
+                  </div>
+                  <div className={styles.experienceHeader}>
+                    <h4>Hospital Universitario Bellvitge - Patient Care Assistant</h4>
+                    <span className={styles.experienceDate}>2017 - 2021</span>
+                  </div>
+                  <h5 className={styles.experienceRole}></h5>
+                  <ul className={styles.timelineList}>
+                    <li>Balanced full-time engineering studies with healthcare work</li>
+                    <li>Provided critical support during COVID-19 pandemic surge</li>
+                  </ul>
                 </div>
-                <div className={styles.experienceHeader}>
-                  <h4>Hospital Universitario Bellvitge</h4>
-                  <span className={styles.experienceDate}>2017 - 2021</span>
-                </div>
-                <h5 className={styles.experienceRole}>Patient Care Assistant</h5>
-                <ul className={styles.timelineList}>
-                <li>Balanced full-time engineering studies with healthcare work</li>
-                <li>Provided critical support during COVID-19 pandemic surge</li>                </ul>
-              </div>
               </div>
             </div>
-            
           </TabItem>
 
           <TabItem value="education" label={"🎓 Education" as unknown as string}>
@@ -305,7 +331,6 @@ function AboutSection() {
               </div>
             </div>
           </TabItem>
-
         </Tabs>
       </div>
     </section>
