@@ -81,4 +81,8 @@
     display: block;
     position: inherit;
   }
+  .header-github-link,
+  .header-linkedin-link {
+    display: none !important;
+  }
 }
