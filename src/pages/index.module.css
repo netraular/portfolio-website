@@ -9,7 +9,15 @@
   --dark-gradient-dark: #1A1A1A;
   --primary-color: #2A9D8F;
   --accent-color: #E9C46A;
-  --white: #FFFFFF; 
+  --container-background-light: rgba(255, 255, 255, 0.05);
+  --background-gray-20: rgba(255, 255, 255, 0.2);
+  --background-gray-10: rgba(255, 255, 255, 0.1);
+  --background-gray-03: rgba(255, 255, 255, 0.03);
+  --glow-color-50:rgba(42, 157, 143, 0.5);
+  --glow-color-10:rgba(42, 157, 143, 0.1);
+  --glow-color-0:rgba(42, 157, 143, 0);
+  --element-shadow:rgba(0, 0, 0, 0.2);
+  --line-separator-light:rgba(0, 0, 0, 0.05);
 
 }
 
@@ -91,7 +99,7 @@
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid var(--primary-color); /* Color fijo para el borde */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 30px var(--element-shadow);
   transition: transform 0.3s ease;
   animation: float 4s ease-in-out infinite;
 }
@@ -124,23 +132,23 @@
 @keyframes highlight {
   0% {
     filter: brightness(100%);
-    box-shadow: 0 0 0 0 rgba(42, 157, 143, 0.4);
+    box-shadow: 0 0 0 0 var(--glow-color-50);
   }
   50% {
     filter: brightness(130%);
-    box-shadow: 0 0 20px 10px rgba(42, 157, 143, 0.4);
+    box-shadow: 0 0 20px 10px var(--glow-color-50);
   }
   100% {
     filter: brightness(100%);
-    box-shadow: 0 0 0 0 rgba(42, 157, 143, 0);
+    box-shadow: 0 0 0 0 var(--glow-color)-0;
   }
 }
 
 .emailContainer {
   display: inline-flex;
   align-items: center;
-  background: rgba(255, 255, 255, 0.1) !important;
-  border: 2px solid rgba(255, 255, 255, 0.2) !important;
+  background: var(--background-gray-10) !important;
+  border: 2px solid var(--background-gray-20) !important;
   backdrop-filter: blur(5px);
   border-radius: 8px;
   user-select: text;
@@ -197,12 +205,12 @@
 }
 
 .copyButton::after {
-  content: attr(data-tooltip); /* Usar el valor del atributo data-tooltip */
+  content: attr(data-tooltip);
   position: absolute;
   top: -30px;
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(0, 0, 0, 0.8);
+  background: black;
   color: white;
   padding: 5px 10px;
   border-radius: 4px;
@@ -249,10 +257,10 @@
   margin-right: auto;
 
   
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--container-background-light);
   border-radius: 12px;
   padding: 2rem;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 32px var(--element-shadow);
   margin-top: 3rem;
 }
 
@@ -281,14 +289,14 @@
   position: relative;
   margin-bottom: 2rem;
   padding: 1.5rem;
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--background-gray-03);
   border-radius: 8px;
   transition: all 0.3s ease;
 }
 
 .experienceItem:hover {
   transform: translateX(10px);
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--container-background-light);
 }
 
 .companyLogo {
@@ -302,7 +310,7 @@
   background: white;
   padding: 2px;
   z-index: 1;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 3px 10px var(--element-shadow);
 }
 
 .companyLogo img {
@@ -371,17 +379,17 @@
 }
 
 .skillCard {
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--container-background-light);
   padding: 2rem;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--background-gray-10);
   transition: all 0.3s ease;
 }
 
 .skillCard:hover {
   transform: translateY(-5px);
-  background: rgba(255, 255, 255, 0.08);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: var(--background-gray-10);
+  box-shadow: 0 10px 20px var(--element-shadow);
 }
 
 .skillCard h3 {
@@ -417,7 +425,7 @@
 }
 
 .skillItem:hover {
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--container-background-light);
 }
 
 .skillNameContainer {
@@ -431,7 +439,7 @@
   transition: transform 0.3s ease;
   margin-left: 1rem; /* Espacio entre texto y flecha */
   font-size: 0.9em;
-  flex-shrink: 0; /* Evita que la flecha se reduzca */
+  flex-shrink: 0;
 }
 
 
@@ -454,7 +462,7 @@
 /* Project expand/collapse styles */
 .project {
   margin-bottom: 1.5rem;
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--background-gray-03);
   border-radius: 8px;
   padding: 1rem;
   transition: all 0.3s ease;
@@ -472,7 +480,7 @@
 
 
 .projectHeader:hover {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: var(--container-background-light);
 }
 
 .projectChevron {
@@ -501,10 +509,10 @@
 
 
 .skillDescription {
-  color: var(--white);
+  color: white;
   padding: 0.8rem;
   margin: 0.5rem 0;
-  background: rgba(42, 157, 143, 0.1);
+  background: var(--glow-color-10);
   border-left: 3px solid var(--primary-color);
   border-radius: 4px;
   animation: fadeIn 0.3s ease;
@@ -524,7 +532,7 @@
 
 .skillCard ul li {
   position: relative;
-  border-bottom: 1px solid rgba(255,255,255,0.05);
+  border-bottom: 1px solid var(--line-separator-light);
 }
 
 .skillCard ul li:last-child {
