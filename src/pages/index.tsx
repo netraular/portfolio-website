@@ -92,7 +92,7 @@ function HeroSection() {
                 className={`button button--primary button--lg ${
                   activeButton === 0 ? styles.activeGlow : ''
                 }`}
-                to="/">
+                to="/showcase">
                 View Projects <FontAwesomeIcon icon={faArrowUpRightFromSquare} className={styles.icon}/>
               </Link>
               </div>
