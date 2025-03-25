@@ -211,7 +211,6 @@
   left: 50%;
   transform: translateX(-50%);
   background: black;
-  color: white;
   padding: 5px 10px;
   border-radius: 4px;
   font-size: 0.875rem;
@@ -307,8 +306,7 @@
   height: 54px;
   border-radius: 50%;
   border: 3px solid var(--primary-color);
-  background: white;
-  padding: 2px;
+  background:  white;
   z-index: 1;
   box-shadow: 0 3px 10px var(--element-shadow);
 }
@@ -509,7 +507,7 @@
 
 
 .skillDescription {
-  color: white;
+  color: var(--ifm-font-color-base);
   padding: 0.8rem;
   margin: 0.5rem 0;
   background: var(--glow-color-10);
