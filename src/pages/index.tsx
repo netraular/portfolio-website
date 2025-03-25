@@ -161,7 +161,7 @@ function AboutSection() {
           tabIndex={0}
         >
         <h4>{title}</h4>
-        <div className={styles.headerRight}>
+        <div>
           <span className={styles.projectDate}>({date})</span>
           <FontAwesomeIcon 
             icon={faCaretDown} 
@@ -232,7 +232,7 @@ function AboutSection() {
                     <ul className={styles.timelineList}>
                       <li>Led and developed enterprise VoIP solutions for government and corporate clients</li>
                       <li>Modernized legacy systems through:
-                        <ul className={styles.nestedList}>
+                        <ul>
                           <li>Migration from legacy codebase to Laravel framework</li>
                           <li>Implementation of REST APIs for third-party integrations</li>
                           <li>Database schema optimization for improved performance</li>

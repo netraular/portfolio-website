@@ -1,18 +1,24 @@
-/* :root {
-  --primary-color: #2A9D8F;
+:root {
+  /* 
   --secondary-color: #264653;
-  --accent-color: #E9C46A;
   --dark-color: #2A2A2A;
   --light-color: #F4F4F4;
   --text-color: #333333;
-  --white: #FFFFFF;
-} */
+  */
+  --dark-gradient-light: #264653;
+  --dark-gradient-middle: #21333B;
+  --dark-gradient-dark: #1A1A1A;
+  --primary-color: #2A9D8F;
+  --accent-color: #E9C46A;
+  --white: #FFFFFF; 
+
+}
 
 /* Hero section */
 
 .heroBanner {
   padding: 6rem 0;
-  background: linear-gradient(135deg, #264653 0%, #21333B 50%, #1A1A1A 100%);  position: relative;
+  background: linear-gradient(135deg, var(--dark-gradient-light) 0%, var(--dark-gradient-middle) 50%,  var(--dark-gradient-dark) 100%);  position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -51,8 +57,8 @@
 
 /* Estilo en el nombre de Raul A.R. */
 .heroR {
-  text-shadow: 3px 3px 0 #2A9D8F,
-               6px 6px 0 #264653;
+  text-shadow: 3px 3px 0 var(--primary-color),
+               6px 6px 0 var(--dark-gradient-light);
   position: relative;
   z-index: 1;
   display: inline-block;
@@ -72,7 +78,7 @@
 .heroLocation a.companyLink {
   font-weight: bold;
   text-decoration: underline;
-  color: #2A9D8F; /* Color fijo para el enlace */
+  color: var(--primary-color); /* Color fijo para el enlace */
   transition: opacity 0.2s ease;
 }
 
@@ -85,7 +91,7 @@
   height: 320px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #2A9D8F; /* Color fijo para el borde */
+  border: 4px solid var(--primary-color); /* Color fijo para el borde */
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
   animation: float 4s ease-in-out infinite;
@@ -169,12 +175,6 @@
   vertical-align: -0.125em;
 }
 
-/* Opcional: Añade un contenedor de carga para evitar el parpadeo */
-.fa-layers {
-  min-width: 1em;
-  min-height: 1em;
-}
-
 .copyIcon {
   margin-right: 0.125em;
   position: relative;
@@ -226,7 +226,7 @@
   text-align: center;
   font-size: 2.8rem;
   /* color: var(--secondary-color); */
-  color: #E9C46A;
+  color: var(--accent-color);
   margin-bottom: 3rem;
   position: relative;
 }
@@ -236,7 +236,7 @@
   display: block;
   width: 250px;
   height: 3px;
-  background: #2A9D8F; /* Color fijo */
+  background: var(--primary-color); /* Color fijo */
   margin: 1rem auto;
 }
 
@@ -258,7 +258,7 @@
 }
 
 .inlineLink {
-  color: #2A9D8F;
+  color: var(--primary-color);
   text-decoration: underline;
   transition: opacity 0.2s;
 }
@@ -274,7 +274,7 @@
 .timelineContent {
   position: relative;
   padding-left: 30px;
-  border-left: 3px solid #2A9D8F; /* Color fijo */
+  border-left: 3px solid var(--primary-color); /* Color fijo */
   margin-left: 15px;
 }
 
@@ -299,7 +299,7 @@
   width: 54px;
   height: 54px;
   border-radius: 50%;
-  border: 3px solid #2A9D8F;
+  border: 3px solid var(--primary-color);
   background: white;
   padding: 2px;
   z-index: 1;
@@ -321,13 +321,13 @@
 }
 
 .experienceHeader h4 {
-  color: #E9C46A; /* Amarillo fijo */
+  color: var(--accent-color); /* Amarillo fijo */
   font-size: 1.3rem;
   margin: 0;
 }
 
 .experienceDate {
-  color: #2A9D8F; /* Color fijo */
+  color: var(--primary-color); /* Color fijo */
   font-weight: 500;
 }
 
@@ -353,7 +353,7 @@
   content: '▹';
   position: absolute;
   left: 0;
-  color: #2A9D8F;
+  color: var(--primary-color);
 }
 
 
@@ -361,7 +361,7 @@
 /* Technical skills */
 .skillsSection {
   padding: 6rem 0;
-  background: linear-gradient(135deg, #264653 0%, #1A1A1A 100%); /* Degradado fijo */
+  background: linear-gradient(135deg, var(--dark-gradient-light) 0%, var(--dark-gradient-dark) 100%); /* Degradado fijo */
 }
 
 .skillsGrid {
@@ -386,7 +386,7 @@
 }
 
 .skillCard h3 {
-  color: #E9C46A; /* Amarillo fijo */
+  color: var(--accent-color); /* Amarillo fijo */
   margin-bottom: 1.5rem;
   font-size: 1.4rem;
   display: flex;
@@ -402,7 +402,7 @@
 
 .skillCard ul li:hover {
   padding-left: 1rem;
-  color: #2A9D8F;
+  color: var(--primary-color);
 }
 
 
@@ -428,7 +428,7 @@
   flex-grow: 1; /* Ocupa todo el espacio disponible */
 }
 .expandIcon {
-  color: #E9C46A;
+  color: var(--accent-color);
   transition: transform 0.3s ease;
   margin-left: 1rem; /* Espacio entre texto y flecha */
   font-size: 0.9em;
@@ -438,11 +438,11 @@
 
 
 .skillItem.activeSkill span {
-  color: #2A9D8F !important;
+  color: var(--primary-color) !important;
 }
 
 .expandIcon {
-  color: #E9C46A;
+  color: var(--accent-color);
   transition: transform 0.3s ease;
   margin-left: 0.5rem;
   font-size: 0.9em;
@@ -450,7 +450,7 @@
 
 .expandIcon.expanded {
   transform: rotate(180deg);
-  color: #2A9D8F;
+  color: var(--primary-color);
 }
 /* Project expand/collapse styles */
 .project {
@@ -478,7 +478,7 @@
 
 .projectChevron {
   transition: transform 0.3s ease;
-  color: #2A9D8F;
+  color: var(--primary-color);
   margin-left: 1rem;
 }
 
@@ -488,7 +488,7 @@
 
 .project h4 {
   margin: 0;
-  color: #E9C46A;
+  color: var(--accent-color);
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -496,26 +496,17 @@
 
 .projectDate {
   font-size: 0.9em;
-  color: #2A9D8F;
+  color: var(--primary-color);
   margin-left: 0.5rem;
 }
 
-.timelineList {
-  margin-top: 1rem;
-  padding-left: 1.5rem;
-  animation: fadeIn 0.3s ease;
-}
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
 .skillDescription {
-  color: #ffffff; /* Texto blanco */
+  color: var(--white);
   padding: 0.8rem;
   margin: 0.5rem 0;
   background: rgba(42, 157, 143, 0.1);
-  border-left: 3px solid #2A9D8F;
+  border-left: 3px solid var(--primary-color);
   border-radius: 4px;
   animation: fadeIn 0.3s ease;
   font-size: 0.95rem;
@@ -527,11 +518,9 @@
   color: var(--ifm-color-primary);
 }
 
-/* Mantén las animaciones y otros estilos existentes */
-
 @keyframes fadeIn {
-  from { opacity: 0; max-height: 0; }
-  to { opacity: 1; max-height: 200px; }
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .skillCard ul li {
