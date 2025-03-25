@@ -1,11 +1,10 @@
 :root {
   /* 
-  --secondary-color: #264653;
   --dark-color: #2A2A2A;
   --light-color: #F4F4F4;
   --text-color: #333333;
   */
-  --dark-gradient-light: #264653;
+  --secondary-color: #264653;
   --dark-gradient-middle: #21333B;
   --dark-gradient-dark: #1A1A1A;
   --primary-color: #2A9D8F;
@@ -18,7 +17,7 @@
 
 .heroBanner {
   padding: 6rem 0;
-  background: linear-gradient(135deg, var(--dark-gradient-light) 0%, var(--dark-gradient-middle) 50%,  var(--dark-gradient-dark) 100%);  position: relative;
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--dark-gradient-middle) 50%,  var(--dark-gradient-dark) 100%);  position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -58,7 +57,7 @@
 /* Estilo en el nombre de Raul A.R. */
 .heroR {
   text-shadow: 3px 3px 0 var(--primary-color),
-               6px 6px 0 var(--dark-gradient-light);
+               6px 6px 0 var(--secondary-color);
   position: relative;
   z-index: 1;
   display: inline-block;
@@ -361,7 +360,7 @@
 /* Technical skills */
 .skillsSection {
   padding: 6rem 0;
-  background: linear-gradient(135deg, var(--dark-gradient-light) 0%, var(--dark-gradient-dark) 100%); /* Degradado fijo */
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--dark-gradient-dark) 100%); /* Degradado fijo */
 }
 
 .skillsGrid {
