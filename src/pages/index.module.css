@@ -1,9 +1,21 @@
 :root {
-  /* 
-  --dark-color: #2A2A2A;
-  --light-color: #F4F4F4;
-  --text-color: #333333;
-  */
+  --secondary-color: #E9F5DB;
+  --dark-gradient-middle: #D8E2DC;
+  --dark-gradient-dark: #F8F9FA;
+  --primary-color: #2A9D8F;
+  --accent-color: #E76F51;
+  --container-background-light: rgba(0, 0, 0, 0.05);
+  --background-gray-20: rgba(0, 0, 0, 0.2);
+  --background-gray-10: rgba(0, 0, 0, 0.1);
+  --background-gray-03: rgba(0, 0, 0, 0.03);
+  --glow-color-50: rgba(42, 157, 143, 0.5);
+  --glow-color-10: rgba(42, 157, 143, 0.1);
+  --glow-color-0: rgba(42, 157, 143, 0);
+  --element-shadow: rgba(0, 0, 0, 0.1);
+  --line-separator-light: rgba(0, 0, 0, 0.05);
+}
+
+[data-theme='dark']{
   --secondary-color: #264653;
   --dark-gradient-middle: #21333B;
   --dark-gradient-dark: #1A1A1A;
@@ -18,9 +30,7 @@
   --glow-color-0:rgba(42, 157, 143, 0);
   --element-shadow:rgba(0, 0, 0, 0.2);
   --line-separator-light:rgba(0, 0, 0, 0.05);
-
 }
-
 /* Hero section */
 
 .heroBanner {
