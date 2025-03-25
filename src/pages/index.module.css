@@ -412,9 +412,35 @@
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  padding: 0.5rem 0;
+  padding: 0.5rem 0.2rem;
   transition: all 0.2s ease;
+  border-radius: 6px;
 }
+
+.skillItem:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.skillNameContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espacio entre icono y texto */
+  flex-grow: 1; /* Ocupa todo el espacio disponible */
+}
+.skillIcon {
+  width: 20px;
+  text-align: center;
+  color: var(--ifm-color-primary);
+  flex-shrink: 0; /* Evita que el icono se reduzca */
+}
+.expandIcon {
+  color: #E9C46A;
+  transition: transform 0.3s ease;
+  margin-left: 1rem; /* Espacio entre texto y flecha */
+  font-size: 0.9em;
+  flex-shrink: 0; /* Evita que la flecha se reduzca */
+}
+
 
 
 .skillItem.activeSkill span {
@@ -500,6 +526,12 @@
   animation: fadeIn 0.3s ease;
   font-size: 0.95rem;
   line-height: 1.6;
+}
+.skillIcon {
+  margin-right: 10px;
+  width: 20px;
+  text-align: center;
+  color: var(--ifm-color-primary);
 }
 
 /* Mantén las animaciones y otros estilos existentes */
