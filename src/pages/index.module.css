@@ -1,41 +1,49 @@
 :root {
-  --secondary-color: #E9F5DB;
-  --dark-gradient-middle: #D8E2DC;
-  --dark-gradient-dark: #F8F9FA;
-  --primary-color: #2A9D8F;
-  --accent-color: #E76F51;
-  --container-background-light: rgba(0, 0, 0, 0.05);
-  --background-gray-20: rgba(0, 0, 0, 0.2);
-  --background-gray-10: rgba(0, 0, 0, 0.1);
-  --background-gray-03: rgba(0, 0, 0, 0.03);
-  --glow-color-50: rgba(42, 157, 143, 0.5);
-  --glow-color-10: rgba(42, 157, 143, 0.1);
-  --glow-color-0: rgba(42, 157, 143, 0);
-  --element-shadow: rgba(0, 0, 0, 0.1);
+  --accent-color: #2A9D8F;
+  --title-color: #264653;
+
+  --gradient-start: #E9F5DB;
+  --gradient-middle: #D8E2DC;
+  --gradient-end: #F8F9FA;
+
+  --container-background-05: rgba(0, 0, 0, 0.05);
+  --container-background-20: rgba(0, 0, 0, 0.2);
+  --container-background-10: rgba(0, 0, 0, 0.1);
+  --container-background-03: rgba(0, 0, 0, 0.03);
+
+  --button-glow-50: rgba(42, 157, 143, 0.5);
+  --button-glow-10: rgba(42, 157, 143, 0.1);
+  --button-glow-0: rgba(42, 157, 143, 0);
+
+  --box-shadow: rgba(0, 0, 0, 0.1);
   --line-separator-light: rgba(0, 0, 0, 0.05);
 }
 
 [data-theme='dark']{
-  --secondary-color: #264653;
-  --dark-gradient-middle: #21333B;
-  --dark-gradient-dark: #1A1A1A;
-  --primary-color: #2A9D8F;
-  --accent-color: #E9C46A;
-  --container-background-light: rgba(255, 255, 255, 0.05);
-  --background-gray-20: rgba(255, 255, 255, 0.2);
-  --background-gray-10: rgba(255, 255, 255, 0.1);
-  --background-gray-03: rgba(255, 255, 255, 0.03);
-  --glow-color-50:rgba(42, 157, 143, 0.5);
-  --glow-color-10:rgba(42, 157, 143, 0.1);
-  --glow-color-0:rgba(42, 157, 143, 0);
-  --element-shadow:rgba(0, 0, 0, 0.2);
+  --accent-color: #2A9D8F;
+  --title-color: #E9C46A;
+
+  --gradient-start: #264653;
+  --gradient-middle: #21333B;
+  --gradient-end: #1A1A1A;
+
+  --container-background-05: rgba(255, 255, 255, 0.05);
+  --container-background-20: rgba(255, 255, 255, 0.2);
+  --container-background-10: rgba(255, 255, 255, 0.1);
+  --container-background-03: rgba(255, 255, 255, 0.03);
+
+  --button-glow-50:rgba(42, 157, 143, 0.5);
+  --button-glow-10:rgba(42, 157, 143, 0.1);
+  --button-glow-0:rgba(42, 157, 143, 0);
+
+  --box-shadow:rgba(0, 0, 0, 0.2);
   --line-separator-light:rgba(0, 0, 0, 0.05);
 }
-/* Hero section */
 
+/* Hero section */
 .heroBanner {
   padding: 6rem 0;
-  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--dark-gradient-middle) 50%,  var(--dark-gradient-dark) 100%);  position: relative;
+  background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-middle) 50%,  var(--gradient-end) 100%);  position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -74,8 +82,8 @@
 
 /* Estilo en el nombre de Raul A.R. */
 .heroR {
-  text-shadow: 3px 3px 0 var(--primary-color),
-               6px 6px 0 var(--secondary-color);
+  text-shadow: 3px 3px 0 var(--accent-color),
+               6px 6px 0 var(--gradient-start);
   position: relative;
   z-index: 1;
   display: inline-block;
@@ -95,7 +103,7 @@
 .heroLocation a.companyLink {
   font-weight: bold;
   text-decoration: underline;
-  color: var(--primary-color); /* Color fijo para el enlace */
+  color: var(--accent-color); /* Color fijo para el enlace */
   transition: opacity 0.2s ease;
 }
 
@@ -108,8 +116,8 @@
   height: 320px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid var(--primary-color); /* Color fijo para el borde */
-  box-shadow: 0 10px 30px var(--element-shadow);
+  border: 4px solid var(--accent-color); /* Color fijo para el borde */
+  box-shadow: 0 10px 30px var(--box-shadow);
   transition: transform 0.3s ease;
   animation: float 4s ease-in-out infinite;
 }
@@ -142,23 +150,23 @@
 @keyframes highlight {
   0% {
     filter: brightness(100%);
-    box-shadow: 0 0 0 0 var(--glow-color-50);
+    box-shadow: 0 0 0 0 var(--button-glow-50);
   }
   50% {
     filter: brightness(130%);
-    box-shadow: 0 0 20px 10px var(--glow-color-50);
+    box-shadow: 0 0 20px 10px var(--button-glow-50);
   }
   100% {
     filter: brightness(100%);
-    box-shadow: 0 0 0 0 var(--glow-color)-0;
+    box-shadow: 0 0 0 0 var(--button-glow)-0;
   }
 }
 
 .emailContainer {
   display: inline-flex;
   align-items: center;
-  background: var(--background-gray-10) !important;
-  border: 2px solid var(--background-gray-20) !important;
+  background: var(--container-background-10) !important;
+  border: 2px solid var(--container-background-20) !important;
   backdrop-filter: blur(5px);
   border-radius: 8px;
   user-select: text;
@@ -241,8 +249,7 @@
 .sectionTitle {
   text-align: center;
   font-size: 2.8rem;
-  /* color: var(--secondary-color); */
-  color: var(--accent-color);
+  color: var(--title-color);
   margin-bottom: 3rem;
   position: relative;
 }
@@ -252,7 +259,7 @@
   display: block;
   width: 250px;
   height: 3px;
-  background: var(--primary-color); /* Color fijo */
+  background: var(--accent-color); /* Color fijo */
   margin: 1rem auto;
 }
 
@@ -266,15 +273,15 @@
   margin-right: auto;
 
   
-  background: var(--container-background-light);
+  background: var(--container-background-05);
   border-radius: 12px;
   padding: 2rem;
-  box-shadow: 0 8px 32px var(--element-shadow);
+  box-shadow: 0 8px 32px var(--box-shadow);
   margin-top: 3rem;
 }
 
 .inlineLink {
-  color: var(--primary-color);
+  color: var(--accent-color);
   text-decoration: underline;
   transition: opacity 0.2s;
 }
@@ -290,7 +297,7 @@
 .timelineContent {
   position: relative;
   padding-left: 30px;
-  border-left: 3px solid var(--primary-color); /* Color fijo */
+  border-left: 3px solid var(--accent-color); /* Color fijo */
   margin-left: 15px;
 }
 
@@ -298,14 +305,14 @@
   position: relative;
   margin-bottom: 2rem;
   padding: 1.5rem;
-  background: var(--background-gray-03);
+  background: var(--container-background-03);
   border-radius: 8px;
   transition: all 0.3s ease;
 }
 
 .experienceItem:hover {
   transform: translateX(10px);
-  background: var(--container-background-light);
+  background: var(--container-background-05);
 }
 
 .companyLogo {
@@ -315,10 +322,10 @@
   width: 54px;
   height: 54px;
   border-radius: 50%;
-  border: 3px solid var(--primary-color);
+  border: 3px solid var(--accent-color);
   background:  white;
   z-index: 1;
-  box-shadow: 0 3px 10px var(--element-shadow);
+  box-shadow: 0 3px 10px var(--box-shadow);
 }
 
 .companyLogo img {
@@ -336,13 +343,13 @@
 }
 
 .experienceHeader h4 {
-  color: var(--accent-color); /* Amarillo fijo */
+  color: var(--title-color); /* Amarillo fijo */
   font-size: 1.3rem;
   margin: 0;
 }
 
 .experienceDate {
-  color: var(--primary-color); /* Color fijo */
+  color: var(--accent-color); /* Color fijo */
   font-weight: 500;
 }
 
@@ -368,7 +375,7 @@
   content: '▹';
   position: absolute;
   left: 0;
-  color: var(--primary-color);
+  color: var(--accent-color);
 }
 
 
@@ -376,7 +383,7 @@
 /* Technical skills */
 .skillsSection {
   padding: 6rem 0;
-  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--dark-gradient-dark) 100%); /* Degradado fijo */
+  background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%); /* Degradado fijo */
 }
 
 .skillsGrid {
@@ -387,21 +394,21 @@
 }
 
 .skillCard {
-  background: var(--container-background-light);
+  background: var(--container-background-05);
   padding: 2rem;
   border-radius: 12px;
-  border: 1px solid var(--background-gray-10);
+  border: 1px solid var(--container-background-10);
   transition: all 0.3s ease;
 }
 
 .skillCard:hover {
   transform: translateY(-5px);
-  background: var(--background-gray-10);
-  box-shadow: 0 10px 20px var(--element-shadow);
+  background: var(--container-background-10);
+  box-shadow: 0 10px 20px var(--box-shadow);
 }
 
 .skillCard h3 {
-  color: var(--accent-color); /* Amarillo fijo */
+  color: var(--title-color); /* Amarillo fijo */
   margin-bottom: 1.5rem;
   font-size: 1.4rem;
   display: flex;
@@ -417,7 +424,7 @@
 
 .skillCard ul li:hover {
   padding-left: 1rem;
-  color: var(--primary-color);
+  color: var(--accent-color);
 }
 
 
@@ -433,7 +440,7 @@
 }
 
 .skillItem:hover {
-  background: var(--container-background-light);
+  background: var(--container-background-05);
 }
 
 .skillNameContainer {
@@ -443,7 +450,7 @@
   flex-grow: 1; /* Ocupa todo el espacio disponible */
 }
 .expandIcon {
-  color: var(--accent-color);
+  color: var(--title-color);
   transition: transform 0.3s ease;
   margin-left: 1rem; /* Espacio entre texto y flecha */
   font-size: 0.9em;
@@ -453,11 +460,11 @@
 
 
 .skillItem.activeSkill span {
-  color: var(--primary-color) !important;
+  color: var(--accent-color) !important;
 }
 
 .expandIcon {
-  color: var(--accent-color);
+  color: var(--title-color);
   transition: transform 0.3s ease;
   margin-left: 0.5rem;
   font-size: 0.9em;
@@ -465,12 +472,12 @@
 
 .expandIcon.expanded {
   transform: rotate(180deg);
-  color: var(--primary-color);
+  color: var(--accent-color);
 }
 /* Project expand/collapse styles */
 .project {
   margin-bottom: 1.5rem;
-  background: var(--background-gray-03);
+  background: var(--container-background-03);
   border-radius: 8px;
   padding: 1rem;
   transition: all 0.3s ease;
@@ -488,12 +495,12 @@
 
 
 .projectHeader:hover {
-  background-color: var(--container-background-light);
+  background-color: var(--container-background-05);
 }
 
 .projectChevron {
   transition: transform 0.3s ease;
-  color: var(--primary-color);
+  color: var(--accent-color);
   margin-left: 1rem;
 }
 
@@ -503,7 +510,7 @@
 
 .project h4 {
   margin: 0;
-  color: var(--accent-color);
+  color: var(--title-color);
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -511,7 +518,7 @@
 
 .projectDate {
   font-size: 0.9em;
-  color: var(--primary-color);
+  color: var(--accent-color);
   margin-left: 0.5rem;
 }
 
@@ -520,8 +527,8 @@
   color: var(--ifm-font-color-base);
   padding: 0.8rem;
   margin: 0.5rem 0;
-  background: var(--glow-color-10);
-  border-left: 3px solid var(--primary-color);
+  background: var(--button-glow-10);
+  border-left: 3px solid var(--accent-color);
   border-radius: 4px;
   animation: fadeIn 0.3s ease;
   font-size: 0.95rem;
