@@ -1,7 +1,11 @@
 :root {
-  --accent-color: #2A9D8F;
-  --title-color: #264653;
-
+  --accent-color: #38a3a5;
+  /* --title-color: #023047; */
+  /* --title-color: #264653; */
+  /* --title-color: #0f516d; */
+  /* --title-color: #297999; */
+  --title-color: #22577a;
+  
   --gradient-start: #E9F5DB;
   --gradient-middle: #D8E2DC;
   --gradient-end: #F8F9FA;
