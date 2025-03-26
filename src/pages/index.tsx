@@ -188,15 +188,7 @@ function AboutSection() {
         <div className={styles.aboutText}>
           <p>
             I'm a Computer Engineer based in Barcelona, graduated from the {" "}
-            <a 
-              href="https://www.uab.cat/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className={styles.inlineLink}
-            >
-              Universitat Autònoma de Barcelona
-            </a>{" "}
-            with a specialization in Computer Science.
+            <a href="https://www.uab.cat/" target="_blank" rel="noopener noreferrer"className={styles.inlineLink}>Universitat Autònoma de Barcelona</a> with a specialization in Computer Science.
           </p>
           <p>
             My expertise lies in full-stack development, with a strong focus on backend systems, particularly using PHP with Laravel. I have experience in API integrations, database management, infrastructure deployment, and scripting automation.
@@ -209,12 +201,14 @@ function AboutSection() {
             I enjoy working in small, collaborative teams where I can contribute to the entire development cycle, from architecture design to deployment and maintenance.
           </p>
           <p>
-            Outside of my professional work, I maintain a home lab environment where I develop projects like <a href="/docs/Websites/hack4good">ECO2 </a>, a website that helped my team win a Hackathon. I also enjoy working on personal projects involving C++ for microcontrollers and Python for rapid prototyping.
+            Outside of my professional work, I maintain a home lab environment where I develop projects like <a href="/docs/Websites/hack4good" target="_blank" rel="noopener noreferrer" className={styles.inlineLink}> ECO2 </a>
+            , a website that helped my team win a Hackathon. I also enjoy working on personal projects involving C++ for microcontrollers and Python for rapid prototyping.
           </p>
         </div>
 
-        <Tabs>          
-          <TabItem value="experience" label={"💼 Professional Experience" as unknown as string} >
+        <Tabs >          
+          
+          <TabItem value="experience" label={"💼 Professional Experience"as string} >
             <div className={styles.infoCard}>
               <h3>Work Experience</h3>
               <div className={styles.timelineContent}>
