@@ -62,7 +62,7 @@
 
   --gradient-purple: rgba(110, 72, 170, 0.1);
   --container-dark-50: rgba(30, 30, 30, 0.5);
-  --container-purple-20: rgba(110, 72, 170, 0.2);
+  --container-purple-10: rgba(110, 72, 170, 0.1);
 }
 
   /* Hero section */
@@ -625,12 +625,12 @@
 }
 
 .skillItem:hover {
-  background: var(--container-purple-20);
+  background: var(--container-purple-10);
   border-color: var(--accent-color);
 }
 
 .activeSkill {
-  background: var(--container-purple-20) !important;
+  background: var(--container-purple-10) !important;
   border-color: var(--accent-color) !important;
 }
 

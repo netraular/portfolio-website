@@ -21,7 +21,7 @@ const config: Config = {
     locales: ['en', 'es', 'ca'],
     localeConfigs: {
       en: {
-        htmlLang: 'en-GB',
+        htmlLang: 'en-US',
       },
       es: {
         htmlLang: 'es-ES',

@@ -11,6 +11,8 @@ import { faArrowUpRightFromSquare, faDownload, faCopy, faCaretDown } from '@fort
 import { faDatabase, faMicrophone, faPhone, faCode, faServer, faFileCode, faMobileScreen, faMicrochip, faTerminal} from '@fortawesome/free-solid-svg-icons';
 import { faLaravel, faHtml5, faJs, faBootstrap, faPython, faLinux, faGitAlt} from '@fortawesome/free-brands-svg-icons';
 import { useState, useEffect, useRef } from 'react'; // Añade esta importación
+import Translate, { translate } from '@docusaurus/Translate';
+
 
 function HeroSection() {
   const githubUsername = "netraular"; // Tu nombre de usuario de GitHub
@@ -63,27 +65,49 @@ function HeroSection() {
     return () => timeouts.forEach(clearTimeout);
   }, []);
 
+
   return (
     <header className={ styles.heroBanner}>
       <div className="container">
         <div className={styles.heroContent}>
           <div className={styles.heroText}>
             <Heading as="h1" className="hero__title">
-              Hi, I'm <span className={styles.heroR}>Raul A.R. </span>
+
+            <Translate
+                id="homepage.hero.title"
+                description="The main title on the homepage greeting"
+                values={{
+                  name: <span className={styles.heroR}>Raul A.R.</span>
+                }}>
+                {'Hi, I\'m {name}'}
+              </Translate>
+
             </Heading>
             <p className="hero__subtitle">
-              Computer Engineer and Full Stack Developer based in Barcelona, specializing in backend development and custom VoIP solutions.
+              <Translate
+                id="homepage.hero.subtitle"
+                description="The subtitle describing the role and location">
+                Computer Engineer and Full Stack Developer based in Barcelona, specializing in backend development and custom VoIP solutions.
+              </Translate>
             </p>
             <p className={styles.heroLocation}>
-              💼 Currently building custom VoIp solutions at{" "}
-              <a
-                href="https://nubelfon.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.companyLink}
-              >
-                Nubelfon
-              </a>
+            <Translate
+                id="homepage.hero.currentWork"
+                description="Sentence indicating current workplace"
+                values={{
+                  companyLink: (
+                    <a
+                      href="https://nubelfon.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.companyLink}
+                    >
+                      Nubelfon
+                    </a>
+                  ),
+                }}>
+                {'💼 Currently building custom VoIp solutions at {companyLink}'}
+              </Translate>
             </p>
             <div className={styles.buttons}>
             <div className={styles.customBorderWrapper}>
@@ -93,7 +117,12 @@ function HeroSection() {
                   activeButton === 0 ? styles.activeGlow : ''
                 }`}
                 to="/showcase">
-                View Projects <FontAwesomeIcon icon={faArrowUpRightFromSquare} className={styles.icon}/>
+                <Translate
+                    id="homepage.hero.button.viewProjects"
+                    description="Text for the View Projects button">
+                    View Projects
+                  </Translate>
+                  {" "}<FontAwesomeIcon icon={faArrowUpRightFromSquare} className={styles.icon}/>
               </Link>
               </div>
               
@@ -102,7 +131,12 @@ function HeroSection() {
                 }`}
                 href="/resume.pdf"
                 download="Raul_AR_CV.pdf">
-                Download CV <FontAwesomeIcon icon={faDownload} className={styles.icon}/>
+                <Translate
+                  id="homepage.hero.button.downloadCV"
+                  description="Text for the Download CV button">
+                  Download CV
+                </Translate>
+                {" "}<FontAwesomeIcon icon={faDownload} className={styles.icon}/>
               </a>
               <div className={`${styles.emailContainer} ${
                 activeButton === 2 ? styles.activeGlow : ''
@@ -111,21 +145,32 @@ function HeroSection() {
                 <span className={`button button--lg ${styles.emailText}`} id="emailText">netraular@gmail.com</span>
                 <button 
                   className={styles.copyButton}
-                  data-tooltip="Copy"
+                  data-tooltip={translate({
+                    id: 'homepage.hero.copyButton.tooltip',
+                    message: 'Copy',
+                    description: 'Tooltip for the copy email button',
+                  })}
                   onClick={() => {
                     navigator.clipboard.writeText('netraular@gmail.com');
-                    // Cambiar el texto temporalmente para indicar que se ha copiado
-                    const emailText = document.getElementById('emailText');
-                    if (emailText) {
-                      emailText.textContent = 'Copied!';
+                    const emailTextElement = document.getElementById('emailText');
+                    if (emailTextElement) {
+                      emailTextElement.textContent = translate({
+                        id: 'homepage.hero.copyButton.copied',
+                        message: 'Copied!',
+                        description: 'Text displayed after copying the email address',
+                      });
                       setTimeout(() => {
-                        emailText.textContent = 'netraular@gmail.com';
-                      }, 1000); // Volver al correo después de 2 segundos
+                        emailTextElement.textContent = 'netraular@gmail.com';
+                      }, 1000);
                     }
                   }}
-                  title="Copy email"
+                  title={translate({
+                    id: 'homepage.hero.copyButton.title',
+                    message: 'Copy email',
+                    description: 'Title attribute for the copy email button',
+                  })}
                 >
-                  <span className={styles.copyIcon}> <FontAwesomeIcon icon={faCopy} className={'${styles.copyIcon} ${styles.icon}'}/> </span>
+                  <span className={styles.copyIcon}> <FontAwesomeIcon icon={faCopy} className={`${styles.copyIcon} ${styles.icon}`}/> </span>
                 </button>
               </div>
             </div>

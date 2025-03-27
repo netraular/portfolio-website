@@ -11,22 +11,6 @@
     "message": "Projects",
     "description": "Navbar item with label Projects"
   },
-  "item.label.Index2": {
-    "message": "Index2",
-    "description": "Navbar item with label Index2"
-  },
-  "item.label.Index3": {
-    "message": "Index3",
-    "description": "Navbar item with label Index3"
-  },
-  "item.label.LinkedIn": {
-    "message": "LinkedIn",
-    "description": "Navbar item with label LinkedIn"
-  },
-  "item.label.GitHub": {
-    "message": "GitHub",
-    "description": "Navbar item with label GitHub"
-  },
   "item.label.Showcase": {
     "message": "Showcase",
     "description": "Navbar item with label Showcase"
