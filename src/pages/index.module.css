@@ -33,7 +33,11 @@
 }
 
 [data-theme='dark']{
-  --accent-color: #2A9D8F;
+  /* --accent-color: #15dac3; */
+  --accent-color: #52cabc;
+  --accent-color-dimmer: #2A9D8F;
+  /* --accent-color: #509DBB; */
+   
   --title-color: #E9C46A;
 
   --hero-gradient1: rgba(0, 174, 255, 0.15);
@@ -131,7 +135,7 @@
 
 /* Estilo en el nombre de Raul A.R. */
 .heroR {
-  text-shadow: 3px 3px 0 var(--accent-color),
+  text-shadow: 3px 3px 0 var(--accent-color-dimmer),
                6px 6px 0 var(--hero-gradient1);
 
   --dark-bg: #121212;
@@ -338,7 +342,8 @@
   display: block;
   width: 250px;
   height: 3px;
-  background: var(--accent-color); /* Color fijo */
+  background: linear-gradient(90deg, var(--accent-color), var(--accent-color-dimmer));
+  /* background: var(--accent-color); */
   margin: 1rem auto;
 }
 
@@ -376,7 +381,7 @@
 .timelineContent {
   position: relative;
   padding-left: 30px;
-  border-left: 3px solid var(--accent-color); /* Color fijo */
+  border-left: 3px solid var(--accent-color);
   margin-left: 15px;
 }
 
@@ -469,6 +474,54 @@
 }
  
 
+/* Work experience projects expand/collapse styles */
+.project {
+  margin-bottom: 1.5rem;
+  background: var(--container-background-03);
+  border-radius: 8px;
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+.projectHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+
+.projectHeader:hover {
+  background-color: var(--container-background-05);
+}
+
+.projectChevron {
+  transition: transform 0.3s ease;
+  color: var(--accent-color);
+  margin-left: 1rem;
+}
+
+.projectChevron.expanded {
+  transform: rotate(180deg);
+}
+
+.project h4 {
+  margin: 0;
+  color: var(--title-color);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.projectDate {
+  font-size: 0.9em;
+  color: var(--accent-color);
+  margin-left: 0.5rem;
+}
+
 
 /* Technical skills */
 .skillsSection {
@@ -538,15 +591,6 @@
   gap: 10px; /* Espacio entre icono y texto */
   flex-grow: 1; /* Ocupa todo el espacio disponible */
 }
-.expandIcon {
-  color: var(--title-color);
-  transition: transform 0.3s ease;
-  margin-left: 1rem; /* Espacio entre texto y flecha */
-  font-size: 0.9em;
-  flex-shrink: 0;
-}
-
-
 
 .skillItem.activeSkill span {
   color: var(--accent-color) !important;
@@ -563,54 +607,6 @@
   transform: rotate(180deg);
   color: var(--accent-color);
 }
-/* Project expand/collapse styles */
-.project {
-  margin-bottom: 1.5rem;
-  background: var(--container-background-03);
-  border-radius: 8px;
-  padding: 1rem;
-  transition: all 0.3s ease;
-}
-
-.projectHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  padding: 0.5rem;
-  border-radius: 6px;
-  transition: background-color 0.2s;
-}
-
-
-.projectHeader:hover {
-  background-color: var(--container-background-05);
-}
-
-.projectChevron {
-  transition: transform 0.3s ease;
-  color: var(--accent-color);
-  margin-left: 1rem;
-}
-
-.projectChevron.expanded {
-  transform: rotate(180deg);
-}
-
-.project h4 {
-  margin: 0;
-  color: var(--title-color);
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.projectDate {
-  font-size: 0.9em;
-  color: var(--accent-color);
-  margin-left: 0.5rem;
-}
-
 
 .skillDescription {
   color: var(--ifm-font-color-base);
