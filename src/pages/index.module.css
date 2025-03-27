@@ -40,9 +40,9 @@
   --gradient-middle: #21333B;
   --gradient-end: #1A1A1A;
 
-  --container-background-05: rgba(255, 255, 255, 0.05);
   --container-background-20: rgba(255, 255, 255, 0.2);
   --container-background-10: rgba(255, 255, 255, 0.1);
+  --container-background-05: rgba(255, 255, 255, 0.05);
   --container-background-03: rgba(255, 255, 255, 0.03);
 
   --button-glow-50:rgba(42, 157, 143, 0.5);
@@ -206,6 +206,7 @@
     box-shadow: 0 0 0 0 var(--button-glow)-0;
   }
 }
+
 
 .emailContainer {
   display: inline-flex;
@@ -412,16 +413,37 @@
 .timelineList li {
   position: relative;
   padding-left: 1.5rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.7rem;
   color: var(--ifm-font-color-base); /* Color dinámico para texto */
 }
 
 .timelineList li::before {
-  content: '▹';
+  content: '✧';
   position: absolute;
   left: 0;
   color: var(--accent-color);
+  font-size: 0.9rem;
+  text-shadow: 0 0 5px var(--accent-color);
 }
+
+.timelineList ul {
+  list-style: none;
+  padding-left: 1.5rem; 
+  margin-top: 0.5rem;
+}
+.timelineList ul li::before {
+    content: '▹';
+}
+ 
+
+
+
+
+
+
+
+
+
 
 
 
