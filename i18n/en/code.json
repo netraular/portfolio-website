@@ -59,15 +59,6 @@
   "showcase.tag.rtl.description": {
     "message": "Docusaurus sites using the right-to-left reading direction support."
   },
-  "Hi I'm": {
-    "message": "Hi I'm"
-  },
-  "Computer Engineer and Full Stack Developer based in Barcelona, specializing in backend development and custom VoIP solutions.": {
-    "message": "Computer Engineer and Full Stack Developer based in Barcelona, specializing in backend development and custom VoIP solutions."
-  },
-  "💼 Currently building custom VoIp solutions at": {
-    "message": "💼 Currently building custom VoIp solutions at"
-  },
   "showcase.filters.resultCount": {
     "message": "1 site|{sitesCount} sites",
     "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -469,5 +460,392 @@
   "homepage.layout.description": {
     "message": "Portfolio of Raul A.R. - Computer Engineer and Full Stack Developer from Barcelona specializing in backend development and telecom solutions",
     "description": "The meta description tag for the homepage"
+  },
+  "homepage.about.title": {
+    "message": "About Me",
+    "description": "Title for the About Me section"
+  },
+  "homepage.about.paragraph1": {
+    "message": "I'm a Computer Engineer based in Barcelona, graduated from the {uabLink} with a specialization in Computer Science.",
+    "description": "First paragraph in the About section introducing the user"
+  },
+  "homepage.about.uabName": {
+    "message": "Universitat Autònoma de Barcelona",
+    "description": "Name of the university UAB"
+  },
+  "homepage.about.paragraph2": {
+    "message": "My expertise lies in full-stack development, with a strong focus on backend systems, particularly using PHP with Laravel. I have experience in API integrations, database management, infrastructure deployment, and scripting automation.",
+    "description": "Second paragraph describing expertise"
+  },
+  "homepage.about.paragraph3": {
+    "message": "Over the years, I have been involved in projects related to VoIP solutions, including automating phone calls for various use cases, real-time call monitoring with Asterisk, and developing platforms for enterprise clients to manage their telecommunication services.",
+    "description": "Third paragraph about VoIP experience"
+  },
+  "homepage.about.paragraph4": {
+    "message": "In addition to backend development, I have experience with frontend technologies, system administration, and scripting. I enjoy working in small, collaborative teams where I can contribute to the entire development cycle, from architecture design to deployment and maintenance.",
+    "description": "Fourth paragraph about frontend, sysadmin, collaboration and team preferences"
+  },
+  "homepage.about.paragraph5": {
+    "message": "Outside of my professional work, I maintain a home lab environment where I develop projects like {eco2Link}, a website that helped my team win a Hackathon. I also enjoy working on personal projects involving C++ for microcontrollers and Python for rapid prototyping.",
+    "description": "Fifth paragraph about personal projects and home lab"
+  },
+  "homepage.about.eco2ProjectName": {
+    "message": "ECO2",
+    "description": "Name of the ECO2 project"
+  },
+  "homepage.about.tabs.experienceLabel": {
+    "message": "💼 Professional Experience",
+    "description": "Label for the Professional Experience tab"
+  },
+  "homepage.about.experience.cardTitle": {
+    "message": "Work Experience",
+    "description": "Title for the Work Experience card"
+  },
+  "homepage.about.experience.nubelfon.logoAlt": {
+    "message": "Nubelfon Logo",
+    "description": "Alt text for Nubelfon logo"
+  },
+  "homepage.about.experience.nubelfon.header": {
+    "message": "Nubelfon - Full Stack Developer & Solutions Developer",
+    "description": "Header for Nubelfon experience (Company and Role)"
+  },
+  "homepage.about.experience.nubelfon.date": {
+    "message": "2021 - Present",
+    "description": "Date range for Nubelfon experience"
+  },
+  "homepage.about.experience.keyAchievements": {
+    "message": "Key Achievements:",
+    "description": "Heading for Key Achievements list"
+  },
+  "homepage.about.experience.nubelfon.achievement1": {
+    "message": "Led and developed enterprise VoIP solutions for government and corporate clients"
+  },
+  "homepage.about.experience.nubelfon.achievement2.intro": {
+    "message": "Modernized legacy systems through:"
+  },
+  "homepage.about.experience.nubelfon.achievement2.item1": {
+    "message": "Migration from legacy codebase to Laravel framework"
+  },
+  "homepage.about.experience.nubelfon.achievement2.item2": {
+    "message": "Implementation of REST APIs for third-party integrations"
+  },
+  "homepage.about.experience.nubelfon.achievement2.item3": {
+    "message": "Database schema optimization for improved performance"
+  },
+  "homepage.about.experience.nubelfon.achievement3": {
+    "message": "Architected 2 major platform upgrades enhancing scalability and maintainability"
+  },
+  "homepage.about.experience.nubelfon.achievement4": {
+    "message": "Developed automation scripts reducing repetitive tasks through queue workers"
+  },
+  "homepage.about.experience.coreResponsibilities": {
+    "message": "Core Responsibilities:",
+    "description": "Heading for Core Responsibilities list"
+  },
+  "homepage.about.experience.nubelfon.responsibility1": {
+    "message": "System integration with Asterisk PBX and VTiger CRM"
+  },
+  "homepage.about.experience.nubelfon.responsibility2": {
+    "message": "Database design and optimization for high-volume call data management"
+  },
+  "homepage.about.experience.nubelfon.responsibility3": {
+    "message": "Implementation of security features including Role-Based Access Control (RBAC)"
+  },
+  "homepage.about.experience.nubelfon.responsibility4": {
+    "message": "Development of real-time monitoring dashboards and automated reporting systems"
+  },
+  "homepage.about.experience.nubelfon.responsibility5": {
+    "message": "Creation of technical documentation and client onboarding materials"
+  },
+  "homepage.about.experience.nubelfon.responsibility6": {
+    "message": "Implementation of unit testing for core platform functionalities"
+  },
+  "homepage.about.experience.notableProjects": {
+    "message": "Notable Projects:",
+    "description": "Heading for Notable Projects list"
+  },
+  "homepage.about.experience.project.automatedCalling.title": {
+    "message": "Automated Calling System",
+    "description": "Title for the Automated Calling System project"
+  },
+  "homepage.about.experience.project.automatedCalling.date": {
+    "message": "2021-Present",
+    "description": "Date for the Automated Calling System project"
+  },
+  "homepage.about.experience.project.automatedCalling.item1": {
+    "message": "Completed and maintained legacy call automation project as primary developer"
+  },
+  "homepage.about.experience.project.automatedCalling.item2": {
+    "message": "Implemented modular architecture for client-specific customizations"
+  },
+  "homepage.about.experience.project.automatedCalling.item3": {
+    "message": "Integrated Asterisk PBX for call handling and monitoring"
+  },
+  "homepage.about.experience.project.automatedCalling.item4": {
+    "message": "Developed administration interface for call scheduling and tracking"
+  },
+  "homepage.about.experience.project.govTelecom.title": {
+    "message": "Government Telecom Monitoring Platform",
+    "description": "Title for the Government Telecom Monitoring Platform project"
+  },
+  "homepage.about.experience.project.govTelecom.date": {
+    "message": "2022",
+    "description": "Date for the Government Telecom Monitoring Platform project"
+  },
+  "homepage.about.experience.project.govTelecom.item1": {
+    "message": "Developed web platform for real-time call agent monitoring"
+  },
+  "homepage.about.experience.project.govTelecom.item2": {
+    "message": "Created bash scripts for processing Asterisk call events"
+  },
+  "homepage.about.experience.project.govTelecom.item3": {
+    "message": "Implemented CSV/PDF report generation for daily operations"
+  },
+  "homepage.about.experience.project.govTelecom.item4": {
+    "message": "Built dashboard displaying real-time call metrics and statistics"
+  },
+  "homepage.about.experience.project.clientPortal.title": {
+    "message": "Client Services Portal",
+    "description": "Title for the Client Services Portal project"
+  },
+  "homepage.about.experience.project.clientPortal.date": {
+    "message": "2023-Present",
+    "description": "Date for the Client Services Portal project"
+  },
+  "homepage.about.experience.project.clientPortal.item1": {
+    "message": "Restructured database schema for improved scalability"
+  },
+  "homepage.about.experience.project.clientPortal.item2": {
+    "message": "Modernized core platform with role-based access control"
+  },
+  "homepage.about.experience.project.clientPortal.item3": {
+    "message": "Integrated VTiger CRM with internal systems through centralized data hub"
+  },
+  "homepage.about.experience.project.clientPortal.item4": {
+    "message": "Created internal automation tools reducing manual work"
+  },
+  "homepage.about.experience.bellvitge.logoAlt": {
+    "message": "Hospital Bellvitge Logo",
+    "description": "Alt text for Hospital Bellvitge logo"
+  },
+  "homepage.about.experience.bellvitge.header": {
+    "message": "Hospital Universitario Bellvitge - Patient Care Assistant",
+    "description": "Header for Bellvitge experience (Company and Role)"
+  },
+  "homepage.about.experience.bellvitge.date": {
+    "message": "2017 - 2021",
+    "description": "Date range for Bellvitge experience"
+  },
+  "homepage.about.experience.bellvitge.item1": {
+    "message": "Balanced full-time engineering studies with healthcare work"
+  },
+  "homepage.about.experience.bellvitge.item2": {
+    "message": "Provided critical support during COVID-19 pandemic surge"
+  },
+  "homepage.about.tabs.educationLabel": {
+    "message": "🎓 Education",
+    "description": "Label for the Education tab"
+  },
+  "homepage.about.education.cardTitle": {
+    "message": "Education Background",
+    "description": "Title for the Education Background card"
+  },
+  "homepage.about.education.uab.logoAlt": {
+    "message": "UAB Logo",
+    "description": "Alt text for UAB logo"
+  },
+  "homepage.about.education.uab.header": {
+    "message": "Universitat Autònoma de Barcelona",
+    "description": "Header for UAB education (University Name)"
+  },
+  "homepage.about.education.uab.date": {
+    "message": "2017 - 2022",
+    "description": "Date range for UAB education"
+  },
+  "homepage.about.education.uab.degree": {
+    "message": "Bachelor's Degree in Computer Engineering",
+    "description": "Degree name from UAB"
+  },
+  "homepage.about.education.uab.specialization": {
+    "message": "Software Engineering with Specialization in computing"
+  },
+  "homepage.about.education.uab.finalProject": {
+    "message": "Final Project: Local Voice Assistant Natural Language to SQL - {thesisLink}",
+    "description": "Description of the final project including the link text placeholder"
+  },
+  "homepage.about.education.uab.thesisLinkText": {
+    "message": "View Thesis Documentation",
+    "description": "Text for the thesis documentation link"
+  },
+  "homepage.about.education.language.logoAlt": {
+    "message": "Language Logo",
+    "description": "Alt text for Language logo"
+  },
+  "homepage.about.education.language.header": {
+    "message": "Language Proficiency",
+    "description": "Header for Language Proficiency section"
+  },
+  "homepage.about.education.language.spanish": {
+    "message": "Spanish",
+    "description": "Spanish language name"
+  },
+  "homepage.about.education.language.native": {
+    "message": "Native proficiency"
+  },
+  "homepage.about.education.language.catalan": {
+    "message": "Catalan",
+    "description": "Catalan language name"
+  },
+  "homepage.about.education.language.english": {
+    "message": "English",
+    "description": "English language name"
+  },
+  "homepage.about.education.language.englishLevel": {
+    "message": "B2 Level (First Certificate in English - Cambridge English Assessment)",
+    "description": "English proficiency level B2 with certificate name"
+  },
+  "homepage.skills.title": {
+    "message": "Technical Skills",
+    "description": "Title for the Technical Skills section"
+  },
+  "homepage.skills.category.backend": {
+    "message": "Backend & Telecom",
+    "description": "Title for the Backend & Telecom skills card"
+  },
+  "homepage.skills.category.frontend": {
+    "message": "Frontend & UI",
+    "description": "Title for the Frontend & UI skills card"
+  },
+  "homepage.skills.category.others": {
+    "message": "Others",
+    "description": "Title for the Others skills card"
+  },
+  "homepage.skills.phpLaravel.name": {
+    "message": "PHP/Laravel",
+    "description": "Name for the PHP/Laravel skill"
+  },
+  "homepage.skills.phpLaravel.description": {
+    "message": "Developed and maintained core backend systems for VoIP platforms. Migrated legacy codebases to Laravel, created REST APIs for frontend/third-party integrations, and implemented queue workers for call processing tasks.",
+    "description": "Description for the PHP/Laravel skill"
+  },
+  "homepage.skills.mysqlDatabase.name": {
+    "message": "MySQL Database",
+    "description": "Name for the MySQL Database skill"
+  },
+  "homepage.skills.mysqlDatabase.description": {
+    "message": "Designed relational database schemas for telecom systems, optimized query performance, and implemented complex reporting queries for call analytics.",
+    "description": "Description for the MySQL Database skill"
+  },
+  "homepage.skills.voiceApis.name": {
+    "message": "Voice APIs (Google/Amazon)",
+    "description": "Name for the Voice APIs (Google/Amazon) skill"
+  },
+  "homepage.skills.voiceApis.description": {
+    "message": "Integrated speech-to-text and text-to-speech capabilities for interactive voice systems. Implemented natural language processing for phone calls navigation.",
+    "description": "Description for the Voice APIs (Google/Amazon) skill"
+  },
+  "homepage.skills.asteriskPbx.name": {
+    "message": "Asterisk PBX",
+    "description": "Name for the Asterisk PBX skill"
+  },
+  "homepage.skills.asteriskPbx.description": {
+    "message": "Configured applications interacting with Asterisk PBX. Developed call monitoring programs and reporting dashboards. Created custom call flows using LLMs for specific client requirements.",
+    "description": "Description for the Asterisk PBX skill"
+  },
+  "homepage.skills.restApi.name": {
+    "message": "REST API Development",
+    "description": "Name for the REST API Development skill"
+  },
+  "homepage.skills.restApi.description": {
+    "message": "Built Laravel APIs to enable clients to interact with our services through their own portals/platforms. Developed documentation and integration examples for third-party developers.",
+    "description": "Description for the REST API Development skill"
+  },
+  "homepage.skills.htmlCss.name": {
+    "message": "HTML5/CSS3",
+    "description": "Name for the HTML5/CSS3 skill"
+  },
+  "homepage.skills.htmlCss.description": {
+    "message": "Built responsive admin interfaces and client portals. Implemented complex layouts for real-time dashboards while maintaining cross-browser compatibility.",
+    "description": "Description for the HTML5/CSS3 skill"
+  },
+  "homepage.skills.javascriptJquery.name": {
+    "message": "JavaScript/jQuery",
+    "description": "Name for the JavaScript/jQuery skill"
+  },
+  "homepage.skills.javascriptJquery.description": {
+    "message": "Developed interactive UI components for call monitoring dashboards. Implemented real-time updates using AJAX and WebSockets.",
+    "description": "Description for the JavaScript/jQuery skill"
+  },
+  "homepage.skills.bootstrap.name": {
+    "message": "Bootstrap",
+    "description": "Name for the Bootstrap skill"
+  },
+  "homepage.skills.bootstrap.description": {
+    "message": "Created consistent UI designs across multiple admin panels and customer-facing interfaces. Served as the primary styling library for component cohesion throughout projects.",
+    "description": "Description for the Bootstrap skill"
+  },
+  "homepage.skills.laravelBlade.name": {
+    "message": "Laravel Blade",
+    "description": "Name for the Laravel Blade skill"
+  },
+  "homepage.skills.laravelBlade.description": {
+    "message": "Developed dynamic server-rendered templates with reusable components for efficient frontend-backend integration.",
+    "description": "Description for the Laravel Blade skill"
+  },
+  "homepage.skills.responsiveDesign.name": {
+    "message": "Responsive Design",
+    "description": "Name for the Responsive Design skill"
+  },
+  "homepage.skills.responsiveDesign.description": {
+    "message": "Implemented mobile-first approaches for all client-facing web applications.",
+    "description": "Description for the Responsive Design skill"
+  },
+  "homepage.skills.serverManagement.name": {
+    "message": "Web Server Management",
+    "description": "Name for the Web Server Management skill"
+  },
+  "homepage.skills.serverManagement.description": {
+    "message": "Managed production servers including performance monitoring, security hardening, and package management. Administered Proxmox-based servers both in cloud and local environments.",
+    "description": "Description for the Web Server Management skill"
+  },
+  "homepage.skills.bashScripting.name": {
+    "message": "Bash Scripting",
+    "description": "Name for the Bash Scripting skill"
+  },
+  "homepage.skills.bashScripting.description": {
+    "message": "Developed deployment scripts and automation tools for server maintenance and log analysis.",
+    "description": "Description for the Bash Scripting skill"
+  },
+  "homepage.skills.cppMicrocontrollers.name": {
+    "message": "C++ (Microcontrollers)",
+    "description": "Name for the C++ (Microcontrollers) skill"
+  },
+  "homepage.skills.cppMicrocontrollers.description": {
+    "message": "Used during university studies and as a hobbyist. Develop programs for microcontrollers using platforms like Arduino, PlatformIO, and ESP-IDF for personal electronics projects.",
+    "description": "Description for the C++ (Microcontrollers) skill"
+  },
+  "homepage.skills.pythonPrototyping.name": {
+    "message": "Python (Fast Prototyping)",
+    "description": "Name for the Python (Fast Prototyping) skill"
+  },
+  "homepage.skills.pythonPrototyping.description": {
+    "message": "Created custom applications for clients and rapid proof-of-concept development. Used for scripting, automation, and quick implementation of ideas.",
+    "description": "Description for the Python (Fast Prototyping) skill"
+  },
+  "homepage.skills.gitControl.name": {
+    "message": "Git Version Control",
+    "description": "Name for the Git Version Control skill"
+  },
+  "homepage.skills.gitControl.description": {
+    "message": "Used Git for version control across personal and professional projects. Managed repositories, branches, and collaborative workflows for development teams.",
+    "description": "Description for the Git Version Control skill"
+  },
+  "homepage.hero.companyName.nubelfon": {
+    "message": "Nubelfon",
+    "description": "The name of the company Nubelfon"
+  },
+  "homepage.hero.profilePicAlt": {
+    "message": "Raul A.R.",
+    "description": "Alt text for the profile picture in the hero section"
   }
 }

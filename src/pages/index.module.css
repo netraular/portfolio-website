@@ -561,7 +561,6 @@
 
 
 .skillCard::before {
-  border: solid red 3px;
   content: '';
   position: absolute;
   top: -50%;
