@@ -4,7 +4,7 @@
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Volver al principio",
+    "message": "Volver arriba",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
@@ -16,7 +16,7 @@
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Navegación por la página de la lista de blogs ",
+    "message": "Navegación de la lista de entradas del blog",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
@@ -24,23 +24,23 @@
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Entradas más antiguas",
+    "message": "Entradas anteriores",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Barra de paginación de publicaciones del blog",
+    "message": "Navegación de la página de entrada del blog",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Publicación más reciente",
+    "message": "Entrada más reciente",
     "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Publicación más antigua",
+    "message": "Entrada anterior",
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.tags.tagsPageLink": {
-    "message": "Ver Todas las Etiquetas",
+    "message": "Ver todas las etiquetas",
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel": {
@@ -56,15 +56,15 @@
     "description": "The name for the light color mode"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Rastro de navegación",
+    "message": "Migas de pan",
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "1 artículo|{count} artículos",
+    "message": "1 elemento|{count} elementos",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Página del documento",
+    "message": "Páginas de documentación",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
@@ -84,10 +84,10 @@
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
-    "message": "Version: {versionLabel}"
+    "message": "Versión: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "Esta es la documentación sin publicar para {siteTitle}, versión {versionLabel}.",
+    "message": "Esta es documentación no publicada para la versión {versionLabel} de {siteTitle}.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
@@ -95,7 +95,7 @@
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "Para la documentación actualizada, vea {latestVersionLink} ({versionLabel}).",
+    "message": "Para la documentación actualizada, consulta la {latestVersionLink} ({versionLabel}).",
     "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
@@ -107,11 +107,11 @@
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "Enlace directo al {heading}",
+    "message": "Enlace directo a {heading}",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
-    "message": " en {date}",
+    "message": " el {date}",
     "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
@@ -143,7 +143,7 @@
     "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {
-    "message": "info",
+    "message": "información",
     "description": "The default label used for the Info admonition (:::info)"
   },
   "theme.admonition.note": {
@@ -151,11 +151,11 @@
     "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "message": "tip",
+    "message": "consejo",
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
-    "message": "aviso",
+    "message": "advertencia",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
@@ -163,7 +163,7 @@
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Navegación de publicaciones recientes",
+    "message": "Navegación de entradas recientes del blog",
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.CodeBlock.copied": {
@@ -171,7 +171,7 @@
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Copiar código",
+    "message": "Copiar código al portapapeles",
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.copy": {
@@ -179,15 +179,15 @@
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Alternar ajuste de palabras",
+    "message": "Activar/desactivar ajuste de línea",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Ampliar la categoría '{label}' de la barra lateral",
+    "message": "Expandir categoría de la barra lateral '{label}'",
     "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Colapsar categoría '{label}' de la barra lateral",
+    "message": "Contraer categoría de la barra lateral '{label}'",
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.NavBar.navAriaLabel": {
@@ -199,11 +199,11 @@
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.NotFound.p1": {
-    "message": "No pudimos encontrar lo que buscaba.",
+    "message": "No pudimos encontrar lo que estabas buscando.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Comuníquese con el dueño del sitio que le proporcionó la URL original y hágale saber que su vínculo está roto.",
+    "message": "Por favor, contacta al propietario del sitio que te enlazó a la URL original e infórmale que su enlace está roto.",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
@@ -211,35 +211,35 @@
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.blog.post.readMore": {
-    "message": "Leer Más",
+    "message": "Leer más",
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "Leer más acerca de {title}",
+    "message": "Leer más sobre {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "Lectura de un minuto|{readingTime} min de lectura",
+    "message": "1 minuto de lectura|{readingTime} minutos de lectura",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Página de Inicio",
+    "message": "Página de inicio",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Colapsar barra lateral",
+    "message": "Contraer barra lateral",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Colapsar barra lateral",
+    "message": "Contraer barra lateral",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Barra lateral de Documentos",
+    "message": "Barra lateral de documentación",
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Cerrar barra de lateral",
+    "message": "Cerrar barra de navegación",
     "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
@@ -247,7 +247,7 @@
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Alternar barra lateral",
+    "message": "Alternar barra de navegación",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.docs.sidebar.expandButtonTitle": {
@@ -259,11 +259,11 @@
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.blog.post.plurals": {
-    "message": "Una publicación|{count} publicaciones",
+    "message": "Una entrada|{count} entradas",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} etiquetados con \"{tagName}\"",
+    "message": "{nPosts} etiquetadas con \"{tagName}\"",
     "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
@@ -271,35 +271,35 @@
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
-    "message": "Authors",
+    "message": "Autores",
     "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "View All Authors",
+    "message": "Ver todos los autores",
     "description": "The label of the link targeting the blog authors page"
   },
   "theme.blog.author.noPosts": {
-    "message": "This author has not written any posts yet.",
+    "message": "Este autor aún no ha escrito ninguna entrada.",
     "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
-    "message": "Página sin clasificar",
+    "message": "Página no listada",
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "Esta página está sin clasificar. Los motores de búsqueda no la indexaran, y solo los usuarios con el enlace directo podrán acceder a esta.",
+    "message": "Esta página no está listada. Los motores de búsqueda no la indexarán y solo los usuarios con un enlace directo pueden acceder a ella.",
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Draft page",
+    "message": "Página borrador",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "message": "Esta página es un borrador. Solo será visible en desarrollo y se excluirá de la compilación de producción.",
     "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Intente de nuevo",
+    "message": "Intentar de nuevo",
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
@@ -311,119 +311,64 @@
     "description": "The title of the tag list page"
   },
   "Favorite": {
-    "message": "Favorite"
+    "message": "Favorito"
   },
   "showcase.tag.favorite.description": {
-    "message": "Our favorite Docusaurus sites that you must absolutely check out!"
+    "message": "¡Nuestros sitios Docusaurus favoritos que no te puedes perder!"
   },
   "Open-Source": {
-    "message": "Open-Source"
+    "message": "Código Abierto"
   },
   "showcase.tag.opensource.description": {
-    "message": "Open-Source Docusaurus sites can be useful for inspiration!"
+    "message": "¡Los sitios Docusaurus de código abierto pueden ser útiles como inspiración!"
   },
   "Product": {
-    "message": "Product"
+    "message": "Producto"
   },
   "showcase.tag.product.description": {
-    "message": "Docusaurus sites associated to a commercial product!"
+    "message": "¡Sitios Docusaurus asociados a un producto comercial!"
   },
   "Design": {
-    "message": "Design"
+    "message": "Diseño"
   },
   "showcase.tag.design.description": {
-    "message": "Beautiful Docusaurus sites, polished and standing out from the initial template!"
+    "message": "¡Sitios Docusaurus bonitos, pulidos y que destacan sobre la plantilla inicial!"
   },
   "I18n": {
     "message": "I18n"
   },
   "showcase.tag.i18n.description": {
-    "message": "Translated Docusaurus sites using the internationalization support with more than 1 locale."
+    "message": "Sitios Docusaurus traducidos utilizando el soporte de internacionalización con más de 1 idioma."
   },
   "Versioning": {
-    "message": "Versioning"
+    "message": "Versionado"
   },
   "showcase.tag.versioning.description": {
-    "message": "Docusaurus sites using the versioning feature of the docs plugin to manage multiple versions."
+    "message": "Sitios Docusaurus que utilizan la función de versionado del plugin de documentación para gestionar múltiples versiones."
   },
   "Large": {
-    "message": "Large"
+    "message": "Grandes"
   },
   "showcase.tag.large.description": {
-    "message": "Very large Docusaurus sites, including many more pages than the average!"
+    "message": "¡Sitios Docusaurus muy grandes, que incluyen muchas más páginas que la media!"
   },
   "Meta": {
     "message": "Meta"
   },
   "showcase.tag.meta.description": {
-    "message": "Docusaurus sites of Meta (formerly Facebook) projects"
+    "message": "Sitios Docusaurus de proyectos de Meta (anteriormente Facebook)"
   },
   "Personal": {
     "message": "Personal"
   },
   "showcase.tag.personal.description": {
-    "message": "Personal websites, blogs and digital gardens built with Docusaurus"
+    "message": "Sitios web personales, blogs y jardines digitales creados con Docusaurus"
   },
   "RTL Direction": {
-    "message": "RTL Direction"
+    "message": "Dirección RTL"
   },
   "showcase.tag.rtl.description": {
-    "message": "Docusaurus sites using the right-to-left reading direction support."
-  },
-  "showcase.filters.resultCount": {
-    "message": "1 site|{sitesCount} sites",
-    "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "Docusaurus Site Showcase": {
-    "message": "Docusaurus Site Showcase"
-  },
-  "List of websites people are building with Docusaurus": {
-    "message": "List of websites people are building with Docusaurus"
-  },
-  "showcase.header.button": {
-    "message": "🙏 Please add your site"
-  },
-  "showcase.card.sourceLink": {
-    "message": "source"
-  },
-  "showcase.usersList.noResult": {
-    "message": "No result"
-  },
-  "showcase.favoritesList.title": {
-    "message": "Our favorites"
-  },
-  "showcase.usersList.allUsers": {
-    "message": "All sites"
-  },
-  "showcase.filters.title": {
-    "message": "Filters"
-  },
-  "showcase.searchBar.placeholder": {
-    "message": "Search for site name..."
-  },
-  "theme.IdealImageMessage.loading": {
-    "message": "Cargando...",
-    "description": "When the full-scale image is loading"
-  },
-  "theme.IdealImageMessage.load": {
-    "message": "Click para recargar{sizeMessage}",
-    "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
-  },
-  "theme.IdealImageMessage.offline": {
-    "message": "Tu navegador está desconectado. Imagen no cargada",
-    "description": "When the user is viewing an offline document"
-  },
-  "theme.IdealImageMessage.404error": {
-    "message": "404. Imagen no encontrada",
-    "description": "When the image is not found"
-  },
-  "theme.IdealImageMessage.error": {
-    "message": "Error. Click para recargar",
-    "description": "When the image fails to load for unknown error"
-  },
-  "homepage.hero.copyButton.copied": {
-    "message": "¡Copiado!",
-    "description": "Text displayed after copying the email address"
+    "message": "Sitios Docusaurus que utilizan el soporte de dirección de lectura de derecha a izquierda."
   },
   "homepage.hero.title": {
     "message": "Hola, soy {name}",
@@ -434,8 +379,12 @@
     "description": "The subtitle describing the role and location"
   },
   "homepage.hero.currentWork": {
-    "message": "💼 Actualmente desarrollando soluciones VoIP personalizadas en {companyLink}",
+    "message": "💼 Actualmente construyendo soluciones VoIP personalizadas en {companyLink}",
     "description": "Sentence indicating current workplace"
+  },
+  "homepage.hero.companyName.nubelfon": {
+    "message": "Nubelfon",
+    "description": "The name of the company Nubelfon"
   },
   "homepage.hero.button.viewProjects": {
     "message": "Ver Proyectos",
@@ -449,24 +398,24 @@
     "message": "Copiar",
     "description": "Tooltip for the copy email button"
   },
+  "homepage.hero.copyButton.copied": {
+    "message": "¡Copiado!",
+    "description": "Text displayed after copying the email address"
+  },
   "homepage.hero.copyButton.title": {
     "message": "Copiar email",
     "description": "Title attribute for the copy email button"
   },
-  "homepage.layout.title": {
-    "message": "Ingeniero Informático & Desarrollador Full Stack",
-    "description": "The title tag for the homepage"
-  },
-  "homepage.layout.description": {
-    "message": "Portafolio de Raul A.R. - Ingeniero Informático y Desarrollador Full Stack de Barcelona especializado en desarrollo backend y soluciones de telecomunicaciones",
-    "description": "The meta description tag for the homepage"
+  "homepage.hero.profilePicAlt": {
+    "message": "Raul A.R.",
+    "description": "Alt text for the profile picture in the hero section"
   },
   "homepage.about.title": {
-    "message": "Sobre mí",
+    "message": "Sobre Mí",
     "description": "Title for the About Me section"
   },
   "homepage.about.paragraph1": {
-    "message": "Soy Ingeniero Informático radicado en Barcelona, graduado de la {uabLink} con especialización en Ciencias de la Computación.",
+    "message": "Soy un Ingeniero Informático residente en Barcelona, graduado por la {uabLink} con especialización en Computación.",
     "description": "First paragraph in the About section introducing the user"
   },
   "homepage.about.uabName": {
@@ -474,19 +423,19 @@
     "description": "Name of the university UAB"
   },
   "homepage.about.paragraph2": {
-    "message": "Mi experiencia se centra en el desarrollo full-stack, con un fuerte enfoque en sistemas backend, especialmente usando PHP con Laravel. Tengo experiencia en integraciones de API, gestión de bases de datos, despliegue de infraestructura y automatización mediante scripts.",
+    "message": "Mi experiencia se centra en el desarrollo full-stack, con un fuerte enfoque en sistemas backend, particularmente usando PHP con Laravel. Tengo experiencia en integraciones de API, gestión de bases de datos, despliegue de infraestructura y automatización de scripts.",
     "description": "Second paragraph describing expertise"
   },
   "homepage.about.paragraph3": {
-    "message": "A lo largo de los años, he participado en proyectos relacionados con soluciones VoIP, incluyendo automatización de llamadas telefónicas para diversos casos de uso, monitoreo en tiempo real con Asterisk, y desarrollo de plataformas para clientes empresariales para gestionar sus servicios de telecomunicaciones.",
+    "message": "A lo largo de los años, he participado en proyectos relacionados con soluciones VoIP, incluyendo la automatización de llamadas telefónicas para diversos casos de uso, monitorización de llamadas en tiempo real con Asterisk y desarrollo de plataformas para clientes empresariales para gestionar sus servicios de telecomunicaciones.",
     "description": "Third paragraph about VoIP experience"
   },
   "homepage.about.paragraph4": {
-    "message": "Además del desarrollo backend, tengo experiencia con tecnologías frontend, administración de sistemas y scripting. Disfruto trabajando en equipos pequeños y colaborativos donde puedo contribuir en todo el ciclo de desarrollo, desde el diseño de arquitectura hasta el despliegue y mantenimiento.",
+    "message": "Además del desarrollo backend, tengo experiencia con tecnologías frontend, administración de sistemas y scripting. Disfruto trabajando en equipos pequeños y colaborativos donde puedo contribuir a todo el ciclo de desarrollo, desde el diseño de la arquitectura hasta el despliegue y el mantenimiento.",
     "description": "Fourth paragraph about frontend, sysadmin, collaboration and team preferences"
   },
   "homepage.about.paragraph5": {
-    "message": "Fuera de mi trabajo profesional, mantengo un laboratorio doméstico donde desarrollo proyectos como {eco2Link}, un sitio web que ayudó a mi equipo a ganar un Hackathon. También disfruto trabajando en proyectos personales que involucran C++ para microcontroladores y Python para prototipado rápido.",
+    "message": "Fuera de mi trabajo profesional, mantengo un entorno de laboratorio en casa donde desarrollo proyectos como {eco2Link}, un sitio web que ayudó a mi equipo a ganar un Hackathon. También disfruto trabajando en proyectos personales que involucran C++ para microcontroladores y Python para prototipado rápido.",
     "description": "Fifth paragraph about personal projects and home lab"
   },
   "homepage.about.eco2ProjectName": {
@@ -506,7 +455,7 @@
     "description": "Alt text for Nubelfon logo"
   },
   "homepage.about.experience.nubelfon.header": {
-    "message": "Nubelfon - Desarrollador Full Stack & Solutions Developer",
+    "message": "Nubelfon - Desarrollador Full Stack y Desarrollador de Soluciones",
     "description": "Header for Nubelfon experience (Company and Role)"
   },
   "homepage.about.experience.nubelfon.date": {
@@ -514,7 +463,7 @@
     "description": "Date range for Nubelfon experience"
   },
   "homepage.about.experience.keyAchievements": {
-    "message": "Logros clave:",
+    "message": "Logros Clave:",
     "description": "Heading for Key Achievements list"
   },
   "homepage.about.experience.nubelfon.achievement1": {
@@ -524,44 +473,44 @@
     "message": "Modernicé sistemas heredados mediante:"
   },
   "homepage.about.experience.nubelfon.achievement2.item1": {
-    "message": "Migración de código heredado al framework Laravel"
+    "message": "Migración de código base heredado al framework Laravel"
   },
   "homepage.about.experience.nubelfon.achievement2.item2": {
-    "message": "Implementación de APIs REST para integraciones con terceros"
+    "message": "Implementación de APIs REST para integraciones de terceros"
   },
   "homepage.about.experience.nubelfon.achievement2.item3": {
     "message": "Optimización del esquema de base de datos para mejorar el rendimiento"
   },
   "homepage.about.experience.nubelfon.achievement3": {
-    "message": "Diseñé 2 actualizaciones importantes de la plataforma mejorando escalabilidad y mantenibilidad"
+    "message": "Diseñé 2 importantes actualizaciones de plataforma mejorando la escalabilidad y mantenibilidad"
   },
   "homepage.about.experience.nubelfon.achievement4": {
-    "message": "Desarrollé scripts de automatización que redujeron tareas repetitivas mediante workers en cola"
+    "message": "Desarrollé scripts de automatización reduciendo tareas repetitivas mediante workers de colas"
   },
   "homepage.about.experience.coreResponsibilities": {
-    "message": "Responsabilidades principales:",
+    "message": "Responsabilidades Principales:",
     "description": "Heading for Core Responsibilities list"
   },
   "homepage.about.experience.nubelfon.responsibility1": {
     "message": "Integración de sistemas con Asterisk PBX y VTiger CRM"
   },
   "homepage.about.experience.nubelfon.responsibility2": {
-    "message": "Diseño y optimización de bases de datos para gestión de datos de llamadas de alto volumen"
+    "message": "Diseño y optimización de bases de datos para la gestión de grandes volúmenes de datos de llamadas"
   },
   "homepage.about.experience.nubelfon.responsibility3": {
     "message": "Implementación de características de seguridad incluyendo Control de Acceso Basado en Roles (RBAC)"
   },
   "homepage.about.experience.nubelfon.responsibility4": {
-    "message": "Desarrollo de dashboards de monitoreo en tiempo real y sistemas automatizados de reporting"
+    "message": "Desarrollo de paneles de monitorización en tiempo real y sistemas de informes automatizados"
   },
   "homepage.about.experience.nubelfon.responsibility5": {
-    "message": "Creación de documentación técnica y materiales para onboarding de clientes"
+    "message": "Creación de documentación técnica y materiales de incorporación de clientes"
   },
   "homepage.about.experience.nubelfon.responsibility6": {
-    "message": "Implementación de pruebas unitarias para funcionalidades clave de la plataforma"
+    "message": "Implementación de pruebas unitarias para funcionalidades centrales de la plataforma"
   },
   "homepage.about.experience.notableProjects": {
-    "message": "Proyectos destacados:",
+    "message": "Proyectos Destacados:",
     "description": "Heading for Notable Projects list"
   },
   "homepage.about.experience.project.automatedCalling.title": {
@@ -576,16 +525,16 @@
     "message": "Completé y mantuve un proyecto heredado de automatización de llamadas como desarrollador principal"
   },
   "homepage.about.experience.project.automatedCalling.item2": {
-    "message": "Implementé arquitectura modular para personalizaciones específicas de clientes"
+    "message": "Implementé una arquitectura modular para personalizaciones específicas del cliente"
   },
   "homepage.about.experience.project.automatedCalling.item3": {
-    "message": "Integré Asterisk PBX para manejo y monitoreo de llamadas"
+    "message": "Integré Asterisk PBX para el manejo y monitorización de llamadas"
   },
   "homepage.about.experience.project.automatedCalling.item4": {
-    "message": "Desarrollé interfaz de administración para programación y seguimiento de llamadas"
+    "message": "Desarrollé una interfaz de administración para la programación y seguimiento de llamadas"
   },
   "homepage.about.experience.project.govTelecom.title": {
-    "message": "Plataforma de Monitoreo de Telecomunicaciones Gubernamentales",
+    "message": "Plataforma de Monitorización de Telecomunicaciones Gubernamentales",
     "description": "Title for the Government Telecom Monitoring Platform project"
   },
   "homepage.about.experience.project.govTelecom.date": {
@@ -593,19 +542,19 @@
     "description": "Date for the Government Telecom Monitoring Platform project"
   },
   "homepage.about.experience.project.govTelecom.item1": {
-    "message": "Desarrollé plataforma web para monitoreo en tiempo real de agentes de llamadas"
+    "message": "Desarrollé una plataforma web para la monitorización en tiempo real de agentes de llamadas"
   },
   "homepage.about.experience.project.govTelecom.item2": {
     "message": "Creé scripts bash para procesar eventos de llamadas de Asterisk"
   },
   "homepage.about.experience.project.govTelecom.item3": {
-    "message": "Implementé generación de reportes CSV/PDF para operaciones diarias"
+    "message": "Implementé la generación de informes CSV/PDF para operaciones diarias"
   },
   "homepage.about.experience.project.govTelecom.item4": {
-    "message": "Construí dashboard mostrando métricas y estadísticas de llamadas en tiempo real"
+    "message": "Construí un panel que mostraba métricas y estadísticas de llamadas en tiempo real"
   },
   "homepage.about.experience.project.clientPortal.title": {
-    "message": "Portal de Servicios para Clientes",
+    "message": "Portal de Servicios al Cliente",
     "description": "Title for the Client Services Portal project"
   },
   "homepage.about.experience.project.clientPortal.date": {
@@ -613,23 +562,23 @@
     "description": "Date for the Client Services Portal project"
   },
   "homepage.about.experience.project.clientPortal.item1": {
-    "message": "Reestructuré el esquema de base de datos para mejor escalabilidad"
+    "message": "Reestructuré el esquema de la base de datos para mejorar la escalabilidad"
   },
   "homepage.about.experience.project.clientPortal.item2": {
     "message": "Modernicé la plataforma central con control de acceso basado en roles"
   },
   "homepage.about.experience.project.clientPortal.item3": {
-    "message": "Integré VTiger CRM con sistemas internos mediante un hub de datos centralizado"
+    "message": "Integré VTiger CRM con sistemas internos a través de un hub de datos centralizado"
   },
   "homepage.about.experience.project.clientPortal.item4": {
-    "message": "Creé herramientas internas de automatización que redujeron trabajo manual"
+    "message": "Creé herramientas de automatización internas reduciendo el trabajo manual"
   },
   "homepage.about.experience.bellvitge.logoAlt": {
-    "message": "Logo del Hospital Bellvitge",
+    "message": "Logo Hospital Bellvitge",
     "description": "Alt text for Hospital Bellvitge logo"
   },
   "homepage.about.experience.bellvitge.header": {
-    "message": "Hospital Universitario Bellvitge - Asistente de Cuidado al Paciente",
+    "message": "Hospital Universitario Bellvitge - Auxiliar de Enfermería",
     "description": "Header for Bellvitge experience (Company and Role)"
   },
   "homepage.about.experience.bellvitge.date": {
@@ -637,10 +586,10 @@
     "description": "Date range for Bellvitge experience"
   },
   "homepage.about.experience.bellvitge.item1": {
-    "message": "Compaginé estudios de ingeniería a tiempo completo con trabajo en el sector salud"
+    "message": "Compaginé estudios de ingeniería a tiempo completo con trabajo en sanidad"
   },
   "homepage.about.experience.bellvitge.item2": {
-    "message": "Brindé apoyo crítico durante la ola de la pandemia COVID-19"
+    "message": "Proporcioné soporte crítico durante el aumento de la pandemia de COVID-19"
   },
   "homepage.about.tabs.educationLabel": {
     "message": "🎓 Educación",
@@ -667,18 +616,18 @@
     "description": "Degree name from UAB"
   },
   "homepage.about.education.uab.specialization": {
-    "message": "Ingeniería del Software con especialización en computación"
+    "message": "Ingeniería de Software con Mención en Computación"
   },
   "homepage.about.education.uab.finalProject": {
-    "message": "Proyecto Final: Asistente de Voz Local para Conversión de Lenguaje Natural a SQL - {thesisLink}",
+    "message": "Trabajo Fin de Grado: Asistente de Voz Local de Lenguaje Natural a SQL - {thesisLink}",
     "description": "Description of the final project including the link text placeholder"
   },
   "homepage.about.education.uab.thesisLinkText": {
-    "message": "Ver Documentación de la Tesis",
+    "message": "Ver Documentación del TFG",
     "description": "Text for the thesis documentation link"
   },
   "homepage.about.education.language.logoAlt": {
-    "message": "Logo de Idiomas",
+    "message": "Logo Idioma",
     "description": "Alt text for Language logo"
   },
   "homepage.about.education.language.header": {
@@ -690,7 +639,7 @@
     "description": "Spanish language name"
   },
   "homepage.about.education.language.native": {
-    "message": "Nativo"
+    "message": "Competencia nativa"
   },
   "homepage.about.education.language.catalan": {
     "message": "Catalán",
@@ -709,15 +658,15 @@
     "description": "Name for the PHP/Laravel skill"
   },
   "homepage.skills.phpLaravel.description": {
-    "message": "Desarrollé y mantuve sistemas backend centrales para plataformas VoIP. Migré bases de código heredadas a Laravel, creé APIs REST para integraciones con frontend/terceros e implementé trabajos en cola para procesamiento de llamadas.",
+    "message": "Desarrollé y mantuve sistemas backend centrales para plataformas VoIP. Migré códigos base heredados a Laravel, creé APIs REST para integraciones frontend/terceros e implementé workers de colas para tareas de procesamiento de llamadas.",
     "description": "Description for the PHP/Laravel skill"
   },
   "homepage.skills.mysqlDatabase.name": {
-    "message": "Base de datos MySQL",
+    "message": "Base de Datos MySQL",
     "description": "Name for the MySQL Database skill"
   },
   "homepage.skills.mysqlDatabase.description": {
-    "message": "Diseñé esquemas de bases de datos relacionales para sistemas de telecomunicaciones, optimicé el rendimiento de consultas e implementé consultas complejas para análisis de llamadas.",
+    "message": "Diseñé esquemas de bases de datos relacionales para sistemas de telecomunicaciones, optimicé el rendimiento de consultas e implementé consultas complejas de informes para análisis de llamadas.",
     "description": "Description for the MySQL Database skill"
   },
   "homepage.skills.voiceApis.name": {
@@ -725,7 +674,7 @@
     "description": "Name for the Voice APIs (Google/Amazon) skill"
   },
   "homepage.skills.voiceApis.description": {
-    "message": "Integré capacidades de voz-a-texto y texto-a-voz para sistemas de voz interactivos. Implementé procesamiento de lenguaje natural para navegación en llamadas telefónicas.",
+    "message": "Integré capacidades de conversión de voz a texto y texto a voz para sistemas de voz interactivos. Implementé procesamiento de lenguaje natural para la navegación en llamadas telefónicas.",
     "description": "Description for the Voice APIs (Google/Amazon) skill"
   },
   "homepage.skills.asteriskPbx.name": {
@@ -733,15 +682,15 @@
     "description": "Name for the Asterisk PBX skill"
   },
   "homepage.skills.asteriskPbx.description": {
-    "message": "Configuré aplicaciones que interactúan con Asterisk PBX. Desarrollé programas de monitoreo de llamadas y paneles de reportes. Creé flujos de llamadas personalizados usando LLMs para requisitos específicos de clientes.",
+    "message": "Configuré aplicaciones que interactúan con Asterisk PBX. Desarrollé programas de monitorización de llamadas y paneles de informes. Creé flujos de llamadas personalizados utilizando LLMs para requisitos específicos de clientes.",
     "description": "Description for the Asterisk PBX skill"
   },
   "homepage.skills.restApi.name": {
-    "message": "Desarrollo de APIs REST",
+    "message": "Desarrollo de API REST",
     "description": "Name for the REST API Development skill"
   },
   "homepage.skills.restApi.description": {
-    "message": "Construí APIs en Laravel para permitir a los clientes interactuar con nuestros servicios a través de sus propios portales/plataformas. Desarrollé documentación y ejemplos de integración para desarrolladores externos.",
+    "message": "Construí APIs con Laravel para permitir a los clientes interactuar con nuestros servicios a través de sus propios portales/plataformas. Desarrollé documentación y ejemplos de integración para desarrolladores de terceros.",
     "description": "Description for the REST API Development skill"
   },
   "homepage.skills.htmlCss.name": {
@@ -749,7 +698,7 @@
     "description": "Name for the HTML5/CSS3 skill"
   },
   "homepage.skills.htmlCss.description": {
-    "message": "Construí interfaces administrativas responsivas y portales para clientes. Implementé diseños complejos para paneles en tiempo real manteniendo compatibilidad entre navegadores.",
+    "message": "Construí interfaces de administración responsive y portales de cliente. Implementé diseños complejos para paneles en tiempo real manteniendo la compatibilidad entre navegadores.",
     "description": "Description for the HTML5/CSS3 skill"
   },
   "homepage.skills.javascriptJquery.name": {
@@ -757,7 +706,7 @@
     "description": "Name for the JavaScript/jQuery skill"
   },
   "homepage.skills.javascriptJquery.description": {
-    "message": "Desarrollé componentes interactivos para paneles de monitoreo de llamadas. Implementé actualizaciones en tiempo real usando AJAX y WebSockets.",
+    "message": "Desarrollé componentes de interfaz de usuario interactivos para paneles de monitorización de llamadas. Implementé actualizaciones en tiempo real usando AJAX y WebSockets.",
     "description": "Description for the JavaScript/jQuery skill"
   },
   "homepage.skills.bootstrap.name": {
@@ -765,7 +714,7 @@
     "description": "Name for the Bootstrap skill"
   },
   "homepage.skills.bootstrap.description": {
-    "message": "Creé diseños de UI consistentes en múltiples paneles administrativos e interfaces para clientes. Funcionó como la principal librería de estilos para cohesión de componentes en todos los proyectos.",
+    "message": "Creé diseños de interfaz de usuario consistentes en múltiples paneles de administración e interfaces orientadas al cliente. Sirvió como la biblioteca de estilos principal para la cohesión de componentes en todos los proyectos.",
     "description": "Description for the Bootstrap skill"
   },
   "homepage.skills.laravelBlade.name": {
@@ -773,15 +722,15 @@
     "description": "Name for the Laravel Blade skill"
   },
   "homepage.skills.laravelBlade.description": {
-    "message": "Desarrollé plantillas renderizadas en el servidor con componentes reutilizables para una integración eficiente entre frontend y backend.",
+    "message": "Desarrollé plantillas dinámicas renderizadas en el servidor con componentes reutilizables para una integración eficiente frontend-backend.",
     "description": "Description for the Laravel Blade skill"
   },
   "homepage.skills.responsiveDesign.name": {
-    "message": "Diseño Responsivo",
+    "message": "Diseño Adaptable",
     "description": "Name for the Responsive Design skill"
   },
   "homepage.skills.responsiveDesign.description": {
-    "message": "Implementé enfoques mobile-first para todas las aplicaciones web orientadas a clientes.",
+    "message": "Implementé enfoques 'mobile-first' para todas las aplicaciones web orientadas al cliente.",
     "description": "Description for the Responsive Design skill"
   },
   "homepage.skills.serverManagement.name": {
@@ -789,11 +738,11 @@
     "description": "Name for the Web Server Management skill"
   },
   "homepage.skills.serverManagement.description": {
-    "message": "Gestioné servidores de producción incluyendo monitoreo de rendimiento, fortalecimiento de seguridad y administración de paquetes. Administré servidores basados en Proxmox tanto en la nube como en entornos locales.",
+    "message": "Gestioné servidores de producción incluyendo monitorización de rendimiento, refuerzo de seguridad y gestión de paquetes. Administré servidores basados en Proxmox tanto en entornos cloud como locales.",
     "description": "Description for the Web Server Management skill"
   },
   "homepage.skills.bashScripting.name": {
-    "message": "Scripting en Bash",
+    "message": "Scripting Bash",
     "description": "Name for the Bash Scripting skill"
   },
   "homepage.skills.bashScripting.description": {
@@ -805,7 +754,7 @@
     "description": "Name for the C++ (Microcontrollers) skill"
   },
   "homepage.skills.cppMicrocontrollers.description": {
-    "message": "Usado durante estudios universitarios y como hobby. Desarrollo programas para microcontroladores usando plataformas como Arduino, PlatformIO y ESP-IDF para proyectos personales de electrónica.",
+    "message": "Utilizado durante los estudios universitarios y como aficionado. Desarrollo programas para microcontroladores utilizando plataformas como Arduino, PlatformIO y ESP-IDF para proyectos personales de electrónica.",
     "description": "Description for the C++ (Microcontrollers) skill"
   },
   "homepage.skills.pythonPrototyping.name": {
@@ -813,7 +762,7 @@
     "description": "Name for the Python (Fast Prototyping) skill"
   },
   "homepage.skills.pythonPrototyping.description": {
-    "message": "Creé aplicaciones personalizadas para clientes y desarrollo rápido de pruebas de concepto. Usado para scripting, automatización e implementación rápida de ideas.",
+    "message": "Creé aplicaciones personalizadas para clientes y desarrollo rápido de pruebas de concepto. Utilizado para scripting, automatización e implementación rápida de ideas.",
     "description": "Description for the Python (Fast Prototyping) skill"
   },
   "homepage.skills.gitControl.name": {
@@ -821,7 +770,7 @@
     "description": "Name for the Git Version Control skill"
   },
   "homepage.skills.gitControl.description": {
-    "message": "Usé Git para control de versiones en proyectos personales y profesionales. Gestioné repositorios, ramas y flujos de trabajo colaborativos para equipos de desarrollo.",
+    "message": "Utilicé Git para el control de versiones en proyectos personales y profesionales. Gestioné repositorios, ramas y flujos de trabajo colaborativos para equipos de desarrollo.",
     "description": "Description for the Git Version Control skill"
   },
   "homepage.skills.title": {
@@ -829,23 +778,74 @@
     "description": "Title for the Technical Skills section"
   },
   "homepage.skills.category.backend": {
-    "message": "Backend & Telecomunicaciones",
+    "message": "Backend y Telecomunicaciones",
     "description": "Title for the Backend & Telecom skills card"
   },
   "homepage.skills.category.frontend": {
-    "message": "Frontend & Interfaz de Usuario",
+    "message": "Frontend e Interfaz de Usuario",
     "description": "Title for the Frontend & UI skills card"
   },
   "homepage.skills.category.others": {
     "message": "Otros",
     "description": "Title for the Others skills card"
   },
-  "homepage.hero.companyName.nubelfon": {
-    "message": "Nubelfon",
-    "description": "The name of the company Nubelfon"
+  "homepage.layout.title": {
+    "message": "Ingeniero Informático y Desarrollador Full Stack",
+    "description": "The title tag for the homepage"
   },
-  "homepage.hero.profilePicAlt": {
-    "message": "Raul A.R.",
-    "description": "Alt text for the profile picture in the hero section"
+  "homepage.layout.description": {
+    "message": "Portfolio de Raul A.R. - Ingeniero Informático y Desarrollador Full Stack de Barcelona especializado en desarrollo backend y soluciones de telecomunicaciones",
+    "description": "The meta description tag for the homepage"
+  },
+  "showcase.filters.resultCount": {
+    "message": "1 sitio|{sitesCount} sitios",
+    "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "Docusaurus Site Showcase": {
+    "message": "Escaparate de Sitios Docusaurus"
+  },
+  "List of websites people are building with Docusaurus": {
+    "message": "Lista de sitios web que la gente está construyendo con Docusaurus"
+  },
+  "showcase.header.button": {
+    "message": "🙏 Por favor, añade tu sitio"
+  },
+  "showcase.usersList.noResult": {
+    "message": "Sin resultados"
+  },
+  "showcase.favoritesList.title": {
+    "message": "Nuestros favoritos"
+  },
+  "showcase.usersList.allUsers": {
+    "message": "Todos los sitios"
+  },
+  "showcase.card.sourceLink": {
+    "message": "fuente"
+  },
+  "showcase.filters.title": {
+    "message": "Filtros"
+  },
+  "showcase.searchBar.placeholder": {
+    "message": "Buscar por nombre del sitio..."
+  },
+  "theme.IdealImageMessage.loading": {
+    "message": "Cargando...",
+    "description": "When the full-scale image is loading"
+  },
+  "theme.IdealImageMessage.load": {
+    "message": "Haz clic para cargar{sizeMessage}",
+    "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
+  },
+  "theme.IdealImageMessage.offline": {
+    "message": "Tu navegador está desconectado. Imagen no cargada",
+    "description": "When the user is viewing an offline document"
+  },
+  "theme.IdealImageMessage.404error": {
+    "message": "404. Imagen no encontrada",
+    "description": "When the image is not found"
+  },
+  "theme.IdealImageMessage.error": {
+    "message": "Error. Haz clic para recargar",
+    "description": "When the image fails to load for unknown error"
   }
 }

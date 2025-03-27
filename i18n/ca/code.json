@@ -1,125 +1,125 @@
 {
   "theme.ErrorPageContent.title": {
-    "message": "This page crashed.",
+    "message": "Aquesta pàgina ha fallat.",
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Scroll back to top",
+    "message": "Desplaça't cap amunt",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
-    "message": "Archive",
+    "message": "Arxiu",
     "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "Archive",
+    "message": "Arxiu",
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Blog list page navigation",
+    "message": "Navegació de la llista d'entrades del blog",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "Newer entries",
+    "message": "Entrades més recents",
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Older entries",
+    "message": "Entrades més antigues",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Blog post page navigation",
+    "message": "Navegació de la pàgina d'entrada del blog",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Newer post",
+    "message": "Entrada més recent",
     "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Older post",
+    "message": "Entrada més antiga",
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.tags.tagsPageLink": {
-    "message": "View all tags",
+    "message": "Veure totes les etiquetes",
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Switch between dark and light mode (currently {mode})",
+    "message": "Canvia entre el mode fosc i clar (actualment {mode})",
     "description": "The ARIA label for the navbar color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "dark mode",
+    "message": "mode fosc",
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "light mode",
+    "message": "mode clar",
     "description": "The name for the light color mode"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Breadcrumbs",
+    "message": "Ruta de navegació",
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "1 item|{count} items",
+    "message": "1 element|{count} elements",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Docs pages",
+    "message": "Pàgines de documentació",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Previous",
+    "message": "Anterior",
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Next",
+    "message": "Següent",
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "One doc tagged|{count} docs tagged",
+    "message": "Un document etiquetat|{count} documents etiquetats",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged} with \"{tagName}\"",
+    "message": "{nDocsTagged} amb \"{tagName}\"",
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
-    "message": "Version: {versionLabel}"
+    "message": "Versió: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
+    "message": "Aquesta és documentació no publicada per a la versió {versionLabel} de {siteTitle}.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
+    "message": "Aquesta és documentació per a {siteTitle} {versionLabel}, que ja no es manté activament.",
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
+    "message": "Per a documentació actualitzada, consulteu la {latestVersionLink} ({versionLabel}).",
     "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
-    "message": "latest version",
+    "message": "versió més recent",
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "Edit this page",
+    "message": "Edita aquesta pàgina",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "Direct link to {heading}",
+    "message": "Enllaç directe a {heading}",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
-    "message": " on {date}",
+    "message": " el {date}",
     "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
-    "message": " by {user}",
+    "message": " per {user}",
     "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
-    "message": "Last updated{atDate}{byUser}",
+    "message": "Última actualització{atDate}{byUser}",
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
@@ -127,19 +127,19 @@
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.NotFound.title": {
-    "message": "Page Not Found",
+    "message": "Pàgina No Trobada",
     "description": "The title of the 404 page"
   },
   "theme.tags.tagsListLabel": {
-    "message": "Tags:",
+    "message": "Etiquetes:",
     "description": "The label alongside a tag list"
   },
   "theme.admonition.caution": {
-    "message": "caution",
+    "message": "precaució",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.admonition.danger": {
-    "message": "danger",
+    "message": "perill",
     "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {
@@ -147,123 +147,123 @@
     "description": "The default label used for the Info admonition (:::info)"
   },
   "theme.admonition.note": {
-    "message": "note",
+    "message": "nota",
     "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "message": "tip",
+    "message": "consell",
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
-    "message": "warning",
+    "message": "advertència",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Close",
+    "message": "Tanca",
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Blog recent posts navigation",
+    "message": "Navegació d'entrades recents del blog",
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.CodeBlock.copied": {
-    "message": "Copied",
+    "message": "Copiat",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Copy code to clipboard",
+    "message": "Copia el codi al porta-retalls",
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.copy": {
-    "message": "Copy",
+    "message": "Copia",
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle word wrap",
+    "message": "Activa/desactiva l'ajust de línia",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Expand sidebar category '{label}'",
+    "message": "Expandeix la categoria de la barra lateral '{label}'",
     "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Collapse sidebar category '{label}'",
+    "message": "Replega la categoria de la barra lateral '{label}'",
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "Main",
+    "message": "Principal",
     "description": "The ARIA label for the main navigation"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
+    "message": "Idiomes",
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.NotFound.p1": {
-    "message": "We could not find what you were looking for.",
+    "message": "No hem pogut trobar el que buscaves.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "message": "Si us plau, contacta amb el propietari del lloc que t'ha enllaçat a l'URL original i fes-li saber que el seu enllaç està trencat.",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "On this page",
+    "message": "En aquesta pàgina",
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.blog.post.readMore": {
-    "message": "Read more",
+    "message": "Llegeix més",
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "Read more about {title}",
+    "message": "Llegeix més sobre {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "One min read|{readingTime} min read",
+    "message": "Un minut de lectura|{readingTime} minuts de lectura",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Home page",
+    "message": "Pàgina d'inici",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Collapse sidebar",
+    "message": "Replega la barra lateral",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Collapse sidebar",
+    "message": "Replega la barra lateral",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
+    "message": "Barra lateral de documentació",
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Close navigation bar",
+    "message": "Tanca la barra de navegació",
     "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Back to main menu",
+    "message": "← Torna al menú principal",
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Toggle navigation bar",
+    "message": "Commuta la barra de navegació",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Expand sidebar",
+    "message": "Expandeix la barra lateral",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Expand sidebar",
+    "message": "Expandeix la barra lateral",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.blog.post.plurals": {
-    "message": "One post|{count} posts",
+    "message": "Una entrada|{count} entrades",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} tagged with \"{tagName}\"",
+    "message": "{nPosts} amb l'etiqueta \"{tagName}\"",
     "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
@@ -271,43 +271,581 @@
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
-    "message": "Authors",
+    "message": "Autors",
     "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "View all authors",
+    "message": "Veure tots els autors",
     "description": "The label of the link targeting the blog authors page"
   },
   "theme.blog.author.noPosts": {
-    "message": "This author has not written any posts yet.",
+    "message": "Aquest autor encara no ha escrit cap entrada.",
     "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
-    "message": "Unlisted page",
+    "message": "Pàgina no llistada",
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "message": "Aquesta pàgina no està llistada. Els motors de cerca no l'indexaran i només els usuaris que tinguin un enllaç directe hi podran accedir.",
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Draft page",
+    "message": "Pàgina d'esborrany",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "message": "Aquesta pàgina és un esborrany. Només serà visible en desenvolupament i s'exclourà de la compilació de producció.",
     "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Try again",
+    "message": "Torna-ho a provar",
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
-    "message": "Skip to main content",
+    "message": "Salta al contingut principal",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
-    "message": "Tags",
+    "message": "Etiquetes",
     "description": "The title of the tag list page"
+  },
+  "Favorite": {
+    "message": "Preferit"
+  },
+  "showcase.tag.favorite.description": {
+    "message": "Els nostres llocs Docusaurus preferits que has de visitar sense falta!"
+  },
+  "Open-Source": {
+    "message": "Codi Obert"
+  },
+  "showcase.tag.opensource.description": {
+    "message": "Els llocs Docusaurus de codi obert poden ser útils per inspirar-se!"
+  },
+  "Product": {
+    "message": "Producte"
+  },
+  "showcase.tag.product.description": {
+    "message": "Llocs Docusaurus associats a un producte comercial!"
+  },
+  "Design": {
+    "message": "Disseny"
+  },
+  "showcase.tag.design.description": {
+    "message": "Llocs Docusaurus bonics, polits i que destaquen de la plantilla inicial!"
+  },
+  "I18n": {
+    "message": "I18n"
+  },
+  "showcase.tag.i18n.description": {
+    "message": "Llocs Docusaurus traduïts utilitzant el suport d'internacionalització amb més d'1 localització."
+  },
+  "Versioning": {
+    "message": "Gestió de versions"
+  },
+  "showcase.tag.versioning.description": {
+    "message": "Llocs Docusaurus que utilitzen la funcionalitat de gestió de versions del connector de documentació per gestionar múltiples versions."
+  },
+  "Large": {
+    "message": "Gran"
+  },
+  "showcase.tag.large.description": {
+    "message": "Llocs Docusaurus molt grans, que inclouen moltes més pàgines que la mitjana!"
+  },
+  "Meta": {
+    "message": "Meta"
+  },
+  "showcase.tag.meta.description": {
+    "message": "Llocs Docusaurus de projectes de Meta (anteriorment Facebook)"
+  },
+  "Personal": {
+    "message": "Personal"
+  },
+  "showcase.tag.personal.description": {
+    "message": "Llocs web personals, blogs i jardins digitals construïts amb Docusaurus"
+  },
+  "RTL Direction": {
+    "message": "Direcció RTL"
+  },
+  "showcase.tag.rtl.description": {
+    "message": "Llocs Docusaurus que utilitzen el suport de direcció de lectura de dreta a esquerra."
+  },
+  "homepage.hero.title": {
+    "message": "Hola, sóc {name}",
+    "description": "The main title on the homepage greeting"
+  },
+  "homepage.hero.subtitle": {
+    "message": "Enginyer Informàtic i Desenvolupador Full Stack resident a Barcelona, especialitzat en desenvolupament backend i solucions VoIP personalitzades.",
+    "description": "The subtitle describing the role and location"
+  },
+  "homepage.hero.currentWork": {
+    "message": "💼 Actualment construint solucions VoIP personalitzades a {companyLink}",
+    "description": "Sentence indicating current workplace"
+  },
+  "homepage.hero.companyName.nubelfon": {
+    "message": "Nubelfon",
+    "description": "The name of the company Nubelfon"
+  },
+  "homepage.hero.button.viewProjects": {
+    "message": "Veure Projectes",
+    "description": "Text for the View Projects button"
+  },
+  "homepage.hero.button.downloadCV": {
+    "message": "Descarregar CV",
+    "description": "Text for the Download CV button"
+  },
+  "homepage.hero.copyButton.tooltip": {
+    "message": "Copia",
+    "description": "Tooltip for the copy email button"
+  },
+  "homepage.hero.copyButton.copied": {
+    "message": "Copiat!",
+    "description": "Text displayed after copying the email address"
+  },
+  "homepage.hero.copyButton.title": {
+    "message": "Copia l'email",
+    "description": "Title attribute for the copy email button"
+  },
+  "homepage.hero.profilePicAlt": {
+    "message": "Raul A.R.",
+    "description": "Alt text for the profile picture in the hero section"
+  },
+  "homepage.about.title": {
+    "message": "Sobre Mi",
+    "description": "Title for the About Me section"
+  },
+  "homepage.about.paragraph1": {
+    "message": "Sóc un Enginyer Informàtic resident a Barcelona, graduat per la {uabLink} amb una especialització en Ciències de la Computació.",
+    "description": "First paragraph in the About section introducing the user"
+  },
+  "homepage.about.uabName": {
+    "message": "Universitat Autònoma de Barcelona",
+    "description": "Name of the university UAB"
+  },
+  "homepage.about.paragraph2": {
+    "message": "La meva experiència es centra en el desenvolupament full-stack, amb un fort enfocament en sistemes backend, particularment utilitzant PHP amb Laravel. Tinc experiència en integracions d'API, gestió de bases de dades, desplegament d'infraestructures i automatització de scripts.",
+    "description": "Second paragraph describing expertise"
+  },
+  "homepage.about.paragraph3": {
+    "message": "Al llarg dels anys, he estat involucrat en projectes relacionats amb solucions VoIP, incloent l'automatització de trucades telefòniques per a diversos casos d'ús, monitorització de trucades en temps real amb Asterisk i el desenvolupament de plataformes per a clients empresarials per gestionar els seus serveis de telecomunicacions.",
+    "description": "Third paragraph about VoIP experience"
+  },
+  "homepage.about.paragraph4": {
+    "message": "A més del desenvolupament backend, tinc experiència amb tecnologies frontend, administració de sistemes i scripting. M'agrada treballar en equips petits i col·laboratius on puc contribuir a tot el cicle de desenvolupament, des del disseny de l'arquitectura fins al desplegament i manteniment.",
+    "description": "Fourth paragraph about frontend, sysadmin, collaboration and team preferences"
+  },
+  "homepage.about.paragraph5": {
+    "message": "Fora de la meva feina professional, mantinc un entorn de laboratori domèstic on desenvolupo projectes com {eco2Link}, un lloc web que va ajudar el meu equip a guanyar una Hackathon. També m'agrada treballar en projectes personals que involucren C++ per a microcontroladors i Python per a prototipatge ràpid.",
+    "description": "Fifth paragraph about personal projects and home lab"
+  },
+  "homepage.about.eco2ProjectName": {
+    "message": "ECO2",
+    "description": "Name of the ECO2 project"
+  },
+  "homepage.about.tabs.experienceLabel": {
+    "message": "💼 Experiència Professional",
+    "description": "Label for the Professional Experience tab"
+  },
+  "homepage.about.experience.cardTitle": {
+    "message": "Experiència Laboral",
+    "description": "Title for the Work Experience card"
+  },
+  "homepage.about.experience.nubelfon.logoAlt": {
+    "message": "Logo Nubelfon",
+    "description": "Alt text for Nubelfon logo"
+  },
+  "homepage.about.experience.nubelfon.header": {
+    "message": "Nubelfon - Desenvolupador Full Stack i Desenvolupador de Solucions",
+    "description": "Header for Nubelfon experience (Company and Role)"
+  },
+  "homepage.about.experience.nubelfon.date": {
+    "message": "2021 - Actualitat",
+    "description": "Date range for Nubelfon experience"
+  },
+  "homepage.about.experience.keyAchievements": {
+    "message": "Assoliments Clau:",
+    "description": "Heading for Key Achievements list"
+  },
+  "homepage.about.experience.nubelfon.achievement1": {
+    "message": "Lideratge i desenvolupament de solucions VoIP empresarials per a clients governamentals i corporatius"
+  },
+  "homepage.about.experience.nubelfon.achievement2.intro": {
+    "message": "Modernització de sistemes heretats mitjançant:"
+  },
+  "homepage.about.experience.nubelfon.achievement2.item1": {
+    "message": "Migració de codebase heretat al framework Laravel"
+  },
+  "homepage.about.experience.nubelfon.achievement2.item2": {
+    "message": "Implementació d'APIs REST per a integracions de tercers"
+  },
+  "homepage.about.experience.nubelfon.achievement2.item3": {
+    "message": "Optimització de l'esquema de base de dades per a un millor rendiment"
+  },
+  "homepage.about.experience.nubelfon.achievement3": {
+    "message": "Arquitectura de 2 actualitzacions importants de la plataforma millorant l'escalabilitat i la mantenibilitat"
+  },
+  "homepage.about.experience.nubelfon.achievement4": {
+    "message": "Desenvolupament de scripts d'automatització reduint tasques repetitives mitjançant 'queue workers'"
+  },
+  "homepage.about.experience.coreResponsibilities": {
+    "message": "Responsabilitats Principals:",
+    "description": "Heading for Core Responsibilities list"
+  },
+  "homepage.about.experience.nubelfon.responsibility1": {
+    "message": "Integració de sistemes amb Asterisk PBX i VTiger CRM"
+  },
+  "homepage.about.experience.nubelfon.responsibility2": {
+    "message": "Disseny i optimització de bases de dades per a la gestió de dades de trucades d'alt volum"
+  },
+  "homepage.about.experience.nubelfon.responsibility3": {
+    "message": "Implementació de funcions de seguretat incloent Control d'Accés Basat en Rols (RBAC)"
+  },
+  "homepage.about.experience.nubelfon.responsibility4": {
+    "message": "Desenvolupament de panells de monitorització en temps real i sistemes d'informes automatitzats"
+  },
+  "homepage.about.experience.nubelfon.responsibility5": {
+    "message": "Creació de documentació tècnica i materials d'incorporació de clients"
+  },
+  "homepage.about.experience.nubelfon.responsibility6": {
+    "message": "Implementació de proves unitàries per a funcionalitats centrals de la plataforma"
+  },
+  "homepage.about.experience.notableProjects": {
+    "message": "Projectes Destacats:",
+    "description": "Heading for Notable Projects list"
+  },
+  "homepage.about.experience.project.automatedCalling.title": {
+    "message": "Sistema de Trucades Automatitzades",
+    "description": "Title for the Automated Calling System project"
+  },
+  "homepage.about.experience.project.automatedCalling.date": {
+    "message": "2021-Actualitat",
+    "description": "Date for the Automated Calling System project"
+  },
+  "homepage.about.experience.project.automatedCalling.item1": {
+    "message": "Completat i manteniment de projecte heretat d'automatització de trucades com a desenvolupador principal"
+  },
+  "homepage.about.experience.project.automatedCalling.item2": {
+    "message": "Implementació d'arquitectura modular per a personalitzacions específiques del client"
+  },
+  "homepage.about.experience.project.automatedCalling.item3": {
+    "message": "Integració d'Asterisk PBX per a la gestió i monitorització de trucades"
+  },
+  "homepage.about.experience.project.automatedCalling.item4": {
+    "message": "Desenvolupament d'interfície d'administració per a la programació i seguiment de trucades"
+  },
+  "homepage.about.experience.project.govTelecom.title": {
+    "message": "Plataforma de Monitorització de Telecomunicacions Governamental",
+    "description": "Title for the Government Telecom Monitoring Platform project"
+  },
+  "homepage.about.experience.project.govTelecom.date": {
+    "message": "2022",
+    "description": "Date for the Government Telecom Monitoring Platform project"
+  },
+  "homepage.about.experience.project.govTelecom.item1": {
+    "message": "Desenvolupament de plataforma web per a la monitorització d'agents de trucades en temps real"
+  },
+  "homepage.about.experience.project.govTelecom.item2": {
+    "message": "Creació de scripts bash per al processament d'esdeveniments de trucades d'Asterisk"
+  },
+  "homepage.about.experience.project.govTelecom.item3": {
+    "message": "Implementació de generació d'informes CSV/PDF per a operacions diàries"
+  },
+  "homepage.about.experience.project.govTelecom.item4": {
+    "message": "Construcció de panell de control mostrant mètriques i estadístiques de trucades en temps real"
+  },
+  "homepage.about.experience.project.clientPortal.title": {
+    "message": "Portal de Serveis per a Clients",
+    "description": "Title for the Client Services Portal project"
+  },
+  "homepage.about.experience.project.clientPortal.date": {
+    "message": "2023-Actualitat",
+    "description": "Date for the Client Services Portal project"
+  },
+  "homepage.about.experience.project.clientPortal.item1": {
+    "message": "Reestructuració de l'esquema de la base de dades per millorar l'escalabilitat"
+  },
+  "homepage.about.experience.project.clientPortal.item2": {
+    "message": "Modernització de la plataforma central amb control d'accés basat en rols"
+  },
+  "homepage.about.experience.project.clientPortal.item3": {
+    "message": "Integració de VTiger CRM amb sistemes interns a través d'un concentrador de dades centralitzat"
+  },
+  "homepage.about.experience.project.clientPortal.item4": {
+    "message": "Creació d'eines d'automatització internes reduint el treball manual"
+  },
+  "homepage.about.experience.bellvitge.logoAlt": {
+    "message": "Logo Hospital Bellvitge",
+    "description": "Alt text for Hospital Bellvitge logo"
+  },
+  "homepage.about.experience.bellvitge.header": {
+    "message": "Hospital Universitari Bellvitge - Auxiliar d'Infermeria",
+    "description": "Header for Bellvitge experience (Company and Role)"
+  },
+  "homepage.about.experience.bellvitge.date": {
+    "message": "2017 - 2021",
+    "description": "Date range for Bellvitge experience"
+  },
+  "homepage.about.experience.bellvitge.item1": {
+    "message": "Compaginació d'estudis d'enginyeria a temps complet amb treball sanitari"
+  },
+  "homepage.about.experience.bellvitge.item2": {
+    "message": "Provisió de suport crític durant l'augment de la pandèmia de COVID-19"
+  },
+  "homepage.about.tabs.educationLabel": {
+    "message": "🎓 Educació",
+    "description": "Label for the Education tab"
+  },
+  "homepage.about.education.cardTitle": {
+    "message": "Formació Acadèmica",
+    "description": "Title for the Education Background card"
+  },
+  "homepage.about.education.uab.logoAlt": {
+    "message": "Logo UAB",
+    "description": "Alt text for UAB logo"
+  },
+  "homepage.about.education.uab.header": {
+    "message": "Universitat Autònoma de Barcelona",
+    "description": "Header for UAB education (University Name)"
+  },
+  "homepage.about.education.uab.date": {
+    "message": "2017 - 2022",
+    "description": "Date range for UAB education"
+  },
+  "homepage.about.education.uab.degree": {
+    "message": "Grau en Enginyeria Informàtica",
+    "description": "Degree name from UAB"
+  },
+  "homepage.about.education.uab.specialization": {
+    "message": "Enginyeria de Software amb menció en computació"
+  },
+  "homepage.about.education.uab.finalProject": {
+    "message": "Treball Final de Grau: Assistent de Veu Local de Llenguatge Natural a SQL - {thesisLink}",
+    "description": "Description of the final project including the link text placeholder"
+  },
+  "homepage.about.education.uab.thesisLinkText": {
+    "message": "Veure Documentació TFG",
+    "description": "Text for the thesis documentation link"
+  },
+  "homepage.about.education.language.logoAlt": {
+    "message": "Logo Idioma",
+    "description": "Alt text for Language logo"
+  },
+  "homepage.about.education.language.header": {
+    "message": "Competència Lingüística",
+    "description": "Header for Language Proficiency section"
+  },
+  "homepage.about.education.language.spanish": {
+    "message": "Castellà",
+    "description": "Spanish language name"
+  },
+  "homepage.about.education.language.native": {
+    "message": "Nivell Nadiu"
+  },
+  "homepage.about.education.language.catalan": {
+    "message": "Català",
+    "description": "Catalan language name"
+  },
+  "homepage.about.education.language.english": {
+    "message": "Anglès",
+    "description": "English language name"
+  },
+  "homepage.about.education.language.englishLevel": {
+    "message": "Nivell B2 (First Certificate in English - Cambridge English Assessment)",
+    "description": "English proficiency level B2 with certificate name"
+  },
+  "homepage.skills.phpLaravel.name": {
+    "message": "PHP/Laravel",
+    "description": "Name for the PHP/Laravel skill"
+  },
+  "homepage.skills.phpLaravel.description": {
+    "message": "Desenvolupament i manteniment de sistemes backend centrals per a plataformes VoIP. Migració de bases de codi heretades a Laravel, creació d'APIs REST per a integracions frontend/tercers, i implementació de 'queue workers' per a tasques de processament de trucades.",
+    "description": "Description for the PHP/Laravel skill"
+  },
+  "homepage.skills.mysqlDatabase.name": {
+    "message": "Base de Dades MySQL",
+    "description": "Name for the MySQL Database skill"
+  },
+  "homepage.skills.mysqlDatabase.description": {
+    "message": "Disseny d'esquemes de bases de dades relacionals per a sistemes de telecomunicacions, optimització del rendiment de consultes i implementació de consultes d'informes complexes per a l'anàlisi de trucades.",
+    "description": "Description for the MySQL Database skill"
+  },
+  "homepage.skills.voiceApis.name": {
+    "message": "APIs de Veu (Google/Amazon)",
+    "description": "Name for the Voice APIs (Google/Amazon) skill"
+  },
+  "homepage.skills.voiceApis.description": {
+    "message": "Integració de capacitats de veu a text i text a veu per a sistemes de veu interactius. Implementació de processament de llenguatge natural per a la navegació de trucades telefòniques.",
+    "description": "Description for the Voice APIs (Google/Amazon) skill"
+  },
+  "homepage.skills.asteriskPbx.name": {
+    "message": "Asterisk PBX",
+    "description": "Name for the Asterisk PBX skill"
+  },
+  "homepage.skills.asteriskPbx.description": {
+    "message": "Configuració d'aplicacions que interactuen amb Asterisk PBX. Desenvolupament de programes de monitorització de trucades i panells d'informes. Creació de fluxos de trucades personalitzats utilitzant LLMs per a requisits específics del client.",
+    "description": "Description for the Asterisk PBX skill"
+  },
+  "homepage.skills.restApi.name": {
+    "message": "Desenvolupament d'API REST",
+    "description": "Name for the REST API Development skill"
+  },
+  "homepage.skills.restApi.description": {
+    "message": "Construcció d'APIs Laravel per permetre als clients interactuar amb els nostres serveis a través dels seus propis portals/plataformes. Desenvolupament de documentació i exemples d'integració per a desenvolupadors de tercers.",
+    "description": "Description for the REST API Development skill"
+  },
+  "homepage.skills.htmlCss.name": {
+    "message": "HTML5/CSS3",
+    "description": "Name for the HTML5/CSS3 skill"
+  },
+  "homepage.skills.htmlCss.description": {
+    "message": "Construcció d'interfícies d'administració responsives i portals de clients. Implementació de dissenys complexos per a panells de control en temps real mantenint la compatibilitat entre navegadors.",
+    "description": "Description for the HTML5/CSS3 skill"
+  },
+  "homepage.skills.javascriptJquery.name": {
+    "message": "JavaScript/jQuery",
+    "description": "Name for the JavaScript/jQuery skill"
+  },
+  "homepage.skills.javascriptJquery.description": {
+    "message": "Desenvolupament de components d'interfície d'usuari interactius per a panells de monitorització de trucades. Implementació d'actualitzacions en temps real utilitzant AJAX i WebSockets.",
+    "description": "Description for the JavaScript/jQuery skill"
+  },
+  "homepage.skills.bootstrap.name": {
+    "message": "Bootstrap",
+    "description": "Name for the Bootstrap skill"
+  },
+  "homepage.skills.bootstrap.description": {
+    "message": "Creació de dissenys d'interfície d'usuari consistents en múltiples panells d'administració i interfícies orientades al client. Va servir com a biblioteca d'estils principal per a la cohesió de components en tots els projectes.",
+    "description": "Description for the Bootstrap skill"
+  },
+  "homepage.skills.laravelBlade.name": {
+    "message": "Laravel Blade",
+    "description": "Name for the Laravel Blade skill"
+  },
+  "homepage.skills.laravelBlade.description": {
+    "message": "Desenvolupament de plantilles dinàmiques renderitzades pel servidor amb components reutilitzables per a una integració eficient frontend-backend.",
+    "description": "Description for the Laravel Blade skill"
+  },
+  "homepage.skills.responsiveDesign.name": {
+    "message": "Disseny Responsable",
+    "description": "Name for the Responsive Design skill"
+  },
+  "homepage.skills.responsiveDesign.description": {
+    "message": "Implementació d'enfocaments 'mobile-first' per a totes les aplicacions web orientades al client.",
+    "description": "Description for the Responsive Design skill"
+  },
+  "homepage.skills.serverManagement.name": {
+    "message": "Gestió de Servidors Web",
+    "description": "Name for the Web Server Management skill"
+  },
+  "homepage.skills.serverManagement.description": {
+    "message": "Gestió de servidors de producció incloent monitorització del rendiment, reforç de la seguretat i gestió de paquets. Administració de servidors basats en Proxmox tant en entorns cloud com locals.",
+    "description": "Description for the Web Server Management skill"
+  },
+  "homepage.skills.bashScripting.name": {
+    "message": "Scripting Bash",
+    "description": "Name for the Bash Scripting skill"
+  },
+  "homepage.skills.bashScripting.description": {
+    "message": "Desenvolupament de scripts de desplegament i eines d'automatització per al manteniment de servidors i anàlisi de logs.",
+    "description": "Description for the Bash Scripting skill"
+  },
+  "homepage.skills.cppMicrocontrollers.name": {
+    "message": "C++ (Microcontroladors)",
+    "description": "Name for the C++ (Microcontrollers) skill"
+  },
+  "homepage.skills.cppMicrocontrollers.description": {
+    "message": "Utilitzat durant els estudis universitaris i com a hobby. Desenvolupo programes per a microcontroladors utilitzant plataformes com Arduino, PlatformIO i ESP-IDF per a projectes d'electrònica personal.",
+    "description": "Description for the C++ (Microcontrollers) skill"
+  },
+  "homepage.skills.pythonPrototyping.name": {
+    "message": "Python (Prototipat Ràpid)",
+    "description": "Name for the Python (Fast Prototyping) skill"
+  },
+  "homepage.skills.pythonPrototyping.description": {
+    "message": "Creació d'aplicacions personalitzades per a clients i desenvolupament ràpid de proves de concepte. Utilitzat per a scripting, automatització i implementació ràpida d'idees.",
+    "description": "Description for the Python (Fast Prototyping) skill"
+  },
+  "homepage.skills.gitControl.name": {
+    "message": "Control de Versions Git",
+    "description": "Name for the Git Version Control skill"
+  },
+  "homepage.skills.gitControl.description": {
+    "message": "Ús de Git per al control de versions en projectes personals i professionals. Gestió de repositoris, branques i fluxos de treball col·laboratius per a equips de desenvolupament.",
+    "description": "Description for the Git Version Control skill"
+  },
+  "homepage.skills.title": {
+    "message": "Competències Tècniques",
+    "description": "Title for the Technical Skills section"
+  },
+  "homepage.skills.category.backend": {
+    "message": "Backend i Telecom",
+    "description": "Title for the Backend & Telecom skills card"
+  },
+  "homepage.skills.category.frontend": {
+    "message": "Frontend i UI",
+    "description": "Title for the Frontend & UI skills card"
+  },
+  "homepage.skills.category.others": {
+    "message": "Altres",
+    "description": "Title for the Others skills card"
+  },
+  "homepage.layout.title": {
+    "message": "Enginyer Informàtic i Desenvolupador Full Stack",
+    "description": "The title tag for the homepage"
+  },
+  "homepage.layout.description": {
+    "message": "Portfoli de Raul A.R. - Enginyer Informàtic i Desenvolupador Full Stack de Barcelona especialitzat en desenvolupament backend i solucions de telecomunicacions",
+    "description": "The meta description tag for the homepage"
+  },
+  "showcase.filters.resultCount": {
+    "message": "1 lloc|{sitesCount} llocs",
+    "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "Docusaurus Site Showcase": {
+    "message": "Mostra de Llocs Docusaurus"
+  },
+  "List of websites people are building with Docusaurus": {
+    "message": "Llista de llocs web que la gent està construint amb Docusaurus"
+  },
+  "showcase.header.button": {
+    "message": "🙏 Si us plau, afegeix el teu lloc"
+  },
+  "showcase.usersList.noResult": {
+    "message": "Cap resultat"
+  },
+  "showcase.favoritesList.title": {
+    "message": "Els nostres preferits"
+  },
+  "showcase.usersList.allUsers": {
+    "message": "Tots els llocs"
+  },
+  "showcase.card.sourceLink": {
+    "message": "codi font"
+  },
+  "showcase.filters.title": {
+    "message": "Filtres"
+  },
+  "showcase.searchBar.placeholder": {
+    "message": "Cerca pel nom del lloc..."
+  },
+  "theme.IdealImageMessage.loading": {
+    "message": "Carregant...",
+    "description": "When the full-scale image is loading"
+  },
+  "theme.IdealImageMessage.load": {
+    "message": "Fes clic per carregar{sizeMessage}",
+    "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
+  },
+  "theme.IdealImageMessage.offline": {
+    "message": "El teu navegador està fora de línia. Imatge no carregada",
+    "description": "When the user is viewing an offline document"
+  },
+  "theme.IdealImageMessage.404error": {
+    "message": "404. Imatge no trobada",
+    "description": "When the image is not found"
+  },
+  "theme.IdealImageMessage.error": {
+    "message": "Error. Fes clic per tornar a carregar",
+    "description": "When the image fails to load for unknown error"
   }
 }
