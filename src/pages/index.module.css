@@ -10,6 +10,15 @@
   --gradient-middle: #D8E2DC;
   --gradient-end: #F8F9FA;
 
+  
+  /* --gradient-start: #85bdd3;
+  --gradient-middle: #5793aa;
+  --gradient-end: #264653; */
+
+  /* --gradient-start: #264653;
+  --gradient-middle: #264653;
+  --gradient-end: #264653; */
+
   --container-background-05: rgba(0, 0, 0, 0.05);
   --container-background-20: rgba(0, 0, 0, 0.2);
   --container-background-10: rgba(0, 0, 0, 0.1);
@@ -44,14 +53,46 @@
   --line-separator-light:rgba(0, 0, 0, 0.05);
 }
 
-/* Hero section */
-.heroBanner {
-  padding: 6rem 0;
-  background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-middle) 50%,  var(--gradient-end) 100%);  position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-}
+  /* Hero section */
+  .heroBanner {
+    padding: 6rem 0;
+    background: 
+    radial-gradient(ellipse at 70% 30%, rgba(0, 174, 255, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse at 30% 70%, rgba(0, 255, 221, 0.1) 0%, transparent 50%);
+    background-color: #0f0f1a;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Efecto sutil de "partículas" o "ruido" animado */
+  .heroBanner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    animation: subtleNoise 5s linear infinite;
+    z-index: 0;
+    opacity: 0.5;
+  }
+  
+  @keyframes subtleNoise {
+    0% { background-position: 0 0; }
+    100% { background-position: 100px 100px; }
+  }
+  
+  .heroContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    position: relative; /* Para que esté sobre el ::before */
+    z-index: 1;
+  }
 
 .heroBanner::after {
   content: '';
