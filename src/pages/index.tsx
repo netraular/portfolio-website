@@ -131,16 +131,14 @@ function HeroSection() {
             </div>
           </div>
           <div className={styles.heroImage}>
-            <div className={styles.imageWrapper}>
-              <img 
-                src={githubProfilePic} 
-                alt="Raul A.R." 
-                className={`${styles.profileImage} ${
-                  isSpinning ? styles.spin : ''
-                }`}
-                onClick={handleImageClick} // Usar el handler correcto
-              />
-            </div>
+            <img 
+              src={githubProfilePic} 
+              alt="Raul A.R." 
+              className={`${styles.profileImage} ${
+                isSpinning ? styles.spin : ''
+              }`}
+              onClick={handleImageClick}
+            />
           </div>
         </div>
       </div>
@@ -371,7 +369,7 @@ function SkillsSection() {
       icon: faCode
     },
     'Web Server Management': {
-      description: 'Managed both Nginx and Apache web servers across development and production environments. Configured web applications, development frameworks, and database connections.',
+      description: 'Managed production servers including performance monitoring, security hardening, and package management. Administered Proxmox-based servers both in cloud and local environments.',
       icon: faServer
     },
     'HTML5/CSS3': {
@@ -406,10 +404,6 @@ function SkillsSection() {
       description: 'Developed deployment scripts and automation tools for server maintenance and log analysis.',
       icon: faTerminal
     },
-    'Linux Administration': {
-      description: 'Managed production servers including performance monitoring, security hardening, and package management. Administered Proxmox-based servers both in cloud and local environments.',
-      icon: faLinux
-    },
     'Git Version Control': {
       description: 'Used Git for version control across personal and professional projects. Managed repositories, branches, and collaborative workflows for development teams.',
       icon: faGitAlt
@@ -431,7 +425,7 @@ function SkillsSection() {
             <h3>Backend & Telecom</h3>
             <ul>
               {['PHP/Laravel', 'MySQL Database', 'Voice APIs (Google/Amazon)', 
-                'Asterisk PBX', 'REST API Development', 'Web Server Management'].map((skill) => (
+                'Asterisk PBX', 'REST API Development'].map((skill) => (
                 <li key={skill}>
                   <div 
                     className={`${styles.skillItem} ${expandedSkill === skill ? styles.activeSkill : ''}`} 
@@ -500,7 +494,7 @@ function SkillsSection() {
           <div className={styles.skillCard}>
             <h3>Others</h3>
             <ul>
-              {['Bash Scripting', 'Linux Administration', 'C++ (Microcontrollers)', 
+              {['Web Server Management', 'Bash Scripting',  'C++ (Microcontrollers)', 
                 'Python (Fast Prototyping)', 'Git Version Control'].map((skill) => (
                 <li key={skill}>
                   <div 
