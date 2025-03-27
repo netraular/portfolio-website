@@ -325,15 +325,24 @@ function AboutSection() {
                 </div>
 
                 <div className={styles.experienceItem}>
-        <div className={styles.companyLogo}>
-          <img src="/img/firstB2.png" alt="Cambridge English Logo" />
-        </div>
-        <div className={styles.experienceHeader}>
-          <h4>First Certificate in English - B2 Level - Cambridge English Assessment</h4>
-          <span className={styles.experienceDate}>2016</span>
-        </div>
-
-      </div>
+                  <div className={styles.companyLogo}>
+                    <img src="/img/language-logo.png" alt="Language Logo" />
+                  </div>
+                  <div className={styles.experienceHeader}>
+                    <h4>Language Proficiency</h4>
+                  </div>
+                  <ul className={styles.timelineList}>
+                    <li>
+                      <strong>Spanish</strong> - Native proficiency
+                    </li>
+                    <li>
+                      <strong>Catalan</strong> - Native proficiency
+                    </li>
+                    <li>
+                      <strong>English</strong> - B2 Level (First Certificate in English - Cambridge English Assessment)
+                    </li>
+                  </ul>
+                </div>
 
               </div>
             </div>
