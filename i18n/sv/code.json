@@ -1,0 +1,851 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "Den här sidan kraschade.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Skrolla tillbaka till toppen",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Arkiv",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Arkiv",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Navigering för blogglistan",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Nyare inlägg",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Äldre inlägg",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Navigering för blogginlägg",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Nyare inlägg",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Äldre inlägg",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Visa alla taggar",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Växla mellan mörkt och ljust läge (just nu {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "mörkt läge",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "ljust läge",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Brödsmulor",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 post|{count} poster",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Dokumentsidor",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Föregående",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Nästa",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Ett dokument taggat|{count} dokument taggade",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} med \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Detta är opublicerad dokumentation för {siteTitle} version {versionLabel}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Detta är dokumentation för {siteTitle} {versionLabel}, som inte längre underhålls aktivt.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "För uppdaterad dokumentation, se {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "senaste versionen",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Redigera den här sidan",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direktlänk till {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " den {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " av {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Senast uppdaterad{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versioner",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "Sidan hittades inte",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Taggar:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "varning",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "fara",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "anteckning",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tips",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "varning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Stäng",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Navigering för senaste blogginlägg",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Kopierad",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Kopiera kod till urklipp",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Kopiera",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Växla radbrytning",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expandera sidofältskategori '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Minimera sidofältskategori '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Huvud",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Språk",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "Vi kunde inte hitta det du letade efter.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Vänligen kontakta ägaren till webbplatsen som länkade dig till den ursprungliga URL:en och meddela dem att deras länk är trasig.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "På den här sidan",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Läs mer",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Läs mer om {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "En minuts läsning|{readingTime} minuters läsning",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Startsida",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Minimera sidofältet",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Minimera sidofältet",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Dokumentsidofält",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Stäng navigeringsfältet",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Tillbaka till huvudmenyn",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Växla navigeringsfält",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expandera sidofältet",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expandera sidofältet",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Ett inlägg|{count} inlägg",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} taggade med \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Författare",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "Visa alla författare",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "Den här författaren har inte skrivit några inlägg än.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Olistad sida",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Denna sida är olistad. Sökmotorer kommer inte att indexera den, och endast användare med en direktlänk kan komma åt den.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Utkastsida",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "Denna sida är ett utkast. Den kommer endast att vara synlig i utvecklingsläge och exkluderas från produktionsbygget.",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Försök igen",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Hoppa till huvudinnehåll",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Taggar",
+    "description": "The title of the tag list page"
+  },
+  "Favorite": {
+    "message": "Favorit"
+  },
+  "showcase.tag.favorite.description": {
+    "message": "Våra favoritwebbplatser byggda med Docusaurus som du absolut måste kolla in!"
+  },
+  "Open-Source": {
+    "message": "Öppen källkod"
+  },
+  "showcase.tag.opensource.description": {
+    "message": "Docusaurus-webbplatser med öppen källkod kan vara användbara för inspiration!"
+  },
+  "Product": {
+    "message": "Produkt"
+  },
+  "showcase.tag.product.description": {
+    "message": "Docusaurus-webbplatser kopplade till en kommersiell produkt!"
+  },
+  "Design": {
+    "message": "Design"
+  },
+  "showcase.tag.design.description": {
+    "message": "Vackra Docusaurus-webbplatser, polerade och som sticker ut från den ursprungliga mallen!"
+  },
+  "I18n": {
+    "message": "I18n"
+  },
+  "showcase.tag.i18n.description": {
+    "message": "Översatta Docusaurus-webbplatser som använder internationaliseringsstödet med mer än 1 språk."
+  },
+  "Versioning": {
+    "message": "Versionering"
+  },
+  "showcase.tag.versioning.description": {
+    "message": "Docusaurus-webbplatser som använder versionshanteringsfunktionen i docs-pluginet för att hantera flera versioner."
+  },
+  "Large": {
+    "message": "Stor"
+  },
+  "showcase.tag.large.description": {
+    "message": "Mycket stora Docusaurus-webbplatser, som innehåller många fler sidor än genomsnittet!"
+  },
+  "Meta": {
+    "message": "Meta"
+  },
+  "showcase.tag.meta.description": {
+    "message": "Docusaurus-webbplatser för Meta-projekt (tidigare Facebook)"
+  },
+  "Personal": {
+    "message": "Personlig"
+  },
+  "showcase.tag.personal.description": {
+    "message": "Personliga webbplatser, bloggar och digitala trädgårdar byggda med Docusaurus"
+  },
+  "RTL Direction": {
+    "message": "RTL-riktning"
+  },
+  "showcase.tag.rtl.description": {
+    "message": "Docusaurus-webbplatser som använder stöd för läsriktning från höger till vänster."
+  },
+  "homepage.hero.title": {
+    "message": "Hej, jag är {name}",
+    "description": "The main title on the homepage greeting"
+  },
+  "homepage.hero.subtitle": {
+    "message": "Datateknikingenjör och Full Stack-utvecklare baserad i Barcelona, specialiserad på backend-utveckling och anpassade VoIP-lösningar.",
+    "description": "The subtitle describing the role and location"
+  },
+  "homepage.hero.currentWork": {
+    "message": "💼 Bygger för närvarande anpassade VoIP-lösningar på {companyLink}",
+    "description": "Sentence indicating current workplace"
+  },
+  "homepage.hero.companyName.nubelfon": {
+    "message": "Nubelfon",
+    "description": "The name of the company Nubelfon"
+  },
+  "homepage.hero.button.viewProjects": {
+    "message": "Visa projekt",
+    "description": "Text for the View Projects button"
+  },
+  "homepage.hero.button.downloadCV": {
+    "message": "Ladda ner CV",
+    "description": "Text for the Download CV button"
+  },
+  "homepage.hero.copyButton.tooltip": {
+    "message": "Kopiera",
+    "description": "Tooltip for the copy email button"
+  },
+  "homepage.hero.copyButton.copied": {
+    "message": "Kopierat!",
+    "description": "Text displayed after copying the email address"
+  },
+  "homepage.hero.copyButton.title": {
+    "message": "Kopiera e-post",
+    "description": "Title attribute for the copy email button"
+  },
+  "homepage.hero.profilePicAlt": {
+    "message": "Raul A.R.",
+    "description": "Alt text for the profile picture in the hero section"
+  },
+  "homepage.about.title": {
+    "message": "Om mig",
+    "description": "Title for the About Me section"
+  },
+  "homepage.about.paragraph1": {
+    "message": "Jag är en datateknikingenjör baserad i Barcelona, utexaminerad från {uabLink} med inriktning på datavetenskap.",
+    "description": "First paragraph in the About section introducing the user"
+  },
+  "homepage.about.uabName": {
+    "message": "Universitat Autònoma de Barcelona",
+    "description": "Name of the university UAB"
+  },
+  "homepage.about.paragraph2": {
+    "message": "Min expertis ligger inom full-stack-utveckling, med starkt fokus på backend-system, särskilt med PHP och Laravel. Jag har erfarenhet av API-integrationer, databashantering, infrastrukturdistribution och skriptautomation.",
+    "description": "Second paragraph describing expertise"
+  },
+  "homepage.about.paragraph3": {
+    "message": "Under åren har jag varit involverad i projekt relaterade till VoIP-lösningar, inklusive automatisering av telefonsamtal för olika användningsfall, realtidsövervakning av samtal med Asterisk och utveckling av plattformar för företagskunder att hantera sina telekommunikationstjänster.",
+    "description": "Third paragraph about VoIP experience"
+  },
+  "homepage.about.paragraph4": {
+    "message": "Utöver backend-utveckling har jag erfarenhet av frontend-teknologier, systemadministration och skriptning. Jag trivs med att arbeta i små, samarbetande team där jag kan bidra till hela utvecklingscykeln, från arkitekturdesign till driftsättning och underhåll.",
+    "description": "Fourth paragraph about frontend, sysadmin, collaboration and team preferences"
+  },
+  "homepage.about.paragraph5": {
+    "message": "Utanför mitt professionella arbete underhåller jag en hemmalabb-miljö där jag utvecklar projekt som {eco2Link}, en webbplats som hjälpte mitt team att vinna ett Hackathon. Jag gillar också att arbeta med personliga projekt som involverar C++ för mikrokontroller och Python för snabb prototypframtagning.",
+    "description": "Fifth paragraph about personal projects and home lab"
+  },
+  "homepage.about.eco2ProjectName": {
+    "message": "ECO2",
+    "description": "Name of the ECO2 project"
+  },
+  "homepage.about.tabs.experienceLabel": {
+    "message": "💼 Arbetslivserfarenhet",
+    "description": "Label for the Professional Experience tab"
+  },
+  "homepage.about.experience.cardTitle": {
+    "message": "Arbetslivserfarenhet",
+    "description": "Title for the Work Experience card"
+  },
+  "homepage.about.experience.nubelfon.logoAlt": {
+    "message": "Nubelfon Logotyp",
+    "description": "Alt text for Nubelfon logo"
+  },
+  "homepage.about.experience.nubelfon.header": {
+    "message": "Nubelfon - Full Stack-utvecklare & lösningsutvecklare",
+    "description": "Header for Nubelfon experience (Company and Role)"
+  },
+  "homepage.about.experience.nubelfon.date": {
+    "message": "2021 - Nuvarande",
+    "description": "Date range for Nubelfon experience"
+  },
+  "homepage.about.experience.keyAchievements": {
+    "message": "Viktiga prestationer:",
+    "description": "Heading for Key Achievements list"
+  },
+  "homepage.about.experience.nubelfon.achievement1": {
+    "message": "Ledde och utvecklade VoIP-lösningar för företagskunder och myndigheter"
+  },
+  "homepage.about.experience.nubelfon.achievement2.intro": {
+    "message": "Moderniserade äldre system genom:"
+  },
+  "homepage.about.experience.nubelfon.achievement2.item1": {
+    "message": "Migrering från äldre kodbas till Laravel-ramverket"
+  },
+  "homepage.about.experience.nubelfon.achievement2.item2": {
+    "message": "Implementering av REST API:er för tredjepartsintegrationer"
+  },
+  "homepage.about.experience.nubelfon.achievement2.item3": {
+    "message": "Optimering av databasschema för förbättrad prestanda"
+  },
+  "homepage.about.experience.nubelfon.achievement3": {
+    "message": "Arkitekterade 2 stora plattformsuppgraderingar som förbättrade skalbarhet och underhållbarhet"
+  },
+  "homepage.about.experience.nubelfon.achievement4": {
+    "message": "Utvecklade automationsskript som minskade repetitiva uppgifter genom kö-arbetare"
+  },
+  "homepage.about.experience.coreResponsibilities": {
+    "message": "Huvudsakliga ansvarsområden:",
+    "description": "Heading for Core Responsibilities list"
+  },
+  "homepage.about.experience.nubelfon.responsibility1": {
+    "message": "Systemintegration med Asterisk PBX och VTiger CRM"
+  },
+  "homepage.about.experience.nubelfon.responsibility2": {
+    "message": "Databaskonstruktion och optimering för hantering av stora volymer samtalsdata"
+  },
+  "homepage.about.experience.nubelfon.responsibility3": {
+    "message": "Implementering av säkerhetsfunktioner inklusive rollbaserad åtkomstkontroll (RBAC)"
+  },
+  "homepage.about.experience.nubelfon.responsibility4": {
+    "message": "Utveckling av realtidsövervakningspaneler och automatiserade rapporteringssystem"
+  },
+  "homepage.about.experience.nubelfon.responsibility5": {
+    "message": "Skapande av teknisk dokumentation och introduktionsmaterial för kunder"
+  },
+  "homepage.about.experience.nubelfon.responsibility6": {
+    "message": "Implementering av enhetstestning för centrala plattformsfunktioner"
+  },
+  "homepage.about.experience.notableProjects": {
+    "message": "Anmärkningsvärda projekt:",
+    "description": "Heading for Notable Projects list"
+  },
+  "homepage.about.experience.project.automatedCalling.title": {
+    "message": "Automatiserat uppringningssystem",
+    "description": "Title for the Automated Calling System project"
+  },
+  "homepage.about.experience.project.automatedCalling.date": {
+    "message": "2021-Nuvarande",
+    "description": "Date for the Automated Calling System project"
+  },
+  "homepage.about.experience.project.automatedCalling.item1": {
+    "message": "Slutförde och underhöll äldre projekt för samtalsautomatisering som huvudutvecklare"
+  },
+  "homepage.about.experience.project.automatedCalling.item2": {
+    "message": "Implementerade modulär arkitektur för klientspecifika anpassningar"
+  },
+  "homepage.about.experience.project.automatedCalling.item3": {
+    "message": "Integrerade Asterisk PBX för samtalshantering och övervakning"
+  },
+  "homepage.about.experience.project.automatedCalling.item4": {
+    "message": "Utvecklade administrationsgränssnitt för schemaläggning och spårning av samtal"
+  },
+  "homepage.about.experience.project.govTelecom.title": {
+    "message": "Övervakningsplattform för myndighetstelekom",
+    "description": "Title for the Government Telecom Monitoring Platform project"
+  },
+  "homepage.about.experience.project.govTelecom.date": {
+    "message": "2022",
+    "description": "Date for the Government Telecom Monitoring Platform project"
+  },
+  "homepage.about.experience.project.govTelecom.item1": {
+    "message": "Utvecklade webbplattform för realtidsövervakning av samtalsagenter"
+  },
+  "homepage.about.experience.project.govTelecom.item2": {
+    "message": "Skapade bash-skript för att bearbeta Asterisk-samtalshändelser"
+  },
+  "homepage.about.experience.project.govTelecom.item3": {
+    "message": "Implementerade generering av CSV/PDF-rapporter för daglig drift"
+  },
+  "homepage.about.experience.project.govTelecom.item4": {
+    "message": "Byggde instrumentpanel som visar samtalsmätvärden och statistik i realtid"
+  },
+  "homepage.about.experience.project.clientPortal.title": {
+    "message": "Kundtjänstportal",
+    "description": "Title for the Client Services Portal project"
+  },
+  "homepage.about.experience.project.clientPortal.date": {
+    "message": "2023-Nuvarande",
+    "description": "Date for the Client Services Portal project"
+  },
+  "homepage.about.experience.project.clientPortal.item1": {
+    "message": "Omstrukturerade databasschema för förbättrad skalbarhet"
+  },
+  "homepage.about.experience.project.clientPortal.item2": {
+    "message": "Moderniserade kärnplattformen med rollbaserad åtkomstkontroll"
+  },
+  "homepage.about.experience.project.clientPortal.item3": {
+    "message": "Integrerade VTiger CRM med interna system via centraliserad datahubb"
+  },
+  "homepage.about.experience.project.clientPortal.item4": {
+    "message": "Skapade interna automatiseringsverktyg som minskade manuellt arbete"
+  },
+  "homepage.about.experience.bellvitge.logoAlt": {
+    "message": "Hospital Bellvitge Logotyp",
+    "description": "Alt text for Hospital Bellvitge logo"
+  },
+  "homepage.about.experience.bellvitge.header": {
+    "message": "Hospital Universitario Bellvitge - Undersköterska",
+    "description": "Header for Bellvitge experience (Company and Role)"
+  },
+  "homepage.about.experience.bellvitge.date": {
+    "message": "2017 - 2021",
+    "description": "Date range for Bellvitge experience"
+  },
+  "homepage.about.experience.bellvitge.item1": {
+    "message": "Balanserade heltidsstudier i ingenjörsvetenskap med arbete inom sjukvården"
+  },
+  "homepage.about.experience.bellvitge.item2": {
+    "message": "Gav kritiskt stöd under COVID-19-pandemins topp"
+  },
+  "homepage.about.tabs.educationLabel": {
+    "message": "🎓 Utbildning",
+    "description": "Label for the Education tab"
+  },
+  "homepage.about.education.cardTitle": {
+    "message": "Utbildningsbakgrund",
+    "description": "Title for the Education Background card"
+  },
+  "homepage.about.education.uab.logoAlt": {
+    "message": "UAB Logotyp",
+    "description": "Alt text for UAB logo"
+  },
+  "homepage.about.education.uab.header": {
+    "message": "Universitat Autònoma de Barcelona",
+    "description": "Header for UAB education (University Name)"
+  },
+  "homepage.about.education.uab.date": {
+    "message": "2017 - 2022",
+    "description": "Date range for UAB education"
+  },
+  "homepage.about.education.uab.degree": {
+    "message": "Kandidatexamen i Datateknik",
+    "description": "Degree name from UAB"
+  },
+  "homepage.about.education.uab.specialization": {
+    "message": "Mjukvaruteknik med inriktning datalogi"
+  },
+  "homepage.about.education.uab.finalProject": {
+    "message": "Examensarbete: Lokal röstassistent Naturligt språk till SQL - {thesisLink}",
+    "description": "Description of the final project including the link text placeholder"
+  },
+  "homepage.about.education.uab.thesisLinkText": {
+    "message": "Visa examensarbetets dokumentation",
+    "description": "Text for the thesis documentation link"
+  },
+  "homepage.about.education.language.logoAlt": {
+    "message": "Språklogotyp",
+    "description": "Alt text for Language logo"
+  },
+  "homepage.about.education.language.header": {
+    "message": "Språkkunskaper",
+    "description": "Header for Language Proficiency section"
+  },
+  "homepage.about.education.language.spanish": {
+    "message": "Spanska",
+    "description": "Spanish language name"
+  },
+  "homepage.about.education.language.native": {
+    "message": "Modersmålsnivå"
+  },
+  "homepage.about.education.language.catalan": {
+    "message": "Katalanska",
+    "description": "Catalan language name"
+  },
+  "homepage.about.education.language.english": {
+    "message": "Engelska",
+    "description": "English language name"
+  },
+  "homepage.about.education.language.englishLevel": {
+    "message": "B2-nivå (First Certificate in English - Cambridge English Assessment)",
+    "description": "English proficiency level B2 with certificate name"
+  },
+  "homepage.skills.phpLaravel.name": {
+    "message": "PHP/Laravel",
+    "description": "Name for the PHP/Laravel skill"
+  },
+  "homepage.skills.phpLaravel.description": {
+    "message": "Utvecklade och underhöll centrala backend-system för VoIP-plattformar. Migrerade äldre kodbaser till Laravel, skapade REST API:er för frontend/tredjepartsintegrationer och implementerade kö-arbetare för samtalsbearbetningsuppgifter.",
+    "description": "Description for the PHP/Laravel skill"
+  },
+  "homepage.skills.mysqlDatabase.name": {
+    "message": "MySQL Databas",
+    "description": "Name for the MySQL Database skill"
+  },
+  "homepage.skills.mysqlDatabase.description": {
+    "message": "Designade relationella databasscheman för telekomsystem, optimerade frågeprestanda och implementerade komplexa rapporteringsfrågor för samtalsanalys.",
+    "description": "Description for the MySQL Database skill"
+  },
+  "homepage.skills.voiceApis.name": {
+    "message": "Röst-API:er (Google/Amazon)",
+    "description": "Name for the Voice APIs (Google/Amazon) skill"
+  },
+  "homepage.skills.voiceApis.description": {
+    "message": "Integrerade tal-till-text och text-till-tal-funktioner för interaktiva röstsystem. Implementerade bearbetning av naturligt språk för navigering i telefonsamtal.",
+    "description": "Description for the Voice APIs (Google/Amazon) skill"
+  },
+  "homepage.skills.asteriskPbx.name": {
+    "message": "Asterisk PBX",
+    "description": "Name for the Asterisk PBX skill"
+  },
+  "homepage.skills.asteriskPbx.description": {
+    "message": "Konfigurerade applikationer som interagerar med Asterisk PBX. Utvecklade program för samtalsövervakning och rapporteringspaneler. Skapade anpassade samtalsflöden med LLM:er för specifika kundkrav.",
+    "description": "Description for the Asterisk PBX skill"
+  },
+  "homepage.skills.restApi.name": {
+    "message": "REST API-utveckling",
+    "description": "Name for the REST API Development skill"
+  },
+  "homepage.skills.restApi.description": {
+    "message": "Byggde Laravel API:er för att göra det möjligt för kunder att interagera med våra tjänster via sina egna portaler/plattformar. Utvecklade dokumentation och integrationsexempel för tredjepartsutvecklare.",
+    "description": "Description for the REST API Development skill"
+  },
+  "homepage.skills.htmlCss.name": {
+    "message": "HTML5/CSS3",
+    "description": "Name for the HTML5/CSS3 skill"
+  },
+  "homepage.skills.htmlCss.description": {
+    "message": "Byggde responsiva administrationsgränssnitt och kundportaler. Implementerade komplexa layouter för realtidspaneler samtidigt som kompatibilitet mellan webbläsare upprätthölls.",
+    "description": "Description for the HTML5/CSS3 skill"
+  },
+  "homepage.skills.javascriptJquery.name": {
+    "message": "JavaScript/jQuery",
+    "description": "Name for the JavaScript/jQuery skill"
+  },
+  "homepage.skills.javascriptJquery.description": {
+    "message": "Utvecklade interaktiva UI-komponenter för instrumentpaneler för samtalsövervakning. Implementerade realtidsuppdateringar med AJAX och WebSockets.",
+    "description": "Description for the JavaScript/jQuery skill"
+  },
+  "homepage.skills.bootstrap.name": {
+    "message": "Bootstrap",
+    "description": "Name for the Bootstrap skill"
+  },
+  "homepage.skills.bootstrap.description": {
+    "message": "Skapade konsekventa UI-designer över flera adminpaneler och kundriktade gränssnitt. Fungerade som det primära stilbiblioteket för komponentsammanhållning genom projekten.",
+    "description": "Description for the Bootstrap skill"
+  },
+  "homepage.skills.laravelBlade.name": {
+    "message": "Laravel Blade",
+    "description": "Name for the Laravel Blade skill"
+  },
+  "homepage.skills.laravelBlade.description": {
+    "message": "Utvecklade dynamiska server-renderade mallar med återanvändbara komponenter för effektiv frontend-backend-integration.",
+    "description": "Description for the Laravel Blade skill"
+  },
+  "homepage.skills.responsiveDesign.name": {
+    "message": "Responsiv Design",
+    "description": "Name for the Responsive Design skill"
+  },
+  "homepage.skills.responsiveDesign.description": {
+    "message": "Implementerade mobile-first-strategier för alla kundriktade webbapplikationer.",
+    "description": "Description for the Responsive Design skill"
+  },
+  "homepage.skills.serverManagement.name": {
+    "message": "Webbserverhantering",
+    "description": "Name for the Web Server Management skill"
+  },
+  "homepage.skills.serverManagement.description": {
+    "message": "Hanterade produktionsservrar inklusive prestandaövervakning, säkerhetshärdning och pakethantering. Administrerade Proxmox-baserade servrar både i molnet och lokala miljöer.",
+    "description": "Description for the Web Server Management skill"
+  },
+  "homepage.skills.bashScripting.name": {
+    "message": "Bash-skriptning",
+    "description": "Name for the Bash Scripting skill"
+  },
+  "homepage.skills.bashScripting.description": {
+    "message": "Utvecklade distributionsskript och automatiseringsverktyg för serverunderhåll och logganalys.",
+    "description": "Description for the Bash Scripting skill"
+  },
+  "homepage.skills.cppMicrocontrollers.name": {
+    "message": "C++ (Mikrokontroller)",
+    "description": "Name for the C++ (Microcontrollers) skill"
+  },
+  "homepage.skills.cppMicrocontrollers.description": {
+    "message": "Använt under universitetsstudier och som hobbyist. Utvecklar program för mikrokontroller med plattformar som Arduino, PlatformIO och ESP-IDF för personliga elektronikprojekt.",
+    "description": "Description for the C++ (Microcontrollers) skill"
+  },
+  "homepage.skills.pythonPrototyping.name": {
+    "message": "Python (Snabb prototypframtagning)",
+    "description": "Name for the Python (Fast Prototyping) skill"
+  },
+  "homepage.skills.pythonPrototyping.description": {
+    "message": "Skapade anpassade applikationer för kunder och snabb proof-of-concept-utveckling. Används för skriptning, automatisering och snabb implementering av idéer.",
+    "description": "Description for the Python (Fast Prototyping) skill"
+  },
+  "homepage.skills.gitControl.name": {
+    "message": "Git Versionskontroll",
+    "description": "Name for the Git Version Control skill"
+  },
+  "homepage.skills.gitControl.description": {
+    "message": "Använt Git för versionskontroll i personliga och professionella projekt. Hanterade kodförråd, grenar och samarbetsflöden för utvecklingsteam.",
+    "description": "Description for the Git Version Control skill"
+  },
+  "homepage.skills.title": {
+    "message": "Tekniska färdigheter",
+    "description": "Title for the Technical Skills section"
+  },
+  "homepage.skills.category.backend": {
+    "message": "Backend & Telekom",
+    "description": "Title for the Backend & Telecom skills card"
+  },
+  "homepage.skills.category.frontend": {
+    "message": "Frontend & UI",
+    "description": "Title for the Frontend & UI skills card"
+  },
+  "homepage.skills.category.others": {
+    "message": "Övrigt",
+    "description": "Title for the Others skills card"
+  },
+  "homepage.layout.title": {
+    "message": "Datateknikingenjör & Full Stack-utvecklare",
+    "description": "The title tag for the homepage"
+  },
+  "homepage.layout.description": {
+    "message": "Portfolio för Raul A.R. - Datateknikingenjör och Full Stack-utvecklare från Barcelona, specialiserad på backend-utveckling och telekomlösningar",
+    "description": "The meta description tag for the homepage"
+  },
+  "showcase.filters.resultCount": {
+    "message": "1 webbplats|{sitesCount} webbplatser",
+    "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "Docusaurus Site Showcase": {
+    "message": "Docusaurus Webbplatsgalleri"
+  },
+  "List of websites people are building with Docusaurus": {
+    "message": "Lista över webbplatser som folk bygger med Docusaurus"
+  },
+  "showcase.header.button": {
+    "message": "🙏 Lägg gärna till din webbplats"
+  },
+  "showcase.usersList.noResult": {
+    "message": "Inget resultat"
+  },
+  "showcase.favoritesList.title": {
+    "message": "Våra favoriter"
+  },
+  "showcase.usersList.allUsers": {
+    "message": "Alla webbplatser"
+  },
+  "showcase.card.sourceLink": {
+    "message": "källa"
+  },
+  "showcase.filters.title": {
+    "message": "Filter"
+  },
+  "showcase.searchBar.placeholder": {
+    "message": "Sök efter webbplatsnamn..."
+  },
+  "theme.IdealImageMessage.loading": {
+    "message": "Laddar...",
+    "description": "When the full-scale image is loading"
+  },
+  "theme.IdealImageMessage.load": {
+    "message": "Klicka för att ladda{sizeMessage}",
+    "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
+  },
+  "theme.IdealImageMessage.offline": {
+    "message": "Din webbläsare är offline. Bilden laddades inte",
+    "description": "When the user is viewing an offline document"
+  },
+  "theme.IdealImageMessage.404error": {
+    "message": "404. Bilden hittades inte",
+    "description": "When the image is not found"
+  },
+  "theme.IdealImageMessage.error": {
+    "message": "Fel. Klicka för att ladda om",
+    "description": "When the image fails to load for unknown error"
+  }
+}

@@ -1,0 +1,851 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "此页面崩溃了。",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "滚动回顶部",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "归档",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "归档",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "博客列表页面导航",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "较新条目",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "较旧条目",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "博客文章页面导航",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "较新文章",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "较旧文章",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "查看所有标签",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "切换深色和浅色模式（当前为 {mode}）",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "深色模式",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "浅色模式",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "面包屑导航",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} 个项目",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "文档页面",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "上一页",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "下一页",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} 篇文档已标记",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "标签为 “{tagName}” 的{nDocsTagged}",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "版本：{versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "这是 {siteTitle} {versionLabel} 版本的未发布文档。",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "这是 {siteTitle} {versionLabel} 的文档，该版本已不再积极维护。",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "有关最新文档，请参阅{latestVersionLink}（{versionLabel}）。",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新版本",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "编辑此页",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "直达 {heading} 的链接",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "于 {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "由 {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "最后更新{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "版本",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "页面未找到",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "标签：",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "注意",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "危险",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "信息",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "备注",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "提示",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "警告",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "关闭",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "博客最近文章导航",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "已复制",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "复制代码到剪贴板",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "复制",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "切换自动换行",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "展开侧边栏分类“{label}”",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "折叠侧边栏分类“{label}”",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "主要",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "语言",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "我们找不到您要查找的内容。",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "请联系将您链接到原始 URL 的网站所有者，告知他们的链接已损坏。",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "在本页",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "阅读更多",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "阅读更多关于 {title} 的信息",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "{readingTime} 分钟阅读",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "主页",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "折叠侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "折叠侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "文档侧边栏",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "关闭导航栏",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← 返回主菜单",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "切换导航栏",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} 篇文章",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "标签为 “{tagName}” 的{nPosts}",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "作者",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "查看所有作者",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "该作者尚未撰写任何文章。",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "未列出页面",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "此页面未列出。搜索引擎不会索引它，只有拥有直接链接的用户才能访问。",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "草稿页面",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "此页面是草稿。它仅在开发模式下可见，并且将从生产构建中排除。",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "重试",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "跳至主要内容",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "标签",
+    "description": "The title of the tag list page"
+  },
+  "Favorite": {
+    "message": "收藏"
+  },
+  "showcase.tag.favorite.description": {
+    "message": "我们收藏的 Docusaurus 网站，您绝对应该看看！"
+  },
+  "Open-Source": {
+    "message": "开源"
+  },
+  "showcase.tag.opensource.description": {
+    "message": "开源 Docusaurus 网站可以为您提供灵感！"
+  },
+  "Product": {
+    "message": "产品"
+  },
+  "showcase.tag.product.description": {
+    "message": "与商业产品相关的 Docusaurus 网站！"
+  },
+  "Design": {
+    "message": "设计"
+  },
+  "showcase.tag.design.description": {
+    "message": "精美的 Docusaurus 网站，经过精心打磨，从初始模板中脱颖而出！"
+  },
+  "I18n": {
+    "message": "国际化"
+  },
+  "showcase.tag.i18n.description": {
+    "message": "使用国际化支持翻译的 Docusaurus 网站，包含不止一种语言环境。"
+  },
+  "Versioning": {
+    "message": "版本控制"
+  },
+  "showcase.tag.versioning.description": {
+    "message": "使用文档插件的版本控制功能来管理多个版本的 Docusaurus 网站。"
+  },
+  "Large": {
+    "message": "大型"
+  },
+  "showcase.tag.large.description": {
+    "message": "非常大型的 Docusaurus 网站，包含的页面数量远超平均水平！"
+  },
+  "Meta": {
+    "message": "Meta"
+  },
+  "showcase.tag.meta.description": {
+    "message": "Meta（前身为 Facebook）项目的 Docusaurus 网站"
+  },
+  "Personal": {
+    "message": "个人"
+  },
+  "showcase.tag.personal.description": {
+    "message": "使用 Docusaurus 构建的个人网站、博客和数字花园"
+  },
+  "RTL Direction": {
+    "message": "从右到左阅读"
+  },
+  "showcase.tag.rtl.description": {
+    "message": "使用从右到左阅读方向支持的 Docusaurus 网站。"
+  },
+  "homepage.hero.title": {
+    "message": "你好，我是 {name}",
+    "description": "The main title on the homepage greeting"
+  },
+  "homepage.hero.subtitle": {
+    "message": "坐标巴塞罗那的计算机工程师和全栈开发人员，专注于后端开发和定制 VoIP 解决方案。",
+    "description": "The subtitle describing the role and location"
+  },
+  "homepage.hero.currentWork": {
+    "message": "💼 目前在 {companyLink} 构建定制 VoIP 解决方案",
+    "description": "Sentence indicating current workplace"
+  },
+  "homepage.hero.companyName.nubelfon": {
+    "message": "Nubelfon",
+    "description": "The name of the company Nubelfon"
+  },
+  "homepage.hero.button.viewProjects": {
+    "message": "查看项目",
+    "description": "Text for the View Projects button"
+  },
+  "homepage.hero.button.downloadCV": {
+    "message": "下载简历",
+    "description": "Text for the Download CV button"
+  },
+  "homepage.hero.copyButton.tooltip": {
+    "message": "复制",
+    "description": "Tooltip for the copy email button"
+  },
+  "homepage.hero.copyButton.copied": {
+    "message": "已复制！",
+    "description": "Text displayed after copying the email address"
+  },
+  "homepage.hero.copyButton.title": {
+    "message": "复制电子邮件",
+    "description": "Title attribute for the copy email button"
+  },
+  "homepage.hero.profilePicAlt": {
+    "message": "Raul A.R.",
+    "description": "Alt text for the profile picture in the hero section"
+  },
+  "homepage.about.title": {
+    "message": "关于我",
+    "description": "Title for the About Me section"
+  },
+  "homepage.about.paragraph1": {
+    "message": "我是常驻巴塞罗那的计算机工程师，毕业于 {uabLink}，主修计算机科学。",
+    "description": "First paragraph in the About section introducing the user"
+  },
+  "homepage.about.uabName": {
+    "message": "巴塞罗那自治大学",
+    "description": "Name of the university UAB"
+  },
+  "homepage.about.paragraph2": {
+    "message": "我的专长是全栈开发，尤其侧重后端系统，特别是使用 PHP 和 Laravel。我在 API 集成、数据库管理、基础设施部署和脚本自动化方面拥有经验。",
+    "description": "Second paragraph describing expertise"
+  },
+  "homepage.about.paragraph3": {
+    "message": "多年来，我参与了与 VoIP 解决方案相关的项目，包括针对各种用例自动化电话呼叫、使用 Asterisk 进行实时呼叫监控，以及为企业客户开发管理其电信服务的平台。",
+    "description": "Third paragraph about VoIP experience"
+  },
+  "homepage.about.paragraph4": {
+    "message": "除了后端开发，我在前端技术、系统管理和脚本编写方面也有经验。我喜欢在小型协作团队中工作，在那里我可以为整个开发周期做出贡献，从架构设计到部署和维护。",
+    "description": "Fourth paragraph about frontend, sysadmin, collaboration and team preferences"
+  },
+  "homepage.about.paragraph5": {
+    "message": "在我的专业工作之外，我维护着一个家庭实验室环境，在那里我开发了像 {eco2Link} 这样的项目，这个网站帮助我的团队赢得了一次黑客马拉松。我也喜欢进行涉及用于微控制器的 C++ 和用于快速原型设计的 Python 的个人项目。",
+    "description": "Fifth paragraph about personal projects and home lab"
+  },
+  "homepage.about.eco2ProjectName": {
+    "message": "ECO2",
+    "description": "Name of the ECO2 project"
+  },
+  "homepage.about.tabs.experienceLabel": {
+    "message": "💼 工作经历",
+    "description": "Label for the Professional Experience tab"
+  },
+  "homepage.about.experience.cardTitle": {
+    "message": "工作经历",
+    "description": "Title for the Work Experience card"
+  },
+  "homepage.about.experience.nubelfon.logoAlt": {
+    "message": "Nubelfon 徽标",
+    "description": "Alt text for Nubelfon logo"
+  },
+  "homepage.about.experience.nubelfon.header": {
+    "message": "Nubelfon - 全栈开发人员 & 解决方案开发人员",
+    "description": "Header for Nubelfon experience (Company and Role)"
+  },
+  "homepage.about.experience.nubelfon.date": {
+    "message": "2021 年至今",
+    "description": "Date range for Nubelfon experience"
+  },
+  "homepage.about.experience.keyAchievements": {
+    "message": "主要成就：",
+    "description": "Heading for Key Achievements list"
+  },
+  "homepage.about.experience.nubelfon.achievement1": {
+    "message": "领导并为政府和企业客户开发企业级 VoIP 解决方案"
+  },
+  "homepage.about.experience.nubelfon.achievement2.intro": {
+    "message": "通过以下方式对遗留系统进行了现代化改造："
+  },
+  "homepage.about.experience.nubelfon.achievement2.item1": {
+    "message": "将遗留代码库迁移到 Laravel 框架"
+  },
+  "homepage.about.experience.nubelfon.achievement2.item2": {
+    "message": "实施用于第三方集成的 REST API"
+  },
+  "homepage.about.experience.nubelfon.achievement2.item3": {
+    "message": "优化数据库模式以提高性能"
+  },
+  "homepage.about.experience.nubelfon.achievement3": {
+    "message": "架构设计了 2 次主要平台升级，增强了可扩展性和可维护性"
+  },
+  "homepage.about.experience.nubelfon.achievement4": {
+    "message": "开发了自动化脚本，通过队列工作程序减少重复性任务"
+  },
+  "homepage.about.experience.coreResponsibilities": {
+    "message": "核心职责：",
+    "description": "Heading for Core Responsibilities list"
+  },
+  "homepage.about.experience.nubelfon.responsibility1": {
+    "message": "与 Asterisk PBX 和 VTiger CRM 的系统集成"
+  },
+  "homepage.about.experience.nubelfon.responsibility2": {
+    "message": "为大容量呼叫数据管理设计和优化数据库"
+  },
+  "homepage.about.experience.nubelfon.responsibility3": {
+    "message": "实施安全功能，包括基于角色的访问控制 (RBAC)"
+  },
+  "homepage.about.experience.nubelfon.responsibility4": {
+    "message": "开发实时监控仪表板和自动化报告系统"
+  },
+  "homepage.about.experience.nubelfon.responsibility5": {
+    "message": "创建技术文档和客户入职材料"
+  },
+  "homepage.about.experience.nubelfon.responsibility6": {
+    "message": "为核心平台功能实施单元测试"
+  },
+  "homepage.about.experience.notableProjects": {
+    "message": "值得注意的项目：",
+    "description": "Heading for Notable Projects list"
+  },
+  "homepage.about.experience.project.automatedCalling.title": {
+    "message": "自动化呼叫系统",
+    "description": "Title for the Automated Calling System project"
+  },
+  "homepage.about.experience.project.automatedCalling.date": {
+    "message": "2021 年至今",
+    "description": "Date for the Automated Calling System project"
+  },
+  "homepage.about.experience.project.automatedCalling.item1": {
+    "message": "作为主要开发人员完成并维护了遗留的呼叫自动化项目"
+  },
+  "homepage.about.experience.project.automatedCalling.item2": {
+    "message": "为客户特定定制实施了模块化架构"
+  },
+  "homepage.about.experience.project.automatedCalling.item3": {
+    "message": "集成了 Asterisk PBX 用于呼叫处理和监控"
+  },
+  "homepage.about.experience.project.automatedCalling.item4": {
+    "message": "开发了用于呼叫调度和跟踪的管理界面"
+  },
+  "homepage.about.experience.project.govTelecom.title": {
+    "message": "政府电信监控平台",
+    "description": "Title for the Government Telecom Monitoring Platform project"
+  },
+  "homepage.about.experience.project.govTelecom.date": {
+    "message": "2022 年",
+    "description": "Date for the Government Telecom Monitoring Platform project"
+  },
+  "homepage.about.experience.project.govTelecom.item1": {
+    "message": "开发了用于实时呼叫座席监控的网络平台"
+  },
+  "homepage.about.experience.project.govTelecom.item2": {
+    "message": "创建了用于处理 Asterisk 呼叫事件的 bash 脚本"
+  },
+  "homepage.about.experience.project.govTelecom.item3": {
+    "message": "实施了用于日常运营的 CSV/PDF 报告生成"
+  },
+  "homepage.about.experience.project.govTelecom.item4": {
+    "message": "构建了显示实时呼叫指标和统计信息的仪表板"
+  },
+  "homepage.about.experience.project.clientPortal.title": {
+    "message": "客户服务门户",
+    "description": "Title for the Client Services Portal project"
+  },
+  "homepage.about.experience.project.clientPortal.date": {
+    "message": "2023 年至今",
+    "description": "Date for the Client Services Portal project"
+  },
+  "homepage.about.experience.project.clientPortal.item1": {
+    "message": "重构了数据库模式以提高可扩展性"
+  },
+  "homepage.about.experience.project.clientPortal.item2": {
+    "message": "使用基于角色的访问控制对核心平台进行了现代化改造"
+  },
+  "homepage.about.experience.project.clientPortal.item3": {
+    "message": "通过集中式数据中心将 VTiger CRM 与内部系统集成"
+  },
+  "homepage.about.experience.project.clientPortal.item4": {
+    "message": "创建了内部自动化工具以减少手动工作"
+  },
+  "homepage.about.experience.bellvitge.logoAlt": {
+    "message": "Bellvitge 医院徽标",
+    "description": "Alt text for Hospital Bellvitge logo"
+  },
+  "homepage.about.experience.bellvitge.header": {
+    "message": "Bellvitge 大学医院 - 病患护理助理",
+    "description": "Header for Bellvitge experience (Company and Role)"
+  },
+  "homepage.about.experience.bellvitge.date": {
+    "message": "2017 年 - 2021 年",
+    "description": "Date range for Bellvitge experience"
+  },
+  "homepage.about.experience.bellvitge.item1": {
+    "message": "在全日制工程学习与医疗保健工作之间取得平衡"
+  },
+  "homepage.about.experience.bellvitge.item2": {
+    "message": "在 COVID-19 大流行高峰期间提供了关键支持"
+  },
+  "homepage.about.tabs.educationLabel": {
+    "message": "🎓 教育背景",
+    "description": "Label for the Education tab"
+  },
+  "homepage.about.education.cardTitle": {
+    "message": "教育背景",
+    "description": "Title for the Education Background card"
+  },
+  "homepage.about.education.uab.logoAlt": {
+    "message": "UAB 徽标",
+    "description": "Alt text for UAB logo"
+  },
+  "homepage.about.education.uab.header": {
+    "message": "巴塞罗那自治大学",
+    "description": "Header for UAB education (University Name)"
+  },
+  "homepage.about.education.uab.date": {
+    "message": "2017 年 - 2022 年",
+    "description": "Date range for UAB education"
+  },
+  "homepage.about.education.uab.degree": {
+    "message": "计算机工程学士学位",
+    "description": "Degree name from UAB"
+  },
+  "homepage.about.education.uab.specialization": {
+    "message": "软件工程（计算专业方向）"
+  },
+  "homepage.about.education.uab.finalProject": {
+    "message": "毕业设计：本地语音助手自然语言转 SQL - {thesisLink}",
+    "description": "Description of the final project including the link text placeholder"
+  },
+  "homepage.about.education.uab.thesisLinkText": {
+    "message": "查看论文文档",
+    "description": "Text for the thesis documentation link"
+  },
+  "homepage.about.education.language.logoAlt": {
+    "message": "语言徽标",
+    "description": "Alt text for Language logo"
+  },
+  "homepage.about.education.language.header": {
+    "message": "语言能力",
+    "description": "Header for Language Proficiency section"
+  },
+  "homepage.about.education.language.spanish": {
+    "message": "西班牙语",
+    "description": "Spanish language name"
+  },
+  "homepage.about.education.language.native": {
+    "message": "母语水平"
+  },
+  "homepage.about.education.language.catalan": {
+    "message": "加泰罗尼亚语",
+    "description": "Catalan language name"
+  },
+  "homepage.about.education.language.english": {
+    "message": "英语",
+    "description": "English language name"
+  },
+  "homepage.about.education.language.englishLevel": {
+    "message": "B2 级别（剑桥英语一级证书 - 剑桥英语评估）",
+    "description": "English proficiency level B2 with certificate name"
+  },
+  "homepage.skills.phpLaravel.name": {
+    "message": "PHP/Laravel",
+    "description": "Name for the PHP/Laravel skill"
+  },
+  "homepage.skills.phpLaravel.description": {
+    "message": "为 VoIP 平台开发和维护核心后端系统。将遗留代码库迁移到 Laravel，为前端/第三方集成创建 REST API，并实施队列工作程序以处理呼叫处理任务。",
+    "description": "Description for the PHP/Laravel skill"
+  },
+  "homepage.skills.mysqlDatabase.name": {
+    "message": "MySQL 数据库",
+    "description": "Name for the MySQL Database skill"
+  },
+  "homepage.skills.mysqlDatabase.description": {
+    "message": "为电信系统设计关系数据库模式，优化查询性能，并为呼叫分析实施复杂的报告查询。",
+    "description": "Description for the MySQL Database skill"
+  },
+  "homepage.skills.voiceApis.name": {
+    "message": "语音 API (Google/Amazon)",
+    "description": "Name for the Voice APIs (Google/Amazon) skill"
+  },
+  "homepage.skills.voiceApis.description": {
+    "message": "为交互式语音系统集成了语音转文本和文本转语音功能。为电话呼叫导航实施了自然语言处理。",
+    "description": "Description for the Voice APIs (Google/Amazon) skill"
+  },
+  "homepage.skills.asteriskPbx.name": {
+    "message": "Asterisk PBX",
+    "description": "Name for the Asterisk PBX skill"
+  },
+  "homepage.skills.asteriskPbx.description": {
+    "message": "配置了与 Asterisk PBX 交互的应用程序。开发了呼叫监控程序和报告仪表板。使用 LLM 为特定客户需求创建了自定义呼叫流程。",
+    "description": "Description for the Asterisk PBX skill"
+  },
+  "homepage.skills.restApi.name": {
+    "message": "REST API 开发",
+    "description": "Name for the REST API Development skill"
+  },
+  "homepage.skills.restApi.description": {
+    "message": "构建了 Laravel API，使客户能够通过自己的门户/平台与我们的服务进行交互。为第三方开发人员开发了文档和集成示例。",
+    "description": "Description for the REST API Development skill"
+  },
+  "homepage.skills.htmlCss.name": {
+    "message": "HTML5/CSS3",
+    "description": "Name for the HTML5/CSS3 skill"
+  },
+  "homepage.skills.htmlCss.description": {
+    "message": "构建了响应式管理界面和客户门户。为实时仪表板实施了复杂布局，同时保持跨浏览器兼容性。",
+    "description": "Description for the HTML5/CSS3 skill"
+  },
+  "homepage.skills.javascriptJquery.name": {
+    "message": "JavaScript/jQuery",
+    "description": "Name for the JavaScript/jQuery skill"
+  },
+  "homepage.skills.javascriptJquery.description": {
+    "message": "为呼叫监控仪表板开发了交互式 UI 组件。使用 AJAX 和 WebSockets 实现了实时更新。",
+    "description": "Description for the JavaScript/jQuery skill"
+  },
+  "homepage.skills.bootstrap.name": {
+    "message": "Bootstrap",
+    "description": "Name for the Bootstrap skill"
+  },
+  "homepage.skills.bootstrap.description": {
+    "message": "在多个管理面板和面向客户的界面中创建了一致的 UI 设计。作为主要样式库，确保了整个项目中组件的一致性。",
+    "description": "Description for the Bootstrap skill"
+  },
+  "homepage.skills.laravelBlade.name": {
+    "message": "Laravel Blade",
+    "description": "Name for the Laravel Blade skill"
+  },
+  "homepage.skills.laravelBlade.description": {
+    "message": "使用可重用组件开发动态服务器渲染模板，以实现高效的前后端集成。",
+    "description": "Description for the Laravel Blade skill"
+  },
+  "homepage.skills.responsiveDesign.name": {
+    "message": "响应式设计",
+    "description": "Name for the Responsive Design skill"
+  },
+  "homepage.skills.responsiveDesign.description": {
+    "message": "为所有面向客户的 Web 应用程序实施了移动优先方法。",
+    "description": "Description for the Responsive Design skill"
+  },
+  "homepage.skills.serverManagement.name": {
+    "message": "Web 服务器管理",
+    "description": "Name for the Web Server Management skill"
+  },
+  "homepage.skills.serverManagement.description": {
+    "message": "管理生产服务器，包括性能监控、安全加固和软件包管理。在云和本地环境中管理基于 Proxmox 的服务器。",
+    "description": "Description for the Web Server Management skill"
+  },
+  "homepage.skills.bashScripting.name": {
+    "message": "Bash 脚本",
+    "description": "Name for the Bash Scripting skill"
+  },
+  "homepage.skills.bashScripting.description": {
+    "message": "为服务器维护和日志分析开发了部署脚本和自动化工具。",
+    "description": "Description for the Bash Scripting skill"
+  },
+  "homepage.skills.cppMicrocontrollers.name": {
+    "message": "C++ (微控制器)",
+    "description": "Name for the C++ (Microcontrollers) skill"
+  },
+  "homepage.skills.cppMicrocontrollers.description": {
+    "message": "在大学学习期间和作为业余爱好者使用。使用 Arduino、PlatformIO 和 ESP-IDF 等平台为个人电子项目开发微控制器程序。",
+    "description": "Description for the C++ (Microcontrollers) skill"
+  },
+  "homepage.skills.pythonPrototyping.name": {
+    "message": "Python (快速原型设计)",
+    "description": "Name for the Python (Fast Prototyping) skill"
+  },
+  "homepage.skills.pythonPrototyping.description": {
+    "message": "为客户创建自定义应用程序和快速概念验证开发。用于脚本编写、自动化和快速实现想法。",
+    "description": "Description for the Python (Fast Prototyping) skill"
+  },
+  "homepage.skills.gitControl.name": {
+    "message": "Git 版本控制",
+    "description": "Name for the Git Version Control skill"
+  },
+  "homepage.skills.gitControl.description": {
+    "message": "在个人和专业项目中使用 Git 进行版本控制。为开发团队管理存储库、分支和协作工作流。",
+    "description": "Description for the Git Version Control skill"
+  },
+  "homepage.skills.title": {
+    "message": "技术技能",
+    "description": "Title for the Technical Skills section"
+  },
+  "homepage.skills.category.backend": {
+    "message": "后端与电信",
+    "description": "Title for the Backend & Telecom skills card"
+  },
+  "homepage.skills.category.frontend": {
+    "message": "前端与 UI",
+    "description": "Title for the Frontend & UI skills card"
+  },
+  "homepage.skills.category.others": {
+    "message": "其他",
+    "description": "Title for the Others skills card"
+  },
+  "homepage.layout.title": {
+    "message": "计算机工程师 & 全栈开发人员",
+    "description": "The title tag for the homepage"
+  },
+  "homepage.layout.description": {
+    "message": "Raul A.R. 的作品集 - 来自巴塞罗那的计算机工程师和全栈开发人员，专注于后端开发和电信解决方案",
+    "description": "The meta description tag for the homepage"
+  },
+  "showcase.filters.resultCount": {
+    "message": "{sitesCount} 个网站",
+    "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "Docusaurus Site Showcase": {
+    "message": "Docusaurus 网站展示"
+  },
+  "List of websites people are building with Docusaurus": {
+    "message": "人们使用 Docusaurus 构建的网站列表"
+  },
+  "showcase.header.button": {
+    "message": "🙏 请添加您的网站"
+  },
+  "showcase.usersList.noResult": {
+    "message": "无结果"
+  },
+  "showcase.favoritesList.title": {
+    "message": "我们的收藏"
+  },
+  "showcase.usersList.allUsers": {
+    "message": "所有网站"
+  },
+  "showcase.card.sourceLink": {
+    "message": "来源"
+  },
+  "showcase.filters.title": {
+    "message": "筛选器"
+  },
+  "showcase.searchBar.placeholder": {
+    "message": "搜索网站名称..."
+  },
+  "theme.IdealImageMessage.loading": {
+    "message": "加载中...",
+    "description": "When the full-scale image is loading"
+  },
+  "theme.IdealImageMessage.load": {
+    "message": "点击加载{sizeMessage}",
+    "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
+  },
+  "theme.IdealImageMessage.offline": {
+    "message": "您的浏览器处于离线状态。图片未加载",
+    "description": "When the user is viewing an offline document"
+  },
+  "theme.IdealImageMessage.404error": {
+    "message": "404。图片未找到",
+    "description": "When the image is not found"
+  },
+  "theme.IdealImageMessage.error": {
+    "message": "错误。点击重新加载",
+    "description": "When the image fails to load for unknown error"
+  }
+}

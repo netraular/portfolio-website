@@ -1,0 +1,34 @@
+{
+  "link.title.Projects": {
+    "message": "Projects",
+    "description": "The title of the footer links column with title=Projects in the footer"
+  },
+  "link.title.Find me": {
+    "message": "Find me",
+    "description": "The title of the footer links column with title=Find me in the footer"
+  },
+  "link.item.label.Showcase": {
+    "message": "Showcase",
+    "description": "The label of footer link with label=Showcase linking to /docs/intro"
+  },
+  "link.item.label.Overview": {
+    "message": "Overview",
+    "description": "The label of footer link with label=Overview linking to /docs/intro"
+  },
+  "link.item.label.Github": {
+    "message": "Github",
+    "description": "The label of footer link with label=Github linking to https://github.com/netraular"
+  },
+  "link.item.label.Linkedin": {
+    "message": "Linkedin",
+    "description": "The label of footer link with label=Linkedin linking to https://www.linkedin.com/in/raúl-aquilué-rubio-33241b215"
+  },
+  "link.item.label.netraular@gmail.com": {
+    "message": "netraular@gmail.com",
+    "description": "The label of footer link with label=netraular@gmail.com linking to mailto:netraular@gmail.com"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 ❤️ Raul A. R. portfolio",
+    "description": "The footer copyright"
+  }
+}
