@@ -67,7 +67,7 @@
 
   /* Hero section */
   .heroBanner {
-    padding: 6rem 0;
+    padding: 5rem 0;
     background: 
     radial-gradient(ellipse at 70% 30%, var(--hero-gradient1) 0%, transparent 50%),
     radial-gradient(ellipse at 30% 70%, var(--hero-gradient2) 0%, transparent 50%);
@@ -679,11 +679,24 @@
 /* Other window sizes*/
 
 @media (max-width: 996px) {
+  .heroBanner {
+    padding-top: 3rem;
+  }
+
   .heroContent {
     flex-direction: column;
     text-align: center;
   }
-  
+
+  .heroText {
+    order: 2; /* Text below image */
+  }
+
+  .heroImage {
+    order: 1; /* Image above text */
+    margin-bottom: -3rem;
+  }
+
   .profileImage {
     width: 250px;
     height: 250px;
@@ -698,8 +711,3 @@
   }
 }
 
-@media (max-width: 768px) {
-  .heroBanner {
-    padding: 3rem 0;
-  }
-}
