@@ -1,6 +1,6 @@
 ---
-title: Nginx Proxy Manager Overview
-sidebar_position: 0
+title: Nginx Proxy Manager
+sidebar_position: 2
 description: Web interface for managing internal services with automatic SSL
 image: ../static/img/nginx-proxymanager.jpg
 keywords: [nginx, reverse proxy, SSL, Let's Encrypt, web services, internal routing]

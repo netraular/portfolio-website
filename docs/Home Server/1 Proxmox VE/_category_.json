@@ -1,8 +1,0 @@
-{
-  "label": "Proxmox VE",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "description": "Enterprise-grade hypervisor for virtual machines, containers, and network management."
-  }
-}

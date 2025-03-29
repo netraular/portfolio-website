@@ -1,8 +1,0 @@
-{
-  "label": "Portainer",
-  "position": 8,
-  "link": {
-    "type": "generated-index",
-    "description": "Container management platform providing a web interface for Docker environments."
-  }
-}

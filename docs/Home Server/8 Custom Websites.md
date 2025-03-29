@@ -1,7 +1,7 @@
 ---
-title: Custom Websites Overview
-sidebar_position: 0
-description: Self-developed and hosted web projects deployed in my home lab
+title: Custom Websites
+sidebar_position: 8
+description: Self-hosted web projects and personal sites developed and maintained in the home lab environment.
 image: ./attachments/server-dashboard.png
 keywords: [web development, static sites, self-hosting, portfolio, projects]
 ---

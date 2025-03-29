@@ -1,8 +1,0 @@
-{
-  "label": "WireGuard",
-  "position": 7,
-  "link": {
-    "type": "generated-index",
-    "description": "Modern, high-performance VPN solution for secure remote access to home lab services."
-  }
-}

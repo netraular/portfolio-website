@@ -1,7 +1,7 @@
 ---
-title: Mealie Recipes Overview
-sidebar_position: 0
-description: Self-hosted recipe management and meal planning platform
+title: Mealie Recipes
+sidebar_position: 12
+description: Self-hosted recipe management and meal planning platform with shopping list integration.
 image: ../static/img/mealie-dashboard.jpg
 keywords: [mealie, recipes, meal planning, cooking, food management, docker, self-hosted]
 ---

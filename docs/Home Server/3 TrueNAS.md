@@ -1,6 +1,6 @@
 ---
-title: TrueNAS Overview
-sidebar_position: 0
+title: TrueNAS
+sidebar_position: 3
 description: ZFS-powered storage platform managing all persistent data in the home lab
 image: ../static/img/truenas-dashboard.jpg
 keywords: [TrueNAS, ZFS, storage, NAS, data management, file sharing]

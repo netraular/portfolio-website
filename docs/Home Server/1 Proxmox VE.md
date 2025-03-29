@@ -1,7 +1,7 @@
 ---
-title: Proxmox VE Overview
-sidebar_position: 0
-description: Open-source virtualization platform powering my home infrastructure
+title: Proxmox VE
+sidebar_position: 1
+description: Enterprise-grade hypervisor for virtual machines, containers, and network management powering my home infrastructure
 image: ../static/img/proxmox-dashboard.jpg
 keywords: [proxmox, virtualization, hypervisor, KVM, LXC, clustering]
 ---

@@ -1,8 +1,0 @@
-{
-  "label": "Obsidian Sync",
-  "position": 9,
-  "link": {
-    "type": "generated-index",
-    "description": "Self-hosted synchronization solution for Obsidian knowledge base across multiple devices."
-  }
-}

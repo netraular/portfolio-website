@@ -1,7 +1,7 @@
 ---
-title: Proxmox Backup Server Implementation
-sidebar_position: 0
-description: Enterprise-grade backup solution for VM/CT protection with ZFS integration
+title: Proxmox Backup Server
+sidebar_position: 4
+description: Enterprise-grade backup solution with incremental, deduplicated storage for virtual environments.
 keywords: [proxmox, zfs, backup strategy, deduplication, disaster recovery]
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: Cloudflare Tunnel Overview
-sidebar_position: 0
-description: Secure method for exposing self-hosted services to the public internet
+title: Cloudflare Tunnel
+sidebar_position: 5
+description: Secure connectivity solution for exposing self-hosted services to the public internet
 image: ./attachments/global-access-map.png
 keywords: [cloudflare, tunnel, zero trust, security, remote access, proxy]
 ---

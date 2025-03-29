@@ -1,6 +1,6 @@
 ---
-title: Docusaurus Portfolio Overview
-sidebar_position: 0
+title: Docusaurus Portfolio
+sidebar_position: 10
 description: Static documentation site for showcasing projects and technical expertise
 image: ../static/img/docusaurus-portfolio.png
 keywords: [docusaurus, portfolio, documentation, static site, technical writing]

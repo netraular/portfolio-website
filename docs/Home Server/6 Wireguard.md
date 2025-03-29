@@ -1,6 +1,6 @@
 ---
-title: WireGuard VPN Overview
-sidebar_position: 0
+title: WireGuard VPN
+sidebar_position: 6
 description: Modern VPN solution for secure remote access to home lab resources
 image: ./attachments/wireguard-config.png 
 keywords: [wireguard, vpn, remote access, security, networking]

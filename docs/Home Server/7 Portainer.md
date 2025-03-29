@@ -1,7 +1,7 @@
 ---
-title: Portainer Overview
-sidebar_position: 0
-description: Web-based management interface for Docker containers and stacks
+title: Portainer
+sidebar_position: 7
+description: Container management platform providing a web interface for Docker environments.
 image: ./attachments/portainer-app-deployment.png
 keywords: [portainer, docker, containers, management, orchestration, homelab]
 ---

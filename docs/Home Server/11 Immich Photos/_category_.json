@@ -1,8 +1,0 @@
-{
-  "label": "Immich Photos",
-  "position": 11,
-  "link": {
-    "type": "generated-index",
-    "description": "Self-hosted photo management system with mobile apps, face recognition, and automatic backups."
-  }
-}

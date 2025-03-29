@@ -1,8 +1,0 @@
-{
-  "label": "Cloudflare Tunnel",
-  "position": 5,
-  "link": {
-    "type": "generated-index",
-    "description": "Secure connectivity solution for exposing self-hosted services without opening firewall ports."
-  }
-}

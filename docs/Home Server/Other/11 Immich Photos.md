@@ -1,6 +1,6 @@
 ---
-title: Immich Photos Overview
-sidebar_position: 0
+title: Immich Photos
+sidebar_position: 11
 description: Self-hosted alternative to Google Photos for personal media management
 image: ../static/img/immich-dashboard.jpg
 keywords: [immich, photos, self-hosted, media management, image recognition]

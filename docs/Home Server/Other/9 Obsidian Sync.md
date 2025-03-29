@@ -1,7 +1,7 @@
 ---
-title: Obsidian Sync Implementation
-sidebar_position: 0
-description: Self-hosted knowledge management system with robust synchronization
+title: Obsidian Sync
+sidebar_position: 9
+description: Self-hosted knowledge management system with synchronization across multiple devices.
 image: ./attachments/obsidian-interface.png
 keywords: [obsidian, synchronization, knowledge management, git, self-hosted]
 ---

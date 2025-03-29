@@ -1,8 +1,0 @@
-{
-  "label": "Proxmox Backup Server",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "description": "Enterprise backup solution with incremental, deduplicated storage for virtual environments."
-  }
-}
