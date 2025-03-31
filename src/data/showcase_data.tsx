@@ -56,7 +56,16 @@ export type TagType =
   | 'meta'
   | 'personal'
   // Right-to-left direction.
-  | 'rtl';
+  | 'rtl'
+  //home server
+  | 'homelab'
+  | 'selfhosted'
+  | 'virtualization'
+  | 'proxmox'
+  | 'truenas'
+  | 'docker'
+  | 'networking'
+  ;
 
 // Add sites to this list
 // prettier-ignore
@@ -95,6 +104,14 @@ const Users: User[] = [
     source: 'https://github.com/dynamoose/dynamoose/tree/main/docs',
     tags: ['opensource'],
   },
+  {
+    title:'HomeLab',
+    description:'A versatile, self-hosted ecosystem powered by Proxmox, TrueNAS, and Docker, enabling secure services, robust storage, and automated workflows.',
+    preview: require('./showcase/algolia.png'),
+    website: '/docs/Home%20Server/overview',
+    source: '/docs/Home%20Server/overview',
+    tags:['homelab', 'selfhosted' , 'virtualization' , 'proxmox' , 'truenas' , 'docker' , 'networking'],
+  }
 
   /*
   Pro Tip: add your site in alphabetical order.
@@ -213,6 +230,63 @@ export const Tags: {[type in TagType]: Tag} = {
       id: 'showcase.tag.rtl.description',
     }),
     color: '#ffcfc3',
+  },
+  homelab: {
+    label: translate({message: 'homelab'}),
+    description: translate({
+      message: 'Personal server environment for experimentation, learning, and self-hosting services.',
+      id: 'showcase.tag.homelab.description',
+    }),
+    color: '#3B82F6', // Blue
+  },
+  selfhosted: {
+    label: translate({message: 'self-hosted'}),
+    description: translate({
+      message: 'Running services and applications on privately owned and managed hardware.',
+      id: 'showcase.tag.self-hosted.description',
+    }),
+    color: '#10B981', // Emerald/Green
+  },
+  
+  virtualization: {
+    label: translate({message: 'virtualization'}),
+    description: translate({
+      message: 'Creating virtual versions of hardware, operating systems, storage devices, or network resources.',
+      id: 'showcase.tag.virtualization.description',
+    }),
+    color: '#8B5CF6', // Violet
+  },
+  proxmox: {
+    label: translate({message: 'proxmox'}),
+    description: translate({
+      message: 'Open-source server virtualization management platform combining KVM and LXC.',
+      id: 'showcase.tag.proxmox.description',
+    }),
+    color: '#F97316', // Orange
+  },
+  truenas: {
+    label: translate({message: 'truenas'}),
+    description: translate({
+      message: 'Network-Attached Storage (NAS) software focused on data integrity using ZFS.',
+      id: 'showcase.tag.truenas.description',
+    }),
+    color: '#14B8A6', // Teal
+  },
+  docker: {
+    label: translate({message: 'docker'}),
+    description: translate({
+      message: 'Platform for developing, shipping, and running applications within containers.',
+      id: 'showcase.tag.docker.description',
+    }),
+    color: '#0EA5E9', // Sky/Docker Blue
+  },
+  networking: {
+    label: translate({message: 'networking'}),
+    description: translate({
+      message: 'Configuration and management of network infrastructure, routing, and services like VPNs and proxies.',
+      id: 'showcase.tag.networking.description',
+    }),
+    color: '#F59E0B', // Amber/Yellow
   },
 };
 
