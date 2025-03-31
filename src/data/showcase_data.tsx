@@ -65,54 +65,104 @@ export type TagType =
   | 'truenas'
   | 'docker'
   | 'networking'
+  //websites
+  | 'voiceassistant'
+  | 'laravel'
+  | 'whisperai'
+  | 'coquitts'
+  | 'llm'
+  | 'ai'
+  | 'portfolio'
+  | 'docusaurus'
+  | 'cloudflarepages'
+  | 'docker'
+  | 'mysql'
+  | 'bash'
+  | 'webinterface'
+  | 'hackathon'
+  | 'threejs'
+  | 'webplatform'
+  | 'teamlead'
+  | 'rbac'
+  | 'bootstrap'
+  | 'authentication'
   ;
 
 // Add sites to this list
 // prettier-ignore
 const Users: User[] = [
   {
-    title: 'AI-Speaker',
-    description: 'Local, reliable, fast and private Audio and IoT gate.',
-    preview: require('./showcase/aispeaker.png'),
-    website: 'https://ai-speaker.com/',
-    source: 'https://github.com/sviete/AIS-WWW',
-    tags: ['opensource'],
-  },
-  {
-    title: "Akara's blog",
-    description: 'Personal frontend blog for learning',
-    preview: require('./showcase/akara-blog.png'),
-    website: 'https://messiahhh.github.io/blog/',
-    source: 'https://github.com/messiahhh/blog',
-    tags: ['opensource', 'personal'],
-  },
-  {
-    title: 'Algolia DocSearch',
-    description:
-      'The best search experience for docs, integrates in minutes, for free',
-    preview: require('./showcase/algolia.png'),
-    website: 'https://docsearch.algolia.com/',
-    source: 'https://github.com/algolia/docsearch/tree/main/packages/website',
-    tags: ['favorite', 'opensource', 'product'],
-  },
-  
-  {
-    title: 'Dynamoose',
-    description: 'A modeling tool for Amazon\'s DynamoDB',
-    preview: null,
-    website: 'https://dynamoosejs.com/',
-    source: 'https://github.com/dynamoose/dynamoose/tree/main/docs',
-    tags: ['opensource'],
-  },
-  {
     title:'HomeLab',
     description:'A versatile, self-hosted ecosystem powered by Proxmox, TrueNAS, and Docker, enabling secure services, robust storage, and automated workflows.',
     preview: require('./showcase/algolia.png'),
     website: '/docs/Home%20Server/overview',
     source: '/docs/Home%20Server/overview',
-    tags:['homelab', 'selfhosted' , 'virtualization' , 'proxmox' , 'truenas' , 'docker' , 'networking'],
-  }
-
+    tags:['favorite', 'homelab', 'selfhosted' , 'virtualization' , 'proxmox' , 'truenas' , 'docker' , 'networking'],
+    date: '2021-05',
+  },
+    {
+      title: 'Local Voice Assistant Natural Language to SQL (Bachelor Thesis)',
+      description: 'Offline voice assistant system converting natural language to SQL queries using local AI models.',
+      preview: require('./showcase/local-voice-assistant-natural-language-to-sql.png'), // Placeholder path, adjust as needed
+      website: 'https://tfg.netshiba.com/',
+      source: 'https://github.com/netraular/tfgweb',
+      tags: ['voiceassistant', 'laravel', 'whisperai', 'coquitts', 'llm', 'ai'],
+      date: '2032-05',
+    },
+    {
+      title: 'Portfolio Website',
+      description: 'Modern developer portfolio built with Docusaurus, automated via GitHub & Cloudflare Pages and integrated with Obsidian.',
+      preview: require('./showcase/portfolio-website.png'), // Placeholder path, adjust as needed
+      website: 'https://raular.com/',
+      source: 'https://github.com/netraular/portfolio-website',
+      tags: ['portfolio', 'docusaurus', 'cloudflarepages'],
+      date: '2023-12',
+    },
+    {
+      title: 'Game Server Management Interface',
+      description: 'Web platform using Laravel and Bash scripts for managing multiple game servers hosted with Docker on a single VM.',
+      preview: require('./showcase/game-server-management-interface.png'), // Placeholder path, adjust as needed
+      website: 'http://gameserver.netshiba.com/',
+      source: 'https://github.com/netraular/gameserver',
+      tags: ['laravel', 'docker', 'mysql', 'bash', 'webinterface'],
+      date: '2023-11',
+    },
+    {
+      title: '(hackaton) Cosmoscape - Exoplanetary Sky Visualization',
+      description: 'Interactive NASA Space Apps 2024 platform visualizing night skies from 50 exoplanets using three.js and Laravel.',
+      preview: require('./showcase/cosmoscape-exoplanetary-sky-visualization.png'), // Placeholder path, adjust as needed
+      website: 'https://nasa24.netshiba.com/',
+      source: 'https://github.com/netraular/Hackathon-NASA-2024',
+      tags: ['hackathon', 'threejs', 'laravel', 'webplatform'],
+      date: '2023-03',
+    },
+    {
+      title: 'Eco2 - Hack for Good Barcelona Winner',
+      description: '1st place winning Hackathon project promoting sustainable consumption via QR-based proximity scoring and supply chain tracking.',
+      preview: require('./showcase/eco2-hack-for-good-barcelona-winner.png'), // Placeholder path, adjust as needed
+      website: 'https://eco2.netshiba.com/',
+      source: 'https://github.com/netraular/hack4goodApp-2024',
+      tags: [ 'hackathon', 'webplatform', 'teamlead', 'laravel', 'rbac'],
+      date: '2022-05',
+    },
+    {
+      title: 'PromptPal - LLM-Powered Template Generation Platform',
+      description: 'Laravel web platform leveraging Grok LLM API for generating diverse text outputs from user-defined templates.',
+      preview: require('./showcase/promptpal-llm-powered-template-generation-platform.png'), // Placeholder path, adjust as needed
+      website: 'https://promptpal.netshiba.com',
+      source: 'https://github.com/netraular/llm-prompt-combine',
+      tags: ['llm', 'laravel', 'mysql', 'ai'],
+      date: '2024-07',
+    },
+    {
+      title: 'Project Showcase Platform',
+      description: 'A self-hosted Laravel and Bootstrap system for managing and displaying personal projects via a private admin panel.',
+      preview: require('./showcase/project-showcase-platform.png'), // Placeholder path, adjust as needed
+      website: 'https://netshiba.com/',
+      source: 'https://github.com/netraular/project-showcase-platform',
+      tags: ['laravel', 'bootstrap', 'mysql', 'portfolio', 'authentication', 'selfhosted'],
+      date: '2023-04',
+    }
   /*
   Pro Tip: add your site in alphabetical order.
   Appending your site here (at the end) is more likely to produce Git conflicts.
@@ -126,6 +176,7 @@ export type User = {
   website: string;
   source: string | null;
   tags: TagType[];
+  date: string; //(formato YYYY-MM)
 };
 
 export type Tag = {
@@ -273,12 +324,12 @@ export const Tags: {[type in TagType]: Tag} = {
     color: '#14B8A6', // Teal
   },
   docker: {
-    label: translate({message: 'docker'}),
+    label: translate({message: 'Docker'}),
     description: translate({
-      message: 'Platform for developing, shipping, and running applications within containers.',
+      message: 'Projects utilizing Docker for containerization.',
       id: 'showcase.tag.docker.description',
     }),
-    color: '#0EA5E9', // Sky/Docker Blue
+    color: '#0db7ed', // Docker blue
   },
   networking: {
     label: translate({message: 'networking'}),
@@ -288,15 +339,173 @@ export const Tags: {[type in TagType]: Tag} = {
     }),
     color: '#F59E0B', // Amber/Yellow
   },
+
+    voiceassistant: {
+      label: translate({message: 'Voice Assistant'}),
+      description: translate({
+        message: 'Projects involving voice command processing and interaction.',
+        id: 'showcase.tag.voiceassistant.description',
+      }),
+      color: '#7c3aed', // Purple associated with AI/innovation
+    },
+    laravel: {
+      label: translate({message: 'Laravel'}),
+      description: translate({
+        message: 'Projects built using the Laravel PHP framework.',
+        id: 'showcase.tag.laravel.description',
+      }),
+      color: '#F05340', // Official Laravel red
+    },
+    whisperai: {
+      label: translate({message: 'WhisperAI'}),
+      description: translate({
+        message: 'Projects utilizing OpenAI\'s Whisper model for Speech-to-Text.',
+        id: 'showcase.tag.whisperai.description',
+      }),
+      color: '#8e44ad', // Purple for AI consistency
+    },
+    coquitts: {
+      label: translate({message: 'CoquiTTS'}),
+      description: translate({
+        message: 'Projects using CoquiTTS for Text-to-Speech synthesis.',
+        id: 'showcase.tag.coquitts.description',
+      }),
+      color: '#f39c12', // Orange
+    },
+    llm: {
+      label: translate({message: 'LLM'}),
+      description: translate({
+        message: 'Projects leveraging Large Language Models for text generation or analysis.',
+        id: 'showcase.tag.llm.description',
+      }),
+      color: '#9b59b6', // Another shade of purple for AI
+    },
+    ai: {
+      label: translate({message: 'AI'}),
+      description: translate({
+        message: 'Projects incorporating Artificial Intelligence or Machine Learning techniques.',
+        id: 'showcase.tag.ai.description',
+      }),
+      color: '#a55eea', // General AI purple
+    },
+    portfolio: {
+      label: translate({message: 'Portfolio'}),
+      description: translate({
+        message: 'Projects related to building or managing personal/professional portfolios.',
+        id: 'showcase.tag.portfolio.description',
+      }),
+      color: '#3498db', // Blue for web/general
+    },
+    docusaurus: {
+      label: translate({message: 'Docusaurus'}),
+      description: translate({
+        message: 'Websites built using the Docusaurus static site generator.',
+        id: 'showcase.tag.docusaurus.description',
+      }),
+      color: '#2ecc71', // Green
+    },
+    cloudflarepages: {
+      label: translate({message: 'Cloudflare Pages'}),
+      description: translate({
+        message: 'Projects deployed and hosted using Cloudflare Pages.',
+        id: 'showcase.tag.cloudflarepages.description',
+      }),
+      color: '#f38020', // Cloudflare orange
+    },
+    mysql: {
+      label: translate({message: 'MySQL'}),
+      description: translate({
+        message: 'Projects using MySQL as the relational database.',
+        id: 'showcase.tag.mysql.description',
+      }),
+      color: '#00758f', // MySQL blue/teal
+    },
+    bash: {
+      label: translate({message: 'Bash'}),
+      description: translate({
+        message: 'Projects involving Bash scripting for automation or system interaction.',
+        id: 'showcase.tag.bash.description',
+      }),
+      color: '#4EAA25', // Green for shell/Linux
+    },
+    webinterface: { // Combined 'web interface'
+      label: translate({message: 'Web Interface'}),
+      description: translate({
+        message: 'Projects featuring a graphical user interface accessible via a web browser.',
+        id: 'showcase.tag.webinterface.description',
+      }),
+      color: '#3498db', // General web blue
+    },
+    hackathon: {
+      label: translate({message: 'Hackathon'}),
+      description: translate({
+        message: 'Projects developed during a hackathon event.',
+        id: 'showcase.tag.hackathon.description',
+      }),
+      color: '#e67e22', // Energetic orange
+    },
+    threejs: { // Removed dot from 'three.js' for key
+      label: translate({message: 'three.js'}),
+      description: translate({
+        message: 'Projects using the three.js library for 3D graphics rendering in the browser.',
+        id: 'showcase.tag.threejs.description',
+      }),
+      color: '#34495e', // Dark grey instead of black
+    },
+    webplatform: { // Combined 'web platform'
+      label: translate({message: 'Web Platform'}),
+      description: translate({
+        message: 'Comprehensive web-based applications or systems.',
+        id: 'showcase.tag.webplatform.description',
+      }),
+      color: '#2980b9', // Slightly darker web blue
+    },
+    teamlead: { // Combined 'team lead'
+      label: translate({message: 'Team Lead'}),
+      description: translate({
+        message: 'Projects where I held a team leadership or project management role.',
+        id: 'showcase.tag.teamlead.description',
+      }),
+      color: '#1abc9c', // Teal/Green for organization
+    },
+    rbac: { // Lowercase RBAC
+      label: translate({message: 'RBAC'}),
+      description: translate({
+        message: 'Projects implementing Role-Based Access Control for security.',
+        id: 'showcase.tag.rbac.description',
+      }),
+      color: '#c0392b', // Red for security/control
+    },
+    bootstrap: {
+      label: translate({message: 'Bootstrap'}),
+      description: translate({
+        message: 'Projects using the Bootstrap framework for frontend development.',
+        id: 'showcase.tag.bootstrap.description',
+      }),
+      color: '#563d7c', // Bootstrap purple
+    },
+    authentication: {
+      label: translate({message: 'Authentication'}),
+      description: translate({
+        message: 'Projects featuring user login, registration, or session management.',
+        id: 'showcase.tag.authentication.description',
+      }),
+      color: '#e74c3c', // Another red for security
+    },
 };
 
 export const TagList = Object.keys(Tags) as TagType[];
 function sortUsers() {
   let result = Users;
-  // Sort by site name
-  result = sortBy(result, (user) => user.title.toLowerCase());
-  // Sort by favorite tag, favorites first
+  
+  
+  // 2. Ordenar por fecha DESC
+  result = sortBy(result, (user) => -Number(user.date.replace("-", ""))); 
+  // Alternativa: result.sort((a, b) => b.date.localeCompare(a.date));
+  
+  // 1. Favoritos primero
   result = sortBy(result, (user) => !user.tags.includes('favorite'));
+
   return result;
 }
 

@@ -62,10 +62,33 @@ function getCardImage(user: User): string {
 
 function ShowcaseCard({user}: {user: User}) {
   const image = getCardImage(user);
+  // --- Formatear la fecha a MM/YYYY ---
+  const formattedDate = (() => {
+    if (!user.date) {
+      return null; // No mostrar nada si no hay fecha
+    }
+    try {
+      const [year, month] = user.date.split('-');
+      // Asegurarse de que mes y año son números válidos si es necesario
+      if (year && month && !isNaN(parseInt(year)) && !isNaN(parseInt(month))) {
+         // month ya debería tener 2 dígitos si viene de YYYY-MM
+        return `${month}/${year}`;
+      }
+      return null; // Formato inválido
+    } catch (e) {
+      console.error("Error formatting date:", user.date, e);
+      return null; // Error al parsear
+    }
+  })();
   return (
     <li key={user.title} className="card shadow--md">
       <div className={clsx('card__image', styles.showcaseCardImage)}>
         <Image img={image} alt={user.title} />
+        {formattedDate && (
+          <span className={styles.imageDateOverlay}>
+            📅 {formattedDate}
+          </span>
+        )}
       </div>
       <div className="card__body">
         <div className={clsx(styles.showcaseCardHeader)}>

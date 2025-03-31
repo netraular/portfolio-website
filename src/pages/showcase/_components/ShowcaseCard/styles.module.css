@@ -66,6 +66,29 @@
   line-height: 1.66;
 }
 
+.showcaseCardImage {
+  overflow: hidden;
+  height: 150px;
+  border-bottom: 2px solid var(--ifm-color-emphasis-200);
+  position: relative; /* --- AÑADIR ESTO --- Para que el posicionamiento absoluto funcione */
+}
+
+/* --- AÑADIR ESTOS NUEVOS ESTILOS --- */
+.imageDateOverlay {
+  position: absolute; /* Posicionamiento absoluto relativo a .showcaseCardImage */
+  bottom: 5px;       /* Espacio desde abajo */
+  right: 5px;        /* Espacio desde la derecha */
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para legibilidad */
+  color: white;      /* Color del texto */
+  padding: 5px 5px;  /* Relleno interior */
+  border-radius: 4px; /* Bordes redondeados */
+  font-size: 0.7rem; /* Tamaño de fuente pequeño */
+  line-height: 1;    /* Ajuste de altura de línea */
+  z-index: 1;        /* Asegura que esté por encima de la imagen si fuera necesario */
+  pointer-events: none; /* Evita que intercepte clics si no es necesario */
+  user-select: none; /* Evita que el usuario seleccione el texto de la fecha */
+}
+
 .cardFooter {
   display: flex;
   flex-wrap: wrap;
