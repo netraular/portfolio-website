@@ -35,7 +35,7 @@ function HeadingNoResult() {
 function HeadingFavorites() {
   return (
     <Heading as="h2" className={styles.headingFavorites}>
-      <Translate id="showcase.favoritesList.title">Our favorites</Translate>
+      <Translate id="showcase.favoritesList.title">Favorites</Translate>
       <FavoriteIcon size="large" style={{marginLeft: '1rem'}} />
     </Heading>
   );
@@ -44,7 +44,7 @@ function HeadingFavorites() {
 function HeadingAllSites() {
   return (
     <Heading as="h2">
-      <Translate id="showcase.usersList.allUsers">All sites</Translate>
+      <Translate id="showcase.usersList.allUsers">All projects</Translate>
     </Heading>
   );
 }

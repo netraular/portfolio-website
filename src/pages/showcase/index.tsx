@@ -8,7 +8,7 @@
 import type {ReactNode} from 'react';
 import Translate, {translate} from '@docusaurus/Translate';
 
-import Link from '@docusaurus/Link';
+// Link ya no es necesario porque quitaremos el botón de "añadir sitio"
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
@@ -16,28 +16,32 @@ import ShowcaseSearchBar from '@site/src/pages/showcase/_components/ShowcaseSear
 import ShowcaseCards from './_components/ShowcaseCards';
 import ShowcaseFilters from './_components/ShowcaseFilters';
 
-const TITLE = translate({message: 'Docusaurus Site Showcase'});
-const DESCRIPTION = translate({
-  message: 'List of websites people are building with Docusaurus',
+// --- Textos Actualizados ---
+const TITLE = translate({
+  message: 'My Project Showcase', // Título más personal
+  id: 'showcase.title', // ID para posible traducción futura
 });
-const SUBMIT_URL = 'https://github.com/facebook/docusaurus/discussions/7826';
+const DESCRIPTION = translate({
+  // Descripción más acorde a un portfolio
+  message: 'Explore a visual gallery of my technical projects across various domains. Use the filters or search to discover specific work.',
+  id: 'showcase.description', // ID para posible traducción futura
+});
+// SUBMIT_URL ya no es necesario
 
+// --- Cabecera Modificada ---
 function ShowcaseHeader() {
   return (
     <section className="margin-top--lg margin-bottom--lg text--center">
       <Heading as="h1">{TITLE}</Heading>
       <p>{DESCRIPTION}</p>
-      <Link className="button button--primary" to={SUBMIT_URL}>
-        <Translate id="showcase.header.button">
-          🙏 Please add your site
-        </Translate>
-      </Link>
+      {/* Se ha eliminado el botón Link que pedía añadir sitios */}
     </section>
   );
 }
 
 export default function Showcase(): ReactNode {
   return (
+    // Usamos los nuevos TITLE y DESCRIPTION para el Layout (importante para SEO y título de pestaña)
     <Layout title={TITLE} description={DESCRIPTION}>
       <main className="margin-vert--lg">
         <ShowcaseHeader />
@@ -45,6 +49,7 @@ export default function Showcase(): ReactNode {
         <div
           style={{display: 'flex', marginLeft: 'auto'}}
           className="container">
+          {/* Mantenemos la barra de búsqueda y los filtros/tarjetas */}
           <ShowcaseSearchBar />
         </div>
         <ShowcaseCards />

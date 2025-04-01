@@ -79,13 +79,13 @@
     "message": "No result"
   },
   "showcase.favoritesList.title": {
-    "message": "Our favorites"
+    "message": "Favorites"
   },
   "showcase.usersList.allUsers": {
-    "message": "All sites"
+    "message": "All projects"
   },
   "showcase.searchBar.placeholder": {
-    "message": "Search for site name..."
+    "message": "Search for project name..."
   },
   "showcase.filters.title": {
     "message": "Filters"
