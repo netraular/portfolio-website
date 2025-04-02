@@ -96,12 +96,6 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Projects',
-        },
-        {
           to: '/showcase',
           position: 'left',
           label: 'Showcase',
