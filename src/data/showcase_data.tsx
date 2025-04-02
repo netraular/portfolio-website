@@ -59,113 +59,114 @@ export type TagType =
 // Add sites to this list
 // prettier-ignore
 const Users: User[] = [
+  
+  {
+    title: 'WLED-Controlled LED Picture Frames',
+    description: 'Custom backlit picture frames using ESP32 and WLED for dynamic, controllable lighting effects.',
+    preview: require('./showcase/wled frames/banner.png'),
+    website: '/docs/Others/IoT%20and%20ESP32%20Development/Wled%20Art%20Frame/overview',
+    source: null, // Sin repo público específico mencionado
+    tags: ['iotEmbedded'], // Proyecto de hardware/IoT, personal/DIY.
+    date: '2023-12',
+  },
   {
     title: 'HomeLab',
     description: 'A versatile, self-hosted ecosystem powered by Proxmox, TrueNAS, and Docker, enabling secure services, robust storage, and automated workflows.',
-    preview: require('./showcase/homelab-dashboard.png'), // Asegúrate que la imagen exista
+    preview: require('./showcase/home server/banner.png'), // Asegúrate que la imagen exista
     website: '/docs/Home%20Server/overview',
     source: '/docs/Home%20Server/overview', // O null si no hay un repo específico del código del sitio
     tags: ['favorite', 'selfhosted'], // Simplificado: Es tu favorito y es autoalojado/infraestructura.
-    date: '2021-05',
+    date: '2024-01',
   },
   {
     title: 'Local Voice Assistant Natural Language to SQL (Bachelor Thesis)',
     description: 'Offline voice assistant system converting natural language to SQL queries using local AI models.',
-    preview: require('./showcase/local-voice-assistant-natural-language-to-sql.png'),
+    preview: require('./showcase/tfg/banner.png'),
     website: 'https://tfg.netshiba.com/',
     source: 'https://github.com/netraular/tfgweb',
     tags: ['aiMl', 'webDevelopment'], // IA como núcleo, interfaz web, proyecto personal/académico.
-    date: '2023-05', // Corregida fecha probable (era 2032)
+    date: '2024-06', // Corregida fecha probable (era 2032)
   },
   {
-    title: 'Portfolio Website',
-    description: 'Modern developer portfolio built with Docusaurus, automated via GitHub & Cloudflare Pages and integrated with Obsidian.',
-    preview: require('./showcase/portfolio-website.png'),
-    website: 'https://raular.com/',
-    source: 'https://github.com/netraular/portfolio-website',
-    tags: ['webDevelopment'], // Es un sitio web, y es tu portfolio personal.
-    date: '2023-12',
+    title: 'Eco2 - Hack for Good Barcelona Winner',
+    description: '1st place winning Hackathon project promoting sustainable consumption via QR-based proximity scoring and supply chain tracking.',
+    preview: require('./showcase/eco2/banner.png'),
+    website: 'https://eco2.raular.com/',
+    source: 'https://github.com/netraular/hack4goodApp-2024',
+    tags: ['favorite','hackathon', 'webDevelopment'], // Evento hackathon, plataforma web.
+    date: '2024-09', // Actualizada fecha probable (era 2022-05)
   },
   {
     title: 'Game Server Management Interface',
     description: 'Web platform using Laravel and Bash scripts for managing multiple game servers hosted with Docker on a single VM.',
-    preview: require('./showcase/game-server-management-interface.png'),
+    preview: require('./showcase/game server/banner.png'),
     website: 'http://gameserver.netshiba.com/',
     source: 'https://github.com/netraular/gameserver',
     tags: ['webDevelopment', 'selfhosted'], // Interfaz web, probablemente alojada en tu homelab.
-    date: '2023-11',
+    date: '2024-10',
+  },
+  {
+    title: 'Project Showcase Platform',
+    description: 'A self-hosted Laravel and Bootstrap system for managing and displaying personal projects via a private admin panel.',
+    preview: require('./showcase/showcase/banner.png'),
+    website: 'https://netshiba.com/',
+    source: 'https://github.com/netraular/project-showcase-platform',
+    tags: ['webDevelopment'], // Plataforma web, autoalojada, para uso personal (mostrar proyectos).
+    date: '2024-09',
   },
   {
     title: '(hackaton) Cosmoscape - Exoplanetary Sky Visualization',
     description: 'Interactive NASA Space Apps 2024 platform visualizing night skies from 50 exoplanets using three.js and Laravel.',
-    preview: require('./showcase/cosmoscape-exoplanetary-sky-visualization.png'),
+    preview: require('./showcase/hack nasa 24/banner.png'),
     website: 'https://nasa24.netshiba.com/',
     source: 'https://github.com/netraular/Hackathon-NASA-2024',
     tags: ['hackathon', 'webDevelopment', 'gameDevelopment'], // Evento hackathon, plataforma web con elementos de visualización 3D/juego.
     date: '2024-10', // Actualizada fecha probable (era 2023-03)
   },
   {
-    title: 'Eco2 - Hack for Good Barcelona Winner',
-    description: '1st place winning Hackathon project promoting sustainable consumption via QR-based proximity scoring and supply chain tracking.',
-    preview: require('./showcase/eco2-hack-for-good-barcelona-winner.png'),
-    website: 'https://eco2.netshiba.com/',
-    source: 'https://github.com/netraular/hack4goodApp-2024',
-    tags: ['favorite','hackathon', 'webDevelopment'], // Evento hackathon, plataforma web.
-    date: '2024-05', // Actualizada fecha probable (era 2022-05)
-  },
-  {
     title: 'PromptPal - LLM-Powered Template Generation Platform',
     description: 'Laravel web platform leveraging Grok LLM API for generating diverse text outputs from user-defined templates.',
-    preview: require('./showcase/promptpal-llm-powered-template-generation-platform.png'),
+    preview: require('./showcase/promptpal/banner.png'),
     website: 'https://promptpal.netshiba.com',
     source: 'https://github.com/netraular/llm-prompt-combine',
     tags: ['aiMl', 'webDevelopment'], // Núcleo de IA, plataforma web.
-    date: '2024-07',
-  },
-  {
-    title: 'Project Showcase Platform',
-    description: 'A self-hosted Laravel and Bootstrap system for managing and displaying personal projects via a private admin panel.',
-    preview: require('./showcase/project-showcase-platform.png'),
-    website: 'https://netshiba.com/',
-    source: 'https://github.com/netraular/project-showcase-platform',
-    tags: ['webDevelopment'], // Plataforma web, autoalojada, para uso personal (mostrar proyectos).
-    date: '2023-04',
-  },
-  {
-    title: 'PMD Sprite Manager',
-    description: 'Python GUI tool for splitting Pokémon Mystery Dungeon sprite sheets and previewing animations.',
-    preview: require('./showcase/pmd-sprite-manager.png'),
-    website: 'https://github.com/netraular/PMDSpriteManager',
-    source: 'https://github.com/netraular/PMDSpriteManager',
-    tags: ['favorite','gameDevelopment', 'developerTools'], // Herramienta para assets de juegos, utilidad para desarrolladores (de juegos), proyecto personal.
-    date: '2023-08',
+    date: '2024-11',
   },
   {
     title: 'Prompt My Repo VSCode Extension',
     description: 'VS Code extension structuring project files for easier interaction with Large Language Models (LLMs).',
-    preview: require('./showcase/prompt-my-repo.png'),
+    preview: require('./showcase/prompt my repo/banner.png'),
     website: 'https://marketplace.visualstudio.com/items?itemName=netraular.prompt-my-repo',
     source: 'https://github.com/netraular/prompt-my-repo',
     tags: ['developerTools', 'aiMl'], // Herramienta para desarrolladores, usa IA, proyecto personal.
-    date: '2023-10',
+    date: '2024-12',
   },
   {
-    title: 'WLED-Controlled LED Picture Frames',
-    description: 'Custom backlit picture frames using ESP32 and WLED for dynamic, controllable lighting effects.',
-    preview: require('./showcase/wled-art-frames.png'),
-    website: '/docs/Others/IoT%20and%20ESP32%20Development/Wled%20Art%20Frame/overview',
-    source: null, // Sin repo público específico mencionado
-    tags: ['iotEmbedded'], // Proyecto de hardware/IoT, personal/DIY.
-    date: '2022-08',
+    title: 'PMD Sprite Manager',
+    description: 'Python GUI tool for splitting Pokémon Mystery Dungeon sprite sheets and previewing animations.',
+    preview: require('./showcase/pmd sprite manager/banner.png'),
+    website: 'https://github.com/netraular/PMDSpriteManager',
+    source: 'https://github.com/netraular/PMDSpriteManager',
+    tags: ['favorite','gameDevelopment', 'developerTools'], // Herramienta para assets de juegos, utilidad para desarrolladores (de juegos), proyecto personal.
+    date: '2025-01',
   },
   {
     title: 'ESP32 LVGL Tamagotchi Clone',
     description: 'A Tamagotchi-style virtual pet game running on an ESP32 with a round LVGL display.',
-    preview: require('./showcase/esp32-lvgl-tamagotchi.png'),
+    preview: require('./showcase/esp32 lvgl/banner.png'),
     website: 'https://github.com/netraular/espTama-Round-Cheap-Yellow-Display',
     source: 'https://github.com/netraular/espTama-Round-Cheap-Yellow-Display',
     tags: ['iotEmbedded', 'gameDevelopment'], // Hardware embebido, es un juego, proyecto personal.
-    date: '2022-11',
+    date: '2025-02',
+  },
+  {
+    title: 'Portfolio Website',
+    description: 'Modern developer portfolio built with Docusaurus, automated via GitHub & Cloudflare Pages and integrated with Obsidian.',
+    preview: require('./showcase/portfolio/banner.png'),
+    website: 'https://raular.com/',
+    source: 'https://github.com/netraular/portfolio-website',
+    tags: ['webDevelopment'], // Es un sitio web, y es tu portfolio personal.
+    date: '2025-04',
   },
 ];
 
