@@ -373,6 +373,14 @@
     "message": "Raul A.R.",
     "description": "Alt text for the profile picture in the hero section"
   },
+  "homepage.layout.title": {
+    "message": "Ingegnere Informatico & Sviluppatore Full Stack",
+    "description": "The title tag for the homepage"
+  },
+  "homepage.layout.description": {
+    "message": "Portfolio di Raul A.R. - Ingegnere Informatico e Sviluppatore Full Stack di Barcellona specializzato nello sviluppo backend e soluzioni telecom",
+    "description": "The meta description tag for the homepage"
+  },
   "homepage.about.title": {
     "message": "Chi Sono",
     "description": "Title for the About Me section"
@@ -616,6 +624,22 @@
     "message": "Livello B2 (First Certificate in English - Cambridge English Assessment)",
     "description": "English proficiency level B2 with certificate name"
   },
+  "homepage.skills.title": {
+    "message": "Competenze Tecniche",
+    "description": "Title for the Technical Skills section"
+  },
+  "homepage.skills.category.backend": {
+    "message": "Backend & Telecom",
+    "description": "Title for the Backend & Telecom skills card"
+  },
+  "homepage.skills.category.frontend": {
+    "message": "Frontend & UI",
+    "description": "Title for the Frontend & UI skills card"
+  },
+  "homepage.skills.category.others": {
+    "message": "Altro",
+    "description": "Title for the Others skills card"
+  },
   "homepage.skills.phpLaravel.name": {
     "message": "PHP/Laravel",
     "description": "Name for the PHP/Laravel skill"
@@ -736,113 +760,112 @@
     "message": "Usato Git per il controllo versioni in progetti personali e professionali. Gestito repository, branch e flussi di lavoro collaborativi per team di sviluppo.",
     "description": "Description for the Git Version Control skill"
   },
-  "homepage.skills.title": {
-    "message": "Competenze Tecniche",
-    "description": "Title for the Technical Skills section"
-  },
-  "homepage.skills.category.backend": {
-    "message": "Backend & Telecom",
-    "description": "Title for the Backend & Telecom skills card"
-  },
-  "homepage.skills.category.frontend": {
-    "message": "Frontend & UI",
-    "description": "Title for the Frontend & UI skills card"
-  },
-  "homepage.skills.category.others": {
-    "message": "Altro",
-    "description": "Title for the Others skills card"
-  },
-  "homepage.layout.title": {
-    "message": "Ingegnere Informatico & Sviluppatore Full Stack",
-    "description": "The title tag for the homepage"
-  },
-  "homepage.layout.description": {
-    "message": "Portfolio di Raul A.R. - Ingegnere Informatico e Sviluppatore Full Stack di Barcellona specializzato nello sviluppo backend e soluzioni telecom",
-    "description": "The meta description tag for the homepage"
-  },
   "Self-Hosted / Home Lab": {
-    "message": "Self-Hosted / Home Lab"
+    "message": "Self-Hosted / Laboratorio Domestico",
+    "description": "Tag name for self-hosted projects"
+  },
+  "showcase.tag.selfhosted.description": {
+    "message": "Esecuzione di servizi e gestione dell'infrastruttura personale su hardware di proprietà.",
+    "description": "Description for the self-hosted tag"
+  },
+  "Web Development": {
+    "message": "Sviluppo Web",
+    "description": "Tag name for web development projects"
+  },
+  "showcase.tag.webDevelopment.description": {
+    "message": "Costruzione di applicazioni web full-stack, siti web, API e interfacce utente.",
+    "description": "Description for the web development tag"
+  },
+  "AI / ML": {
+    "message": "IA / Machine Learning",
+    "description": "Tag name for AI/ML projects"
+  },
+  "showcase.tag.aiMl.description": {
+    "message": "Progetti che sfruttano l'Intelligenza Artificiale, l'Apprendimento Automatico o Grandi Modelli Linguistici.",
+    "description": "Description for the AI/ML tag"
+  },
+  "IoT / Embedded": {
+    "message": "IoT / Embedded",
+    "description": "Tag name for IoT/Embedded projects"
+  },
+  "showcase.tag.iotEmbedded.description": {
+    "message": "Lavoro con microcontrollori, sensori, dispositivi connessi e sistemi embedded.",
+    "description": "Description for the IoT/Embedded tag"
+  },
+  "Game Development": {
+    "message": "Sviluppo Videogiochi",
+    "description": "Tag name for Game Development projects"
+  },
+  "showcase.tag.gameDevelopment.description": {
+    "message": "Creazione di giochi, strumenti di sviluppo di giochi o esperienze interattive simili a giochi.",
+    "description": "Description for the Game Development tag"
+  },
+  "Developer Tools": {
+    "message": "Strumenti per Sviluppatori",
+    "description": "Tag name for Developer Tools projects"
+  },
+  "showcase.tag.developerTools.description": {
+    "message": "Creazione di strumenti, estensioni o utility per facilitare il workflow di sviluppo software.",
+    "description": "Description for the Developer Tools tag"
+  },
+  "Hackathon": {
+    "message": "Hackathon",
+    "description": "Tag name for Hackathon projects"
+  },
+  "showcase.tag.hackathon.description": {
+    "message": "Progetti sviluppati sotto la pressione temporale di un evento hackathon.",
+    "description": "Description for the Hackathon tag"
+  },
+  "showcase.title": {
+    "message": "La Mia Vetrina di Progetti",
+    "description": "Title for the showcase page"
+  },
+  "showcase.description": {
+    "message": "Esplora una galleria visiva dei miei progetti tecnici in vari domini. Usa i filtri o la ricerca per scoprire lavori specifici.",
+    "description": "Description for the showcase page"
+  },
+  "showcase.details.text": {
+    "message": "Vuoi approfondire i dettagli tecnici, il processo e la documentazione? Visita la sezione principale della documentazione.",
+    "description": "Text prompting users to visit the main documentation for more project details"
+  },
+  "showcase.details.button": {
+    "message": "Esplora Documentazione Progetto",
+    "description": "Button text linking to the main documentation section (/docs/intro)"
+  },
+  "showcase.details.underConstructionNote": {
+    "message": "(Nota: Questa sezione della documentazione è attualmente in costruzione.)",
+    "description": "Note indicating the linked documentation section is not yet complete"
   },
   "showcase.tag.favorite.description": {
-    "message": "I nostri siti Docusaurus preferiti che devi assolutamente controllare!"
+    "message": "I nostri siti Docusaurus preferiti che devi assolutamente controllare!",
+    "description": "Our favorite Docusaurus sites that you must absolutely check out!"
   },
   "showcase.filters.resultCount": {
     "message": "1 sito|{sitesCount} siti",
     "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "showcase.card.sourceLink": {
-    "message": "codice sorgente"
+    "message": "codice sorgente",
+    "description": "Link text for source code"
   },
   "showcase.usersList.noResult": {
-    "message": "Nessun risultato"
+    "message": "Nessun risultato",
+    "description": "Message shown when no projects match filters"
   },
   "showcase.favoritesList.title": {
-    "message": "Preferiti"
+    "message": "Preferiti",
+    "description": "Title for the favorite projects section"
   },
   "showcase.usersList.allUsers": {
-    "message": "Tutti i progetti"
+    "message": "Tutti i progetti",
+    "description": "Label for showing all projects"
   },
   "showcase.searchBar.placeholder": {
-    "message": "Cerca per nome progetto..."
+    "message": "Cerca per nome progetto...",
+    "description": "Placeholder text for the project search bar"
   },
   "showcase.filters.title": {
-    "message": "Filtri"
-  },
-  "showcase.tag.selfhosted.description": {
-    "message": "Running services and managing personal infrastructure on self-owned hardware."
-  },
-  "Web Development": {
-    "message": "Web Development"
-  },
-  "showcase.tag.webDevelopment.description": {
-    "message": "Building full-stack web applications, websites, APIs, and user interfaces."
-  },
-  "AI / ML": {
-    "message": "AI / ML"
-  },
-  "showcase.tag.aiMl.description": {
-    "message": "Projects leveraging Artificial Intelligence, Machine Learning, or Large Language Models."
-  },
-  "IoT / Embedded": {
-    "message": "IoT / Embedded"
-  },
-  "showcase.tag.iotEmbedded.description": {
-    "message": "Working with microcontrollers, sensors, connected devices, and embedded systems."
-  },
-  "Game Development": {
-    "message": "Game Development"
-  },
-  "showcase.tag.gameDevelopment.description": {
-    "message": "Creating games, game development tools, or interactive game-like experiences."
-  },
-  "Developer Tools": {
-    "message": "Developer Tools"
-  },
-  "showcase.tag.developerTools.description": {
-    "message": "Creating tools, extensions, or utilities to aid the software development workflow."
-  },
-  "Hackathon": {
-    "message": "Hackathon"
-  },
-  "showcase.tag.hackathon.description": {
-    "message": "Projects developed under the time pressure of a hackathon event."
-  },
-  "showcase.title": {
-    "message": "My Project Showcase"
-  },
-  "showcase.description": {
-    "message": "Explore a visual gallery of my technical projects across various domains. Use the filters or search to discover specific work."
-  },
-  "showcase.details.text": {
-    "message": "Want to dive deeper into the technical details, process, and documentation? Visit the main docs section.",
-    "description": "Text prompting users to visit the main documentation for more project details"
-  },
-  "showcase.details.button": {
-    "message": "Explore Project Docs",
-    "description": "Button text linking to the main documentation section (/docs/intro)"
-  },
-  "showcase.details.underConstructionNote": {
-    "message": "(Please note: This documentation section is currently under construction.)",
-    "description": "Note indicating the linked documentation section is not yet complete"
+    "message": "Filtri",
+    "description": "Title for the filtering section"
   }
 }

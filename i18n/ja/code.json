@@ -373,6 +373,14 @@
     "message": "Raul A.R.",
     "description": "Alt text for the profile picture in the hero section"
   },
+  "homepage.layout.title": {
+    "message": "コンピューターエンジニア & フルスタック開発者",
+    "description": "The title tag for the homepage"
+  },
+  "homepage.layout.description": {
+    "message": "Raul A.R.のポートフォリオ - バルセロナ出身のコンピューターエンジニア兼フルスタック開発者。バックエンド開発と通信ソリューションを専門としています。",
+    "description": "The meta description tag for the homepage"
+  },
   "homepage.about.title": {
     "message": "私について",
     "description": "Title for the About Me section"
@@ -616,6 +624,22 @@
     "message": "B2レベル（ケンブリッジ英語検定 First Certificate in English）",
     "description": "English proficiency level B2 with certificate name"
   },
+  "homepage.skills.title": {
+    "message": "テクニカルスキル",
+    "description": "Title for the Technical Skills section"
+  },
+  "homepage.skills.category.backend": {
+    "message": "バックエンド & 通信",
+    "description": "Title for the Backend & Telecom skills card"
+  },
+  "homepage.skills.category.frontend": {
+    "message": "フロントエンド & UI",
+    "description": "Title for the Frontend & UI skills card"
+  },
+  "homepage.skills.category.others": {
+    "message": "その他",
+    "description": "Title for the Others skills card"
+  },
   "homepage.skills.phpLaravel.name": {
     "message": "PHP/Laravel",
     "description": "Name for the PHP/Laravel skill"
@@ -736,113 +760,112 @@
     "message": "個人および業務プロジェクト全体でバージョン管理にGitを使用。リポジトリ、ブランチ、開発チームの共同ワークフローを管理。",
     "description": "Description for the Git Version Control skill"
   },
-  "homepage.skills.title": {
-    "message": "テクニカルスキル",
-    "description": "Title for the Technical Skills section"
-  },
-  "homepage.skills.category.backend": {
-    "message": "バックエンド & 通信",
-    "description": "Title for the Backend & Telecom skills card"
-  },
-  "homepage.skills.category.frontend": {
-    "message": "フロントエンド & UI",
-    "description": "Title for the Frontend & UI skills card"
-  },
-  "homepage.skills.category.others": {
-    "message": "その他",
-    "description": "Title for the Others skills card"
-  },
-  "homepage.layout.title": {
-    "message": "コンピューターエンジニア & フルスタック開発者",
-    "description": "The title tag for the homepage"
-  },
-  "homepage.layout.description": {
-    "message": "Raul A.R.のポートフォリオ - バルセロナ出身のコンピューターエンジニア兼フルスタック開発者。バックエンド開発と通信ソリューションを専門としています。",
-    "description": "The meta description tag for the homepage"
-  },
   "Self-Hosted / Home Lab": {
-    "message": "Self-Hosted / Home Lab"
+    "message": "セルフホスト / ホームラボ",
+    "description": "Tag name for self-hosted projects"
+  },
+  "showcase.tag.selfhosted.description": {
+    "message": "自己所有ハードウェアでのサービス運用と個人インフラ管理。",
+    "description": "Description for the self-hosted tag"
+  },
+  "Web Development": {
+    "message": "ウェブ開発",
+    "description": "Tag name for web development projects"
+  },
+  "showcase.tag.webDevelopment.description": {
+    "message": "フルスタックWebアプリケーション、ウェブサイト、API、およびユーザーインターフェースの構築。",
+    "description": "Description for the web development tag"
+  },
+  "AI / ML": {
+    "message": "AI / ML",
+    "description": "Tag name for AI/ML projects"
+  },
+  "showcase.tag.aiMl.description": {
+    "message": "人工知能、機械学習、または大規模言語モデルを活用したプロジェクト。",
+    "description": "Description for the AI/ML tag"
+  },
+  "IoT / Embedded": {
+    "message": "IoT / 組み込み",
+    "description": "Tag name for IoT/Embedded projects"
+  },
+  "showcase.tag.iotEmbedded.description": {
+    "message": "マイクロコントローラー、センサー、接続デバイス、および組み込みシステムでの作業。",
+    "description": "Description for the IoT/Embedded tag"
+  },
+  "Game Development": {
+    "message": "ゲーム開発",
+    "description": "Tag name for Game Development projects"
+  },
+  "showcase.tag.gameDevelopment.description": {
+    "message": "ゲーム、ゲーム開発ツール、またはインタラクティブなゲーム風体験の作成。",
+    "description": "Description for the Game Development tag"
+  },
+  "Developer Tools": {
+    "message": "開発者ツール",
+    "description": "Tag name for Developer Tools projects"
+  },
+  "showcase.tag.developerTools.description": {
+    "message": "ソフトウェア開発ワークフローを支援するツール、拡張機能、またはユーティリティの作成。",
+    "description": "Description for the Developer Tools tag"
+  },
+  "Hackathon": {
+    "message": "ハッカソン",
+    "description": "Tag name for Hackathon projects"
+  },
+  "showcase.tag.hackathon.description": {
+    "message": "ハッカソンイベントの時間的制約の中で開発されたプロジェクト。",
+    "description": "Description for the Hackathon tag"
+  },
+  "showcase.title": {
+    "message": "私のプロジェクトショーケース",
+    "description": "Title for the showcase page"
+  },
+  "showcase.description": {
+    "message": "さまざまな分野にわたる私の技術プロジェクトのビジュアルギャラリーをご覧ください。フィルターまたは検索を使用して、特定の作品を見つけてください。",
+    "description": "Description for the showcase page"
+  },
+  "showcase.details.text": {
+    "message": "技術的な詳細、プロセス、ドキュメントについてさらに深く知りたいですか？メインのドキュメントセクションをご覧ください。",
+    "description": "Text prompting users to visit the main documentation for more project details"
+  },
+  "showcase.details.button": {
+    "message": "プロジェクトドキュメントを探索",
+    "description": "Button text linking to the main documentation section (/docs/intro)"
+  },
+  "showcase.details.underConstructionNote": {
+    "message": "（ご注意：このドキュメントセクションは現在構築中です。）",
+    "description": "Note indicating the linked documentation section is not yet complete"
   },
   "showcase.tag.favorite.description": {
-    "message": "絶対にチェックすべき、私たちのお気に入りのDocusaurusサイト！"
+    "message": "絶対にチェックすべき、私たちのお気に入りのDocusaurusサイト！",
+    "description": "Our favorite Docusaurus sites that you must absolutely check out!"
   },
   "showcase.filters.resultCount": {
     "message": "{sitesCount} 件のサイト",
     "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "showcase.card.sourceLink": {
-    "message": "ソース"
+    "message": "ソース",
+    "description": "Link text for source code"
   },
   "showcase.usersList.noResult": {
-    "message": "結果なし"
+    "message": "結果なし",
+    "description": "Message shown when no projects match filters"
   },
   "showcase.favoritesList.title": {
-    "message": "お気に入り"
+    "message": "お気に入り",
+    "description": "Title for the favorite projects section"
   },
   "showcase.usersList.allUsers": {
-    "message": "すべてのプロジェクト"
+    "message": "すべてのプロジェクト",
+    "description": "Label for showing all projects"
   },
   "showcase.searchBar.placeholder": {
-    "message": "プロジェクト名で検索..."
+    "message": "プロジェクト名で検索...",
+    "description": "Placeholder text for the project search bar"
   },
   "showcase.filters.title": {
-    "message": "フィルター"
-  },
-  "showcase.tag.selfhosted.description": {
-    "message": "Running services and managing personal infrastructure on self-owned hardware."
-  },
-  "Web Development": {
-    "message": "Web Development"
-  },
-  "showcase.tag.webDevelopment.description": {
-    "message": "Building full-stack web applications, websites, APIs, and user interfaces."
-  },
-  "AI / ML": {
-    "message": "AI / ML"
-  },
-  "showcase.tag.aiMl.description": {
-    "message": "Projects leveraging Artificial Intelligence, Machine Learning, or Large Language Models."
-  },
-  "IoT / Embedded": {
-    "message": "IoT / Embedded"
-  },
-  "showcase.tag.iotEmbedded.description": {
-    "message": "Working with microcontrollers, sensors, connected devices, and embedded systems."
-  },
-  "Game Development": {
-    "message": "Game Development"
-  },
-  "showcase.tag.gameDevelopment.description": {
-    "message": "Creating games, game development tools, or interactive game-like experiences."
-  },
-  "Developer Tools": {
-    "message": "Developer Tools"
-  },
-  "showcase.tag.developerTools.description": {
-    "message": "Creating tools, extensions, or utilities to aid the software development workflow."
-  },
-  "Hackathon": {
-    "message": "Hackathon"
-  },
-  "showcase.tag.hackathon.description": {
-    "message": "Projects developed under the time pressure of a hackathon event."
-  },
-  "showcase.title": {
-    "message": "My Project Showcase"
-  },
-  "showcase.description": {
-    "message": "Explore a visual gallery of my technical projects across various domains. Use the filters or search to discover specific work."
-  },
-  "showcase.details.text": {
-    "message": "Want to dive deeper into the technical details, process, and documentation? Visit the main docs section.",
-    "description": "Text prompting users to visit the main documentation for more project details"
-  },
-  "showcase.details.button": {
-    "message": "Explore Project Docs",
-    "description": "Button text linking to the main documentation section (/docs/intro)"
-  },
-  "showcase.details.underConstructionNote": {
-    "message": "(Please note: This documentation section is currently under construction.)",
-    "description": "Note indicating the linked documentation section is not yet complete"
+    "message": "フィルター",
+    "description": "Title for the filtering section"
   }
 }

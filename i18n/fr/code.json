@@ -373,12 +373,20 @@
     "message": "Raul A.R.",
     "description": "Alt text for the profile picture in the hero section"
   },
+  "homepage.layout.title": {
+    "message": "Ingénieur Informaticien & Développeur Full Stack",
+    "description": "The title tag for the homepage"
+  },
+  "homepage.layout.description": {
+    "message": "Portfolio de Raul A.R. - Ingénieur Informaticien et Développeur Full Stack de Barcelone spécialisé dans le développement backend et les solutions télécoms",
+    "description": "The meta description tag for the homepage"
+  },
   "homepage.about.title": {
     "message": "À propos de moi",
     "description": "Title for the About Me section"
   },
   "homepage.about.paragraph1": {
-    "message": "Je suis un Ingénieur Informaticien basé à Barcelone, diplômé de {uabLink} avec une spécialisation en Informatique.",
+    "message": "Je suis un Ingénieur Informaticien basé à Barcelone, diplômé de l'{uabLink} avec une spécialisation en Informatique.",
     "description": "First paragraph in the About section introducing the user"
   },
   "homepage.about.uabName": {
@@ -616,6 +624,22 @@
     "message": "Niveau B2 (First Certificate in English - Cambridge English Assessment)",
     "description": "English proficiency level B2 with certificate name"
   },
+  "homepage.skills.title": {
+    "message": "Compétences Techniques",
+    "description": "Title for the Technical Skills section"
+  },
+  "homepage.skills.category.backend": {
+    "message": "Backend & Télécom",
+    "description": "Title for the Backend & Telecom skills card"
+  },
+  "homepage.skills.category.frontend": {
+    "message": "Frontend & UI",
+    "description": "Title for the Frontend & UI skills card"
+  },
+  "homepage.skills.category.others": {
+    "message": "Autres",
+    "description": "Title for the Others skills card"
+  },
   "homepage.skills.phpLaravel.name": {
     "message": "PHP/Laravel",
     "description": "Name for the PHP/Laravel skill"
@@ -736,113 +760,112 @@
     "message": "Utilisé Git pour le contrôle de version sur des projets personnels et professionnels. Géré des dépôts, des branches et des flux de travail collaboratifs pour les équipes de développement.",
     "description": "Description for the Git Version Control skill"
   },
-  "homepage.skills.title": {
-    "message": "Compétences Techniques",
-    "description": "Title for the Technical Skills section"
-  },
-  "homepage.skills.category.backend": {
-    "message": "Backend & Télécom",
-    "description": "Title for the Backend & Telecom skills card"
-  },
-  "homepage.skills.category.frontend": {
-    "message": "Frontend & UI",
-    "description": "Title for the Frontend & UI skills card"
-  },
-  "homepage.skills.category.others": {
-    "message": "Autres",
-    "description": "Title for the Others skills card"
-  },
-  "homepage.layout.title": {
-    "message": "Ingénieur Informaticien & Développeur Full Stack",
-    "description": "The title tag for the homepage"
-  },
-  "homepage.layout.description": {
-    "message": "Portfolio de Raul A.R. - Ingénieur Informaticien et Développeur Full Stack de Barcelone spécialisé dans le développement backend et les solutions télécoms",
-    "description": "The meta description tag for the homepage"
-  },
   "Self-Hosted / Home Lab": {
-    "message": "Self-Hosted / Home Lab"
+    "message": "Auto-hébergé / Labo Maison",
+    "description": "Tag name for self-hosted projects"
+  },
+  "showcase.tag.selfhosted.description": {
+    "message": "Exécution de services et gestion d'infrastructure personnelle sur du matériel propre.",
+    "description": "Description for the self-hosted tag"
+  },
+  "Web Development": {
+    "message": "Développement Web",
+    "description": "Tag name for web development projects"
+  },
+  "showcase.tag.webDevelopment.description": {
+    "message": "Construction d'applications web full-stack, de sites web, d'API et d'interfaces utilisateur.",
+    "description": "Description for the web development tag"
+  },
+  "AI / ML": {
+    "message": "IA / Apprentissage Automatique",
+    "description": "Tag name for AI/ML projects"
+  },
+  "showcase.tag.aiMl.description": {
+    "message": "Projets exploitant l'Intelligence Artificielle, l'Apprentissage Automatique ou les Grands Modèles de Langage.",
+    "description": "Description for the AI/ML tag"
+  },
+  "IoT / Embedded": {
+    "message": "IoT / Embarqué",
+    "description": "Tag name for IoT/Embedded projects"
+  },
+  "showcase.tag.iotEmbedded.description": {
+    "message": "Travail avec des microcontrôleurs, des capteurs, des appareils connectés et des systèmes embarqués.",
+    "description": "Description for the IoT/Embedded tag"
+  },
+  "Game Development": {
+    "message": "Développement de Jeux",
+    "description": "Tag name for Game Development projects"
+  },
+  "showcase.tag.gameDevelopment.description": {
+    "message": "Création de jeux, d'outils de développement de jeux ou d'expériences interactives de type jeu.",
+    "description": "Description for the Game Development tag"
+  },
+  "Developer Tools": {
+    "message": "Outils Développeur",
+    "description": "Tag name for Developer Tools projects"
+  },
+  "showcase.tag.developerTools.description": {
+    "message": "Création d'outils, d'extensions ou d'utilitaires pour aider le flux de travail de développement logiciel.",
+    "description": "Description for the Developer Tools tag"
+  },
+  "Hackathon": {
+    "message": "Hackathon",
+    "description": "Tag name for Hackathon projects"
+  },
+  "showcase.tag.hackathon.description": {
+    "message": "Projets développés sous la contrainte de temps d'un événement hackathon.",
+    "description": "Description for the Hackathon tag"
+  },
+  "showcase.title": {
+    "message": "Ma Vitrine de Projets",
+    "description": "Title for the showcase page"
+  },
+  "showcase.description": {
+    "message": "Explorez une galerie visuelle de mes projets techniques dans divers domaines. Utilisez les filtres ou la recherche pour découvrir des travaux spécifiques.",
+    "description": "Description for the showcase page"
+  },
+  "showcase.details.text": {
+    "message": "Vous voulez plonger plus profondément dans les détails techniques, le processus et la documentation ? Visitez la section principale des documents.",
+    "description": "Text prompting users to visit the main documentation for more project details"
+  },
+  "showcase.details.button": {
+    "message": "Explorer les Docs du Projet",
+    "description": "Button text linking to the main documentation section (/docs/intro)"
+  },
+  "showcase.details.underConstructionNote": {
+    "message": "(Veuillez noter : Cette section de documentation est actuellement en construction.)",
+    "description": "Note indicating the linked documentation section is not yet complete"
   },
   "showcase.tag.favorite.description": {
-    "message": "Nos sites Docusaurus préférés que vous devez absolument découvrir !"
+    "message": "Nos sites Docusaurus préférés que vous devez absolument découvrir !",
+    "description": "Our favorite Docusaurus sites that you must absolutely check out!"
   },
   "showcase.filters.resultCount": {
     "message": "1 site|{sitesCount} sites",
     "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "showcase.card.sourceLink": {
-    "message": "source"
+    "message": "code source",
+    "description": "Link text for source code"
   },
   "showcase.usersList.noResult": {
-    "message": "Aucun résultat"
+    "message": "Aucun résultat",
+    "description": "Message shown when no projects match filters"
   },
   "showcase.favoritesList.title": {
-    "message": "Favoris"
+    "message": "Favoris",
+    "description": "Title for the favorite projects section"
   },
   "showcase.usersList.allUsers": {
-    "message": "Tous les projets"
+    "message": "Tous les projets",
+    "description": "Label for showing all projects"
   },
   "showcase.searchBar.placeholder": {
-    "message": "Rechercher par nom de projet..."
+    "message": "Rechercher par nom de projet...",
+    "description": "Placeholder text for the project search bar"
   },
   "showcase.filters.title": {
-    "message": "Filtres"
-  },
-  "showcase.tag.selfhosted.description": {
-    "message": "Running services and managing personal infrastructure on self-owned hardware."
-  },
-  "Web Development": {
-    "message": "Web Development"
-  },
-  "showcase.tag.webDevelopment.description": {
-    "message": "Building full-stack web applications, websites, APIs, and user interfaces."
-  },
-  "AI / ML": {
-    "message": "AI / ML"
-  },
-  "showcase.tag.aiMl.description": {
-    "message": "Projects leveraging Artificial Intelligence, Machine Learning, or Large Language Models."
-  },
-  "IoT / Embedded": {
-    "message": "IoT / Embedded"
-  },
-  "showcase.tag.iotEmbedded.description": {
-    "message": "Working with microcontrollers, sensors, connected devices, and embedded systems."
-  },
-  "Game Development": {
-    "message": "Game Development"
-  },
-  "showcase.tag.gameDevelopment.description": {
-    "message": "Creating games, game development tools, or interactive game-like experiences."
-  },
-  "Developer Tools": {
-    "message": "Developer Tools"
-  },
-  "showcase.tag.developerTools.description": {
-    "message": "Creating tools, extensions, or utilities to aid the software development workflow."
-  },
-  "Hackathon": {
-    "message": "Hackathon"
-  },
-  "showcase.tag.hackathon.description": {
-    "message": "Projects developed under the time pressure of a hackathon event."
-  },
-  "showcase.title": {
-    "message": "My Project Showcase"
-  },
-  "showcase.description": {
-    "message": "Explore a visual gallery of my technical projects across various domains. Use the filters or search to discover specific work."
-  },
-  "showcase.details.text": {
-    "message": "Want to dive deeper into the technical details, process, and documentation? Visit the main docs section.",
-    "description": "Text prompting users to visit the main documentation for more project details"
-  },
-  "showcase.details.button": {
-    "message": "Explore Project Docs",
-    "description": "Button text linking to the main documentation section (/docs/intro)"
-  },
-  "showcase.details.underConstructionNote": {
-    "message": "(Please note: This documentation section is currently under construction.)",
-    "description": "Note indicating the linked documentation section is not yet complete"
+    "message": "Filtres",
+    "description": "Title for the filtering section"
   }
 }

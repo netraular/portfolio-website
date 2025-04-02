@@ -373,6 +373,14 @@
     "message": "Raul A.R.",
     "description": "Alt text for the profile picture in the hero section"
   },
+  "homepage.layout.title": {
+    "message": "Dataingeniør & Full Stack-utvikler",
+    "description": "The title tag for the homepage"
+  },
+  "homepage.layout.description": {
+    "message": "Portefølje til Raul A.R. - Dataingeniør og Full Stack-utvikler fra Barcelona, spesialisert i backend-utvikling og telekomløsninger",
+    "description": "The meta description tag for the homepage"
+  },
   "homepage.about.title": {
     "message": "Om meg",
     "description": "Title for the About Me section"
@@ -616,6 +624,22 @@
     "message": "B2-nivå (First Certificate in English - Cambridge English Assessment)",
     "description": "English proficiency level B2 with certificate name"
   },
+  "homepage.skills.title": {
+    "message": "Tekniske Ferdigheter",
+    "description": "Title for the Technical Skills section"
+  },
+  "homepage.skills.category.backend": {
+    "message": "Backend & Telekom",
+    "description": "Title for the Backend & Telecom skills card"
+  },
+  "homepage.skills.category.frontend": {
+    "message": "Frontend & UI",
+    "description": "Title for the Frontend & UI skills card"
+  },
+  "homepage.skills.category.others": {
+    "message": "Andre",
+    "description": "Title for the Others skills card"
+  },
   "homepage.skills.phpLaravel.name": {
     "message": "PHP/Laravel",
     "description": "Name for the PHP/Laravel skill"
@@ -736,113 +760,112 @@
     "message": "Brukte Git for versjonskontroll på tvers av personlige og profesjonelle prosjekter. Administrerte repositorier, grener og samarbeidsflyter for utviklingsteam.",
     "description": "Description for the Git Version Control skill"
   },
-  "homepage.skills.title": {
-    "message": "Tekniske Ferdigheter",
-    "description": "Title for the Technical Skills section"
-  },
-  "homepage.skills.category.backend": {
-    "message": "Backend & Telekom",
-    "description": "Title for the Backend & Telecom skills card"
-  },
-  "homepage.skills.category.frontend": {
-    "message": "Frontend & UI",
-    "description": "Title for the Frontend & UI skills card"
-  },
-  "homepage.skills.category.others": {
-    "message": "Andre",
-    "description": "Title for the Others skills card"
-  },
-  "homepage.layout.title": {
-    "message": "Dataingeniør & Full Stack-utvikler",
-    "description": "The title tag for the homepage"
-  },
-  "homepage.layout.description": {
-    "message": "Portefølje til Raul A.R. - Dataingeniør og Full Stack-utvikler fra Barcelona, spesialisert i backend-utvikling og telekomløsninger",
-    "description": "The meta description tag for the homepage"
-  },
   "Self-Hosted / Home Lab": {
-    "message": "Self-Hosted / Home Lab"
+    "message": "Selv-hostet / Hjemmelab",
+    "description": "Tag name for self-hosted projects"
+  },
+  "showcase.tag.selfhosted.description": {
+    "message": "Drift av tjenester og administrasjon av personlig infrastruktur på egen maskinvare.",
+    "description": "Description for the self-hosted tag"
+  },
+  "Web Development": {
+    "message": "Webutvikling",
+    "description": "Tag name for web development projects"
+  },
+  "showcase.tag.webDevelopment.description": {
+    "message": "Bygging av full-stack webapplikasjoner, nettsteder, API-er og brukergrensesnitt.",
+    "description": "Description for the web development tag"
+  },
+  "AI / ML": {
+    "message": "KI / Maskinlæring",
+    "description": "Tag name for AI/ML projects"
+  },
+  "showcase.tag.aiMl.description": {
+    "message": "Prosjekter som utnytter kunstig intelligens, maskinlæring eller store språkmodeller.",
+    "description": "Description for the AI/ML tag"
+  },
+  "IoT / Embedded": {
+    "message": "IoT / Innebygd",
+    "description": "Tag name for IoT/Embedded projects"
+  },
+  "showcase.tag.iotEmbedded.description": {
+    "message": "Arbeid med mikrokontrollere, sensorer, tilkoblede enheter og innebygde systemer.",
+    "description": "Description for the IoT/Embedded tag"
+  },
+  "Game Development": {
+    "message": "Spillutvikling",
+    "description": "Tag name for Game Development projects"
+  },
+  "showcase.tag.gameDevelopment.description": {
+    "message": "Opprettelse av spill, spillutviklingsverktøy eller interaktive spill-lignende opplevelser.",
+    "description": "Description for the Game Development tag"
+  },
+  "Developer Tools": {
+    "message": "Utviklerverktøy",
+    "description": "Tag name for Developer Tools projects"
+  },
+  "showcase.tag.developerTools.description": {
+    "message": "Opprettelse av verktøy, utvidelser eller hjelpeprogrammer for å støtte programvareutviklingsarbeidsflyten.",
+    "description": "Description for the Developer Tools tag"
+  },
+  "Hackathon": {
+    "message": "Hackathon",
+    "description": "Tag name for Hackathon projects"
+  },
+  "showcase.tag.hackathon.description": {
+    "message": "Prosjekter utviklet under tidspresset av et hackathon-arrangement.",
+    "description": "Description for the Hackathon tag"
+  },
+  "showcase.title": {
+    "message": "Min Prosjektutstilling",
+    "description": "Title for the showcase page"
+  },
+  "showcase.description": {
+    "message": "Utforsk et visuelt galleri av mine tekniske prosjekter på tvers av ulike domener. Bruk filtrene eller søk for å oppdage spesifikt arbeid.",
+    "description": "Description for the showcase page"
+  },
+  "showcase.details.text": {
+    "message": "Vil du dykke dypere inn i de tekniske detaljene, prosessen og dokumentasjonen? Besøk hoveddokumentasjonsseksjonen.",
+    "description": "Text prompting users to visit the main documentation for more project details"
+  },
+  "showcase.details.button": {
+    "message": "Utforsk Prosjektdokumentasjon",
+    "description": "Button text linking to the main documentation section (/docs/intro)"
+  },
+  "showcase.details.underConstructionNote": {
+    "message": "(Merk: Denne dokumentasjonsseksjonen er for tiden under konstruksjon.)",
+    "description": "Note indicating the linked documentation section is not yet complete"
   },
   "showcase.tag.favorite.description": {
-    "message": "Våre favoritt Docusaurus-nettsteder som du absolutt må sjekke ut!"
+    "message": "Våre favoritt Docusaurus-nettsteder som du absolutt må sjekke ut!",
+    "description": "Our favorite Docusaurus sites that you must absolutely check out!"
   },
   "showcase.filters.resultCount": {
     "message": "1 nettsted|{sitesCount} nettsteder",
     "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "showcase.card.sourceLink": {
-    "message": "kildekode"
+    "message": "kildekode",
+    "description": "Link text for source code"
   },
   "showcase.usersList.noResult": {
-    "message": "Ingen resultater"
+    "message": "Ingen resultater",
+    "description": "Message shown when no projects match filters"
   },
   "showcase.favoritesList.title": {
-    "message": "Favoritter"
+    "message": "Favoritter",
+    "description": "Title for the favorite projects section"
   },
   "showcase.usersList.allUsers": {
-    "message": "Alle prosjekter"
+    "message": "Alle prosjekter",
+    "description": "Label for showing all projects"
   },
   "showcase.searchBar.placeholder": {
-    "message": "Søk etter prosjektnavn..."
+    "message": "Søk etter prosjektnavn...",
+    "description": "Placeholder text for the project search bar"
   },
   "showcase.filters.title": {
-    "message": "Filtre"
-  },
-  "showcase.tag.selfhosted.description": {
-    "message": "Running services and managing personal infrastructure on self-owned hardware."
-  },
-  "Web Development": {
-    "message": "Web Development"
-  },
-  "showcase.tag.webDevelopment.description": {
-    "message": "Building full-stack web applications, websites, APIs, and user interfaces."
-  },
-  "AI / ML": {
-    "message": "AI / ML"
-  },
-  "showcase.tag.aiMl.description": {
-    "message": "Projects leveraging Artificial Intelligence, Machine Learning, or Large Language Models."
-  },
-  "IoT / Embedded": {
-    "message": "IoT / Embedded"
-  },
-  "showcase.tag.iotEmbedded.description": {
-    "message": "Working with microcontrollers, sensors, connected devices, and embedded systems."
-  },
-  "Game Development": {
-    "message": "Game Development"
-  },
-  "showcase.tag.gameDevelopment.description": {
-    "message": "Creating games, game development tools, or interactive game-like experiences."
-  },
-  "Developer Tools": {
-    "message": "Developer Tools"
-  },
-  "showcase.tag.developerTools.description": {
-    "message": "Creating tools, extensions, or utilities to aid the software development workflow."
-  },
-  "Hackathon": {
-    "message": "Hackathon"
-  },
-  "showcase.tag.hackathon.description": {
-    "message": "Projects developed under the time pressure of a hackathon event."
-  },
-  "showcase.title": {
-    "message": "My Project Showcase"
-  },
-  "showcase.description": {
-    "message": "Explore a visual gallery of my technical projects across various domains. Use the filters or search to discover specific work."
-  },
-  "showcase.details.text": {
-    "message": "Want to dive deeper into the technical details, process, and documentation? Visit the main docs section.",
-    "description": "Text prompting users to visit the main documentation for more project details"
-  },
-  "showcase.details.button": {
-    "message": "Explore Project Docs",
-    "description": "Button text linking to the main documentation section (/docs/intro)"
-  },
-  "showcase.details.underConstructionNote": {
-    "message": "(Please note: This documentation section is currently under construction.)",
-    "description": "Note indicating the linked documentation section is not yet complete"
+    "message": "Filtre",
+    "description": "Title for the filtering section"
   }
 }

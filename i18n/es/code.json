@@ -373,6 +373,14 @@
     "message": "Raul A.R.",
     "description": "Alt text for the profile picture in the hero section"
   },
+  "homepage.layout.title": {
+    "message": "Ingeniero Informático y Desarrollador Full Stack",
+    "description": "The title tag for the homepage"
+  },
+  "homepage.layout.description": {
+    "message": "Portfolio de Raul A.R. - Ingeniero Informático y Desarrollador Full Stack de Barcelona especializado en desarrollo backend y soluciones de telecomunicaciones",
+    "description": "The meta description tag for the homepage"
+  },
   "homepage.about.title": {
     "message": "Sobre Mí",
     "description": "Title for the About Me section"
@@ -616,6 +624,22 @@
     "message": "Nivel B2 (First Certificate in English - Cambridge English Assessment)",
     "description": "English proficiency level B2 with certificate name"
   },
+  "homepage.skills.title": {
+    "message": "Habilidades Técnicas",
+    "description": "Title for the Technical Skills section"
+  },
+  "homepage.skills.category.backend": {
+    "message": "Backend y Telecomunicaciones",
+    "description": "Title for the Backend & Telecom skills card"
+  },
+  "homepage.skills.category.frontend": {
+    "message": "Frontend e Interfaz de Usuario",
+    "description": "Title for the Frontend & UI skills card"
+  },
+  "homepage.skills.category.others": {
+    "message": "Otros",
+    "description": "Title for the Others skills card"
+  },
   "homepage.skills.phpLaravel.name": {
     "message": "PHP/Laravel",
     "description": "Name for the PHP/Laravel skill"
@@ -736,32 +760,65 @@
     "message": "Utilicé Git para el control de versiones en proyectos personales y profesionales. Gestioné repositorios, ramas y flujos de trabajo colaborativos para equipos de desarrollo.",
     "description": "Description for the Git Version Control skill"
   },
-  "homepage.skills.title": {
-    "message": "Habilidades Técnicas",
-    "description": "Title for the Technical Skills section"
-  },
-  "homepage.skills.category.backend": {
-    "message": "Backend y Telecomunicaciones",
-    "description": "Title for the Backend & Telecom skills card"
-  },
-  "homepage.skills.category.frontend": {
-    "message": "Frontend e Interfaz de Usuario",
-    "description": "Title for the Frontend & UI skills card"
-  },
-  "homepage.skills.category.others": {
-    "message": "Otros",
-    "description": "Title for the Others skills card"
-  },
-  "homepage.layout.title": {
-    "message": "Ingeniero Informático y Desarrollador Full Stack",
-    "description": "The title tag for the homepage"
-  },
-  "homepage.layout.description": {
-    "message": "Portfolio de Raul A.R. - Ingeniero Informático y Desarrollador Full Stack de Barcelona especializado en desarrollo backend y soluciones de telecomunicaciones",
-    "description": "The meta description tag for the homepage"
-  },
   "Self-Hosted / Home Lab": {
-    "message": "Self-Hosted / Home Lab"
+    "message": "Autohospedado / Laboratorio Casero"
+  },
+  "showcase.tag.selfhosted.description": {
+    "message": "Ejecución de servicios y gestión de infraestructura personal en hardware propio."
+  },
+  "Web Development": {
+    "message": "Desarrollo Web"
+  },
+  "showcase.tag.webDevelopment.description": {
+    "message": "Construcción de aplicaciones web full-stack, sitios web, APIs e interfaces de usuario."
+  },
+  "AI / ML": {
+    "message": "IA / Machine Learning"
+  },
+  "showcase.tag.aiMl.description": {
+    "message": "Proyectos que utilizan Inteligencia Artificial, Aprendizaje Automático o Modelos de Lenguaje Grandes."
+  },
+  "IoT / Embedded": {
+    "message": "IoT / Embebidos"
+  },
+  "showcase.tag.iotEmbedded.description": {
+    "message": "Trabajo con microcontroladores, sensores, dispositivos conectados y sistemas embebidos."
+  },
+  "Game Development": {
+    "message": "Desarrollo de Videojuegos"
+  },
+  "showcase.tag.gameDevelopment.description": {
+    "message": "Creación de juegos, herramientas de desarrollo de juegos o experiencias interactivas similares a juegos."
+  },
+  "Developer Tools": {
+    "message": "Herramientas para Desarrolladores"
+  },
+  "showcase.tag.developerTools.description": {
+    "message": "Creación de herramientas, extensiones o utilidades para ayudar en el flujo de trabajo de desarrollo de software."
+  },
+  "Hackathon": {
+    "message": "Hackathon"
+  },
+  "showcase.tag.hackathon.description": {
+    "message": "Proyectos desarrollados bajo la presión de tiempo de un evento hackathon."
+  },
+  "showcase.title": {
+    "message": "Mi Muestra de Proyectos"
+  },
+  "showcase.description": {
+    "message": "Explora una galería visual de mis proyectos técnicos en diversos dominios. Utiliza los filtros o la búsqueda para descubrir trabajos específicos."
+  },
+  "showcase.details.text": {
+    "message": "¿Quieres profundizar en los detalles técnicos, el proceso y la documentación? Visita la sección principal de documentos.",
+    "description": "Text prompting users to visit the main documentation for more project details"
+  },
+  "showcase.details.button": {
+    "message": "Explorar Docs del Proyecto",
+    "description": "Button text linking to the main documentation section (/docs/intro)"
+  },
+  "showcase.details.underConstructionNote": {
+    "message": "(Nota: Esta sección de documentación está actualmente en construcción.)",
+    "description": "Note indicating the linked documentation section is not yet complete"
   },
   "showcase.tag.favorite.description": {
     "message": "¡Nuestros sitios Docusaurus favoritos que no te puedes perder!"
@@ -787,62 +844,5 @@
   },
   "showcase.filters.title": {
     "message": "Filtros"
-  },
-  "showcase.tag.selfhosted.description": {
-    "message": "Running services and managing personal infrastructure on self-owned hardware."
-  },
-  "Web Development": {
-    "message": "Web Development"
-  },
-  "showcase.tag.webDevelopment.description": {
-    "message": "Building full-stack web applications, websites, APIs, and user interfaces."
-  },
-  "AI / ML": {
-    "message": "AI / ML"
-  },
-  "showcase.tag.aiMl.description": {
-    "message": "Projects leveraging Artificial Intelligence, Machine Learning, or Large Language Models."
-  },
-  "IoT / Embedded": {
-    "message": "IoT / Embedded"
-  },
-  "showcase.tag.iotEmbedded.description": {
-    "message": "Working with microcontrollers, sensors, connected devices, and embedded systems."
-  },
-  "Game Development": {
-    "message": "Game Development"
-  },
-  "showcase.tag.gameDevelopment.description": {
-    "message": "Creating games, game development tools, or interactive game-like experiences."
-  },
-  "Developer Tools": {
-    "message": "Developer Tools"
-  },
-  "showcase.tag.developerTools.description": {
-    "message": "Creating tools, extensions, or utilities to aid the software development workflow."
-  },
-  "Hackathon": {
-    "message": "Hackathon"
-  },
-  "showcase.tag.hackathon.description": {
-    "message": "Projects developed under the time pressure of a hackathon event."
-  },
-  "showcase.title": {
-    "message": "My Project Showcase"
-  },
-  "showcase.description": {
-    "message": "Explore a visual gallery of my technical projects across various domains. Use the filters or search to discover specific work."
-  },
-  "showcase.details.text": {
-    "message": "Want to dive deeper into the technical details, process, and documentation? Visit the main docs section.",
-    "description": "Text prompting users to visit the main documentation for more project details"
-  },
-  "showcase.details.button": {
-    "message": "Explore Project Docs",
-    "description": "Button text linking to the main documentation section (/docs/intro)"
-  },
-  "showcase.details.underConstructionNote": {
-    "message": "(Please note: This documentation section is currently under construction.)",
-    "description": "Note indicating the linked documentation section is not yet complete"
   }
 }
