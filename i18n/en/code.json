@@ -832,5 +832,17 @@
   },
   "showcase.description": {
     "message": "Explore a visual gallery of my technical projects across various domains. Use the filters or search to discover specific work."
+  },
+  "showcase.details.text": {
+    "message": "Want to dive deeper into the technical details, process, and documentation? Visit the main docs section.",
+    "description": "Text prompting users to visit the main documentation for more project details"
+  },
+  "showcase.details.button": {
+    "message": "Explore Project Docs",
+    "description": "Button text linking to the main documentation section (/docs/intro)"
+  },
+  "showcase.details.underConstructionNote": {
+    "message": "(Please note: This documentation section is currently under construction.)",
+    "description": "Note indicating the linked documentation section is not yet complete"
   }
 }

@@ -7,20 +7,16 @@
     "message": "Portfolio Logo",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Projects": {
-    "message": "Projects",
-    "description": "Navbar item with label Projects"
-  },
   "item.label.Showcase": {
-    "message": "Showcase",
+    "message": "Referenzen",
     "description": "Navbar item with label Showcase"
   },
   "item.label.LinkedIn profile": {
-    "message": "LinkedIn profile",
+    "message": "LinkedIn-Profil",
     "description": "Navbar item with label LinkedIn profile"
   },
   "item.label.Github repository": {
-    "message": "Github repository",
+    "message": "Github-Repository",
     "description": "Navbar item with label Github repository"
   }
 }

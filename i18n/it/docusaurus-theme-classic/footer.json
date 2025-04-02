@@ -1,18 +1,18 @@
 {
   "link.title.Projects": {
-    "message": "Projects",
+    "message": "Progetti",
     "description": "The title of the footer links column with title=Projects in the footer"
   },
   "link.title.Find me": {
-    "message": "Find me",
+    "message": "Trovami",
     "description": "The title of the footer links column with title=Find me in the footer"
   },
   "link.item.label.Showcase": {
-    "message": "Showcase",
+    "message": "Vetrina",
     "description": "The label of footer link with label=Showcase linking to /docs/intro"
   },
   "link.item.label.Overview": {
-    "message": "Overview",
+    "message": "Panoramica",
     "description": "The label of footer link with label=Overview linking to /docs/intro"
   },
   "link.item.label.Github": {
@@ -28,7 +28,7 @@
     "description": "The label of footer link with label=netraular@gmail.com linking to mailto:netraular@gmail.com"
   },
   "copyright": {
-    "message": "Copyright © 2025 ❤️ Raul A. R. portfolio",
+    "message": "Copyright © 2025 ❤️ Portfolio di Raul A. R.",
     "description": "The footer copyright"
   }
 }

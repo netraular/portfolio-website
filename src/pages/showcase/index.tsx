@@ -7,8 +7,7 @@
 
 import type {ReactNode} from 'react';
 import Translate, {translate} from '@docusaurus/Translate';
-
-// Link ya no es necesario porque quitaremos el botón de "añadir sitio"
+import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
@@ -26,15 +25,41 @@ const DESCRIPTION = translate({
   message: 'Explore a visual gallery of my technical projects across various domains. Use the filters or search to discover specific work.',
   id: 'showcase.description', // ID para posible traducción futura
 });
-// SUBMIT_URL ya no es necesario
-
+const DETAILS_TEXT = translate({
+  message: 'Want to dive deeper into the technical details, process, and documentation? Visit the main docs section.',
+  id: 'showcase.details.text',
+  description: 'Text prompting users to visit the main documentation for more project details',
+});
+const DETAILS_BUTTON_TEXT = translate({
+  message: 'Explore Project Docs',
+  id: 'showcase.details.button',
+  description: 'Button text linking to the main documentation section (/docs/intro)',
+});
+// --- NUEVO: Nota sobre construcción ---
+const DOCS_UNDER_CONSTRUCTION_NOTE = translate({
+  message: '(Please note: This documentation section is currently under construction.)',
+  id: 'showcase.details.underConstructionNote',
+  description: 'Note indicating the linked documentation section is not yet complete',
+});
 // --- Cabecera Modificada ---
 function ShowcaseHeader() {
   return (
     <section className="margin-top--lg margin-bottom--lg text--center">
       <Heading as="h1">{TITLE}</Heading>
       <p>{DESCRIPTION}</p>
-      {/* Se ha eliminado el botón Link que pedía añadir sitios */}
+      <div className="margin-top--md">
+        <p>{DETAILS_TEXT}</p>
+        <Link
+          className="button button--primary"
+          to="/docs/intro">
+          {DETAILS_BUTTON_TEXT}
+        </Link>
+        {/* --- INICIO: Nota añadida "En construcción" --- */}
+        <p > {/* Añade espacio sobre la nota */}
+          <small>{DOCS_UNDER_CONSTRUCTION_NOTE}</small> {/* Usa <small> para un texto más discreto */}
+        </p>
+        {/* --- FIN: Nota añadida --- */}
+      </div>
     </section>
   );
 }

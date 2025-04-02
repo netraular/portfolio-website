@@ -4,23 +4,19 @@
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "Portfolio Logo",
+    "message": "Logo del Portfoli",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Projects": {
-    "message": "Projects",
-    "description": "Navbar item with label Projects"
-  },
   "item.label.Showcase": {
-    "message": "Showcase",
+    "message": "Mostra",
     "description": "Navbar item with label Showcase"
   },
   "item.label.LinkedIn profile": {
-    "message": "LinkedIn profile",
+    "message": "Perfil de LinkedIn",
     "description": "Navbar item with label LinkedIn profile"
   },
   "item.label.Github repository": {
-    "message": "Github repository",
+    "message": "Repositori de Github",
     "description": "Navbar item with label Github repository"
   }
 }

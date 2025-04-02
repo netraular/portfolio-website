@@ -316,60 +316,6 @@
   "showcase.tag.favorite.description": {
     "message": "Våre favoritt Docusaurus-nettsteder som du absolutt må sjekke ut!"
   },
-  "Open-Source": {
-    "message": "Åpen Kildekode"
-  },
-  "showcase.tag.opensource.description": {
-    "message": "Docusaurus-nettsteder med åpen kildekode kan være nyttige for inspirasjon!"
-  },
-  "Product": {
-    "message": "Produkt"
-  },
-  "showcase.tag.product.description": {
-    "message": "Docusaurus-nettsteder knyttet til et kommersielt produkt!"
-  },
-  "Design": {
-    "message": "Design"
-  },
-  "showcase.tag.design.description": {
-    "message": "Vakre Docusaurus-nettsteder, polerte og som skiller seg ut fra den opprinnelige malen!"
-  },
-  "I18n": {
-    "message": "I18n"
-  },
-  "showcase.tag.i18n.description": {
-    "message": "Oversatte Docusaurus-nettsteder som bruker internasjonaliseringsstøtte med mer enn 1 lokalitet."
-  },
-  "Versioning": {
-    "message": "Versjonering"
-  },
-  "showcase.tag.versioning.description": {
-    "message": "Docusaurus-nettsteder som bruker versjoneringsfunksjonen i dokument-pluginet for å håndtere flere versjoner."
-  },
-  "Large": {
-    "message": "Stor"
-  },
-  "showcase.tag.large.description": {
-    "message": "Veldig store Docusaurus-nettsteder, som inkluderer mange flere sider enn gjennomsnittet!"
-  },
-  "Meta": {
-    "message": "Meta"
-  },
-  "showcase.tag.meta.description": {
-    "message": "Docusaurus-nettsteder for Meta (tidligere Facebook)-prosjekter"
-  },
-  "Personal": {
-    "message": "Personlig"
-  },
-  "showcase.tag.personal.description": {
-    "message": "Personlige nettsteder, blogger og digitale hager bygget med Docusaurus"
-  },
-  "RTL Direction": {
-    "message": "RTL-retning"
-  },
-  "showcase.tag.rtl.description": {
-    "message": "Docusaurus-nettsteder som bruker støtte for høyre-til-venstre leseretning."
-  },
   "homepage.hero.title": {
     "message": "Hei, jeg er {name}",
     "description": "The main title on the homepage greeting"
@@ -801,15 +747,6 @@
     "message": "1 nettsted|{sitesCount} nettsteder",
     "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
-  "Docusaurus Site Showcase": {
-    "message": "Docusaurus Nettstedsutstilling"
-  },
-  "List of websites people are building with Docusaurus": {
-    "message": "Liste over nettsteder folk bygger med Docusaurus"
-  },
-  "showcase.header.button": {
-    "message": "🙏 Vennligst legg til ditt nettsted"
-  },
   "showcase.usersList.noResult": {
     "message": "Ingen resultater"
   },
@@ -847,5 +784,65 @@
   "theme.IdealImageMessage.error": {
     "message": "Feil. Klikk for å laste på nytt",
     "description": "When the image fails to load for unknown error"
+  },
+  "Self-Hosted / Home Lab": {
+    "message": "Self-Hosted / Home Lab"
+  },
+  "showcase.tag.selfhosted.description": {
+    "message": "Running services and managing personal infrastructure on self-owned hardware."
+  },
+  "Web Development": {
+    "message": "Web Development"
+  },
+  "showcase.tag.webDevelopment.description": {
+    "message": "Building full-stack web applications, websites, APIs, and user interfaces."
+  },
+  "AI / ML": {
+    "message": "AI / ML"
+  },
+  "showcase.tag.aiMl.description": {
+    "message": "Projects leveraging Artificial Intelligence, Machine Learning, or Large Language Models."
+  },
+  "IoT / Embedded": {
+    "message": "IoT / Embedded"
+  },
+  "showcase.tag.iotEmbedded.description": {
+    "message": "Working with microcontrollers, sensors, connected devices, and embedded systems."
+  },
+  "Game Development": {
+    "message": "Game Development"
+  },
+  "showcase.tag.gameDevelopment.description": {
+    "message": "Creating games, game development tools, or interactive game-like experiences."
+  },
+  "Developer Tools": {
+    "message": "Developer Tools"
+  },
+  "showcase.tag.developerTools.description": {
+    "message": "Creating tools, extensions, or utilities to aid the software development workflow."
+  },
+  "Hackathon": {
+    "message": "Hackathon"
+  },
+  "showcase.tag.hackathon.description": {
+    "message": "Projects developed under the time pressure of a hackathon event."
+  },
+  "showcase.title": {
+    "message": "My Project Showcase"
+  },
+  "showcase.description": {
+    "message": "Explore a visual gallery of my technical projects across various domains. Use the filters or search to discover specific work."
+  },
+  "showcase.details.text": {
+    "message": "Want to dive deeper into the technical details, process, and documentation? Visit the main docs section.",
+    "description": "Text prompting users to visit the main documentation for more project details"
+  },
+  "showcase.details.button": {
+    "message": "Explore Project Docs",
+    "description": "Button text linking to the main documentation section (/docs/intro)"
+  },
+  "showcase.details.underConstructionNote": {
+    "message": "(Please note: This documentation section is currently under construction.)",
+    "description": "Note indicating the linked documentation section is not yet complete"
   }
 }

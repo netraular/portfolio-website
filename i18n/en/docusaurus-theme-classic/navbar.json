@@ -7,10 +7,6 @@
     "message": "Portfolio Logo",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Projects": {
-    "message": "Projects",
-    "description": "Navbar item with label Projects"
-  },
   "item.label.Showcase": {
     "message": "Showcase",
     "description": "Navbar item with label Showcase"

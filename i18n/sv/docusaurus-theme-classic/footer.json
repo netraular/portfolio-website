@@ -1,18 +1,18 @@
 {
   "link.title.Projects": {
-    "message": "Projects",
+    "message": "Projekt",
     "description": "The title of the footer links column with title=Projects in the footer"
   },
   "link.title.Find me": {
-    "message": "Find me",
+    "message": "Hitta mig",
     "description": "The title of the footer links column with title=Find me in the footer"
   },
   "link.item.label.Showcase": {
-    "message": "Showcase",
+    "message": "Projektgalleri",
     "description": "The label of footer link with label=Showcase linking to /docs/intro"
   },
   "link.item.label.Overview": {
-    "message": "Overview",
+    "message": "Översikt",
     "description": "The label of footer link with label=Overview linking to /docs/intro"
   },
   "link.item.label.Github": {

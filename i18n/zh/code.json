@@ -316,60 +316,6 @@
   "showcase.tag.favorite.description": {
     "message": "我们收藏的 Docusaurus 网站，您绝对应该看看！"
   },
-  "Open-Source": {
-    "message": "开源"
-  },
-  "showcase.tag.opensource.description": {
-    "message": "开源 Docusaurus 网站可以为您提供灵感！"
-  },
-  "Product": {
-    "message": "产品"
-  },
-  "showcase.tag.product.description": {
-    "message": "与商业产品相关的 Docusaurus 网站！"
-  },
-  "Design": {
-    "message": "设计"
-  },
-  "showcase.tag.design.description": {
-    "message": "精美的 Docusaurus 网站，经过精心打磨，从初始模板中脱颖而出！"
-  },
-  "I18n": {
-    "message": "国际化"
-  },
-  "showcase.tag.i18n.description": {
-    "message": "使用国际化支持翻译的 Docusaurus 网站，包含不止一种语言环境。"
-  },
-  "Versioning": {
-    "message": "版本控制"
-  },
-  "showcase.tag.versioning.description": {
-    "message": "使用文档插件的版本控制功能来管理多个版本的 Docusaurus 网站。"
-  },
-  "Large": {
-    "message": "大型"
-  },
-  "showcase.tag.large.description": {
-    "message": "非常大型的 Docusaurus 网站，包含的页面数量远超平均水平！"
-  },
-  "Meta": {
-    "message": "Meta"
-  },
-  "showcase.tag.meta.description": {
-    "message": "Meta（前身为 Facebook）项目的 Docusaurus 网站"
-  },
-  "Personal": {
-    "message": "个人"
-  },
-  "showcase.tag.personal.description": {
-    "message": "使用 Docusaurus 构建的个人网站、博客和数字花园"
-  },
-  "RTL Direction": {
-    "message": "从右到左阅读"
-  },
-  "showcase.tag.rtl.description": {
-    "message": "使用从右到左阅读方向支持的 Docusaurus 网站。"
-  },
   "homepage.hero.title": {
     "message": "你好，我是 {name}",
     "description": "The main title on the homepage greeting"
@@ -801,15 +747,6 @@
     "message": "{sitesCount} 个网站",
     "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
-  "Docusaurus Site Showcase": {
-    "message": "Docusaurus 网站展示"
-  },
-  "List of websites people are building with Docusaurus": {
-    "message": "人们使用 Docusaurus 构建的网站列表"
-  },
-  "showcase.header.button": {
-    "message": "🙏 请添加您的网站"
-  },
   "showcase.usersList.noResult": {
     "message": "无结果"
   },
@@ -847,5 +784,65 @@
   "theme.IdealImageMessage.error": {
     "message": "错误。点击重新加载",
     "description": "When the image fails to load for unknown error"
+  },
+  "Self-Hosted / Home Lab": {
+    "message": "Self-Hosted / Home Lab"
+  },
+  "showcase.tag.selfhosted.description": {
+    "message": "Running services and managing personal infrastructure on self-owned hardware."
+  },
+  "Web Development": {
+    "message": "Web Development"
+  },
+  "showcase.tag.webDevelopment.description": {
+    "message": "Building full-stack web applications, websites, APIs, and user interfaces."
+  },
+  "AI / ML": {
+    "message": "AI / ML"
+  },
+  "showcase.tag.aiMl.description": {
+    "message": "Projects leveraging Artificial Intelligence, Machine Learning, or Large Language Models."
+  },
+  "IoT / Embedded": {
+    "message": "IoT / Embedded"
+  },
+  "showcase.tag.iotEmbedded.description": {
+    "message": "Working with microcontrollers, sensors, connected devices, and embedded systems."
+  },
+  "Game Development": {
+    "message": "Game Development"
+  },
+  "showcase.tag.gameDevelopment.description": {
+    "message": "Creating games, game development tools, or interactive game-like experiences."
+  },
+  "Developer Tools": {
+    "message": "Developer Tools"
+  },
+  "showcase.tag.developerTools.description": {
+    "message": "Creating tools, extensions, or utilities to aid the software development workflow."
+  },
+  "Hackathon": {
+    "message": "Hackathon"
+  },
+  "showcase.tag.hackathon.description": {
+    "message": "Projects developed under the time pressure of a hackathon event."
+  },
+  "showcase.title": {
+    "message": "My Project Showcase"
+  },
+  "showcase.description": {
+    "message": "Explore a visual gallery of my technical projects across various domains. Use the filters or search to discover specific work."
+  },
+  "showcase.details.text": {
+    "message": "Want to dive deeper into the technical details, process, and documentation? Visit the main docs section.",
+    "description": "Text prompting users to visit the main documentation for more project details"
+  },
+  "showcase.details.button": {
+    "message": "Explore Project Docs",
+    "description": "Button text linking to the main documentation section (/docs/intro)"
+  },
+  "showcase.details.underConstructionNote": {
+    "message": "(Please note: This documentation section is currently under construction.)",
+    "description": "Note indicating the linked documentation section is not yet complete"
   }
 }
