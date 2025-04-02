@@ -82,7 +82,7 @@ const Users: User[] = [
     title: 'Local Voice Assistant Natural Language to SQL (Bachelor Thesis)',
     description: 'Offline voice assistant system converting natural language to SQL queries using local AI models.',
     preview: require('./showcase/tfg/banner.png'),
-    website: 'https://tfg.netshiba.com/',
+    website: 'https://tfg.raular.com/',
     source: 'https://github.com/netraular/tfgweb',
     tags: ['aiMl', 'webDevelopment'], // IA como núcleo, interfaz web, proyecto personal/académico.
     date: '2024-06', // Corregida fecha probable (era 2032)
@@ -100,7 +100,7 @@ const Users: User[] = [
     title: 'Game Server Management Interface',
     description: 'Web platform using Laravel and Bash scripts for managing multiple game servers hosted with Docker on a single VM.',
     preview: require('./showcase/game server/banner.png'),
-    website: 'http://gameserver.netshiba.com/',
+    website: 'http://gameserver.raular.com/',
     source: 'https://github.com/netraular/gameserver',
     tags: ['webDevelopment', 'selfhosted'], // Interfaz web, probablemente alojada en tu homelab.
     date: '2024-10',
@@ -109,7 +109,7 @@ const Users: User[] = [
     title: 'Project Showcase Platform',
     description: 'A self-hosted Laravel and Bootstrap system for managing and displaying personal projects via a private admin panel.',
     preview: require('./showcase/showcase/banner.png'),
-    website: 'https://netshiba.com/',
+    website: 'https://showcase.raular.com/',
     source: 'https://github.com/netraular/project-showcase-platform',
     tags: ['webDevelopment'], // Plataforma web, autoalojada, para uso personal (mostrar proyectos).
     date: '2024-09',
@@ -118,7 +118,7 @@ const Users: User[] = [
     title: '(hackaton) Cosmoscape - Exoplanetary Sky Visualization',
     description: 'Interactive NASA Space Apps 2024 platform visualizing night skies from 50 exoplanets using three.js and Laravel.',
     preview: require('./showcase/hack nasa 24/banner.png'),
-    website: 'https://nasa24.netshiba.com/',
+    website: 'https://nasa24.raular.com/',
     source: 'https://github.com/netraular/Hackathon-NASA-2024',
     tags: ['hackathon', 'webDevelopment', 'gameDevelopment'], // Evento hackathon, plataforma web con elementos de visualización 3D/juego.
     date: '2024-10', // Actualizada fecha probable (era 2023-03)
@@ -127,7 +127,7 @@ const Users: User[] = [
     title: 'PromptPal - LLM-Powered Template Generation Platform',
     description: 'Laravel web platform leveraging Grok LLM API for generating diverse text outputs from user-defined templates.',
     preview: require('./showcase/promptpal/banner.png'),
-    website: 'https://promptpal.netshiba.com',
+    website: 'https://promptpal.raular.com',
     source: 'https://github.com/netraular/llm-prompt-combine',
     tags: ['aiMl', 'webDevelopment'], // Núcleo de IA, plataforma web.
     date: '2024-11',
