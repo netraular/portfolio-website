@@ -1,4 +1,32 @@
 {
+  "Favorite": {
+    "message": "お気に入り"
+  },
+  "showcase.tag.favorite.description": {
+    "message": "絶対にチェックすべき、私たちのお気に入りのDocusaurusサイト！"
+  },
+  "showcase.filters.resultCount": {
+    "message": "{sitesCount} 件のサイト",
+    "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "showcase.card.sourceLink": {
+    "message": "ソース"
+  },
+  "showcase.usersList.noResult": {
+    "message": "結果なし"
+  },
+  "showcase.favoritesList.title": {
+    "message": "お気に入り"
+  },
+  "showcase.usersList.allUsers": {
+    "message": "すべてのプロジェクト"
+  },
+  "showcase.searchBar.placeholder": {
+    "message": "プロジェクト名で検索..."
+  },
+  "showcase.filters.title": {
+    "message": "フィルター"
+  },
   "theme.ErrorPageContent.title": {
     "message": "このページはクラッシュしました。",
     "description": "The title of the fallback page when the page crashed"
@@ -55,13 +83,13 @@
     "message": "ライトモード",
     "description": "The name for the light color mode"
   },
-  "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "パンくずリスト",
-    "description": "The ARIA label for the breadcrumbs"
-  },
   "theme.docs.DocCard.categoryDescription.plurals": {
     "message": "{count} 件",
     "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "パンくずリスト",
+    "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "ドキュメントページ",
@@ -258,6 +286,26 @@
     "message": "サイドバーを展開",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
+  "theme.IdealImageMessage.loading": {
+    "message": "読み込み中...",
+    "description": "When the full-scale image is loading"
+  },
+  "theme.IdealImageMessage.load": {
+    "message": "クリックして読み込む{sizeMessage}",
+    "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
+  },
+  "theme.IdealImageMessage.offline": {
+    "message": "ブラウザはオフラインです。画像は読み込まれませんでした",
+    "description": "When the user is viewing an offline document"
+  },
+  "theme.IdealImageMessage.404error": {
+    "message": "404。画像が見つかりません",
+    "description": "When the image is not found"
+  },
+  "theme.IdealImageMessage.error": {
+    "message": "エラー。クリックして再読み込み",
+    "description": "When the image fails to load for unknown error"
+  },
   "theme.blog.post.plurals": {
     "message": "{count}件の投稿",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -309,12 +357,6 @@
   "theme.tags.tagsPageTitle": {
     "message": "タグ",
     "description": "The title of the tag list page"
-  },
-  "Favorite": {
-    "message": "お気に入り"
-  },
-  "showcase.tag.favorite.description": {
-    "message": "絶対にチェックすべき、私たちのお気に入りのDocusaurusサイト！"
   },
   "homepage.hero.title": {
     "message": "こんにちは、{name}です",
@@ -742,48 +784,6 @@
   "homepage.layout.description": {
     "message": "Raul A.R.のポートフォリオ - バルセロナ出身のコンピューターエンジニア兼フルスタック開発者。バックエンド開発と通信ソリューションを専門としています。",
     "description": "The meta description tag for the homepage"
-  },
-  "showcase.filters.resultCount": {
-    "message": "{sitesCount} 件のサイト",
-    "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "showcase.usersList.noResult": {
-    "message": "結果なし"
-  },
-  "showcase.favoritesList.title": {
-    "message": "私たちのお気に入り"
-  },
-  "showcase.usersList.allUsers": {
-    "message": "すべてのサイト"
-  },
-  "showcase.card.sourceLink": {
-    "message": "ソース"
-  },
-  "showcase.filters.title": {
-    "message": "フィルター"
-  },
-  "showcase.searchBar.placeholder": {
-    "message": "サイト名を検索..."
-  },
-  "theme.IdealImageMessage.loading": {
-    "message": "読み込み中...",
-    "description": "When the full-scale image is loading"
-  },
-  "theme.IdealImageMessage.load": {
-    "message": "クリックして読み込む{sizeMessage}",
-    "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
-  },
-  "theme.IdealImageMessage.offline": {
-    "message": "ブラウザがオフラインです。画像が読み込まれませんでした",
-    "description": "When the user is viewing an offline document"
-  },
-  "theme.IdealImageMessage.404error": {
-    "message": "404. 画像が見つかりません",
-    "description": "When the image is not found"
-  },
-  "theme.IdealImageMessage.error": {
-    "message": "エラー。クリックして再読み込み",
-    "description": "When the image fails to load for unknown error"
   },
   "Self-Hosted / Home Lab": {
     "message": "Self-Hosted / Home Lab"

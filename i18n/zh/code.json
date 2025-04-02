@@ -1,4 +1,32 @@
 {
+  "Favorite": {
+    "message": "收藏"
+  },
+  "showcase.tag.favorite.description": {
+    "message": "我们收藏的 Docusaurus 网站，您绝对应该看看！"
+  },
+  "showcase.filters.resultCount": {
+    "message": "{sitesCount} 个站点",
+    "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "showcase.card.sourceLink": {
+    "message": "源代码"
+  },
+  "showcase.usersList.noResult": {
+    "message": "无结果"
+  },
+  "showcase.favoritesList.title": {
+    "message": "收藏夹"
+  },
+  "showcase.usersList.allUsers": {
+    "message": "所有项目"
+  },
+  "showcase.searchBar.placeholder": {
+    "message": "按项目名称搜索..."
+  },
+  "showcase.filters.title": {
+    "message": "筛选"
+  },
   "theme.ErrorPageContent.title": {
     "message": "此页面崩溃了。",
     "description": "The title of the fallback page when the page crashed"
@@ -55,13 +83,13 @@
     "message": "浅色模式",
     "description": "The name for the light color mode"
   },
-  "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "面包屑导航",
-    "description": "The ARIA label for the breadcrumbs"
-  },
   "theme.docs.DocCard.categoryDescription.plurals": {
     "message": "{count} 个项目",
     "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "面包屑导航",
+    "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "文档页面",
@@ -258,6 +286,26 @@
     "message": "展开侧边栏",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
+  "theme.IdealImageMessage.loading": {
+    "message": "加载中...",
+    "description": "When the full-scale image is loading"
+  },
+  "theme.IdealImageMessage.load": {
+    "message": "点击加载{sizeMessage}",
+    "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
+  },
+  "theme.IdealImageMessage.offline": {
+    "message": "您的浏览器已离线。图片未加载",
+    "description": "When the user is viewing an offline document"
+  },
+  "theme.IdealImageMessage.404error": {
+    "message": "404。图片未找到",
+    "description": "When the image is not found"
+  },
+  "theme.IdealImageMessage.error": {
+    "message": "错误。点击重新加载",
+    "description": "When the image fails to load for unknown error"
+  },
   "theme.blog.post.plurals": {
     "message": "{count} 篇文章",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -309,12 +357,6 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
-  },
-  "Favorite": {
-    "message": "收藏"
-  },
-  "showcase.tag.favorite.description": {
-    "message": "我们收藏的 Docusaurus 网站，您绝对应该看看！"
   },
   "homepage.hero.title": {
     "message": "你好，我是 {name}",
@@ -742,48 +784,6 @@
   "homepage.layout.description": {
     "message": "Raul A.R. 的作品集 - 来自巴塞罗那的计算机工程师和全栈开发人员，专注于后端开发和电信解决方案",
     "description": "The meta description tag for the homepage"
-  },
-  "showcase.filters.resultCount": {
-    "message": "{sitesCount} 个网站",
-    "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "showcase.usersList.noResult": {
-    "message": "无结果"
-  },
-  "showcase.favoritesList.title": {
-    "message": "我们的收藏"
-  },
-  "showcase.usersList.allUsers": {
-    "message": "所有网站"
-  },
-  "showcase.card.sourceLink": {
-    "message": "来源"
-  },
-  "showcase.filters.title": {
-    "message": "筛选器"
-  },
-  "showcase.searchBar.placeholder": {
-    "message": "搜索网站名称..."
-  },
-  "theme.IdealImageMessage.loading": {
-    "message": "加载中...",
-    "description": "When the full-scale image is loading"
-  },
-  "theme.IdealImageMessage.load": {
-    "message": "点击加载{sizeMessage}",
-    "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
-  },
-  "theme.IdealImageMessage.offline": {
-    "message": "您的浏览器处于离线状态。图片未加载",
-    "description": "When the user is viewing an offline document"
-  },
-  "theme.IdealImageMessage.404error": {
-    "message": "404。图片未找到",
-    "description": "When the image is not found"
-  },
-  "theme.IdealImageMessage.error": {
-    "message": "错误。点击重新加载",
-    "description": "When the image fails to load for unknown error"
   },
   "Self-Hosted / Home Lab": {
     "message": "Self-Hosted / Home Lab"
