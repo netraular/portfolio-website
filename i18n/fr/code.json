@@ -2,31 +2,6 @@
   "Favorite": {
     "message": "Favori"
   },
-  "showcase.tag.favorite.description": {
-    "message": "Nos sites Docusaurus préférés que vous devez absolument découvrir !"
-  },
-  "showcase.filters.resultCount": {
-    "message": "1 site|{sitesCount} sites",
-    "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "showcase.card.sourceLink": {
-    "message": "source"
-  },
-  "showcase.usersList.noResult": {
-    "message": "Aucun résultat"
-  },
-  "showcase.favoritesList.title": {
-    "message": "Favoris"
-  },
-  "showcase.usersList.allUsers": {
-    "message": "Tous les projets"
-  },
-  "showcase.searchBar.placeholder": {
-    "message": "Rechercher par nom de projet..."
-  },
-  "showcase.filters.title": {
-    "message": "Filtres"
-  },
   "theme.ErrorPageContent.title": {
     "message": "Cette page a planté.",
     "description": "The title of the fallback page when the page crashed"
@@ -787,6 +762,31 @@
   },
   "Self-Hosted / Home Lab": {
     "message": "Self-Hosted / Home Lab"
+  },
+  "showcase.tag.favorite.description": {
+    "message": "Nos sites Docusaurus préférés que vous devez absolument découvrir !"
+  },
+  "showcase.filters.resultCount": {
+    "message": "1 site|{sitesCount} sites",
+    "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "showcase.card.sourceLink": {
+    "message": "source"
+  },
+  "showcase.usersList.noResult": {
+    "message": "Aucun résultat"
+  },
+  "showcase.favoritesList.title": {
+    "message": "Favoris"
+  },
+  "showcase.usersList.allUsers": {
+    "message": "Tous les projets"
+  },
+  "showcase.searchBar.placeholder": {
+    "message": "Rechercher par nom de projet..."
+  },
+  "showcase.filters.title": {
+    "message": "Filtres"
   },
   "showcase.tag.selfhosted.description": {
     "message": "Running services and managing personal infrastructure on self-owned hardware."

@@ -2,31 +2,6 @@
   "Favorite": {
     "message": "Favoritt"
   },
-  "showcase.tag.favorite.description": {
-    "message": "Våre favoritt Docusaurus-nettsteder som du absolutt må sjekke ut!"
-  },
-  "showcase.filters.resultCount": {
-    "message": "1 nettsted|{sitesCount} nettsteder",
-    "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "showcase.card.sourceLink": {
-    "message": "kildekode"
-  },
-  "showcase.usersList.noResult": {
-    "message": "Ingen resultater"
-  },
-  "showcase.favoritesList.title": {
-    "message": "Favoritter"
-  },
-  "showcase.usersList.allUsers": {
-    "message": "Alle prosjekter"
-  },
-  "showcase.searchBar.placeholder": {
-    "message": "Søk etter prosjektnavn..."
-  },
-  "showcase.filters.title": {
-    "message": "Filtre"
-  },
   "theme.ErrorPageContent.title": {
     "message": "Denne siden krasjet.",
     "description": "The title of the fallback page when the page crashed"
@@ -787,6 +762,31 @@
   },
   "Self-Hosted / Home Lab": {
     "message": "Self-Hosted / Home Lab"
+  },
+  "showcase.tag.favorite.description": {
+    "message": "Våre favoritt Docusaurus-nettsteder som du absolutt må sjekke ut!"
+  },
+  "showcase.filters.resultCount": {
+    "message": "1 nettsted|{sitesCount} nettsteder",
+    "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "showcase.card.sourceLink": {
+    "message": "kildekode"
+  },
+  "showcase.usersList.noResult": {
+    "message": "Ingen resultater"
+  },
+  "showcase.favoritesList.title": {
+    "message": "Favoritter"
+  },
+  "showcase.usersList.allUsers": {
+    "message": "Alle prosjekter"
+  },
+  "showcase.searchBar.placeholder": {
+    "message": "Søk etter prosjektnavn..."
+  },
+  "showcase.filters.title": {
+    "message": "Filtre"
   },
   "showcase.tag.selfhosted.description": {
     "message": "Running services and managing personal infrastructure on self-owned hardware."

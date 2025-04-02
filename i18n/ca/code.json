@@ -2,31 +2,6 @@
   "Favorite": {
     "message": "Preferit"
   },
-  "showcase.tag.favorite.description": {
-    "message": "Els nostres llocs Docusaurus preferits que has de visitar sense falta!"
-  },
-  "showcase.filters.resultCount": {
-    "message": "1 lloc|{sitesCount} llocs",
-    "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "showcase.card.sourceLink": {
-    "message": "codi font"
-  },
-  "showcase.usersList.noResult": {
-    "message": "Sense resultats"
-  },
-  "showcase.favoritesList.title": {
-    "message": "Preferits"
-  },
-  "showcase.usersList.allUsers": {
-    "message": "Tots els projectes"
-  },
-  "showcase.searchBar.placeholder": {
-    "message": "Cerca per nom de projecte..."
-  },
-  "showcase.filters.title": {
-    "message": "Filtres"
-  },
   "theme.ErrorPageContent.title": {
     "message": "Aquesta pàgina ha fallat.",
     "description": "The title of the fallback page when the page crashed"
@@ -787,6 +762,31 @@
   },
   "Self-Hosted / Home Lab": {
     "message": "Self-Hosted / Home Lab"
+  },
+  "showcase.tag.favorite.description": {
+    "message": "Els nostres llocs Docusaurus preferits que has de visitar sense falta!"
+  },
+  "showcase.filters.resultCount": {
+    "message": "1 lloc|{sitesCount} llocs",
+    "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "showcase.card.sourceLink": {
+    "message": "codi font"
+  },
+  "showcase.usersList.noResult": {
+    "message": "Sense resultats"
+  },
+  "showcase.favoritesList.title": {
+    "message": "Preferits"
+  },
+  "showcase.usersList.allUsers": {
+    "message": "Tots els projectes"
+  },
+  "showcase.searchBar.placeholder": {
+    "message": "Cerca per nom de projecte..."
+  },
+  "showcase.filters.title": {
+    "message": "Filtres"
   },
   "showcase.tag.selfhosted.description": {
     "message": "Running services and managing personal infrastructure on self-owned hardware."

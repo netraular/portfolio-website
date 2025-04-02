@@ -2,31 +2,6 @@
   "Favorite": {
     "message": "收藏"
   },
-  "showcase.tag.favorite.description": {
-    "message": "我们收藏的 Docusaurus 网站，您绝对应该看看！"
-  },
-  "showcase.filters.resultCount": {
-    "message": "{sitesCount} 个站点",
-    "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "showcase.card.sourceLink": {
-    "message": "源代码"
-  },
-  "showcase.usersList.noResult": {
-    "message": "无结果"
-  },
-  "showcase.favoritesList.title": {
-    "message": "收藏夹"
-  },
-  "showcase.usersList.allUsers": {
-    "message": "所有项目"
-  },
-  "showcase.searchBar.placeholder": {
-    "message": "按项目名称搜索..."
-  },
-  "showcase.filters.title": {
-    "message": "筛选"
-  },
   "theme.ErrorPageContent.title": {
     "message": "此页面崩溃了。",
     "description": "The title of the fallback page when the page crashed"
@@ -793,6 +768,31 @@
   },
   "Web Development": {
     "message": "Web Development"
+  },
+  "showcase.tag.favorite.description": {
+    "message": "我们收藏的 Docusaurus 网站，您绝对应该看看！"
+  },
+  "showcase.filters.resultCount": {
+    "message": "{sitesCount} 个站点",
+    "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "showcase.card.sourceLink": {
+    "message": "源代码"
+  },
+  "showcase.usersList.noResult": {
+    "message": "无结果"
+  },
+  "showcase.favoritesList.title": {
+    "message": "收藏夹"
+  },
+  "showcase.usersList.allUsers": {
+    "message": "所有项目"
+  },
+  "showcase.searchBar.placeholder": {
+    "message": "按项目名称搜索..."
+  },
+  "showcase.filters.title": {
+    "message": "筛选"
   },
   "showcase.tag.webDevelopment.description": {
     "message": "Building full-stack web applications, websites, APIs, and user interfaces."
