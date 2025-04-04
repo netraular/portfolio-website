@@ -128,7 +128,7 @@ const config: Config = {
           items: [
             {
               label: 'Showcase',
-              to: '/docs/intro',
+              to: '/showcase',
             },
             // {
             //   label: 'Overview',
