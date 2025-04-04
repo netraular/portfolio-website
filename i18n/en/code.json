@@ -844,5 +844,101 @@
   "showcase.details.underConstructionNote": {
     "message": "(Please note: This documentation section is currently under construction.)",
     "description": "Note indicating the linked documentation section is not yet complete"
+  },
+  "showcase.project.wledFrames.title": {
+    "message": "WLED-Controlled LED Picture Frames",
+    "description": "Title for the WLED Picture Frames project"
+  },
+  "showcase.project.wledFrames.description": {
+    "message": "Custom backlit picture frames using ESP32 and WLED for dynamic, controllable lighting effects.",
+    "description": "Description for the WLED Picture Frames project"
+  },
+  "showcase.project.homeLab.title": {
+    "message": "HomeLab",
+    "description": "Title for the HomeLab project"
+  },
+  "showcase.project.homeLab.description": {
+    "message": "A versatile, self-hosted ecosystem powered by Proxmox, TrueNAS, and Docker, enabling secure services, robust storage, and automated workflows.",
+    "description": "Description for the HomeLab project"
+  },
+  "showcase.project.tfgNlsql.title": {
+    "message": "Local Voice Assistant Natural Language to SQL (Bachelor Thesis)",
+    "description": "Title for the Bachelor Thesis project"
+  },
+  "showcase.project.tfgNlsql.description": {
+    "message": "Offline voice assistant system converting natural language to SQL queries using local AI models.",
+    "description": "Description for the Bachelor Thesis project"
+  },
+  "showcase.project.eco2.title": {
+    "message": "Eco2 - Hack for Good Barcelona Winner",
+    "description": "Title for the Eco2 Hackathon project"
+  },
+  "showcase.project.eco2.description": {
+    "message": "1st place winning Hackathon project promoting sustainable consumption via QR-based proximity scoring and supply chain tracking.",
+    "description": "Description for the Eco2 Hackathon project"
+  },
+  "showcase.project.gameServer.title": {
+    "message": "Game Server Management Interface",
+    "description": "Title for the Game Server Management project"
+  },
+  "showcase.project.gameServer.description": {
+    "message": "Web platform using Laravel and Bash scripts for managing multiple game servers hosted with Docker on a single VM.",
+    "description": "Description for the Game Server Management project"
+  },
+  "showcase.project.showcasePlatform.title": {
+    "message": "Project Showcase Platform",
+    "description": "Title for the Project Showcase Platform project"
+  },
+  "showcase.project.showcasePlatform.description": {
+    "message": "A self-hosted Laravel and Bootstrap system for managing and displaying personal projects via a private admin panel.",
+    "description": "Description for the Project Showcase Platform project"
+  },
+  "showcase.project.cosmoscape.title": {
+    "message": "(hackaton) Cosmoscape - Exoplanetary Sky Visualization",
+    "description": "Title for the Cosmoscape NASA Hackathon project"
+  },
+  "showcase.project.cosmoscape.description": {
+    "message": "Interactive NASA Space Apps 2024 platform visualizing night skies from 50 exoplanets using three.js and Laravel.",
+    "description": "Description for the Cosmoscape NASA Hackathon project"
+  },
+  "showcase.project.promptPal.title": {
+    "message": "PromptPal - LLM-Powered Template Generation Platform",
+    "description": "Title for the PromptPal project"
+  },
+  "showcase.project.promptPal.description": {
+    "message": "Laravel web platform leveraging Grok LLM API for generating diverse text outputs from user-defined templates.",
+    "description": "Description for the PromptPal project"
+  },
+  "showcase.project.promptMyRepo.title": {
+    "message": "Prompt My Repo VSCode Extension",
+    "description": "Title for the Prompt My Repo VSCode Extension project"
+  },
+  "showcase.project.promptMyRepo.description": {
+    "message": "VS Code extension structuring project files for easier interaction with Large Language Models (LLMs).",
+    "description": "Description for the Prompt My Repo VSCode Extension project"
+  },
+  "showcase.project.pmdSpriteManager.title": {
+    "message": "PMD Sprite Manager",
+    "description": "Title for the PMD Sprite Manager project"
+  },
+  "showcase.project.pmdSpriteManager.description": {
+    "message": "Python GUI tool for splitting Pokémon Mystery Dungeon sprite sheets and previewing animations.",
+    "description": "Description for the PMD Sprite Manager project"
+  },
+  "showcase.project.esp32Tamagotchi.title": {
+    "message": "ESP32 LVGL Tamagotchi Clone",
+    "description": "Title for the ESP32 Tamagotchi project"
+  },
+  "showcase.project.esp32Tamagotchi.description": {
+    "message": "A Tamagotchi-style virtual pet game running on an ESP32 with a round LVGL display.",
+    "description": "Description for the ESP32 Tamagotchi project"
+  },
+  "showcase.project.portfolio.title": {
+    "message": "Portfolio Website",
+    "description": "Title for the Portfolio Website project"
+  },
+  "showcase.project.portfolio.description": {
+    "message": "Modern developer portfolio built with Docusaurus, automated via GitHub & Cloudflare Pages and integrated with Obsidian.",
+    "description": "Description for the Portfolio Website project"
   }
 }

@@ -11,10 +11,6 @@
     "message": "Showcase",
     "description": "The label of footer link with label=Showcase linking to /docs/intro"
   },
-  "link.item.label.Overview": {
-    "message": "Overview",
-    "description": "The label of footer link with label=Overview linking to /docs/intro"
-  },
   "link.item.label.Github": {
     "message": "Github",
     "description": "The label of footer link with label=Github linking to https://github.com/netraular"

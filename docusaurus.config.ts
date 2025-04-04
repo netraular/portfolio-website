@@ -20,17 +20,17 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en', 'es', 'ca', 'fr', 'de', 'it', 'zh', 'ja', 'sv', 'no'],
     localeConfigs: {
-      en: {
+      en: {  // Inglés
         htmlLang: 'en-US',
       },
-      es: {
+      es: {  // Castellano
         htmlLang: 'es-ES',
       },
-      ca: {
+      ca: {  // Catalán
         htmlLang: 'ca-ES',
       },
       zh: {  // Chino
-        htmlLang: 'zh-CN', // o 'zh-TW' para chino tradicional (Taiwán)
+        htmlLang: 'zh-CN',
       },
       fr: {  // Francés
         htmlLang: 'fr-FR',

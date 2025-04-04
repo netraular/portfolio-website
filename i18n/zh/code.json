@@ -761,68 +761,52 @@
     "description": "Description for the Git Version Control skill"
   },
   "Self-Hosted / Home Lab": {
-    "message": "自托管 / 家庭实验室",
-    "description": "Tag name for self-hosted projects"
+    "message": "自托管 / 家庭实验室"
   },
   "showcase.tag.selfhosted.description": {
-    "message": "在自有硬件上运行服务和管理个人基础设施。",
-    "description": "Description for the self-hosted tag"
+    "message": "在自有硬件上运行服务和管理个人基础设施。"
   },
   "Web Development": {
-    "message": "Web 开发",
-    "description": "Tag name for web development projects"
+    "message": "Web 开发"
   },
   "showcase.tag.webDevelopment.description": {
-    "message": "构建全栈 Web 应用程序、网站、API 和用户界面。",
-    "description": "Description for the web development tag"
+    "message": "构建全栈 Web 应用程序、网站、API 和用户界面。"
   },
   "AI / ML": {
-    "message": "人工智能 / 机器学习",
-    "description": "Tag name for AI/ML projects"
+    "message": "人工智能 / 机器学习"
   },
   "showcase.tag.aiMl.description": {
-    "message": "利用人工智能、机器学习或大型语言模型的项目。",
-    "description": "Description for the AI/ML tag"
+    "message": "利用人工智能、机器学习或大型语言模型的项目。"
   },
   "IoT / Embedded": {
-    "message": "物联网 / 嵌入式",
-    "description": "Tag name for IoT/Embedded projects"
+    "message": "物联网 / 嵌入式"
   },
   "showcase.tag.iotEmbedded.description": {
-    "message": "使用微控制器、传感器、连接设备和嵌入式系统。",
-    "description": "Description for the IoT/Embedded tag"
+    "message": "使用微控制器、传感器、连接设备和嵌入式系统。"
   },
   "Game Development": {
-    "message": "游戏开发",
-    "description": "Tag name for Game Development projects"
+    "message": "游戏开发"
   },
   "showcase.tag.gameDevelopment.description": {
-    "message": "创建游戏、游戏开发工具或交互式类游戏体验。",
-    "description": "Description for the Game Development tag"
+    "message": "创建游戏、游戏开发工具或交互式类游戏体验。"
   },
   "Developer Tools": {
-    "message": "开发者工具",
-    "description": "Tag name for Developer Tools projects"
+    "message": "开发者工具"
   },
   "showcase.tag.developerTools.description": {
-    "message": "创建工具、扩展或实用程序以辅助软件开发工作流。",
-    "description": "Description for the Developer Tools tag"
+    "message": "创建工具、扩展或实用程序以辅助软件开发工作流。"
   },
   "Hackathon": {
-    "message": "黑客马拉松",
-    "description": "Tag name for Hackathon projects"
+    "message": "黑客马拉松"
   },
   "showcase.tag.hackathon.description": {
-    "message": "在黑客马拉松活动的时间压力下开发的项目。",
-    "description": "Description for the Hackathon tag"
+    "message": "在黑客马拉松活动的时间压力下开发的项目。"
   },
   "showcase.title": {
-    "message": "项目展示",
-    "description": "Title for the showcase page"
+    "message": "项目展示"
   },
   "showcase.description": {
-    "message": "探索我在各个领域的技术项目的可视化图库。使用筛选器或搜索来发现具体工作。",
-    "description": "Description for the showcase page"
+    "message": "探索我在各个领域的技术项目的可视化图库。使用筛选器或搜索来发现具体工作。"
   },
   "showcase.details.text": {
     "message": "想深入了解技术细节、流程和文档吗？请访问主文档部分。",
@@ -837,35 +821,124 @@
     "description": "Note indicating the linked documentation section is not yet complete"
   },
   "showcase.tag.favorite.description": {
-    "message": "我们收藏的 Docusaurus 网站，您绝对应该看看！",
-    "description": "Our favorite Docusaurus sites that you must absolutely check out!"
+    "message": "我们收藏的 Docusaurus 网站，您绝对应该看看！"
   },
   "showcase.filters.resultCount": {
     "message": "{sitesCount} 个站点",
     "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "showcase.card.sourceLink": {
-    "message": "源代码",
-    "description": "Link text for source code"
+    "message": "源代码"
   },
   "showcase.usersList.noResult": {
-    "message": "无结果",
-    "description": "Message shown when no projects match filters"
+    "message": "无结果"
   },
   "showcase.favoritesList.title": {
-    "message": "收藏夹",
-    "description": "Title for the favorite projects section"
+    "message": "收藏夹"
   },
   "showcase.usersList.allUsers": {
-    "message": "所有项目",
-    "description": "Label for showing all projects"
+    "message": "所有项目"
   },
   "showcase.searchBar.placeholder": {
-    "message": "按项目名称搜索...",
-    "description": "Placeholder text for the project search bar"
+    "message": "按项目名称搜索..."
   },
   "showcase.filters.title": {
-    "message": "筛选",
-    "description": "Title for the filtering section"
+    "message": "筛选"
+  },
+  "showcase.project.wledFrames.title": {
+    "message": "WLED 控制的 LED 相框",
+    "description": "Title for the WLED Picture Frames project"
+  },
+  "showcase.project.wledFrames.description": {
+    "message": "使用 ESP32 和 WLED 的定制背光相框，实现动态、可控的灯光效果。",
+    "description": "Description for the WLED Picture Frames project"
+  },
+  "showcase.project.homeLab.title": {
+    "message": "家庭实验室 (HomeLab)",
+    "description": "Title for the HomeLab project"
+  },
+  "showcase.project.homeLab.description": {
+    "message": "一个由 Proxmox、TrueNAS 和 Docker 驱动的多功能、自托管生态系统，可实现安全服务、强大的存储和自动化工作流。",
+    "description": "Description for the HomeLab project"
+  },
+  "showcase.project.tfgNlsql.title": {
+    "message": "本地语音助手自然语言转 SQL (学士论文)",
+    "description": "Title for the Bachelor Thesis project"
+  },
+  "showcase.project.tfgNlsql.description": {
+    "message": "使用本地 AI 模型将自然语言转换为 SQL 查询的离线语音助手系统。",
+    "description": "Description for the Bachelor Thesis project"
+  },
+  "showcase.project.eco2.title": {
+    "message": "Eco2 - Hack for Good Barcelona 获奖项目",
+    "description": "Title for the Eco2 Hackathon project"
+  },
+  "showcase.project.eco2.description": {
+    "message": "获得第一名的 Hackathon 项目，通过基于 QR 的邻近评分和供应链跟踪促进可持续消费。",
+    "description": "Description for the Eco2 Hackathon project"
+  },
+  "showcase.project.gameServer.title": {
+    "message": "游戏服务器管理界面",
+    "description": "Title for the Game Server Management project"
+  },
+  "showcase.project.gameServer.description": {
+    "message": "使用 Laravel 和 Bash 脚本的 Web 平台，用于管理托管在单个 VM 上使用 Docker 的多个游戏服务器。",
+    "description": "Description for the Game Server Management project"
+  },
+  "showcase.project.showcasePlatform.title": {
+    "message": "项目展示平台",
+    "description": "Title for the Project Showcase Platform project"
+  },
+  "showcase.project.showcasePlatform.description": {
+    "message": "一个使用 Laravel 和 Bootstrap 的自托管系统，通过私人管理面板管理和展示个人项目。",
+    "description": "Description for the Project Showcase Platform project"
+  },
+  "showcase.project.cosmoscape.title": {
+    "message": "(黑客松) Cosmoscape - 系外行星天空可视化",
+    "description": "Title for the Cosmoscape NASA Hackathon project"
+  },
+  "showcase.project.cosmoscape.description": {
+    "message": "交互式 NASA Space Apps 2024 平台，使用 three.js 和 Laravel 可视化来自 50 颗系外行星的夜空。",
+    "description": "Description for the Cosmoscape NASA Hackathon project"
+  },
+  "showcase.project.promptPal.title": {
+    "message": "PromptPal - LLM 驱动的模板生成平台",
+    "description": "Title for the PromptPal project"
+  },
+  "showcase.project.promptPal.description": {
+    "message": "利用 Grok LLM API 的 Laravel Web 平台，根据用户定义的模板生成多样化的文本输出。",
+    "description": "Description for the PromptPal project"
+  },
+  "showcase.project.promptMyRepo.title": {
+    "message": "Prompt My Repo VSCode 扩展",
+    "description": "Title for the Prompt My Repo VSCode Extension project"
+  },
+  "showcase.project.promptMyRepo.description": {
+    "message": "用于构建项目文件结构的 VS Code 扩展，以便更轻松地与大型语言模型 (LLM) 交互。",
+    "description": "Description for the Prompt My Repo VSCode Extension project"
+  },
+  "showcase.project.pmdSpriteManager.title": {
+    "message": "PMD Sprite Manager",
+    "description": "Title for the PMD Sprite Manager project"
+  },
+  "showcase.project.pmdSpriteManager.description": {
+    "message": "用于分割 Pokémon Mystery Dungeon 精灵图纸并预览动画的 Python GUI 工具。",
+    "description": "Description for the PMD Sprite Manager project"
+  },
+  "showcase.project.esp32Tamagotchi.title": {
+    "message": "ESP32 LVGL Tamagotchi 克隆",
+    "description": "Title for the ESP32 Tamagotchi project"
+  },
+  "showcase.project.esp32Tamagotchi.description": {
+    "message": "在带有圆形 LVGL 显示屏的 ESP32 上运行的 Tamagotchi 风格虚拟宠物游戏。",
+    "description": "Description for the ESP32 Tamagotchi project"
+  },
+  "showcase.project.portfolio.title": {
+    "message": "作品集网站",
+    "description": "Title for the Portfolio Website project"
+  },
+  "showcase.project.portfolio.description": {
+    "message": "使用 Docusaurus 构建的现代开发者作品集，通过 GitHub 和 Cloudflare Pages 自动化并与 Obsidian 集成。",
+    "description": "Description for the Portfolio Website project"
   }
 }

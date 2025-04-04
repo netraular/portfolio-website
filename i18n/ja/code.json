@@ -761,68 +761,52 @@
     "description": "Description for the Git Version Control skill"
   },
   "Self-Hosted / Home Lab": {
-    "message": "セルフホスト / ホームラボ",
-    "description": "Tag name for self-hosted projects"
+    "message": "セルフホスト / ホームラボ"
   },
   "showcase.tag.selfhosted.description": {
-    "message": "自己所有ハードウェアでのサービス運用と個人インフラ管理。",
-    "description": "Description for the self-hosted tag"
+    "message": "自己所有ハードウェアでのサービス運用と個人インフラ管理。"
   },
   "Web Development": {
-    "message": "ウェブ開発",
-    "description": "Tag name for web development projects"
+    "message": "ウェブ開発"
   },
   "showcase.tag.webDevelopment.description": {
-    "message": "フルスタックWebアプリケーション、ウェブサイト、API、およびユーザーインターフェースの構築。",
-    "description": "Description for the web development tag"
+    "message": "フルスタックWebアプリケーション、ウェブサイト、API、およびユーザーインターフェースの構築。"
   },
   "AI / ML": {
-    "message": "AI / ML",
-    "description": "Tag name for AI/ML projects"
+    "message": "AI / ML"
   },
   "showcase.tag.aiMl.description": {
-    "message": "人工知能、機械学習、または大規模言語モデルを活用したプロジェクト。",
-    "description": "Description for the AI/ML tag"
+    "message": "人工知能、機械学習、または大規模言語モデルを活用したプロジェクト。"
   },
   "IoT / Embedded": {
-    "message": "IoT / 組み込み",
-    "description": "Tag name for IoT/Embedded projects"
+    "message": "IoT / 組み込み"
   },
   "showcase.tag.iotEmbedded.description": {
-    "message": "マイクロコントローラー、センサー、接続デバイス、および組み込みシステムでの作業。",
-    "description": "Description for the IoT/Embedded tag"
+    "message": "マイクロコントローラー、センサー、接続デバイス、および組み込みシステムでの作業。"
   },
   "Game Development": {
-    "message": "ゲーム開発",
-    "description": "Tag name for Game Development projects"
+    "message": "ゲーム開発"
   },
   "showcase.tag.gameDevelopment.description": {
-    "message": "ゲーム、ゲーム開発ツール、またはインタラクティブなゲーム風体験の作成。",
-    "description": "Description for the Game Development tag"
+    "message": "ゲーム、ゲーム開発ツール、またはインタラクティブなゲーム風体験の作成。"
   },
   "Developer Tools": {
-    "message": "開発者ツール",
-    "description": "Tag name for Developer Tools projects"
+    "message": "開発者ツール"
   },
   "showcase.tag.developerTools.description": {
-    "message": "ソフトウェア開発ワークフローを支援するツール、拡張機能、またはユーティリティの作成。",
-    "description": "Description for the Developer Tools tag"
+    "message": "ソフトウェア開発ワークフローを支援するツール、拡張機能、またはユーティリティの作成。"
   },
   "Hackathon": {
-    "message": "ハッカソン",
-    "description": "Tag name for Hackathon projects"
+    "message": "ハッカソン"
   },
   "showcase.tag.hackathon.description": {
-    "message": "ハッカソンイベントの時間的制約の中で開発されたプロジェクト。",
-    "description": "Description for the Hackathon tag"
+    "message": "ハッカソンイベントの時間的制約の中で開発されたプロジェクト。"
   },
   "showcase.title": {
-    "message": "プロジェクトギャラリー",
-    "description": "Title for the showcase page"
+    "message": "プロジェクトギャラリー"
   },
   "showcase.description": {
-    "message": "さまざまな分野にわたる私の技術プロジェクトのビジュアルギャラリーをご覧ください。フィルターまたは検索を使用して、特定の作品を見つけてください。",
-    "description": "Description for the showcase page"
+    "message": "さまざまな分野にわたる私の技術プロジェクトのビジュアルギャラリーをご覧ください。フィルターまたは検索を使用して、特定の作品を見つけてください。"
   },
   "showcase.details.text": {
     "message": "技術的な詳細、プロセス、ドキュメントについてさらに深く知りたいですか？メインのドキュメントセクションをご覧ください。",
@@ -837,35 +821,124 @@
     "description": "Note indicating the linked documentation section is not yet complete"
   },
   "showcase.tag.favorite.description": {
-    "message": "絶対にチェックすべき、私たちのお気に入りのDocusaurusサイト！",
-    "description": "Our favorite Docusaurus sites that you must absolutely check out!"
+    "message": "絶対にチェックすべき、私たちのお気に入りのDocusaurusサイト！"
   },
   "showcase.filters.resultCount": {
     "message": "{sitesCount} 件のサイト",
     "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "showcase.card.sourceLink": {
-    "message": "ソース",
-    "description": "Link text for source code"
+    "message": "ソース"
   },
   "showcase.usersList.noResult": {
-    "message": "結果なし",
-    "description": "Message shown when no projects match filters"
+    "message": "結果なし"
   },
   "showcase.favoritesList.title": {
-    "message": "お気に入り",
-    "description": "Title for the favorite projects section"
+    "message": "お気に入り"
   },
   "showcase.usersList.allUsers": {
-    "message": "すべてのプロジェクト",
-    "description": "Label for showing all projects"
+    "message": "すべてのプロジェクト"
   },
   "showcase.searchBar.placeholder": {
-    "message": "プロジェクト名で検索...",
-    "description": "Placeholder text for the project search bar"
+    "message": "プロジェクト名で検索..."
   },
   "showcase.filters.title": {
-    "message": "フィルター",
-    "description": "Title for the filtering section"
+    "message": "フィルター"
+  },
+  "showcase.project.wledFrames.title": {
+    "message": "WLED制御LEDピクチャーフレーム",
+    "description": "Title for the WLED Picture Frames project"
+  },
+  "showcase.project.wledFrames.description": {
+    "message": "ESP32とWLEDを使用したカスタムバックライト付きピクチャーフレーム。ダイナミックで制御可能な照明効果を実現。",
+    "description": "Description for the WLED Picture Frames project"
+  },
+  "showcase.project.homeLab.title": {
+    "message": "ホームラボ (HomeLab)",
+    "description": "Title for the HomeLab project"
+  },
+  "showcase.project.homeLab.description": {
+    "message": "Proxmox、TrueNAS、Dockerを活用した多用途な自己ホスト型エコシステム。安全なサービス、堅牢なストレージ、自動化されたワークフローを実現。",
+    "description": "Description for the HomeLab project"
+  },
+  "showcase.project.tfgNlsql.title": {
+    "message": "ローカル音声アシスタント 自然言語からSQLへ (学士論文)",
+    "description": "Title for the Bachelor Thesis project"
+  },
+  "showcase.project.tfgNlsql.description": {
+    "message": "ローカルAIモデルを使用して自然言語をSQLクエリに変換するオフライン音声アシスタントシステム。",
+    "description": "Description for the Bachelor Thesis project"
+  },
+  "showcase.project.eco2.title": {
+    "message": "Eco2 - Hack for Good Barcelona 受賞プロジェクト",
+    "description": "Title for the Eco2 Hackathon project"
+  },
+  "showcase.project.eco2.description": {
+    "message": "ハッカソンで1位を獲得したプロジェクト。QRベースの近接スコアリングとサプライチェーン追跡を通じて持続可能な消費を促進。",
+    "description": "Description for the Eco2 Hackathon project"
+  },
+  "showcase.project.gameServer.title": {
+    "message": "ゲームサーバー管理インターフェース",
+    "description": "Title for the Game Server Management project"
+  },
+  "showcase.project.gameServer.description": {
+    "message": "LaravelとBashスクリプトを使用したWebプラットフォーム。単一VM上のDockerでホストされた複数のゲームサーバーを管理。",
+    "description": "Description for the Game Server Management project"
+  },
+  "showcase.project.showcasePlatform.title": {
+    "message": "プロジェクトショーケースプラットフォーム",
+    "description": "Title for the Project Showcase Platform project"
+  },
+  "showcase.project.showcasePlatform.description": {
+    "message": "LaravelとBootstrapを使用した自己ホスト型システム。プライベート管理パネルを介して個人のプロジェクトを管理・表示。",
+    "description": "Description for the Project Showcase Platform project"
+  },
+  "showcase.project.cosmoscape.title": {
+    "message": "(ハッカソン) Cosmoscape - 系外惑星の空の可視化",
+    "description": "Title for the Cosmoscape NASA Hackathon project"
+  },
+  "showcase.project.cosmoscape.description": {
+    "message": "three.jsとLaravelを使用した、50個の系外惑星からの夜空を可視化するインタラクティブなNASA Space Apps 2024プラットフォーム。",
+    "description": "Description for the Cosmoscape NASA Hackathon project"
+  },
+  "showcase.project.promptPal.title": {
+    "message": "PromptPal - LLM駆動型テンプレート生成プラットフォーム",
+    "description": "Title for the PromptPal project"
+  },
+  "showcase.project.promptPal.description": {
+    "message": "Grok LLM APIを活用したLaravel Webプラットフォーム。ユーザー定義のテンプレートから多様なテキスト出力を生成。",
+    "description": "Description for the PromptPal project"
+  },
+  "showcase.project.promptMyRepo.title": {
+    "message": "Prompt My Repo VSCode 拡張機能",
+    "description": "Title for the Prompt My Repo VSCode Extension project"
+  },
+  "showcase.project.promptMyRepo.description": {
+    "message": "大規模言語モデル (LLM) との対話を容易にするためにプロジェクトファイルを構造化するVS Code拡張機能。",
+    "description": "Description for the Prompt My Repo VSCode Extension project"
+  },
+  "showcase.project.pmdSpriteManager.title": {
+    "message": "PMD スプライトマネージャー",
+    "description": "Title for the PMD Sprite Manager project"
+  },
+  "showcase.project.pmdSpriteManager.description": {
+    "message": "ポケモン不思議のダンジョンのスプライトシートを分割し、アニメーションをプレビューするためのPython GUIツール。",
+    "description": "Description for the PMD Sprite Manager project"
+  },
+  "showcase.project.esp32Tamagotchi.title": {
+    "message": "ESP32 LVGL たまごっちクローン",
+    "description": "Title for the ESP32 Tamagotchi project"
+  },
+  "showcase.project.esp32Tamagotchi.description": {
+    "message": "円形LVGLディスプレイを備えたESP32上で動作するたまごっち風バーチャルペットゲーム。",
+    "description": "Description for the ESP32 Tamagotchi project"
+  },
+  "showcase.project.portfolio.title": {
+    "message": "ポートフォリオウェブサイト",
+    "description": "Title for the Portfolio Website project"
+  },
+  "showcase.project.portfolio.description": {
+    "message": "Docusaurusで構築され、GitHub & Cloudflare Pagesで自動化され、Obsidianと統合されたモダンな開発者ポートフォリオ。",
+    "description": "Description for the Portfolio Website project"
   }
 }

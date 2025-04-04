@@ -761,68 +761,52 @@
     "description": "Description for the Git Version Control skill"
   },
   "Self-Hosted / Home Lab": {
-    "message": "Self-Hosted / Home Lab",
-    "description": "Tag name for self-hosted projects"
+    "message": "Self-Hosted / Home Lab"
   },
   "showcase.tag.selfhosted.description": {
-    "message": "Betrieb von Diensten und Verwaltung persönlicher Infrastruktur auf eigener Hardware.",
-    "description": "Description for the self-hosted tag"
+    "message": "Betrieb von Diensten und Verwaltung persönlicher Infrastruktur auf eigener Hardware."
   },
   "Web Development": {
-    "message": "Webentwicklung",
-    "description": "Tag name for web development projects"
+    "message": "Webentwicklung"
   },
   "showcase.tag.webDevelopment.description": {
-    "message": "Erstellung von Full-Stack-Webanwendungen, Websites, APIs und Benutzeroberflächen.",
-    "description": "Description for the web development tag"
+    "message": "Erstellung von Full-Stack-Webanwendungen, Websites, APIs und Benutzeroberflächen."
   },
   "AI / ML": {
-    "message": "KI / ML",
-    "description": "Tag name for AI/ML projects"
+    "message": "KI / ML"
   },
   "showcase.tag.aiMl.description": {
-    "message": "Projekte, die künstliche Intelligenz, maschinelles Lernen oder große Sprachmodelle nutzen.",
-    "description": "Description for the AI/ML tag"
+    "message": "Projekte, die künstliche Intelligenz, maschinelles Lernen oder große Sprachmodelle nutzen."
   },
   "IoT / Embedded": {
-    "message": "IoT / Embedded",
-    "description": "Tag name for IoT/Embedded projects"
+    "message": "IoT / Embedded"
   },
   "showcase.tag.iotEmbedded.description": {
-    "message": "Arbeiten mit Mikrocontrollern, Sensoren, vernetzten Geräten und eingebetteten Systemen.",
-    "description": "Description for the IoT/Embedded tag"
+    "message": "Arbeiten mit Mikrocontrollern, Sensoren, vernetzten Geräten und eingebetteten Systemen."
   },
   "Game Development": {
-    "message": "Spieleentwicklung",
-    "description": "Tag name for Game Development projects"
+    "message": "Spieleentwicklung"
   },
   "showcase.tag.gameDevelopment.description": {
-    "message": "Erstellung von Spielen, Spieleentwicklungswerkzeugen oder interaktiven spielähnlichen Erlebnissen.",
-    "description": "Description for the Game Development tag"
+    "message": "Erstellung von Spielen, Spieleentwicklungswerkzeugen oder interaktiven spielähnlichen Erlebnissen."
   },
   "Developer Tools": {
-    "message": "Entwicklerwerkzeuge",
-    "description": "Tag name for Developer Tools projects"
+    "message": "Entwicklerwerkzeuge"
   },
   "showcase.tag.developerTools.description": {
-    "message": "Erstellung von Werkzeugen, Erweiterungen oder Dienstprogrammen zur Unterstützung des Softwareentwicklungs-Workflows.",
-    "description": "Description for the Developer Tools tag"
+    "message": "Erstellung von Werkzeugen, Erweiterungen oder Dienstprogrammen zur Unterstützung des Softwareentwicklungs-Workflows."
   },
   "Hackathon": {
-    "message": "Hackathon",
-    "description": "Tag name for Hackathon projects"
+    "message": "Hackathon"
   },
   "showcase.tag.hackathon.description": {
-    "message": "Projekte, die unter dem Zeitdruck eines Hackathon-Events entwickelt wurden.",
-    "description": "Description for the Hackathon tag"
+    "message": "Projekte, die unter dem Zeitdruck eines Hackathon-Events entwickelt wurden."
   },
   "showcase.title": {
-    "message": "Projektgalerie",
-    "description": "Title for the showcase page"
+    "message": "Projektgalerie"
   },
   "showcase.description": {
-    "message": "Erkunden Sie eine visuelle Galerie meiner technischen Projekte in verschiedenen Bereichen. Verwenden Sie die Filter oder die Suche, um spezifische Arbeiten zu entdecken.",
-    "description": "Description for the showcase page"
+    "message": "Erkunden Sie eine visuelle Galerie meiner technischen Projekte in verschiedenen Bereichen. Verwenden Sie die Filter oder die Suche, um spezifische Arbeiten zu entdecken."
   },
   "showcase.details.text": {
     "message": "Möchten Sie tiefer in die technischen Details, den Prozess und die Dokumentation eintauchen? Besuchen Sie den Haupt-Dokumentationsbereich.",
@@ -837,35 +821,124 @@
     "description": "Note indicating the linked documentation section is not yet complete"
   },
   "showcase.tag.favorite.description": {
-    "message": "Unsere bevorzugten Docusaurus-Websites, die Sie unbedingt besuchen sollten!",
-    "description": "Our favorite Docusaurus sites that you must absolutely check out!"
+    "message": "Unsere bevorzugten Docusaurus-Websites, die Sie unbedingt besuchen sollten!"
   },
   "showcase.filters.resultCount": {
     "message": "1 Seite|{sitesCount} Seiten",
     "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "showcase.card.sourceLink": {
-    "message": "Quellcode",
-    "description": "Link text for source code"
+    "message": "Quellcode"
   },
   "showcase.usersList.noResult": {
-    "message": "Keine Ergebnisse",
-    "description": "Message shown when no projects match filters"
+    "message": "Keine Ergebnisse"
   },
   "showcase.favoritesList.title": {
-    "message": "Favoriten",
-    "description": "Title for the favorite projects section"
+    "message": "Favoriten"
   },
   "showcase.usersList.allUsers": {
-    "message": "Alle Projekte",
-    "description": "Label for showing all projects"
+    "message": "Alle Projekte"
   },
   "showcase.searchBar.placeholder": {
-    "message": "Nach Projektnamen suchen...",
-    "description": "Placeholder text for the project search bar"
+    "message": "Nach Projektnamen suchen..."
   },
   "showcase.filters.title": {
-    "message": "Filter",
-    "description": "Title for the filtering section"
+    "message": "Filter"
+  },
+  "showcase.project.wledFrames.title": {
+    "message": "WLED-gesteuerte LED-Bilderrahmen",
+    "description": "Title for the WLED Picture Frames project"
+  },
+  "showcase.project.wledFrames.description": {
+    "message": "Maßgefertigte, hinterleuchtete Bilderrahmen mit ESP32 und WLED für dynamische, steuerbare Lichteffekte.",
+    "description": "Description for the WLED Picture Frames project"
+  },
+  "showcase.project.homeLab.title": {
+    "message": "HomeLab",
+    "description": "Title for the HomeLab project"
+  },
+  "showcase.project.homeLab.description": {
+    "message": "Ein vielseitiges, selbst gehostetes Ökosystem, das auf Proxmox, TrueNAS und Docker basiert und sichere Dienste, robusten Speicher und automatisierte Workflows ermöglicht.",
+    "description": "Description for the HomeLab project"
+  },
+  "showcase.project.tfgNlsql.title": {
+    "message": "Lokaler Sprachassistent: Natürliche Sprache zu SQL (Bachelorarbeit)",
+    "description": "Title for the Bachelor Thesis project"
+  },
+  "showcase.project.tfgNlsql.description": {
+    "message": "Offline-Sprachassistenzsystem, das natürliche Sprache mithilfe lokaler KI-Modelle in SQL-Abfragen umwandelt.",
+    "description": "Description for the Bachelor Thesis project"
+  },
+  "showcase.project.eco2.title": {
+    "message": "Eco2 - Gewinner des Hack for Good Barcelona",
+    "description": "Title for the Eco2 Hackathon project"
+  },
+  "showcase.project.eco2.description": {
+    "message": "Gewinnerprojekt (1. Platz) eines Hackathons zur Förderung nachhaltigen Konsums durch QR-basiertes Proximity-Scoring und Lieferkettenverfolgung.",
+    "description": "Description for the Eco2 Hackathon project"
+  },
+  "showcase.project.gameServer.title": {
+    "message": "Verwaltungsoberfläche für Spieleserver",
+    "description": "Title for the Game Server Management project"
+  },
+  "showcase.project.gameServer.description": {
+    "message": "Webplattform mit Laravel und Bash-Skripten zur Verwaltung mehrerer Spieleserver, die mit Docker auf einer einzigen VM gehostet werden.",
+    "description": "Description for the Game Server Management project"
+  },
+  "showcase.project.showcasePlatform.title": {
+    "message": "Projekt-Showcase-Plattform",
+    "description": "Title for the Project Showcase Platform project"
+  },
+  "showcase.project.showcasePlatform.description": {
+    "message": "Ein selbst gehostetes System mit Laravel und Bootstrap zur Verwaltung und Anzeige persönlicher Projekte über ein privates Admin-Panel.",
+    "description": "Description for the Project Showcase Platform project"
+  },
+  "showcase.project.cosmoscape.title": {
+    "message": "(Hackathon) Cosmoscape - Exoplanetarische Himmelsvisualisierung",
+    "description": "Title for the Cosmoscape NASA Hackathon project"
+  },
+  "showcase.project.cosmoscape.description": {
+    "message": "Interaktive Plattform der NASA Space Apps 2024 zur Visualisierung des Nachthimmels von 50 Exoplaneten mit three.js und Laravel.",
+    "description": "Description for the Cosmoscape NASA Hackathon project"
+  },
+  "showcase.project.promptPal.title": {
+    "message": "PromptPal - LLM-gestützte Plattform zur Vorlagengenerierung",
+    "description": "Title for the PromptPal project"
+  },
+  "showcase.project.promptPal.description": {
+    "message": "Laravel-Webplattform, die die Grok LLM API nutzt, um vielfältige Textausgaben aus benutzerdefinierten Vorlagen zu generieren.",
+    "description": "Description for the PromptPal project"
+  },
+  "showcase.project.promptMyRepo.title": {
+    "message": "Prompt My Repo VSCode-Erweiterung",
+    "description": "Title for the Prompt My Repo VSCode Extension project"
+  },
+  "showcase.project.promptMyRepo.description": {
+    "message": "VS Code-Erweiterung zur Strukturierung von Projektdateien für eine einfachere Interaktion mit Großen Sprachmodellen (LLMs).",
+    "description": "Description for the Prompt My Repo VSCode Extension project"
+  },
+  "showcase.project.pmdSpriteManager.title": {
+    "message": "PMD Sprite Manager",
+    "description": "Title for the PMD Sprite Manager project"
+  },
+  "showcase.project.pmdSpriteManager.description": {
+    "message": "Python-GUI-Tool zum Aufteilen von Pokémon Mystery Dungeon Sprite-Sheets und zur Vorschau von Animationen.",
+    "description": "Description for the PMD Sprite Manager project"
+  },
+  "showcase.project.esp32Tamagotchi.title": {
+    "message": "ESP32 LVGL Tamagotchi-Klon",
+    "description": "Title for the ESP32 Tamagotchi project"
+  },
+  "showcase.project.esp32Tamagotchi.description": {
+    "message": "Ein virtuelles Haustierspiel im Tamagotchi-Stil, das auf einem ESP32 mit einem runden LVGL-Display läuft.",
+    "description": "Description for the ESP32 Tamagotchi project"
+  },
+  "showcase.project.portfolio.title": {
+    "message": "Portfolio-Webseite",
+    "description": "Title for the Portfolio Website project"
+  },
+  "showcase.project.portfolio.description": {
+    "message": "Modernes Entwickler-Portfolio, erstellt mit Docusaurus, automatisiert über GitHub & Cloudflare Pages und integriert mit Obsidian.",
+    "description": "Description for the Portfolio Website project"
   }
 }

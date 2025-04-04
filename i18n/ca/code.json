@@ -844,5 +844,101 @@
   },
   "showcase.filters.title": {
     "message": "Filtres"
+  },
+  "showcase.project.wledFrames.title": {
+    "message": "Marcs de fotos LED controlats per WLED",
+    "description": "Title for the WLED Picture Frames project"
+  },
+  "showcase.project.wledFrames.description": {
+    "message": "Marcs de fotos retroil·luminats personalitzats que utilitzen ESP32 i WLED per a efectes d'il·luminació dinàmics i controlables.",
+    "description": "Description for the WLED Picture Frames project"
+  },
+  "showcase.project.homeLab.title": {
+    "message": "HomeLab",
+    "description": "Title for the HomeLab project"
+  },
+  "showcase.project.homeLab.description": {
+    "message": "Un ecosistema versàtil i autoallotjat impulsat per Proxmox, TrueNAS i Docker, que permet serveis segurs, emmagatzematge robust i fluxos de treball automatitzats.",
+    "description": "Description for the HomeLab project"
+  },
+  "showcase.project.tfgNlsql.title": {
+    "message": "Assistent de Veu Local de Llenguatge Natural a SQL (Treball de Fi de Grau)",
+    "description": "Title for the Bachelor Thesis project"
+  },
+  "showcase.project.tfgNlsql.description": {
+    "message": "Sistema d'assistent de veu offline que converteix llenguatge natural en consultes SQL utilitzant models d'IA locals.",
+    "description": "Description for the Bachelor Thesis project"
+  },
+  "showcase.project.eco2.title": {
+    "message": "Eco2 - Guanyador del Hack for Good Barcelona",
+    "description": "Title for the Eco2 Hackathon project"
+  },
+  "showcase.project.eco2.description": {
+    "message": "Projecte guanyador del 1r lloc al Hackathon que promou el consum sostenible mitjançant puntuació de proximitat basada en QR i seguiment de la cadena de subministrament.",
+    "description": "Description for the Eco2 Hackathon project"
+  },
+  "showcase.project.gameServer.title": {
+    "message": "Interfície de Gestió de Servidors de Jocs",
+    "description": "Title for the Game Server Management project"
+  },
+  "showcase.project.gameServer.description": {
+    "message": "Plataforma web que utilitza Laravel i scripts Bash per gestionar múltiples servidors de jocs allotjats amb Docker en una única VM.",
+    "description": "Description for the Game Server Management project"
+  },
+  "showcase.project.showcasePlatform.title": {
+    "message": "Plataforma d'Exposició de Projectes",
+    "description": "Title for the Project Showcase Platform project"
+  },
+  "showcase.project.showcasePlatform.description": {
+    "message": "Un sistema autoallotjat amb Laravel i Bootstrap per gestionar i mostrar projectes personals mitjançant un panell d'administració privat.",
+    "description": "Description for the Project Showcase Platform project"
+  },
+  "showcase.project.cosmoscape.title": {
+    "message": "(hackató) Cosmoscape - Visualització del Cel Exoplanetari",
+    "description": "Title for the Cosmoscape NASA Hackathon project"
+  },
+  "showcase.project.cosmoscape.description": {
+    "message": "Plataforma interactiva del NASA Space Apps 2024 que visualitza els cels nocturns des de 50 exoplanetes utilitzant three.js i Laravel.",
+    "description": "Description for the Cosmoscape NASA Hackathon project"
+  },
+  "showcase.project.promptPal.title": {
+    "message": "PromptPal - Plataforma de Generació de Plantilles Impulsada per LLM",
+    "description": "Title for the PromptPal project"
+  },
+  "showcase.project.promptPal.description": {
+    "message": "Plataforma web Laravel que aprofita l'API Grok LLM per generar diverses sortides de text a partir de plantilles definides per l'usuari.",
+    "description": "Description for the PromptPal project"
+  },
+  "showcase.project.promptMyRepo.title": {
+    "message": "Extensió per a VSCode Prompt My Repo",
+    "description": "Title for the Prompt My Repo VSCode Extension project"
+  },
+  "showcase.project.promptMyRepo.description": {
+    "message": "Extensió de VS Code que estructura els fitxers de projecte per facilitar la interacció amb Models de Llenguatge Grans (LLMs).",
+    "description": "Description for the Prompt My Repo VSCode Extension project"
+  },
+  "showcase.project.pmdSpriteManager.title": {
+    "message": "PMD Sprite Manager",
+    "description": "Title for the PMD Sprite Manager project"
+  },
+  "showcase.project.pmdSpriteManager.description": {
+    "message": "Eina GUI en Python per dividir fulls de sprites de Pokémon Mystery Dungeon i previsualitzar animacions.",
+    "description": "Description for the PMD Sprite Manager project"
+  },
+  "showcase.project.esp32Tamagotchi.title": {
+    "message": "Clon de Tamagotchi amb ESP32 i LVGL",
+    "description": "Title for the ESP32 Tamagotchi project"
+  },
+  "showcase.project.esp32Tamagotchi.description": {
+    "message": "Un joc de mascota virtual estil Tamagotchi funcionant en un ESP32 amb una pantalla rodona LVGL.",
+    "description": "Description for the ESP32 Tamagotchi project"
+  },
+  "showcase.project.portfolio.title": {
+    "message": "Lloc Web de Portafoli",
+    "description": "Title for the Portfolio Website project"
+  },
+  "showcase.project.portfolio.description": {
+    "message": "Portafoli de desenvolupador modern construït amb Docusaurus, automatitzat mitjançant GitHub & Cloudflare Pages i integrat amb Obsidian.",
+    "description": "Description for the Portfolio Website project"
   }
 }

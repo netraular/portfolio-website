@@ -59,46 +59,85 @@ export type TagType =
 // Add sites to this list
 // prettier-ignore
 const Users: User[] = [
-  
   {
-    title: 'WLED-Controlled LED Picture Frames',
-    description: 'Custom backlit picture frames using ESP32 and WLED for dynamic, controllable lighting effects.',
+    title: translate({
+      message: 'WLED-Controlled LED Picture Frames',
+      id: 'showcase.project.wledFrames.title',
+      description: 'Title for the WLED Picture Frames project', // Descripción opcional para traductores
+    }),
+    description: translate({
+      message: 'Custom backlit picture frames using ESP32 and WLED for dynamic, controllable lighting effects.',
+      id: 'showcase.project.wledFrames.description',
+      description: 'Description for the WLED Picture Frames project',
+    }),
     preview: require('./showcase/wled frames/banner.png'),
     website: '/docs/Others/IoT%20and%20ESP32%20Development/Wled%20Art%20Frame/overview',
-    source: null, // Sin repo público específico mencionado
-    tags: ['iotEmbedded'], // Proyecto de hardware/IoT, personal/DIY.
+    source: null,
+    tags: ['iotEmbedded'],
     date: '2023-12',
   },
   {
-    title: 'HomeLab',
-    description: 'A versatile, self-hosted ecosystem powered by Proxmox, TrueNAS, and Docker, enabling secure services, robust storage, and automated workflows.',
-    preview: require('./showcase/home server/banner.png'), // Asegúrate que la imagen exista
+    title: translate({
+      message: 'HomeLab',
+      id: 'showcase.project.homeLab.title',
+      description: 'Title for the HomeLab project',
+    }),
+    description: translate({
+      message: 'A versatile, self-hosted ecosystem powered by Proxmox, TrueNAS, and Docker, enabling secure services, robust storage, and automated workflows.',
+      id: 'showcase.project.homeLab.description',
+      description: 'Description for the HomeLab project',
+    }),
+    preview: require('./showcase/home server/banner.png'),
     website: '/docs/Home%20Server/overview',
-    source: '/docs/Home%20Server/overview', // O null si no hay un repo específico del código del sitio
-    tags: ['favorite', 'selfhosted'], // Simplificado: Es tu favorito y es autoalojado/infraestructura.
+    source: '/docs/Home%20Server/overview',
+    tags: ['favorite', 'selfhosted'],
     date: '2024-01',
   },
   {
-    title: 'Local Voice Assistant Natural Language to SQL (Bachelor Thesis)',
-    description: 'Offline voice assistant system converting natural language to SQL queries using local AI models.',
+    title: translate({
+      message: 'Local Voice Assistant Natural Language to SQL (Bachelor Thesis)',
+      id: 'showcase.project.tfgNlsql.title',
+      description: 'Title for the Bachelor Thesis project',
+    }),
+    description: translate({
+      message: 'Offline voice assistant system converting natural language to SQL queries using local AI models.',
+      id: 'showcase.project.tfgNlsql.description',
+      description: 'Description for the Bachelor Thesis project',
+    }),
     preview: require('./showcase/tfg/banner.png'),
     website: 'https://tfg.raular.com/',
     source: 'https://github.com/netraular/tfgweb',
-    tags: ['aiMl', 'webDevelopment'], // IA como núcleo, interfaz web, proyecto personal/académico.
-    date: '2024-06', // Corregida fecha probable (era 2032)
+    tags: ['aiMl', 'webDevelopment'],
+    date: '2024-06',
   },
   {
-    title: 'Eco2 - Hack for Good Barcelona Winner',
-    description: '1st place winning Hackathon project promoting sustainable consumption via QR-based proximity scoring and supply chain tracking.',
+    title: translate({
+      message: 'Eco2 - Hack for Good Barcelona Winner',
+      id: 'showcase.project.eco2.title',
+      description: 'Title for the Eco2 Hackathon project',
+    }),
+    description: translate({
+      message: '1st place winning Hackathon project promoting sustainable consumption via QR-based proximity scoring and supply chain tracking.',
+      id: 'showcase.project.eco2.description',
+      description: 'Description for the Eco2 Hackathon project',
+    }),
     preview: require('./showcase/eco2/banner.png'),
     website: 'https://eco2.raular.com/',
     source: 'https://github.com/netraular/hack4goodApp-2024',
-    tags: ['favorite','hackathon', 'webDevelopment', 'selfhosted'], 
+    tags: ['favorite','hackathon', 'webDevelopment', 'selfhosted'],
     date: '2024-09',
   },
-  {
-    title: 'Game Server Management Interface',
-    description: 'Web platform using Laravel and Bash scripts for managing multiple game servers hosted with Docker on a single VM.',
+   {
+    title: translate({
+      message: 'Game Server Management Interface',
+      id: 'showcase.project.gameServer.title',
+      description: 'Title for the Game Server Management project',
+    }),
+    description: translate({
+      message: 'Web platform using Laravel and Bash scripts for managing multiple game servers hosted with Docker on a single VM.',
+      id: 'showcase.project.gameServer.description',
+      description: 'Description for the Game Server Management project',
+    }),
     preview: require('./showcase/game server/banner.png'),
     website: 'http://gameserver.raular.com/',
     source: 'https://github.com/netraular/gameserver',
@@ -106,8 +145,16 @@ const Users: User[] = [
     date: '2024-10',
   },
   {
-    title: 'Project Showcase Platform',
-    description: 'A self-hosted Laravel and Bootstrap system for managing and displaying personal projects via a private admin panel.',
+    title: translate({
+      message: 'Project Showcase Platform',
+      id: 'showcase.project.showcasePlatform.title',
+      description: 'Title for the Project Showcase Platform project',
+    }),
+    description: translate({
+      message: 'A self-hosted Laravel and Bootstrap system for managing and displaying personal projects via a private admin panel.',
+      id: 'showcase.project.showcasePlatform.description',
+      description: 'Description for the Project Showcase Platform project',
+    }),
     preview: require('./showcase/showcase/banner.png'),
     website: 'https://showcase.raular.com/',
     source: 'https://github.com/netraular/project-showcase-platform',
@@ -115,57 +162,105 @@ const Users: User[] = [
     date: '2024-09',
   },
   {
-    title: '(hackaton) Cosmoscape - Exoplanetary Sky Visualization',
-    description: 'Interactive NASA Space Apps 2024 platform visualizing night skies from 50 exoplanets using three.js and Laravel.',
+    title: translate({
+      message: '(hackaton) Cosmoscape - Exoplanetary Sky Visualization',
+      id: 'showcase.project.cosmoscape.title',
+      description: 'Title for the Cosmoscape NASA Hackathon project',
+    }),
+    description: translate({
+      message: 'Interactive NASA Space Apps 2024 platform visualizing night skies from 50 exoplanets using three.js and Laravel.',
+      id: 'showcase.project.cosmoscape.description',
+      description: 'Description for the Cosmoscape NASA Hackathon project',
+    }),
     preview: require('./showcase/hack nasa 24/banner.png'),
     website: 'https://nasa24.raular.com/',
     source: 'https://github.com/netraular/Hackathon-NASA-2024',
-    tags: ['hackathon', 'webDevelopment', 'gameDevelopment', 'selfhosted'], // Evento hackathon, plataforma web con elementos de visualización 3D/juego.
-    date: '2024-10', // Actualizada fecha probable (era 2023-03)
+    tags: ['hackathon', 'webDevelopment', 'gameDevelopment', 'selfhosted', 'favorite'],
+    date: '2024-10',
   },
   {
-    title: 'PromptPal - LLM-Powered Template Generation Platform',
-    description: 'Laravel web platform leveraging Grok LLM API for generating diverse text outputs from user-defined templates.',
+    title: translate({
+      message: 'PromptPal - LLM-Powered Template Generation Platform',
+      id: 'showcase.project.promptPal.title',
+      description: 'Title for the PromptPal project',
+    }),
+    description: translate({
+      message: 'Laravel web platform leveraging Grok LLM API for generating diverse text outputs from user-defined templates.',
+      id: 'showcase.project.promptPal.description',
+      description: 'Description for the PromptPal project',
+    }),
     preview: require('./showcase/promptpal/banner.png'),
     website: 'https://promptpal.raular.com',
     source: 'https://github.com/netraular/llm-prompt-combine',
-    tags: ['aiMl', 'webDevelopment', 'selfhosted'], // Núcleo de IA, plataforma web.
+    tags: ['aiMl', 'webDevelopment', 'selfhosted'],
     date: '2024-11',
   },
   {
-    title: 'Prompt My Repo VSCode Extension',
-    description: 'VS Code extension structuring project files for easier interaction with Large Language Models (LLMs).',
+    title: translate({
+      message: 'Prompt My Repo VSCode Extension',
+      id: 'showcase.project.promptMyRepo.title',
+      description: 'Title for the Prompt My Repo VSCode Extension project',
+    }),
+    description: translate({
+      message: 'VS Code extension structuring project files for easier interaction with Large Language Models (LLMs).',
+      id: 'showcase.project.promptMyRepo.description',
+      description: 'Description for the Prompt My Repo VSCode Extension project',
+    }),
     preview: require('./showcase/prompt my repo/banner.png'),
     website: 'https://marketplace.visualstudio.com/items?itemName=netraular.prompt-my-repo',
     source: 'https://github.com/netraular/prompt-my-repo',
-    tags: ['developerTools', 'aiMl'], // Herramienta para desarrolladores, usa IA, proyecto personal.
+    tags: ['developerTools', 'aiMl'],
     date: '2024-12',
   },
   {
-    title: 'PMD Sprite Manager',
-    description: 'Python GUI tool for splitting Pokémon Mystery Dungeon sprite sheets and previewing animations.',
+    title: translate({
+      message: 'PMD Sprite Manager',
+      id: 'showcase.project.pmdSpriteManager.title',
+      description: 'Title for the PMD Sprite Manager project',
+    }),
+    description: translate({
+      message: 'Python GUI tool for splitting Pokémon Mystery Dungeon sprite sheets and previewing animations.',
+      id: 'showcase.project.pmdSpriteManager.description',
+      description: 'Description for the PMD Sprite Manager project',
+    }),
     preview: require('./showcase/pmd sprite manager/banner.png'),
     website: 'https://github.com/netraular/PMDSpriteManager',
     source: 'https://github.com/netraular/PMDSpriteManager',
-    tags: ['favorite','gameDevelopment', 'developerTools'], // Herramienta para assets de juegos, utilidad para desarrolladores (de juegos), proyecto personal.
+    tags: ['favorite','gameDevelopment', 'developerTools'],
     date: '2025-01',
   },
   {
-    title: 'ESP32 LVGL Tamagotchi Clone',
-    description: 'A Tamagotchi-style virtual pet game running on an ESP32 with a round LVGL display.',
+    title: translate({
+      message: 'ESP32 LVGL Tamagotchi Clone',
+      id: 'showcase.project.esp32Tamagotchi.title',
+      description: 'Title for the ESP32 Tamagotchi project',
+    }),
+    description: translate({
+      message: 'A Tamagotchi-style virtual pet game running on an ESP32 with a round LVGL display.',
+      id: 'showcase.project.esp32Tamagotchi.description',
+      description: 'Description for the ESP32 Tamagotchi project',
+    }),
     preview: require('./showcase/esp32 lvgl/banner.png'),
     website: 'https://github.com/netraular/espTama-Round-Cheap-Yellow-Display',
     source: 'https://github.com/netraular/espTama-Round-Cheap-Yellow-Display',
-    tags: ['iotEmbedded', 'gameDevelopment'], // Hardware embebido, es un juego, proyecto personal.
+    tags: ['iotEmbedded', 'gameDevelopment'],
     date: '2025-02',
   },
-  {
-    title: 'Portfolio Website',
-    description: 'Modern developer portfolio built with Docusaurus, automated via GitHub & Cloudflare Pages and integrated with Obsidian.',
+   {
+    title: translate({
+      message: 'Portfolio Website',
+      id: 'showcase.project.portfolio.title',
+      description: 'Title for the Portfolio Website project',
+    }),
+    description: translate({
+      message: 'Modern developer portfolio built with Docusaurus, automated via GitHub & Cloudflare Pages and integrated with Obsidian.',
+      id: 'showcase.project.portfolio.description',
+      description: 'Description for the Portfolio Website project',
+    }),
     preview: require('./showcase/portfolio/banner.png'),
     website: 'https://raular.com/',
     source: 'https://github.com/netraular/portfolio-website',
-    tags: ['webDevelopment'], // Es un sitio web, y es tu portfolio personal.
+    tags: ['webDevelopment'],
     date: '2025-04',
   },
 ];

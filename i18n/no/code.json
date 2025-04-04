@@ -761,68 +761,52 @@
     "description": "Description for the Git Version Control skill"
   },
   "Self-Hosted / Home Lab": {
-    "message": "Selv-hostet / Hjemmelab",
-    "description": "Tag name for self-hosted projects"
+    "message": "Selv-hostet / Hjemmelab"
   },
   "showcase.tag.selfhosted.description": {
-    "message": "Drift av tjenester og administrasjon av personlig infrastruktur på egen maskinvare.",
-    "description": "Description for the self-hosted tag"
+    "message": "Drift av tjenester og administrasjon av personlig infrastruktur på egen maskinvare."
   },
   "Web Development": {
-    "message": "Webutvikling",
-    "description": "Tag name for web development projects"
+    "message": "Webutvikling"
   },
   "showcase.tag.webDevelopment.description": {
-    "message": "Bygging av full-stack webapplikasjoner, nettsteder, API-er og brukergrensesnitt.",
-    "description": "Description for the web development tag"
+    "message": "Bygging av full-stack webapplikasjoner, nettsteder, API-er og brukergrensesnitt."
   },
   "AI / ML": {
-    "message": "KI / Maskinlæring",
-    "description": "Tag name for AI/ML projects"
+    "message": "KI / Maskinlæring"
   },
   "showcase.tag.aiMl.description": {
-    "message": "Prosjekter som utnytter kunstig intelligens, maskinlæring eller store språkmodeller.",
-    "description": "Description for the AI/ML tag"
+    "message": "Prosjekter som utnytter kunstig intelligens, maskinlæring eller store språkmodeller."
   },
   "IoT / Embedded": {
-    "message": "IoT / Innebygd",
-    "description": "Tag name for IoT/Embedded projects"
+    "message": "IoT / Innebygd"
   },
   "showcase.tag.iotEmbedded.description": {
-    "message": "Arbeid med mikrokontrollere, sensorer, tilkoblede enheter og innebygde systemer.",
-    "description": "Description for the IoT/Embedded tag"
+    "message": "Arbeid med mikrokontrollere, sensorer, tilkoblede enheter og innebygde systemer."
   },
   "Game Development": {
-    "message": "Spillutvikling",
-    "description": "Tag name for Game Development projects"
+    "message": "Spillutvikling"
   },
   "showcase.tag.gameDevelopment.description": {
-    "message": "Opprettelse av spill, spillutviklingsverktøy eller interaktive spill-lignende opplevelser.",
-    "description": "Description for the Game Development tag"
+    "message": "Opprettelse av spill, spillutviklingsverktøy eller interaktive spill-lignende opplevelser."
   },
   "Developer Tools": {
-    "message": "Utviklerverktøy",
-    "description": "Tag name for Developer Tools projects"
+    "message": "Utviklerverktøy"
   },
   "showcase.tag.developerTools.description": {
-    "message": "Opprettelse av verktøy, utvidelser eller hjelpeprogrammer for å støtte programvareutviklingsarbeidsflyten.",
-    "description": "Description for the Developer Tools tag"
+    "message": "Opprettelse av verktøy, utvidelser eller hjelpeprogrammer for å støtte programvareutviklingsarbeidsflyten."
   },
   "Hackathon": {
-    "message": "Hackathon",
-    "description": "Tag name for Hackathon projects"
+    "message": "Hackathon"
   },
   "showcase.tag.hackathon.description": {
-    "message": "Prosjekter utviklet under tidspresset av et hackathon-arrangement.",
-    "description": "Description for the Hackathon tag"
+    "message": "Prosjekter utviklet under tidspresset av et hackathon-arrangement."
   },
   "showcase.title": {
-    "message": "Prosjektgalleri",
-    "description": "Title for the showcase page"
+    "message": "Prosjektgalleri"
   },
   "showcase.description": {
-    "message": "Utforsk et visuelt galleri av mine tekniske prosjekter på tvers av ulike domener. Bruk filtrene eller søk for å oppdage spesifikt arbeid.",
-    "description": "Description for the showcase page"
+    "message": "Utforsk et visuelt galleri av mine tekniske prosjekter på tvers av ulike domener. Bruk filtrene eller søk for å oppdage spesifikt arbeid."
   },
   "showcase.details.text": {
     "message": "Vil du dykke dypere inn i de tekniske detaljene, prosessen og dokumentasjonen? Besøk hoveddokumentasjonsseksjonen.",
@@ -837,35 +821,124 @@
     "description": "Note indicating the linked documentation section is not yet complete"
   },
   "showcase.tag.favorite.description": {
-    "message": "Våre favoritt Docusaurus-nettsteder som du absolutt må sjekke ut!",
-    "description": "Our favorite Docusaurus sites that you must absolutely check out!"
+    "message": "Våre favoritt Docusaurus-nettsteder som du absolutt må sjekke ut!"
   },
   "showcase.filters.resultCount": {
     "message": "1 nettsted|{sitesCount} nettsteder",
     "description": "Pluralized label for the number of sites found on the showcase. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "showcase.card.sourceLink": {
-    "message": "kildekode",
-    "description": "Link text for source code"
+    "message": "kildekode"
   },
   "showcase.usersList.noResult": {
-    "message": "Ingen resultater",
-    "description": "Message shown when no projects match filters"
+    "message": "Ingen resultater"
   },
   "showcase.favoritesList.title": {
-    "message": "Favoritter",
-    "description": "Title for the favorite projects section"
+    "message": "Favoritter"
   },
   "showcase.usersList.allUsers": {
-    "message": "Alle prosjekter",
-    "description": "Label for showing all projects"
+    "message": "Alle prosjekter"
   },
   "showcase.searchBar.placeholder": {
-    "message": "Søk etter prosjektnavn...",
-    "description": "Placeholder text for the project search bar"
+    "message": "Søk etter prosjektnavn..."
   },
   "showcase.filters.title": {
-    "message": "Filtre",
-    "description": "Title for the filtering section"
+    "message": "Filtre"
+  },
+  "showcase.project.wledFrames.title": {
+    "message": "WLED-kontrollerte LED-bilderammer",
+    "description": "Title for the WLED Picture Frames project"
+  },
+  "showcase.project.wledFrames.description": {
+    "message": "Tilpassede bakbelyste bilderammer som bruker ESP32 og WLED for dynamiske, kontrollerbare lyseffekter.",
+    "description": "Description for the WLED Picture Frames project"
+  },
+  "showcase.project.homeLab.title": {
+    "message": "HomeLab",
+    "description": "Title for the HomeLab project"
+  },
+  "showcase.project.homeLab.description": {
+    "message": "Et allsidig, selv-hostet økosystem drevet av Proxmox, TrueNAS og Docker, som muliggjør sikre tjenester, robust lagring og automatiserte arbeidsflyter.",
+    "description": "Description for the HomeLab project"
+  },
+  "showcase.project.tfgNlsql.title": {
+    "message": "Lokal Stemmeassistent Naturlig Språk til SQL (Bacheloroppgave)",
+    "description": "Title for the Bachelor Thesis project"
+  },
+  "showcase.project.tfgNlsql.description": {
+    "message": "Frakoblet stemmeassistentsystem som konverterer naturlig språk til SQL-spørringer ved hjelp av lokale AI-modeller.",
+    "description": "Description for the Bachelor Thesis project"
+  },
+  "showcase.project.eco2.title": {
+    "message": "Eco2 - Vinner av Hack for Good Barcelona",
+    "description": "Title for the Eco2 Hackathon project"
+  },
+  "showcase.project.eco2.description": {
+    "message": "Førsteplass-vinnende Hackathon-prosjekt som fremmer bærekraftig forbruk via QR-basert nærhetspoengsum og sporing av forsyningskjeden.",
+    "description": "Description for the Eco2 Hackathon project"
+  },
+  "showcase.project.gameServer.title": {
+    "message": "Administrasjonsgrensesnitt for Spillservere",
+    "description": "Title for the Game Server Management project"
+  },
+  "showcase.project.gameServer.description": {
+    "message": "Nettplattform som bruker Laravel og Bash-skript for å administrere flere spillservere hostet med Docker på en enkelt VM.",
+    "description": "Description for the Game Server Management project"
+  },
+  "showcase.project.showcasePlatform.title": {
+    "message": "Prosjektutstillingsplattform",
+    "description": "Title for the Project Showcase Platform project"
+  },
+  "showcase.project.showcasePlatform.description": {
+    "message": "Et selv-hostet system med Laravel og Bootstrap for å administrere og vise personlige prosjekter via et privat adminpanel.",
+    "description": "Description for the Project Showcase Platform project"
+  },
+  "showcase.project.cosmoscape.title": {
+    "message": "(hackaton) Cosmoscape - Visualisering av Eksoplanetarisk Himmel",
+    "description": "Title for the Cosmoscape NASA Hackathon project"
+  },
+  "showcase.project.cosmoscape.description": {
+    "message": "Interaktiv NASA Space Apps 2024-plattform som visualiserer nattehimmelen fra 50 eksoplaneter ved hjelp av three.js og Laravel.",
+    "description": "Description for the Cosmoscape NASA Hackathon project"
+  },
+  "showcase.project.promptPal.title": {
+    "message": "PromptPal - LLM-drevet Plattform for Malgenerering",
+    "description": "Title for the PromptPal project"
+  },
+  "showcase.project.promptPal.description": {
+    "message": "Laravel-nettplattform som utnytter Grok LLM API for å generere diverse tekstutdata fra brukerdefinerte maler.",
+    "description": "Description for the PromptPal project"
+  },
+  "showcase.project.promptMyRepo.title": {
+    "message": "Prompt My Repo VSCode-utvidelse",
+    "description": "Title for the Prompt My Repo VSCode Extension project"
+  },
+  "showcase.project.promptMyRepo.description": {
+    "message": "VS Code-utvidelse som strukturerer prosjektfiler for enklere interaksjon med Store Språkmodeller (LLM).",
+    "description": "Description for the Prompt My Repo VSCode Extension project"
+  },
+  "showcase.project.pmdSpriteManager.title": {
+    "message": "PMD Sprite Manager",
+    "description": "Title for the PMD Sprite Manager project"
+  },
+  "showcase.project.pmdSpriteManager.description": {
+    "message": "Python GUI-verktøy for å dele opp Pokémon Mystery Dungeon sprite sheets og forhåndsvise animasjoner.",
+    "description": "Description for the PMD Sprite Manager project"
+  },
+  "showcase.project.esp32Tamagotchi.title": {
+    "message": "ESP32 LVGL Tamagotchi-klone",
+    "description": "Title for the ESP32 Tamagotchi project"
+  },
+  "showcase.project.esp32Tamagotchi.description": {
+    "message": "Et virtuelt kjæledyrspill i Tamagotchi-stil som kjører på en ESP32 med en rund LVGL-skjerm.",
+    "description": "Description for the ESP32 Tamagotchi project"
+  },
+  "showcase.project.portfolio.title": {
+    "message": "Portefølje Nettsted",
+    "description": "Title for the Portfolio Website project"
+  },
+  "showcase.project.portfolio.description": {
+    "message": "Moderne utviklerportefølje bygget med Docusaurus, automatisert via GitHub & Cloudflare Pages og integrert med Obsidian.",
+    "description": "Description for the Portfolio Website project"
   }
 }
