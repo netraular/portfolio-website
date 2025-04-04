@@ -1,7 +1,0 @@
-{
-  "label": "Home Server",
-  "position": 2,
-  "link": {
-    "description": "Core infrastructure for self-hosted services, virtualization, and resource management."
-  }
-}
