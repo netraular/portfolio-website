@@ -51,7 +51,7 @@ function ShowcaseHeader() {
         <p>{DETAILS_TEXT}</p>
         <Link
           className="button button--primary"
-          to="/docs/intro">
+          to="/docs/HomeLab">
           {DETAILS_BUTTON_TEXT}
         </Link>
         {/* --- INICIO: Nota añadida "En construcción" --- */}
