@@ -130,10 +130,10 @@ const config: Config = {
               label: 'Showcase',
               to: '/docs/intro',
             },
-            {
-              label: 'Overview',
-              to: '/docs/intro',
-            },
+            // {
+            //   label: 'Overview',
+            //   to: '/docs/intro',
+            // },
             {
               label: 'Github',
               href: 'https://github.com/netraular',
