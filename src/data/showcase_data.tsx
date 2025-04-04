@@ -93,8 +93,8 @@ const Users: User[] = [
     preview: require('./showcase/eco2/banner.png'),
     website: 'https://eco2.raular.com/',
     source: 'https://github.com/netraular/hack4goodApp-2024',
-    tags: ['favorite','hackathon', 'webDevelopment'], // Evento hackathon, plataforma web.
-    date: '2024-09', // Actualizada fecha probable (era 2022-05)
+    tags: ['favorite','hackathon', 'webDevelopment', 'selfhosted'], 
+    date: '2024-09',
   },
   {
     title: 'Game Server Management Interface',
@@ -102,7 +102,7 @@ const Users: User[] = [
     preview: require('./showcase/game server/banner.png'),
     website: 'http://gameserver.raular.com/',
     source: 'https://github.com/netraular/gameserver',
-    tags: ['webDevelopment', 'selfhosted'], // Interfaz web, probablemente alojada en tu homelab.
+    tags: ['webDevelopment', 'selfhosted'],
     date: '2024-10',
   },
   {
@@ -111,7 +111,7 @@ const Users: User[] = [
     preview: require('./showcase/showcase/banner.png'),
     website: 'https://showcase.raular.com/',
     source: 'https://github.com/netraular/project-showcase-platform',
-    tags: ['webDevelopment'], // Plataforma web, autoalojada, para uso personal (mostrar proyectos).
+    tags: ['webDevelopment', 'selfhosted'],
     date: '2024-09',
   },
   {
@@ -120,7 +120,7 @@ const Users: User[] = [
     preview: require('./showcase/hack nasa 24/banner.png'),
     website: 'https://nasa24.raular.com/',
     source: 'https://github.com/netraular/Hackathon-NASA-2024',
-    tags: ['hackathon', 'webDevelopment', 'gameDevelopment'], // Evento hackathon, plataforma web con elementos de visualización 3D/juego.
+    tags: ['hackathon', 'webDevelopment', 'gameDevelopment', 'selfhosted'], // Evento hackathon, plataforma web con elementos de visualización 3D/juego.
     date: '2024-10', // Actualizada fecha probable (era 2023-03)
   },
   {
@@ -129,7 +129,7 @@ const Users: User[] = [
     preview: require('./showcase/promptpal/banner.png'),
     website: 'https://promptpal.raular.com',
     source: 'https://github.com/netraular/llm-prompt-combine',
-    tags: ['aiMl', 'webDevelopment'], // Núcleo de IA, plataforma web.
+    tags: ['aiMl', 'webDevelopment', 'selfhosted'], // Núcleo de IA, plataforma web.
     date: '2024-11',
   },
   {

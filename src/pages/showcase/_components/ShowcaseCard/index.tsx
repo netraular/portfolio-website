@@ -82,14 +82,14 @@ function ShowcaseCard({user}: {user: User}) {
   })();
   return (
     <li key={user.title} className="card shadow--md">
-      <div className={clsx('card__image', styles.showcaseCardImage)}>
+      <Link href={user.website} className={clsx('card__image', styles.showcaseCardImage)}>
         <Image img={image} alt={user.title} />
         {formattedDate && (
           <span className={styles.imageDateOverlay}>
             📅 {formattedDate}
           </span>
         )}
-      </div>
+      </Link>
       <div className="card__body">
         <div className={clsx(styles.showcaseCardHeader)}>
           <Heading as="h4" className={styles.showcaseCardTitle}>
