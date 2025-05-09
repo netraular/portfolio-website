@@ -87,7 +87,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/web-banner.png',
     navbar: {
       title: 'Raul A.R.',
       logo: {
