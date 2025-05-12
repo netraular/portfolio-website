@@ -406,7 +406,7 @@
     "description": "Fourth paragraph about frontend, sysadmin, collaboration and team preferences"
   },
   "homepage.about.paragraph5": {
-    "message": "Utanför mitt professionella arbete underhåller jag en hemmalabb-miljö där jag utvecklar projekt som {eco2Link}, en webbplats som hjälpte mitt team att vinna ett Hackathon. Jag gillar också att arbeta med personliga projekt som involverar C++ för mikrokontroller och Python för snabb prototypframtagning.",
+    "message":     "Utanför mitt professionella arbete har jag en hemmalabbmiljö där jag utvecklar personliga projekt. Till exempel hjälpte {eco2Link} mitt team att vinna ett Hackathon, och mer nyligen säkrade {tavascanLink} en vinst vid HackUPC bland över 750 deltagare. Jag gillar också att arbeta med C++ för mikrokontroller och Python för snabb prototypframtagning.",
     "description": "Fifth paragraph about personal projects and home lab"
   },
   "homepage.about.eco2ProjectName": {

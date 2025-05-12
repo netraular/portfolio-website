@@ -406,7 +406,7 @@
     "description": "Fourth paragraph about frontend, sysadmin, collaboration and team preferences"
   },
   "homepage.about.paragraph5": {
-    "message": "仕事以外では、ハッカソンでチームの勝利に貢献したウェブサイトである{eco2Link}のようなプロジェクトを開発するホームラボ環境を維持しています。また、マイクロコントローラー用のC++やラピッドプロトタイピング用のPythonを含む個人プロジェクトに取り組むことも楽しんでいます。",
+    "message": "業務外では、自宅にラボ環境を構築して個人プロジェクトを開発しています。例えば、{eco2Link}はチームのハッカソン優勝に貢献し、最近では{tavascanLink}が750人以上の参加者が集ったHackUPCで勝利を収めました。また、マイクロコントローラー向けのC++や迅速なプロトタイピングのためのPythonを使った開発も楽しんでいます。",
     "description": "Fifth paragraph about personal projects and home lab"
   },
   "homepage.about.eco2ProjectName": {

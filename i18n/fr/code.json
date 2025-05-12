@@ -406,7 +406,7 @@
     "description": "Fourth paragraph about frontend, sysadmin, collaboration and team preferences"
   },
   "homepage.about.paragraph5": {
-    "message": "En dehors de mon travail professionnel, je maintiens un environnement de laboratoire à domicile où je développe des projets comme {eco2Link}, un site web qui a aidé mon équipe à gagner un Hackathon. J'aime aussi travailler sur des projets personnels impliquant C++ pour les microcontrôleurs et Python pour le prototypage rapide.",
+    "message": "En dehors de mes activités professionnelles, je maintiens un environnement de laboratoire à domicile où je développe des projets personnels. Par exemple, {eco2Link} a aidé mon équipe à gagner un Hackathon et, plus récemment, {tavascanLink} a remporté une victoire à HackUPC parmi plus de 750 participants. J'aime aussi travailler avec C++ pour les microcontrôleurs et Python pour le prototypage rapide.",
     "description": "Fifth paragraph about personal projects and home lab"
   },
   "homepage.about.eco2ProjectName": {

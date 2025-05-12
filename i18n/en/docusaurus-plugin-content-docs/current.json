@@ -3,10 +3,6 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Home Server": {
-    "message": "Home Server",
-    "description": "The label for category Home Server in sidebar tutorialSidebar"
-  },
   "sidebar.tutorialSidebar.category.IoT and ESP32 Development": {
     "message": "IoT and ESP32 Development",
     "description": "The label for category IoT and ESP32 Development in sidebar tutorialSidebar"

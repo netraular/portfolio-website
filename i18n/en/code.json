@@ -398,8 +398,8 @@
     "description": "Fourth paragraph about frontend, sysadmin, collaboration and team preferences"
   },
   "homepage.about.paragraph5": {
-    "message": "Outside of my professional work, I maintain a home lab environment where I develop projects like {eco2Link}, a website that helped my team win a Hackathon. I also enjoy working on personal projects involving C++ for microcontrollers and Python for rapid prototyping.",
-    "description": "Fifth paragraph about personal projects and home lab"
+    "message": "Outside of my professional work, I maintain a home lab environment where I develop personal projects. For example, {eco2Link} helped my team win a Hackathon, and more recently, {tavascanLink} secured a win at HackUPC among 750+ participants. I also enjoy working with C++ for microcontrollers and Python for rapid prototyping.",
+    "description": "Fifth paragraph about personal projects, home lab, and hackathon wins"
   },
   "homepage.about.eco2ProjectName": {
     "message": "ECO2",
@@ -940,5 +940,25 @@
   "showcase.project.portfolio.description": {
     "message": "Modern developer portfolio built with Docusaurus, automated via GitHub & Cloudflare Pages and integrated with Obsidian.",
     "description": "Description for the Portfolio Website project"
+  },
+  "homepage.about.tavascanProjectName": {
+    "message": "Tavascan Rush",
+    "description": "Name of the Tavascan Rush project"
+  },
+  "showcase.project.bieneHunt.title": {
+    "message": "Biene Hunt! (HackUPC 2025)",
+    "description": "Title for the Biene Hunt Hackathon project"
+  },
+  "showcase.project.bieneHunt.description": {
+    "message": "HackUPC 2025 project: Web app for attendees to collaboratively hunt and share photos of the event mascot 'Biene'.",
+    "description": "Description for the Biene Hunt Hackathon project"
+  },
+  "showcase.project.tavascanRush.title": {
+    "message": "Tavascan Rush (Know Your Cupra) - HackUPC 2025 Winner",
+    "description": "Title for the Tavascan Rush Hackathon project"
+  },
+  "showcase.project.tavascanRush.description": {
+    "message": "HackUPC 2025 winning project: Interactive AR/3D guide with live voice AI (Gemini) to learn about the Cupra Tavascan.",
+    "description": "Description for the Tavascan Rush Hackathon project"
   }
 }

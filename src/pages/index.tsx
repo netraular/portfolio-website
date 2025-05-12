@@ -303,7 +303,6 @@ function AboutSection() {
                   </a>
                 ),
               }}>
-              {/* Texto actualizado incluyendo ambas hackatones */}
               {'Outside of my professional work, I maintain a home lab environment where I develop personal projects. For example, {eco2Link} helped my team win a Hackathon, and more recently, {tavascanLink} secured a win at HackUPC among 750+ participants. I also enjoy working with C++ for microcontrollers and Python for rapid prototyping.'}
             </Translate>
           </p>

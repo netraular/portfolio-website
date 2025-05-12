@@ -406,7 +406,7 @@
     "description": "Fourth paragraph about frontend, sysadmin, collaboration and team preferences"
   },
   "homepage.about.paragraph5": {
-    "message": "在我的专业工作之外，我维护着一个家庭实验室环境，在那里我开发了像 {eco2Link} 这样的项目，这个网站帮助我的团队赢得了一次黑客马拉松。我也喜欢进行涉及用于微控制器的 C++ 和用于快速原型设计的 Python 的个人项目。",
+    "message": "在专业工作之余，我在家中搭建了一个实验室环境用于开发个人项目。例如，{eco2Link} 曾帮助我的团队赢得了一场黑客松比赛，最近 {tavascanLink} 在超过750名参与者的 HackUPC 中获胜。我也喜欢使用 C++ 进行微控制器开发，以及使用 Python 进行快速原型设计。",
     "description": "Fifth paragraph about personal projects and home lab"
   },
   "homepage.about.eco2ProjectName": {
