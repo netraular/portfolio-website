@@ -9,7 +9,7 @@
   },
   "link.item.label.Showcase": {
     "message": "Showcase",
-    "description": "The label of footer link with label=Showcase linking to /docs/intro"
+    "description": "The label of footer link with label=Showcase linking to /showcase"
   },
   "link.item.label.Github": {
     "message": "Github",
