@@ -407,7 +407,7 @@
   },
   "homepage.about.paragraph5": {
     "message": "在专业工作之余，我在家中搭建了一个实验室环境用于开发个人项目。例如，{eco2Link} 曾帮助我的团队赢得了一场黑客松比赛，最近 {tavascanLink} 在超过750名参与者的 HackUPC 中获胜。我也喜欢使用 C++ 进行微控制器开发，以及使用 Python 进行快速原型设计。",
-    "description": "Fifth paragraph about personal projects and home lab"
+    "description": "Fifth paragraph about personal projects, home lab, and hackathon wins"
   },
   "homepage.about.eco2ProjectName": {
     "message": "ECO2",
@@ -940,5 +940,25 @@
   "showcase.project.portfolio.description": {
     "message": "使用 Docusaurus 构建的现代开发者作品集，通过 GitHub 和 Cloudflare Pages 自动化并与 Obsidian 集成。",
     "description": "Description for the Portfolio Website project"
+  },
+   "homepage.about.tavascanProjectName": {
+    "message": "Tavascan Rush",
+    "description": "Tavascan Rush 项目名称"
+  },
+  "showcase.project.bieneHunt.title": {
+    "message": "Biene Hunt! (HackUPC 2025)",
+    "description": "Biene Hunt 黑客松项目标题"
+  },
+  "showcase.project.bieneHunt.description": {
+    "message": "HackUPC 2025 项目：一个供参与者协作寻找并分享活动吉祥物 'Biene' 照片的网页应用。一天内被超过 250 位新用户浏览。",
+    "description": "Biene Hunt 黑客松项目描述"
+  },
+  "showcase.project.tavascanRush.title": {
+    "message": "Tavascan Rush (Know Your Cupra) - HackUPC 2025 获奖项目",
+    "description": "Tavascan Rush 黑客松项目标题"
+  },
+  "showcase.project.tavascanRush.description": {
+    "message": "HackUPC 2025 获奖项目：一个带有实时语音 AI (Gemini) 的交互式 AR/3D 指南，用于了解 Cupra Tavascan。(专为 Google Chrome 打造)",
+    "description": "Tavascan Rush 黑客松项目描述"
   }
 }

@@ -3,10 +3,6 @@
     "message": "Neste",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Home Server": {
-    "message": "Hjemmeserver",
-    "description": "The label for category Home Server in sidebar tutorialSidebar"
-  },
   "sidebar.tutorialSidebar.category.IoT and ESP32 Development": {
     "message": "IoT og ESP32-utvikling",
     "description": "The label for category IoT and ESP32 Development in sidebar tutorialSidebar"

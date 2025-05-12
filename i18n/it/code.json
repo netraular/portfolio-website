@@ -406,8 +406,8 @@
     "description": "Fourth paragraph about frontend, sysadmin, collaboration and team preferences"
   },
   "homepage.about.paragraph5": {
-    "message":     "Al di fuori del mio lavoro professionale, mantengo un ambiente di laboratorio domestico dove sviluppo progetti personali. Ad esempio, {eco2Link} ha aiutato il mio team a vincere un Hackathon e, più recentemente, {tavascanLink} ha ottenuto una vittoria all'HackUPC tra più di 750 partecipanti. Mi piace anche lavorare con C++ per microcontrollori e Python per la prototipazione rapida.",
-    "description": "Fifth paragraph about personal projects and home lab"
+    "message": "Al di fuori del mio lavoro professionale, mantengo un ambiente di laboratorio domestico dove sviluppo progetti personali. Ad esempio, {eco2Link} ha aiutato il mio team a vincere un Hackathon e, più recentemente, {tavascanLink} ha ottenuto una vittoria all'HackUPC tra più di 750 partecipanti. Mi piace anche lavorare con C++ per microcontrollori e Python per la prototipazione rapida.",
+    "description": "Fifth paragraph about personal projects, home lab, and hackathon wins"
   },
   "homepage.about.eco2ProjectName": {
     "message": "ECO2",
@@ -940,5 +940,25 @@
   "showcase.project.portfolio.description": {
     "message": "Portfolio per sviluppatori moderno costruito con Docusaurus, automatizzato tramite GitHub & Cloudflare Pages e integrato con Obsidian.",
     "description": "Description for the Portfolio Website project"
+  },
+  "homepage.about.tavascanProjectName": {
+    "message": "Tavascan Rush",
+    "description": "Nome del progetto Tavascan Rush"
+  },
+  "showcase.project.bieneHunt.title": {
+    "message": "Biene Hunt! (HackUPC 2025)",
+    "description": "Titolo per il progetto Hackathon Biene Hunt"
+  },
+  "showcase.project.bieneHunt.description": {
+    "message": "Progetto HackUPC 2025: App web per i partecipanti per cacciare e condividere collaborativamente foto della mascotte dell'evento 'Biene'. Visualizzata da oltre 250 nuovi utenti in 1 giorno.",
+    "description": "Descrizione per il progetto Hackathon Biene Hunt"
+  },
+  "showcase.project.tavascanRush.title": {
+    "message": "Tavascan Rush (Know Your Cupra) - Vincitore HackUPC 2025",
+    "description": "Titolo per il progetto Hackathon Tavascan Rush"
+  },
+  "showcase.project.tavascanRush.description": {
+    "message": "Progetto vincitore HackUPC 2025: Guida interattiva AR/3D con IA vocale dal vivo (Gemini) per conoscere la Cupra Tavascan. (Realizzato per Google Chrome)",
+    "description": "Descrizione per il progetto Hackathon Tavascan Rush"
   }
 }

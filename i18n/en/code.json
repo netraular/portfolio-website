@@ -950,7 +950,7 @@
     "description": "Title for the Biene Hunt Hackathon project"
   },
   "showcase.project.bieneHunt.description": {
-    "message": "HackUPC 2025 project: Web app for attendees to collaboratively hunt and share photos of the event mascot 'Biene'.",
+    "message": "HackUPC 2025 project: Web app for attendees to collaboratively hunt and share photos of the event mascot 'Biene'. Viewed by 250+ new users in 1 day.",
     "description": "Description for the Biene Hunt Hackathon project"
   },
   "showcase.project.tavascanRush.title": {
@@ -958,7 +958,7 @@
     "description": "Title for the Tavascan Rush Hackathon project"
   },
   "showcase.project.tavascanRush.description": {
-    "message": "HackUPC 2025 winning project: Interactive AR/3D guide with live voice AI (Gemini) to learn about the Cupra Tavascan.",
+    "message": "HackUPC 2025 winning project: Interactive AR/3D guide with live voice AI (Gemini) to learn about the Cupra Tavascan. (Made for Google Chrome)",
     "description": "Description for the Tavascan Rush Hackathon project"
   }
 }

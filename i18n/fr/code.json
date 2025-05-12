@@ -407,7 +407,7 @@
   },
   "homepage.about.paragraph5": {
     "message": "En dehors de mes activités professionnelles, je maintiens un environnement de laboratoire à domicile où je développe des projets personnels. Par exemple, {eco2Link} a aidé mon équipe à gagner un Hackathon et, plus récemment, {tavascanLink} a remporté une victoire à HackUPC parmi plus de 750 participants. J'aime aussi travailler avec C++ pour les microcontrôleurs et Python pour le prototypage rapide.",
-    "description": "Fifth paragraph about personal projects and home lab"
+    "description": "Fifth paragraph about personal projects, home lab, and hackathon wins"
   },
   "homepage.about.eco2ProjectName": {
     "message": "ECO2",
@@ -940,5 +940,25 @@
   "showcase.project.portfolio.description": {
     "message": "Portfolio de développeur moderne construit avec Docusaurus, automatisé via GitHub & Cloudflare Pages et intégré avec Obsidian.",
     "description": "Description for the Portfolio Website project"
+  },
+  "homepage.about.tavascanProjectName": {
+    "message": "Tavascan Rush",
+    "description": "Nom du projet Tavascan Rush"
+  },
+  "showcase.project.bieneHunt.title": {
+    "message": "Biene Hunt ! (HackUPC 2025)",
+    "description": "Titre pour le projet Hackathon Biene Hunt"
+  },
+  "showcase.project.bieneHunt.description": {
+    "message": "Projet HackUPC 2025 : Application web permettant aux participants de chasser et partager collaborativement des photos de la mascotte de l'événement 'Biene'. Consultée par plus de 250 nouveaux utilisateurs en 1 jour.",
+    "description": "Description pour le projet Hackathon Biene Hunt"
+  },
+  "showcase.project.tavascanRush.title": {
+    "message": "Tavascan Rush (Know Your Cupra) - Gagnant HackUPC 2025",
+    "description": "Titre pour le projet Hackathon Tavascan Rush"
+  },
+  "showcase.project.tavascanRush.description": {
+    "message": "Projet gagnant HackUPC 2025 : Guide interactif AR/3D avec IA vocale en direct (Gemini) pour découvrir le Cupra Tavascan. (Conçu pour Google Chrome)",
+    "description": "Description pour le projet Hackathon Tavascan Rush"
   }
 }

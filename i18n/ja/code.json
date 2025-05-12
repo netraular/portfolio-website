@@ -407,7 +407,7 @@
   },
   "homepage.about.paragraph5": {
     "message": "業務外では、自宅にラボ環境を構築して個人プロジェクトを開発しています。例えば、{eco2Link}はチームのハッカソン優勝に貢献し、最近では{tavascanLink}が750人以上の参加者が集ったHackUPCで勝利を収めました。また、マイクロコントローラー向けのC++や迅速なプロトタイピングのためのPythonを使った開発も楽しんでいます。",
-    "description": "Fifth paragraph about personal projects and home lab"
+    "description": "Fifth paragraph about personal projects, home lab, and hackathon wins"
   },
   "homepage.about.eco2ProjectName": {
     "message": "ECO2",
@@ -940,5 +940,25 @@
   "showcase.project.portfolio.description": {
     "message": "Docusaurusで構築され、GitHub & Cloudflare Pagesで自動化され、Obsidianと統合されたモダンな開発者ポートフォリオ。",
     "description": "Description for the Portfolio Website project"
+  },
+  "homepage.about.tavascanProjectName": {
+    "message": "Tavascan Rush",
+    "description": "プロジェクト「Tavascan Rush」の名前"
+  },
+  "showcase.project.bieneHunt.title": {
+    "message": "Biene Hunt! (HackUPC 2025)",
+    "description": "ハッカソンプロジェクト「Biene Hunt」のタイトル"
+  },
+  "showcase.project.bieneHunt.description": {
+    "message": "HackUPC 2025 プロジェクト：参加者がイベントマスコット「Biene」の写真を協力して探し、共有するためのウェブアプリ。1日で250人以上の新規ユーザーが閲覧。",
+    "description": "ハッカソンプロジェクト「Biene Hunt」の説明"
+  },
+  "showcase.project.tavascanRush.title": {
+    "message": "Tavascan Rush (Know Your Cupra) - HackUPC 2025 優勝",
+    "description": "ハッカソンプロジェクト「Tavascan Rush」のタイトル"
+  },
+  "showcase.project.tavascanRush.description": {
+    "message": "HackUPC 2025 優勝プロジェクト：Cupra Tavascanについて学ぶための、ライブ音声AI（Gemini）搭載のインタラクティブAR/3Dガイド。(Google Chrome向けに作成)",
+    "description": "ハッカソンプロジェクト「Tavascan Rush」の説明"
   }
 }
