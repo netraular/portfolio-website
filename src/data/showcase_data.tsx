@@ -263,6 +263,43 @@ const Users: User[] = [
     tags: ['webDevelopment'],
     date: '2025-04',
   },
+    {
+    title: translate({
+      message: 'Biene Hunt! (HackUPC 2025)',
+      id: 'showcase.project.bieneHunt.title',
+      description: 'Title for the Biene Hunt Hackathon project',
+    }),
+    description: translate({
+      message: 'HackUPC 2025 project: Web app for attendees to collaboratively hunt and share photos of the event mascot \'Biene\'.',
+      id: 'showcase.project.bieneHunt.description',
+      description: 'Description for the Biene Hunt Hackathon project',
+    }),
+    preview: require('./showcase/biene hunt/banner.png'), // Asegúrate que esta ruta sea correcta
+    website: 'https://findbiene.raular.com/',
+    source: 'https://github.com/netraular/findbiene',
+    tags: ['hackathon', 'webDevelopment', 'selfhosted'],
+    date: '2025-05',
+  },
+  {
+    title: translate({
+      message: 'Tavascan Rush (Know Your Cupra) - HackUPC 2025 Winner',
+      id: 'showcase.project.tavascanRush.title',
+      description: 'Title for the Tavascan Rush Hackathon project',
+    }),
+    description: translate({
+      message: 'HackUPC 2025 winning project: Interactive AR/3D guide with live voice AI (Gemini) to learn about the Cupra Tavascan.',
+      id: 'showcase.project.tavascanRush.description',
+      description: 'Description for the Tavascan Rush Hackathon project',
+    }),
+    preview: require('./showcase/hackupc/banner.png'), // Asegúrate que esta ruta sea correcta
+    website: 'https://hackupc.raular.com/',
+    // Nota: El README enlaza a Devpost, pero no a un repo de GitHub directamente.
+    // Si tienes un repo, actualiza el 'source'. Si no, Devpost o null son opciones.
+    // Usaré Devpost como 'source' ya que es el enlace proporcionado en el Readme para la "Submission".
+    source: 'https://github.com/netraular/hackupc', 
+    tags: ['favorite', 'hackathon', 'webDevelopment', 'aiMl', 'gameDevelopment', 'selfhosted'], // Añadido 'favorite' por ser ganador
+    date: '2025-05',
+  },
 ];
 
 export type User = {

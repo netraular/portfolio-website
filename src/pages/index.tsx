@@ -275,20 +275,36 @@ function AboutSection() {
               I enjoy working in small, collaborative teams where I can contribute to the entire development cycle, from architecture design to deployment and maintenance.
             </Translate>
           </p>
-          <p>
+                    <p>
             <Translate
               id="homepage.about.paragraph5"
-              description="Fifth paragraph about personal projects and home lab"
+              description="Fifth paragraph about personal projects, home lab, and hackathon wins"
               values={{
                 eco2Link: (
-                  <a href="/docs/Websites/hack4good" target="_blank" rel="noopener noreferrer" className={styles.inlineLink}>
+                  <a
+                    href="https://eco2.raular.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.inlineLink}>
                     <Translate id="homepage.about.eco2ProjectName" description="Name of the ECO2 project">
                       ECO2
                     </Translate>
                   </a>
                 ),
+                tavascanLink: (
+                  <a
+                    href="https://hackupc.raular.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.inlineLink}>
+                    <Translate id="homepage.about.tavascanProjectName" description="Name of the Tavascan Rush project">
+                      Tavascan Rush
+                    </Translate>
+                  </a>
+                ),
               }}>
-              {'Outside of my professional work, I maintain a home lab environment where I develop projects like {eco2Link}, a website that helped my team win a Hackathon. I also enjoy working on personal projects involving C++ for microcontrollers and Python for rapid prototyping.'}
+              {/* Texto actualizado incluyendo ambas hackatones */}
+              {'Outside of my professional work, I maintain a home lab environment where I develop personal projects. For example, {eco2Link} helped my team win a Hackathon, and more recently, {tavascanLink} secured a win at HackUPC among 750+ participants. I also enjoy working with C++ for microcontrollers and Python for rapid prototyping.'}
             </Translate>
           </p>
         </div>
