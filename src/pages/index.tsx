@@ -15,18 +15,21 @@ import Translate, { translate } from '@docusaurus/Translate';
 
 
 function HeroSection() {
-  const githubUsername = "netraular"; 
+  const { i18n } = useDocusaurusContext(); // Obtén el contexto i18n
+  const currentLocale = i18n.currentLocale; // Obtén el locale actual
+
+  const githubUsername = "netraular";
   const githubProfilePic = `https://github.com/${githubUsername}.png`;
 
   const [isSpinning, setIsSpinning] = useState(false);
-  const [activeButton, setActiveButton] = useState<number | null>(null);  
+  const [activeButton, setActiveButton] = useState<number | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
-    // Inicializa el audio cuando el componente se monta
     audioRef.current = new Audio('/sounds/spin.mp3');
     audioRef.current.volume = 0.3;
   }, []);
+
   const handleImageClick = () => {
     setIsSpinning(true);
     if (audioRef.current) {
@@ -35,8 +38,7 @@ function HeroSection() {
     }
   };
 
- // Efecto para manejar el tiempo de la animación
- useEffect(() => {
+  useEffect(() => {
     if (isSpinning) {
       const timeout = setTimeout(() => setIsSpinning(false), 1000);
       return () => clearTimeout(timeout);
@@ -45,7 +47,6 @@ function HeroSection() {
 
   useEffect(() => {
     let timeouts: NodeJS.Timeout[] = [];
-    
     const startSequence = () => {
       setActiveButton(0);
       timeouts.push(setTimeout(() => {
@@ -54,17 +55,24 @@ function HeroSection() {
           setActiveButton(2);
           timeouts.push(setTimeout(() => {
             setActiveButton(null);
-            timeouts.push(setTimeout(startSequence, 8000)); // Espera 10s después del último
+            timeouts.push(setTimeout(startSequence, 8000));
           }, 1000));
         }, 1000));
       }, 1000));
     };
-
     startSequence();
-    
     return () => timeouts.forEach(clearTimeout);
   }, []);
 
+  // Lógica para determinar el CV y nombre de archivo
+  let cvPath = '/resume_en.pdf'; // Default to English
+  let cvFilename = 'Raul_AR_CV_EN.pdf'; // Default filename
+
+  if (currentLocale === 'es' || currentLocale === 'ca') {
+    cvPath = '/resume_es.pdf';
+    cvFilename = 'Raul_AR_CV_ES.pdf';
+  }
+  // Puedes añadir más 'else if' para otros idiomas si necesitas CVs específicos
 
   return (
     <header className={ styles.heroBanner}>
@@ -72,8 +80,7 @@ function HeroSection() {
         <div className={styles.heroContent}>
           <div className={styles.heroText}>
             <Heading as="h1" className="hero__title">
-
-            <Translate
+              <Translate
                 id="homepage.hero.title"
                 description="The main title on the homepage greeting"
                 values={{
@@ -81,7 +88,6 @@ function HeroSection() {
                 }}>
                 {'Hi, I\'m {name}'}
               </Translate>
-
             </Heading>
             <p className="hero__subtitle">
               <Translate
@@ -116,8 +122,7 @@ function HeroSection() {
             </p>
             <div className={styles.buttons}>
             <div className={styles.customBorderWrapper}>
-
-            <Link
+              <Link
                 className={`button button--primary button--lg ${
                   activeButton === 0 ? styles.activeGlow : ''
                 }`}
@@ -130,12 +135,13 @@ function HeroSection() {
                   {" "}<FontAwesomeIcon icon={faArrowUpRightFromSquare} className={styles.icon}/>
               </Link>
               </div>
-              
+
               <a className={`button button--secondary button--lg ${
                   activeButton === 1 ? styles.activeGlow : ''
                 }`}
-                href="/resume.pdf"
-                download="Raul_AR_CV.pdf">
+                href={cvPath}       // Usar la variable cvPath
+                download={cvFilename} // Usar la variable cvFilename
+                >
                 <Translate
                   id="homepage.hero.button.downloadCV"
                   description="Text for the Download CV button">
@@ -143,12 +149,12 @@ function HeroSection() {
                 </Translate>
                 {" "}<FontAwesomeIcon icon={faDownload} className={styles.icon}/>
               </a>
+
               <div className={`${styles.emailContainer} ${
                 activeButton === 2 ? styles.activeGlow : ''
               }`}>
-
                 <span className={`button button--lg ${styles.emailText}`} id="emailText">netraular@gmail.com</span>
-                <button 
+                <button
                   className={styles.copyButton}
                   data-tooltip={translate({
                     id: 'homepage.hero.copyButton.tooltip',
@@ -181,8 +187,8 @@ function HeroSection() {
             </div>
           </div>
           <div className={styles.heroImage}>
-            <img 
-              src={githubProfilePic} 
+            <img
+              src={githubProfilePic}
               alt={translate({
                 id: 'homepage.hero.profilePicAlt',
                 message: 'Raul A.R.',
@@ -199,6 +205,10 @@ function HeroSection() {
     </header>
   );
 }
+
+// ... (El resto de tu código: AboutSection, SkillsSection, Home) ...
+// No es necesario modificar el resto del archivo para esta funcionalidad específica
+// Asegúrate de que todos tus imports y el resto de la lógica permanezcan igual.
 
 function AboutSection() {
   // El componente Project interno ahora espera títulos y fechas potencialmente traducidos
@@ -562,8 +572,6 @@ function AboutSection() {
     </section>
   );
 }
-
-
 
 function SkillsSection() {
   const [expandedSkillId, setExpandedSkillId] = useState<string | null>(null);
@@ -952,7 +960,7 @@ function SkillsSection() {
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
+  const {siteConfig} = useDocusaurusContext(); // siteConfig no se usa aquí directamente, pero i18n sí en HeroSection.
   return (
     <Layout
       title={translate({
