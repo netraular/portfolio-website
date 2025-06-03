@@ -141,7 +141,7 @@ const config: Config = {
           items: [
             {
               label: 'Linkedin',
-              href: 'www.linkedin.com/in/raul-aquilue-rubio',
+              href: 'https://www.linkedin.com/in/raul-aquilue-rubio',
             },
             {
               label: 'netraular@gmail.com',
