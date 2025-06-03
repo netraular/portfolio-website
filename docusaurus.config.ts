@@ -105,7 +105,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://linkedin.com/in/raúl-aquilué-rubio-33241b215',
+          href: 'https://linkedin.com/in/raul-aquilue-rubio',
           position: 'right',
           className: 'header-linkedin-link',
           'aria-label': 'LinkedIn profile',
@@ -141,7 +141,7 @@ const config: Config = {
           items: [
             {
               label: 'Linkedin',
-              href: 'https://www.linkedin.com/in/raúl-aquilué-rubio-33241b215',
+              href: 'www.linkedin.com/in/raul-aquilue-rubio',
             },
             {
               label: 'netraular@gmail.com',
